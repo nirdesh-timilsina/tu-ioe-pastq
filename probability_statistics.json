@@ -1,0 +1,2050 @@
+[
+  {
+    "id": "ps1",
+    "title": "Descriptive Statistics & Basic Probability",
+    "sub": "Central tendency · Dispersion · Bayes · Conditional probability",
+    "concepts": {
+      "h": [
+        "Measures of central tendency — mean, median, mode (merit/demerit)",
+        "Box plot / five-number summary construction & interpretation",
+        "Bayes' theorem — conditional probability numericals",
+        "Addition & multiplication laws of probability",
+        "Conditional probability definition & problems"
+      ],
+      "m": [
+        "Correction of mean/SD when a wrong item is discovered",
+        "Measures of dispersion — variance, SD, CV, range",
+        "Coefficient of variation — consistency comparison",
+        "Arithmetic mean correction after wrong entry",
+        "Scatter plot & graphical representations"
+      ],
+      "l": [
+        "Applications of statistics in engineering",
+        "Importance of diagrams & graphs",
+        "Mutually exclusive, exhaustive, complementary events",
+        "Quartiles, inter-quartile range",
+        "Histograms, frequency distribution"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Write the applications of probability and statistics in the field of engineering. Also mention the importance of diagrams and graphs when interpreting data.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the merits and demerits of Arithmetic mean? The mean and the standard deviation of 20 items is found to be 10 and 2 respectively. At the time of checking, one item 8 was incorrect. Calculate the mean and standard deviation if the wrong item is omitted; and if it is replaced by 12.",
+        "expr": null,
+        "m": "2+4",
+        "years": [
+          "2081 Bhadra R",
+          "2072 Chaitra R"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "Write any three merits and three demerits of mode. The following data are the temperature effluent at discharge from a sewage treatment facility on consecutive days. Construct a box plot and comment on the information of this display.",
+        "expr": "<table class=\"q-tbl-data\"><tr><td>43</td><td>47</td><td>51</td><td>48</td><td>52</td><td>50</td><td>46</td><td>49</td></tr><tr><td>45</td><td>52</td><td>46</td><td>51</td><td>44</td><td>49</td><td>46</td><td>51</td></tr><tr><td>49</td><td>45</td><td>44</td><td>50</td><td>48</td><td>50</td><td>49</td><td>50</td></tr></table>",
+        "m": "6",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the merits and demerits of arithmetic mean? Compute the five numbers summary and prepare the Box and Whisker diagram for the following data and interpret the diagram.",
+        "expr": "<table class=\"q-tbl-data\"><tr><td>34</td><td>42</td><td>66</td><td>40</td><td>59</td><td>36</td><td>41</td><td>35</td><td>36</td><td>62</td></tr><tr><td>43</td><td>30</td><td>43</td><td>32</td><td>44</td><td>58</td><td>53</td><td>50</td><td>48</td><td>38</td></tr></table>",
+        "m": "2+4",
+        "years": [
+          "2081 Baishakh B",
+          "2080 Baishakh B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "Describe the difference between mean, median and mode with suitable examples. The arithmetic mean and standard deviation of 100 items was 40 and 5. Later on, it was found that an item 53 was misread as 83. Find the correct mean and standard deviation.",
+        "expr": null,
+        "m": "3+3",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is dispersion? Explain what you understand by absolute and relative measures of dispersion. The marks distribution of 100 students of a college is as follows. Find the mean, median and standard deviation of the given distribution.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Marks</th><th>10–20</th><th>20–40</th><th>40–70</th><th>70–90</th><th>90–100</th></tr></thead><tbody><tr><td>No. of students</td><td>15</td><td>20</td><td>30</td><td>20</td><td>15</td></tr></tbody></table>",
+        "m": "6",
+        "years": [
+          "2079 Baisakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "The number of minutes that a person had to wait for the bus to work on 13 working days are: 1, 10, 13, 12, 8, 2, 6, 9, 17, 30, 5, 4 and 15. (a) Find the values constituting the 5-number summary. (b) Construct a box plot.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2078 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Describe the strong and weak points of various measures of central tendency. From the following frequency distribution find the range of income of the middle 70%, the median income, and also find mean deviation from mean.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Income (Rs.)</th><th>500–600</th><th>600–700</th><th>700–800</th><th>800–900</th><th>900–1000</th></tr></thead><tbody><tr><td>No. of employees</td><td>150</td><td>300</td><td>500</td><td>200</td><td>50</td></tr></tbody></table>",
+        "m": "6",
+        "years": [
+          "2076 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Distinguish between absolute and relative measures of dispersion. The running capacity of two horses is given below. State which is more consistent and why.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th></th><th>250</th><th>255</th><th>280</th><th>290</th><th>295</th><th>300</th></tr></thead><tbody><tr><td>Horse A</td><td>754</td><td>255</td><td>280</td><td>295</td><td>298</td><td>295</td></tr><tr><td>Horse B</td><td>280</td><td>282</td><td>290</td><td>295</td><td>298</td><td>295</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2076 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "In two companies A and B engaged in similar type of industry, the average weekly wage and standard deviation are given below. (i) Which company pays larger amount as weekly wage? (ii) Which company shows greater variability? (iii) What is the mean and standard deviation of all workers in the two companies taken together?",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th></th><th>Company A</th><th>Company B</th></tr></thead><tbody><tr><td>Average weekly wage (Rs)</td><td>460</td><td>490</td></tr><tr><td>Standard deviation</td><td>50</td><td>40</td></tr><tr><td>No. of wage earners</td><td>100</td><td>80</td></tr></tbody></table>",
+        "m": "6",
+        "years": [
+          "2073 Shrawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Two different sections of a statistics class take the same quiz and the scores are recorded below. (a) Find the range and standard deviation for each section. (b) What do the range values lead you to conclude about variation? (c) Why is the range misleading? (d) What do the standard deviation values lead you to conclude?",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Section 1</th><td>1</td><td>20</td><td>20</td><td>20</td><td>20</td><td>20</td><td>20</td><td>20</td><td>20</td><td>20</td><td>20</td></tr></thead><tbody><tr><th>Section 2</th><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td></tr></tbody></table>",
+        "m": "6",
+        "years": [
+          "2071 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the differences between measures of central tendency and measures of dispersion? The mean and standard deviation of 20 items is found to be 10 and 2 respectively. At the time of checking it was found that one item 8 was incorrect. Calculate the mean and standard deviation if (i) the wrong item is omitted (ii) it is replaced by 12.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2072 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write any four characteristics of ideal measure of central tendency. For a group of 16 candidates, the mean and standard deviation were found to be 20 and 5 respectively. Later it is discovered that the score 32 was measured as 23. Find the correct mean and correct standard deviation.",
+        "expr": null,
+        "m": "2+4",
+        "years": [
+          "2068 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "An investor buys Rs. 12,000 worth of shares in a company each month. During the first five months he bought the shares at a price of Rs. 100, 120, 150, 200, 240 per share. After five months, what is the average price paid for the shares by him?",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2078 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write down the significance of statistics in engineering. An experiment shows the height of 51 plants given below. If average heights of all the 51 plants are 40 cm, find the missing frequencies corresponding to the height 30 and 50 cm.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Height (cm)</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th><th>60</th></tr></thead><tbody><tr><td>No. of plants</td><td>2</td><td>3</td><td>—</td><td>21</td><td>—</td><td>5</td></tr></tbody></table>",
+        "m": "6",
+        "years": [
+          "2075 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are measures of central tendencies? Write favorable points of each of them. Calculate approximate measures of central tendency from the following data.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Wages (Rs/week)</th><th>&lt;35</th><th>35–37</th><th>38–40</th><th>41–43</th><th>&gt;43</th></tr></thead><tbody><tr><td>No. of wage earners</td><td>14</td><td>82</td><td>99</td><td>18</td><td>7</td></tr></tbody></table>",
+        "m": "1+2+3",
+        "years": [
+          "2074 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write down the significance of statistics in engineering and its importance in engineering. Also mention the importance of diagrams and graphs when interpreting data.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define conditional probability with example. A box containing 5000 IC chips, of which 1,000 are manufactured by company A and the rest by company B. Ten percentage of chips made by company A and five percentage by company B are defective. (i) What is the probability that the chip chosen is defective? (ii) If a randomly chosen chip is found to be defective, what is the probability that it comes from company A?",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write axioms of probability. An individual has 3 different email accounts. Most of her messages, in fact 70%, come into account #1, whereas 20% come into account #2 and the remaining 10% into account #3. Of the messages into account #1, only 1% are spam, whereas the corresponding percentages for accounts #2 and #3 are 2% and 5% respectively. What is the probability that a randomly selected message is spam? If the randomly chosen message is spam, what is the probability it came into account #2?",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "State Baye's Theorem. If there are three machines producing chips, first machine produces 2000, second machine produces 3000 and third machine produces 5000 chips per day. Past experience showed that they produce 95%, 97% and 99% non-defective chips. If a randomly chosen chip is found to be non-defective, what is the probability that it comes from the (i) First Machine (ii) Second machine (iii) Third machine?",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Worldlink, an internet service provider of Nepal buys signal routers from three countries. It buys 22% of routers from America, 38% from India and 40% from China. It is found that 3% of routers from America, 4% from India and 5% from China are defective. If a customer buys one of these routers, what is the probability that (a) It is defective? (b) If the router is defective, it is from China?",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2078 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define conditional probability. Two sets of candidates are competing for the positions on the Board of Directors of a company. The probability that the first and second sets will win are 0.6 and 0.4 respectively. If the first set wins the probability of introducing a new product is 0.8 and the corresponding probability if the second set wins is 0.3. What is the probability that the product will be introduced?",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2078 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "If an app developer is building a Flutter-based mobile app that provides news content, and based on historical user data: 40% of users are sports lovers, 35% are tech enthusiasts, and 25% are political news readers, and the developer implements a feature that recommends an AI-generated article summary, then 80% of sports lovers use this feature, 60% of tech enthusiasts use it, and 30% of political news readers use it. (a) What is the probability that a randomly selected user uses the article summary feature? (b) If a randomly selected user does use the article summary feature, what is the probability that he or she is a sports lover?",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define Baye's Theorem. In a factory that manufactures touch screens for mobile phones, production is distributed among three machines: machine A (30%), machine B (40%), and machine C (30%). 8% of touch screens produced by machine A are defective, while 6% from machine B and 12% from machine C are found to be defective. If a touch screen is randomly chosen from the production line and is found to be defective, what is the probability that it was produced by (a) machine A? (b) machine B? (c) machine C?",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2082 Bhadra R (New Course)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Describe addition and multiplication law of probability. A problem in statistics is given to three students A, B and C whose chance of solving it are 1/3, 1/4 and 1/5 respectively. Find the probability that (i) The problem will be solved (ii) Only one of them can solve the problem (iii) None of them will solve the problem.",
+        "expr": null,
+        "m": "3+3",
+        "years": [
+          "2081 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define mutually exclusive and independent events. In a bolt factory, machines A, B and C manufacture respectively 25%, 35% and 40% of the total production. Among their total output, 95%, 94% and 92% are found to be of good quality bolts. A bolt is drawn from the total product and is found to be good quality. What is the probability that (i) it was manufactured by A? (ii) it was manufactured by B?",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2080 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "State the law of multiplication of probability. An Electronics company has an engineering position open. The probability that an applicant is capable is 0.7. Each applicant is given written test and oral examination. A capable applicant passes with probability 0.9 while an incapable applicant passes with probability 0.4. Find (a) the probability that an applicant passes the test (b) the probability that the applicant is capable given he/she passes the test.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2073 Shrawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "By examining the chest x-ray, the probability that TB is detected when a person is actually suffering from it is 0.99. The probability that the doctor diagnoses incorrectly that a person has TB, on the basis of the x-ray is 0.001. In a certain city, 1 in 10000 persons suffer from TB. A person selected at random is diagnosed to have TB. What is the probability that that person has actually TB?",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2079 Baisakh B"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "ps2",
+    "title": "Probability Distributions",
+    "sub": "Binomial · Poisson · Hypergeometric · Normal · Gamma · PDF/CDF",
+    "concepts": {
+      "h": [
+        "Binomial distribution — numericals",
+        "Poisson distribution — characteristics & limiting case from binomial",
+        "Normal distribution — z-scores & area (numericals)",
+        "Hypergeometric distribution — definition & problems",
+        "Random variable — PMF, mean, variance finding k"
+      ],
+      "m": [
+        "Negative binomial distribution — compare with binomial",
+        "PDF/CDF — finding k, mean, variance of continuous r.v.",
+        "Gamma distribution — properties & problems",
+        "Normal approximation to binomial/Poisson — conditions",
+        "Standard normal distribution — properties"
+      ],
+      "l": [
+        "Chi-square distribution — relationship with normal",
+        "Exponential distribution",
+        "Properties of CDF for continuous random variables",
+        "Beta distribution",
+        "Expectation & variance formulas"
+      ]
+    },
+    "qs": [
+      {
+        "t": "A box contains 1000 transistors, out of which 200 are defective. If 10 transistors are selected at random, find the probability that: (a) All 10 are defective (b) All 10 are good (c) At least three are defective (d) At most two are defective (e) Exactly seven are defective.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the chief characteristics of the Poisson distribution? Under what conditions is the Poisson distribution the limiting case of the binomial distribution?",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A random variable X has the density function f(x) = k·1/(1+x²) where −∞ < x < ∞. (a) Determine the value of k. (b) P(X ≥ 0). (c) P(1 < X < 3).",
+        "expr": "f(x) = k / (1+x²),  −∞ &lt; x &lt; ∞",
+        "m": "5",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "If a random variable X has the following probability mass function, find (i) Value of k (ii) P(−1 ≤ X < 2) (iii) Mean of distribution (iv) Standard deviation of distribution.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>X = x</th><th>−2</th><th>−1</th><th>0</th><th>1</th><th>2</th><th>3</th></tr></thead><tbody><tr><td>P(X = x)</td><td>0.1</td><td>k</td><td>0.2</td><td>2k</td><td>0.3</td><td>k</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define binomial and hypergeometric distribution with highlighting their similarities and differences.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2082 Baishakh B",
+          "2080 Bhadra R",
+          "2076 Chaitra R",
+          "2074 Chaitra R",
+          "2071 Chaitra R"
+        ],
+        "freq": 5
+      },
+      {
+        "t": "Define continuous random variables and continuous probability distribution with examples. Also write properties of cumulative distribution functions for continuous random variables.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write conditions for normal approximation to binomial distribution. A metropolitan city installed 2,000 electric lamps for street lighting. The length of life of lamps is normally distributed with mean burning life of 1000 hours and standard deviation of 200 hours. (a) What is the probability that a lamp will burn for exactly 900 hours? (b) What is the probability that a lamp will burn between 899 hours and 901 hours before it fails? (c) After how many burning hours would we expect 10% of the lamps to be left?",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the parameters of the normal distribution, and what are their roles? If 100 bulbs with a mean life of 12 months and a standard deviation of 2.5 months are installed in a new factory, suppose their lifetimes are normally distributed. (a) How many bulbs will expire in less than 9 months? (b) How many bulbs will expire between 6 and 15 months?",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A random variable X has a random variable having the following probability distribution. Find (i) The value of k (ii) Mean and standard deviation of distribution.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>X</th><th>−1</th><th>0</th><th>1</th><th>2</th></tr></thead><tbody><tr><td>P(x)</td><td>1/3</td><td>K</td><td>1/6</td><td>1/3</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2082 Bhadra R (New Course)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Discuss the condition for Poisson distribution. A traffic engineer has recorded that on average 2.5 traffic accidents occur per month at a particular intersection. What is the probability that (a) exactly 2 accidents (b) at least 1 accident (c) at most 3 accidents will occur at the intersection in a randomly chosen month?",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2082 Bhadra R (New Course)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define the normal distribution. A city installs 2,000 electric lamps for street lighting. The burning life of these lamps follows a normal distribution, with a mean of 1,000 hours and a standard deviation of 200 hours. (a) What is the probability that a lamp will burn for exactly 900 hours? (b) After how many burning hours would we expect 10% of the lamps to still be working?",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2082 Bhadra R (New Course)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "The number of meteors found by a radar system in any 30-second interval under specified conditions averages 1.81. Assume the meteors appear randomly and independently. (a) What is the probability that no meteors are found in a one-minute interval? (b) What is the probability of observing at least five but not more than eight meteors in two minutes? (c) What is the probability of observing at most three meteors in two minutes?",
+        "expr": "X ~ Poisson(λ = 1.81 per 30s)",
+        "m": "5",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the parameters used in Negative binomial distribution? If the probability that a child exposed to certain viral fever will be infected is 0.40, what is the probability that the tenth child exposed to the disease will be the third to be infected? Calculate average number of children exposed to the disease who will be infected.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define standard normal distribution with probability density function. Also write any four properties of standard normal distribution. Mention two conditions for the normal approximation to the binomial distribution.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "The distribution of marks obtained in examination is normal. 44% of the candidates get marks below 61 and 4% of the candidates got marks above 80. (a) What are the mean and standard deviation of the distribution? (b) Find the percentage of the candidates who got marks above 65.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define Poisson distribution with example. Discuss the properties of Poisson distribution.",
+        "expr": null,
+        "m": "3+2",
+        "years": [
+          "2081 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "From the past record, there is a small chance of 1 in 500 will die due to certain disease. If 200 patients were admitted in a certain hospital, use suitable probability distribution to calculate the probability that (i) No one will die from the disease (ii) Exactly one patient will die (iii) At least two of them will die.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2081 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "In a certain city the daily consumption of water (in millions of gallons) follows approximately a gamma distribution with α=2 and β=3. If the daily capacity of this city is 9 million gallons of water, show that the probability that on any given day the water supply is inadequate is 4.",
+        "expr": "X ~ Gamma(α=2, β=3)",
+        "m": "5",
+        "years": [
+          "2081 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "The breakdown voltage X of randomly chosen diode of a particular type is known to be normally distributed with mean 40 and standard deviation 1.5 volts. What is the probability that the breakdown voltage will be (i) Between 39 and 42 volts (ii) At most 43 volts (iii) At least 39 volts.",
+        "expr": "X ~ N(μ=40, σ=1.5)",
+        "m": "5",
+        "years": [
+          "2081 Baishakh B",
+          "2080 Baishakh B",
+          "2075 Chaitra R",
+          "2069 Chaitra R"
+        ],
+        "freq": 4
+      },
+      {
+        "t": "For the case of the thin copper wire, suppose that the number of flaws follows a Poisson distribution with a mean of 2.3 flaws per millimeter. Determine the probability of (i) Exactly 2 flaws in 1 millimeter (ii) At least 2 flaws in 1 millimeter (iii) At most 2 flaws in 1 millimeter.",
+        "expr": "X ~ Poisson(λ=2.3 per mm)",
+        "m": "5",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A continuous random variable X has probability density function defined as f(x) = k·e^(−x/2) for 0 ≤ x < ∞, 0 otherwise. (i) Find the value of constant k. (ii) Mean and the distribution function of X.",
+        "expr": "f(x) = k · e^(−x/2),  x ≥ 0",
+        "m": "5",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "An industrial engineer has found that standard household light bulbs produced by a certain manufacturer have a useful life that is normally distributed with a mean of 250 hours and variance 2500. What is the probability that a randomly selected bulb will have a useful life (i) In excess of 300 hours (ii) Between 190 and 270 hours (iii) Not exceeding 260 hours?",
+        "expr": "X ~ N(μ=250, σ²=2500)",
+        "m": "5",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define and compare Binomial and Negative Binomial distribution with similarity and differences.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2080 Bhadra R",
+          "2078 Bhadra R",
+          "2075 Chaitra R",
+          "2074 Chaitra R",
+          "2073 Shrawan B"
+        ],
+        "freq": 5
+      },
+      {
+        "t": "Define standard normal distribution. Give the condition for normal approximation of Poisson distribution. The mean inside diameter of a sample of 200 washers produced by a machine is 0.502 cm and standard deviation 0.005 cm. Tolerance is 0.496 to 0.508 cm. Determine the percentage of defective washers. Assume diameter is normally distributed.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2072 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A quality control engineer inspects a random sample of 3 batteries from each lot of 24 car batteries. If such a lot contains six batteries with slight defects, what are the probabilities that the inspector's sample will contain (a) None of the batteries with defect (b) Only one battery with defect (c) At least two batteries with defect.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2074 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "The life of an electric light bulb follows Normal distribution with mean 800 hours and a standard deviation of 50 hours. Find the probability that a bulb burns (a) Between 750 and 825 hours (b) More than 900 hours.",
+        "expr": "X ~ N(μ=800, σ=50)",
+        "m": "5",
+        "years": [
+          "2074 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "An office switchboard receives telephone calls at a rate of 3 calls per minute on an average. Find the probability of receiving (a) No calls in one minute interval (b) At least 3 calls in a one-minute interval (c) At most 2 calls in a five-minute interval.",
+        "expr": "X ~ Poisson(λ=3 per min)",
+        "m": "5",
+        "years": [
+          "2078 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A continuous random variable X has following probability density function f(x) = 3/4·(1+x²), 0 ≤ x ≤ 1. (a) Find mean and standard deviation of X. (b) Find P(−σ < X < σ).",
+        "expr": "f(x) = (3/4)(1+x²),  0 ≤ x ≤ 1",
+        "m": "5",
+        "years": [
+          "2078 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "During one stage in the manufacture of integrated circuit chips, a coating must be applied. If 70% of chips receive a thick enough coating, find the probability that among 15 chips (i) At least 12 will have thick enough coatings (ii) At most 3 will have thick enough coatings (iii) Exactly 10 will have thick enough coatings.",
+        "expr": "X ~ Binomial(n=15, p=0.7)",
+        "m": "5",
+        "years": [
+          "2076 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "In a normal distribution 31% of the items are under 45 and 8% are over 64. Find the mean and standard deviation of distribution.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2076 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Under what conditions can the Poisson distribution be approximated using Normal distribution? Of a large group of men, 5% are under 60 inches in height and 40% are between 60 and 65 inches. Assuming a normal distribution, find the mean height and standard deviation.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2076 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Three people toss a coin and odd man pays for the coffee. If the coins all turn up the same, they toss again. Find the probability that fewer than 4 tosses are needed.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2076 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Let the continuous random variable X denote the diameter of a hole drilled in a sheet metal component. The target diameter is 12.5 millimeters. Historical data show that the distribution of X can be modeled by a probability density function f(x) = 20e^(−20(x−12.5)), x ≥ 12.5. If a part with a diameter larger than 12.60 mm is scrapped, (a) What proportion of parts is scrapped? (b) What proportion of parts is between 12.5 and 12.6 mm?",
+        "expr": "f(x) = 20·e^(−20(x−12.5)),  x ≥ 12.5",
+        "m": "5",
+        "years": [
+          "2076 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is the difference between Binomial distribution and Poisson distribution? Explain under what condition Poisson distribution approximates to binomial distribution.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2078 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "In a busy road of Kathmandu there were 500 vehicles passing from 8 AM to 6 PM. It was found that 2 in 1000 vehicles wrongly entered in a one-way. Find the probability that (a) No vehicle enters the one-way (b) One vehicle enters the one-way (c) At least one vehicle enters the one-way (d) At most 2 vehicles enter the one-way.",
+        "expr": "X ~ Poisson(λ = 500 × 0.002 = 1)",
+        "m": "5",
+        "years": [
+          "2078 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A random variable X has the probability density function f(x) = kx·e^(−x²/12) for x ≥ 0, 0 otherwise. (a) Find the value of k. (b) Find the mean and variance of random variable X.",
+        "expr": "f(x) = kx·e^(−x²/12),  x ≥ 0",
+        "m": "5",
+        "years": [
+          "2078 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "In certain factory turning out optical lenses, there is a small chance of 1/500 for any lens to be defective. The lenses are supplied in packets of 10 each. What is the probability that a packet will contain (i) No defective lens (ii) At least one defective lens (iii) At most two defective lenses.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2072 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A typist made 2.6 mistakes per page on average. Find the probability that in the page typed by him: (i) there is no mistake (ii) at least two mistakes (iii) at most 3 mistakes.",
+        "expr": "X ~ Poisson(λ=2.6)",
+        "m": "5",
+        "years": [
+          "2075 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define Negative Binomial distribution. If a boy is throwing stone at a target what is the probability that his 10th throw is his 5th hit, if the probability of hitting the target at any trial is 0.6. Also find the mean and variance of random variable.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2073 Shrawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A particularly long traffic light on your morning commute is green 20% of the time that you approach it. Assume that each morning represents an independent trial. (i) Over five mornings, what is the probability that the light is green on exactly one day? (ii) Over 20 mornings, what is the probability that the light is green on exactly four days?",
+        "expr": "X ~ Binomial(p=0.2)",
+        "m": "5",
+        "years": [
+          "2072 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "The distribution function for a random variable X is F(x) = 1 − e^(−2x) for x ≥ 0, 0 otherwise. (i) Find P(X > 2). (ii) Find mean and variance of the variable X.",
+        "expr": "F(x) = 1 − e^(−2x),  x ≥ 0",
+        "m": "5",
+        "years": [
+          "2072 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A heavy machinery manufacturer has 3840 large generators in the field that are under warranty. If the probability is 1/1200 that any one will fail during the given year, find the probability (i) That exactly 3 generators will fail during the given year (ii) That between 2 and 6 will fail during the given year.",
+        "expr": "X ~ Poisson(λ = 3840/1200 = 3.2)",
+        "m": "5",
+        "years": [
+          "2071 Shrawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define continuous distribution, whose probability density function f(x) = kx(2−x), 0 ≤ x ≤ 2. Find (a) The value of K. (b) Mean of the distribution. (c) Variance of the distribution.",
+        "expr": "f(x) = kx(2−x),  0 ≤ x ≤ 2",
+        "m": "5",
+        "years": [
+          "2068 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A random variable X has the following probability density function as f(x) = kx³(4−x)², 0 < x < 1. Find the value of k, using this value of k find mean and variance of distribution.",
+        "expr": "f(x) = kx³(4−x)²,  0 &lt; x &lt; 1",
+        "m": "5",
+        "years": [
+          "2071 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "The daily consumption of electric power in a certain city follows a gamma distribution with α=2 and β=3. If the power plant of this city has daily capacity of 12 million kilowatt hours, what is the probability that this power supply will be inadequate on any given day?",
+        "expr": "X ~ Gamma(α=2, β=3)",
+        "m": "5",
+        "years": [
+          "2071 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A random variable X has following probability function. Find (i) Find the value of K. (ii) Find Mean and Variance.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>X</th><th>−2</th><th>−1</th><th>0</th><th>1</th><th>2</th><th>3</th></tr></thead><tbody><tr><td>P(X)</td><td>K</td><td>0.1</td><td>0.2</td><td>2k</td><td>3k</td><td>0.1</td></tr></tbody></table>",
+        "m": "6",
+        "years": [
+          "2076 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A random variable X has the following probability function. Find (i) Value of k (ii) P(−1 ≤ X < 2) (iii) Mean (iv) Standard deviation.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>X = x</th><th>−1</th><th>0</th><th>1</th><th>2</th><th>3</th></tr></thead><tbody><tr><td>P(X=x)</td><td>0.1</td><td>k</td><td>0.2</td><td>2k</td><td>0.3</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2080 Bhadra R (New Course)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is the probability that a randomly chosen diode of a particular type is known to be normally distributed with mean 40 volts and standard deviation of 1.5 volts. What is the probability that the breakdown voltage will be (a) between 39 and 42 volts (b) at most 43 volts (c) at least 39 volts.",
+        "expr": "X ~ N(μ=40, σ=1.5)",
+        "m": "5",
+        "years": [
+          "2069 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "During a laboratory experiment, the average number of radio active particles passing through a counter in milliseconds is 4. What is the probability that (a) 6 particles enter the counter (b) More than 2 particles enter the counter in given milliseconds.",
+        "expr": "X ~ Poisson(λ=4)",
+        "m": "5",
+        "years": [
+          "2080 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A continuous random variable X has probability density function f(x) = k√x for 0 < x < 1. (a) Find the value of constant k. (b) Mean and the distribution function of X.",
+        "expr": "f(x) = k√x,  0 &lt; x &lt; 1",
+        "m": "5",
+        "years": [
+          "2080 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Among the 12 solar collectors on display at a trade show, 9 are flat-plate collectors and the others are concentrating collectors. If a person visiting the show randomly selects 6 of the solar collectors to check out, what is the probability that (i) None will be flat-plate collectors (ii) At least 3 will be flat-plate collectors (iii) At most 2 will be concentrating collectors.",
+        "expr": null,
+        "m": "2+2+2",
+        "years": [
+          "2069 Chaitra R"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "ps3",
+    "title": "Sampling Distribution & Central Limit Theorem",
+    "sub": "CLT · Sampling distribution of mean & proportion · Standard error",
+    "concepts": {
+      "h": [
+        "Central limit theorem — definition, importance, application",
+        "Sampling distribution of mean — enumerate all samples and verify E(x̄)=μ",
+        "Sampling distribution of proportion — unbiased estimator proof",
+        "Standard error of sample mean & proportion"
+      ],
+      "m": [
+        "Population vs sample — parameter vs statistic",
+        "Standard error formula for finite population",
+        "Sampling distribution problems with normal approximation",
+        "Verify sample mean is unbiased estimator of population mean"
+      ],
+      "l": [
+        "Advantages of sample surveys over complete enumeration",
+        "Sampling with and without replacement",
+        "Mean of sampling distribution of proportion",
+        "Definition: parameter, statistic, standard error, marginal error"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Define the central limit theorem for the sampling distribution of the mean. Discuss its role and importance in inferential statistics.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "The time taken to complete the IOE final exam by a group of students is normally distributed with a mean of 2.5 hours and a standard deviation of 0.25 hours. A random sample of size n=60 is drawn from the population. (a) Find the probability that the sample mean is between two and three hours. (b) Standard error of sampling distribution.",
+        "expr": "X ~ N(μ=2.5, σ=0.25),  n=60",
+        "m": "5",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between a parameter and a statistic in statistics.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A population consists of five numbers: 3, 5, 6, 8 and 10. (a) Write down all possible sample size of 2 without replacement. (b) Verify that population mean is equal to the mean of sample mean.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2082 Bhadra R (New Course)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define central limit theorem and discuss its importance and application. A population consists of the values 1, 2, 4 and 5. (a) List all possible samples of size two selected with replacement. (b) Find sampling distribution for the proportion of odd numbers. (c) Find population proportion and show that sample proportion is unbiased estimator of the population proportion.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define central limit theorem and discuss its importance and application.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2081 Bhadra R",
+          "2079 Baisakh B",
+          "2078 Kartik B",
+          "2080 Baishakh B"
+        ],
+        "freq": 4
+      },
+      {
+        "t": "A population consists of four numbers: 1, 4, 8 and 11. (a) Write down all possible sample size of 2 with replacement. (b) Find sampling distribution for the proportion of odd numbers. (c) Find population proportion and show that sample proportion is unbiased estimator of the population proportion.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define parameter, statistic, standard error and marginal error with examples.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A population consists of four numbers: 1, 4, 8 and 11. (a) Write down all possible sample size of 2 with replacement. (b) Find sampling distribution for the proportion of odd numbers. (c) Find population proportion and show that sample proportion is unbiased estimator of the population proportion.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "From the population of size 5 as: 22, 23, 24, 25 and 26. (a) List out all the samples of size three without replacement. (b) Find the sample proportion of even number. (c) Prove that sample proportion is unbiased estimator of proportion of even number, E(p)=P. (d) Also find the standard error of sample proportion of even number.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2081 Baishakh B",
+          "2080 Baishakh B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "A population consists of four numbers 5, 9, 13, 17. (a) Write down all possible sample of size two without replacement. (b) Verify that the sample mean is unbiased estimator of population mean. (c) Calculate the standard error of sample mean.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A population consists of five numbers: 2, 4, 6, 8 and 10. (a) Write down all possible samples of size two with SWOR. (b) Calculate mean and the variance of population. (c) Prove that sample mean is unbiased estimator of population mean.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2078 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A population consists of the four number 2, 8, 14, 20. (i) Write down all possible sample size of two without replacement. (ii) Verify that the population mean is equal to the mean of the sample mean. (iii) Calculate the standard error of the sampling distribution of the sample mean.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2073 Shrawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "The time at the counter for a customer to be served at a post office can be modeled as a random variable having mean 176 seconds and variance 256. The sample mean will be obtained from the times for a random sample of 100 customers. What is the probability that sample mean will be (i) Less than 177 seconds (ii) Between 175 and 178 seconds (iii) More than 178 seconds?",
+        "expr": "μ=176s, σ²=256, n=100",
+        "m": "5",
+        "years": [
+          "2081 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A population consists of five numbers: 2, 4, 6, 8 and 10. (a) List out all the samples of size three without replacement. (b) Find average of each sample. (c) Prove that the average of sample mean is equal to the population mean. (d) Also find the standard error of sample mean.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2080 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "If the resistance of resistors provided by a supplier follow Normal distribution with mean 23 Ohm and standard deviation of 5 Ohm. In a random sample of 40 such resistors, find the probability that the mean resistance is (i) More than 26 Ohm (ii) Between 23.8 to 25.6 Ohm (iii) Less than 23.4 Ohm.",
+        "expr": "X ~ N(μ=23, σ=5),  n=40",
+        "m": "5",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "The heights of hilly people of Nepal are normally distributed with a mean of 64 inches and a standard deviation of 2 inches. What is the probability that the mean height of a random sample of 100 hilly people is greater than 66 inches?",
+        "expr": "X ~ N(μ=64, σ=2),  n=100",
+        "m": "5",
+        "years": [
+          "2078 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "State central limit theorem. A random sample of size 100 is taken from an infinite population with mean 75 and variance 256. Assert the chances of sample mean between 67 and 83.",
+        "expr": "μ=75, σ²=256, n=100",
+        "m": "6",
+        "years": [
+          "2074 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "State the central limit theorem. A random sample of size 100 is taken from an infinite population having the mean 76 and variance 256. What is the probability that the sample mean will be between 75 and 78?",
+        "expr": "μ=76, σ²=256, n=100",
+        "m": "6",
+        "years": [
+          "2068 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "To illustrate that the mean of a random sample is an unbiased estimate of the mean of the population, consider five slips of paper numbered 3, 6, 9, 12, 15. (a) List all possible samples of size 3 taken without replacement. (b) Calculate the mean of each sample. (c) Verify that the sample mean is an unbiased estimate of the population mean.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2078 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A population consists of four numbers 5, 9, 13, 17. (a) Write down all possible sample of size two without replacement. (b) Verify that the sample mean is unbiased estimator of population mean. (c) Calculate the standard error of sample mean.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by sampling distribution of a sample mean and its Standard Error? What would be the variance of sampling distribution of mean if sample is taken from finite population?",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2072 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "The monthly income of a particular group of retailers follows a normal distribution with mean Rs. 21,000.00 and standard deviation of Rs. 9,487.00. A random sample of size 10 retailers was taken and the mean income is calculated. Find the probability that this sample lies between Rs. 18,000.00 and Rs. 27,000.00.",
+        "expr": "X ~ N(μ=21000, σ=9487), n=10",
+        "m": "6",
+        "years": [
+          "2071 Shrawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "The mean of a 200 samples of observations from a normal population with a standard deviation 5 cm is 25 cm. (a) Estimate the population mean with 95% confidence. (b) Estimate the population mean with 95% confidence, changing the population standard deviation to 2.5 cm.",
+        "expr": "n=200, x̄=25, σ=5",
+        "m": "5",
+        "years": [
+          "2078 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "An auditor for a large credit card company knows that on average, the monthly balance of any given customer is $112 and the standard deviation is $56. If the audits 50 randomly selected accounts, what is the probability that the sample average monthly balance is (a) below $100 (b) between $100 and $130?",
+        "expr": "μ=$112, σ=$56, n=50",
+        "m": "5",
+        "years": [
+          "2076 Chaitra R"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "ps4",
+    "title": "Statistical Inference — Estimation & Hypothesis Testing",
+    "sub": "Confidence intervals · z-test · t-test · ANOVA · Chi-square · Paired t-test",
+    "concepts": {
+      "h": [
+        "Confidence interval for mean (large & small sample)",
+        "Hypothesis test for single mean (z-test and t-test)",
+        "Two-sample z-test and t-test for difference of means",
+        "One-way ANOVA — construct ANOVA table & F-test",
+        "Paired t-test — before/after studies"
+      ],
+      "m": [
+        "Confidence interval for proportion",
+        "Test for difference of two proportions (large sample)",
+        "Type I and Type II errors in hypothesis testing",
+        "Test procedure steps for large samples",
+        "Goodness-of-fit chi-square test"
+      ],
+      "l": [
+        "Properties of good estimator",
+        "Definition: hypothesis, critical value, significance level, confidence level",
+        "Two-tailed vs one-tailed tests",
+        "Decision criteria in hypothesis testing"
+      ]
+    },
+    "qs": [
+      {
+        "t": "According to the labor statistics, the average weekly earnings of a production worker in 1997 were $424.20. Suppose a labor researcher wants to test to determine whether this figure is still accurate today. The researcher randomly selects 54 production workers and obtains a representative earnings statement for one week from each. The resulting sample average is $432.69. Assuming a population standard deviation of $33.90, and a 5% level of significance, determine whether the mean weekly earnings of a production worker have changed.",
+        "expr": "n=54, x̄=$432.69, σ=$33.90, μ₀=$424.20, α=0.05",
+        "m": "5",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Two types of drugs were used on 7 and 7 patients for reducing their weight. Drug A was imported and Drug B was indigenous. The decrease in the weight after using the drugs for six months was as follows. Test whether there is a statistically significant effective to reduce weight Drug A than Drug B at an appropriate level of significance.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Drug A</th><td>10</td><td>12</td><td>13</td><td>11</td><td>14</td><td>15</td><td>16</td></tr></thead><tbody><tr><th>Drug B</th><td>8</td><td>9</td><td>12</td><td>14</td><td>15</td><td>10</td><td>9</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2082 Bhadra R (New Course)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "During a water shortage, a water company randomly sampled residential water meters to monitor daily water consumption. On a particular day, a sample of 35 meters showed a sample mean of 240 gallons and standard deviation of 45 gallons. Find a 90% and 99% confidence interval for the mean water consumption for the population.",
+        "expr": "n=35, x̄=240, s=45",
+        "m": "5",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "An engineering team is evaluating the performance of three different cooling fluids used in a heat exchanger. Each type of cooling fluid is tested on five samples, and the temperature reduction (in °C) is recorded. Perform ANOVA test to determine if there are significant differences at α = 5%.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Fluid A</th><td>12</td><td>15</td><td>14</td><td>13</td><td>16</td></tr></thead><tbody><tr><th>Fluid B</th><td>10</td><td>11</td><td>12</td><td>9</td><td>10</td></tr><tr><th>Fluid C</th><td>14</td><td>16</td><td>15</td><td>15</td><td>17</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "In an experiment to study the dependence of hypertension on smoking habits, the following data were taken on 180 individuals. Test the hypothesis that the presence or absence of hypertension is independent of smoking habits. Use a 0.05 level of significance.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th></th><th>Non-smokers</th><th>Moderate smokers</th><th>Heavy smokers</th></tr></thead><tbody><tr><td>Hypertension</td><td>21</td><td>36</td><td>30</td></tr><tr><td>No hypertension</td><td>48</td><td>26</td><td>19</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2082 Baishakh B",
+          "2081 Baishakh B",
+          "2080 Bhadra R",
+          "2080 Baishakh B"
+        ],
+        "freq": 4
+      },
+      {
+        "t": "Two packaging processes A and B are supposed to fill small boxes of raisins with approximately 50 raisins. Suppose 25 boxes of raisins are randomly sampled from each process and the raisins counted and the following data are obtained. (a) Find sample mean, sample standard deviation for each process. (b) Which process is supposed to be filled more uniformly and why? (c) Find a 95% confidence interval for estimating difference between true means.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Process A:</th><td>60</td><td>51</td><td>51</td><td>52</td><td>52</td><td>57</td><td>51</td><td>53</td><td>52</td><td>50</td></tr></thead><tbody><tr><th></th><td>53</td><td>58</td><td>47</td><td>51</td><td>48</td><td>44</td><td>53</td><td>45</td><td>57</td><td>39</td></tr><tr><th>Process B:</th><td>49</td><td>49</td><td>44</td><td>54</td><td>46</td><td>52</td><td>52</td><td>53</td><td>49</td><td>47</td></tr><tr><th></th><td>49</td><td>52</td><td>49</td><td>54</td><td>57</td><td>47</td><td>53</td><td>43</td><td>48</td><td>46</td></tr><tr><th></th><td>51</td><td>48</td><td>55</td><td>53</td><td>55</td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>",
+        "m": "8",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A computer hardware analyst wants to test whether processor A is significantly faster than processor B in terms of average processing speed. A sample of 100 units of processor A yields a mean speed of 3.2 GHz with a standard deviation of 0.4 GHz, while a sample of 120 units of processor B yields a mean speed of 3.0 GHz with a standard deviation of 0.5 GHz. Using a 5% level of significance, test whether processor A has a significantly higher average speed than processor B.",
+        "expr": "nA=100, x̄A=3.2, sA=0.4 | nB=120, x̄B=3.0, sB=0.5, α=0.05",
+        "m": "5",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A computer engineering department surveyed 300 undergraduate students to explore whether preferred programming language is associated with year of study. The collected data is as follows. At the 5% level of significance, test whether there is a significant association between a student's year of study and their preferred programming language.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Programming Language</th><th>2nd Year</th><th>3rd Year</th><th>Total</th></tr></thead><tbody><tr><td>Python</td><td>40</td><td>50</td><td>90</td></tr><tr><td>C/C++</td><td>70</td><td>50</td><td>120</td></tr><tr><td>Java</td><td>60</td><td>30</td><td>90</td></tr><tr><td>Total</td><td>150</td><td>120</td><td>300</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A random sample of 500 pipes was taken from a large consignment, and 65 of them were found to be of low quality. Construct the 95% and 99% confidence intervals for the proportion of low-quality pipes in the consignment.",
+        "expr": "n=500, x=65",
+        "m": "5",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain clearly the major steps to be adopted by researchers in testing of a hypothesis for differenced proportions for large sample.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2082 Baishakh B",
+          "2081 Bhadra R"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "From a lot of units produced by Machine A, a sample of 500 is drawn and tested for a quality characteristic. It is found that 16 units are not meeting the specification. Another sample of size 100 is drawn from the lot of similar units produced by Machine B and tested. In this case, only 3 units are found to be not meeting the specification. Is there significant difference at α = 1%?",
+        "expr": "nA=500, xA=16 | nB=100, xB=3, α=0.01",
+        "m": "5",
+        "years": [
+          "2082 Baishakh B",
+          "2081 Baishakh B",
+          "2081 Bhadra R"
+        ],
+        "freq": 3
+      },
+      {
+        "t": "The mean weight loss of n=16 grinding balls after a certain length of time in mill slurry is 3.42 grams with a standard deviation of 0.68 gram. Construct a 99% confidence interval for the true mean weight loss.",
+        "expr": "n=16, x̄=3.42g, s=0.68g, 99% CI",
+        "m": "4",
+        "years": [
+          "2071 Shrawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "To compare the effectiveness of three methods of teaching programming of a certain computer, random sample of size four are taken from large groups of persons. Following are the scores in an appropriate achievement test. Test at α = 0.05 whether the differences among the means obtained for the three samples are significant.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Method A</th><th>Method B</th><th>Method C</th></tr></thead><tbody><tr><td>73</td><td>91</td><td>72</td></tr><tr><td>77</td><td>81</td><td>77</td></tr><tr><td>67</td><td>87</td><td>76</td></tr><tr><td>71</td><td>85</td><td>79</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2081 Bhadra R",
+          "2071 Chaitra R"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "A random sample of 200 students was selected and their grading ability in mathematics and interest in engineering were as given below. Is there any relationship between student interest in engineering and ability in mathematics at the 0.05 level of significance?",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Interest in Engineering</th><th>Low</th><th>Average</th><th>High</th><th>Total</th></tr></thead><tbody><tr><td>Low</td><td>60</td><td>15</td><td>15</td><td>90</td></tr><tr><td>Average</td><td>15</td><td>45</td><td>10</td><td>70</td></tr><tr><td>High</td><td>5</td><td>10</td><td>25</td><td>40</td></tr><tr><td>Total</td><td>80</td><td>70</td><td>50</td><td>200</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "An engineering researcher wants to estimate the average compressive strength of certain material. Suppose the standard deviation of compressive strength is estimated to be 5 MPa. The researcher wants the estimate to be within ±1 MPa of the true mean with 95% confidence. How much sample should she collect?",
+        "expr": "σ=5 MPa, E=±1 MPa, 95% CI",
+        "m": "5",
+        "years": [
+          "2082 Bhadra R (New Course)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "If researcher wants to apply chi test for independence of two qualitative variables, what steps she should follow? Write in detail.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2082 Bhadra R (New Course)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Describe the procedure of the test of significance between two means for small samples.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2081 Baishakh B",
+          "2076 Ashwin B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "What is testing of hypothesis? Explain the procedure followed in testing of Significance difference between two population proportions for large sample.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2075 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "It is claimed that an automobile is driven on the average 12000 miles per year. To test this claim a random sample of 100 automobile owners is asked. Would you agree that average miles driven is greater than claimed value if the random showed an average of 14,500 miles and a standard deviation of 8,000 miles? Use α = 0.01.",
+        "expr": "n=100, x̄=14500, s=8000, μ₀=12000, α=0.01",
+        "m": "5",
+        "years": [
+          "2076 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A study compared the number of hours of relief provided by five different brands of antacid administered to 25 different people, each with stomach acid considered strong. The results are given below. Calculate the F ratio. At the 0.05 level of significance, do the brands produce significantly different amounts of relief?",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Brand A</th><th>Brand B</th><th>Brand C</th><th>Brand D</th><th>Brand E</th></tr></thead><tbody><tr><td>4.6</td><td>5.2</td><td>5.9</td><td>2.7</td><td>4.3</td></tr><tr><td>4.5</td><td>4.9</td><td>4.9</td><td>2.9</td><td>3.8</td></tr><tr><td>4.1</td><td>4.7</td><td>4.6</td><td>3.9</td><td>5.2</td></tr><tr><td>3.8</td><td>4.6</td><td>4.3</td><td>4.3</td><td>4.4</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2076 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is type I error? Describe the procedure of test for difference of two Means for large sample.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2074 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A manufacturer claimed that at least 95% of the water pumps supplied to the ABC Company confirmed to specifications. However, the production manager at ABC Company wasn't satisfied with the claim of the manufacturer. Hence, to test the claim, the manager examined a sample of 250 water pumps supplied last month and found that 228 water pumps as per the specification. Can you conclude that the production manager is right to doubt on the claim? (α = 0.01)",
+        "expr": "n=250, x=228, p₀=0.95, α=0.01",
+        "m": "5",
+        "years": [
+          "2073 Shrawan B",
+          "2071 Chaitra R",
+          "2078 Bhadra R"
+        ],
+        "freq": 3
+      },
+      {
+        "t": "In the investigation of a citizens' committee complaint about the availability of fire protection, the distance in miles to the nearest fire station was measured for each of five randomly selected residences in each of four areas. Do these data provide sufficient evidence to indicate a difference in mean distance for the four areas at α = 0.05?",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Area 1</th><td>7</td><td>5</td><td>5</td><td>6</td><td>8</td></tr></thead><tbody><tr><th>Area 2</th><td>1</td><td>4</td><td>3</td><td>4</td><td>5</td></tr><tr><th>Area 3</th><td>7</td><td>9</td><td>8</td><td>7</td><td>8</td></tr><tr><th>Area 4</th><td>4</td><td>6</td><td>3</td><td>7</td><td>5</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2072 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "In a recent survey 1,072 Engineers were classified according to their intelligence (GPA in Bachelor) and economic conditions after graduation. Test whether there is any association between intelligence and economic condition.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Economic Condition</th><th>Excellent</th><th>Good</th><th>Mediocre</th><th>Dull</th></tr></thead><tbody><tr><td>Good</td><td>48</td><td>199</td><td>181</td><td>82</td></tr><tr><td>Not good</td><td>81</td><td>185</td><td>190</td><td>106</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2081 Baishakh B",
+          "2075 Chaitra R",
+          "2071 Chaitra R"
+        ],
+        "freq": 3
+      },
+      {
+        "t": "Four salesmen were posted in different areas by a company. The numbers of units of computer hard disk sold by them are as follows. Is there a significance difference in the performance of salesmen? (ANOVA)",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Salesmen</th><th colspan=\"6\">Sales units</th></tr></thead><tbody><tr><td>A</td><td>20</td><td>23</td><td>28</td><td>29</td><td>—</td><td>—</td></tr><tr><td>B</td><td>25</td><td>32</td><td>30</td><td>21</td><td>29</td><td>—</td></tr><tr><td>C</td><td>23</td><td>28</td><td>35</td><td>18</td><td>26</td><td>28</td></tr><tr><td>D</td><td>15</td><td>21</td><td>19</td><td>25</td><td>32</td><td>30</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2081 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Describe the Hypothesis testing procedure of Chi-square test of independence for 2×2 table.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2073 Shrawan B",
+          "2071 Chaitra R",
+          "2069 Chaitra R"
+        ],
+        "freq": 3
+      },
+      {
+        "t": "A random sample of 12 records gives the average of 163.99 minutes with standard deviation of 3.043 minutes. Find the 95% confidence limits for population mean if population consists of 100 units.",
+        "expr": "n=12, x̄=163.99, s=3.043, N=100, 95% CI",
+        "m": "5",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "The response time in milliseconds was determined for three different types of circuits in an electronic calculator. Using α = 0.01, test the hypothesis that the three circuit types have the same response time.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Circuit Type</th><th colspan=\"5\">Response (ms)</th></tr></thead><tbody><tr><td>A</td><td>19</td><td>22</td><td>20</td><td>18</td><td>25</td></tr><tr><td>B</td><td>20</td><td>21</td><td>33</td><td>27</td><td>40</td></tr><tr><td>C</td><td>16</td><td>15</td><td>18</td><td>26</td><td>17</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2078 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Four hundred employees of Nepal Telecom are classified according to their level and decisions. Do you agree with the statement that decisions vary according to level of employee? Test at 5% level of significance.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Decisions</th><th>Sr. Officer</th><th>Officer</th><th>Jr. Officer</th><th>Total</th></tr></thead><tbody><tr><td>Quick</td><td>60</td><td>80</td><td>70</td><td>210</td></tr><tr><td>Slow</td><td>40</td><td>60</td><td>90</td><td>190</td></tr><tr><td>Total</td><td>100</td><td>140</td><td>160</td><td>400</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2078 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Consider the case of Pharmaceutical Manufacturing Company testing two new compounds intended to reduce blood-pressure level. In groups A, 71 out of 100 animals tested responded to drug first with lower blood-pressure levels. In group B, 58 out of 90 animals tested responded to drug second. Test at 0.05 levels whether there is a difference between the efficiencies of these two drugs.",
+        "expr": "nA=100, xA=71 | nB=90, xB=58, α=0.05",
+        "m": "5",
+        "years": [
+          "2078 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Shyam and Co. produces three varieties of products: Deluxe, Fine and Ordinary. A recent market survey is conducted for preference of products. Is there a significant difference in the preference of products? Use ANOVA test, α = 5%.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Product</th><th colspan=\"4\">Preference</th></tr></thead><tbody><tr><td>Deluxe</td><td>15</td><td>14</td><td>19</td><td>18</td></tr><tr><td>Fine</td><td>17</td><td>12</td><td>20</td><td>16</td></tr><tr><td>Ordinary</td><td>16</td><td>18</td><td>16</td><td>17</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2078 Kartik B",
+          "2073 Shrawan B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "A potential buyer of light bulbs bought 50 bulbs each of two brands. Brand A had a mean life of 1282 hours with S.D. of 80 hours whereas Brand B had a mean life of 1208 hours with S.D. of 94 hours. Can the buyer be quite certain that the two brands do differ in quality? α = 10%.",
+        "expr": "nA=nB=50, x̄A=1282, sA=80 | x̄B=1208, sB=94, α=0.10",
+        "m": "5",
+        "years": [
+          "2068 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "The following table shows the lives in hours of four batches of electric lamps. Perform the suitable inferential statistics to test whether the different batches of light bulbs have the same mean or not at 5% level of significance.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Batch</th><th colspan=\"5\">Lives of electric lamps</th></tr></thead><tbody><tr><td>1</td><td>1600</td><td>1610</td><td>1650</td><td>1680</td><td>1700</td></tr><tr><td>2</td><td>1580</td><td>1640</td><td>1640</td><td>1700</td><td>1750</td></tr><tr><td>3</td><td>1460</td><td>1550</td><td>1600</td><td>1620</td><td>1640</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2080 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Bricks made in four kilns have been graded as high quality, average quality and poor quality. The production of bricks (000 unit) in a particular period was as follows. Test whether Kiln and quality of bricks are independent or not at 1% level of significance.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Kiln</th><th>High</th><th>Average</th><th>Poor</th></tr></thead><tbody><tr><td>A</td><td>24</td><td>43</td><td>13</td></tr><tr><td>B</td><td>47</td><td>123</td><td>34</td></tr><tr><td>C</td><td>58</td><td>98</td><td>64</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2080 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define chi-square distribution. A book containing 500 pages was thoroughly checked. The distribution of number of errors per page is given below. Using chi-square test of goodness of fit, verify whether the arrivals follow a Poisson distribution at 5% level of significance.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Number of errors</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr></thead><tbody><tr><td>Number of pages</td><td>275</td><td>138</td><td>75</td><td>7</td><td>4</td><td>1</td></tr></tbody></table>",
+        "m": "6",
+        "years": [
+          "2074 Chaitra R",
+          "2073 Shrawan B",
+          "2071 Chaitra R",
+          "2071 Shrawan B"
+        ],
+        "freq": 4
+      },
+      {
+        "t": "What assumptions are of paired t-test? Write the process of paired t-test.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2079 Baisakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Is it claimed that a new diet will reduce a person's weight by 10 pounds on the average in a period of 2 weeks. The weights of seven women who followed this diet were recorded before and after a 2 week period. Test the manufacturer's claim at 5% level of significance.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Woman</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th></tr></thead><tbody><tr><td>Weight Before</td><td>129</td><td>133</td><td>136</td><td>152</td><td>141</td><td>138</td><td>125</td></tr><tr><td>Weight After</td><td>130</td><td>121</td><td>128</td><td>137</td><td>129</td><td>132</td><td>120</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2076 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A random sample of 100 men and 100 women at a college is asked if they have an automobile on campus. If 31 of the men and 24 of the women have cars, can we conclude that more men than women have cars on the campus? Use a 0.01 level of significance.",
+        "expr": "nM=100, xM=31 | nW=100, xW=24, α=0.01",
+        "m": "5",
+        "years": [
+          "2076 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "In 1990, 5.8% of job applicants who were tested for drugs failed the test. At the 0.05 significant level, test the claim that the failure rate is now lower if a simple random sample of 1520 current job applicants results in 58 failures.",
+        "expr": "n=1520, x=58, p₀=0.058, α=0.05 (one-tailed)",
+        "m": "5",
+        "years": [
+          "2076 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A study was done to compare the weights obtained with two different scales. Test at the 5% level of significance whether the difference of the means of the weights obtained with the two scales is significant.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Rock specimen</th><th>I</th><th>II</th><th>III</th><th>IV</th><th>V</th><th>VI</th><th>VII</th><th>VIII</th><th>IX</th><th>X</th></tr></thead><tbody><tr><td>Scale I</td><td>11.23</td><td>14.36</td><td>8.33</td><td>10.50</td><td>23.42</td><td>9.15</td><td>13.47</td><td>6.47</td><td>12.40</td><td>19.38</td></tr><tr><td>Scale II</td><td>11.27</td><td>14.41</td><td>8.35</td><td>10.52</td><td>23.41</td><td>9.17</td><td>13.52</td><td>6.46</td><td>12.45</td><td>19.35</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2080 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "The following are the average weekly losses of worker hours due to accidents in 10 industrial plants before and after a certain safety program was put into operation. Use the 0.05 level of significance to test whether the safety program is effective.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Before</th><td>45</td><td>73</td><td>46</td><td>124</td><td>33</td><td>57</td><td>83</td><td>34</td><td>26</td><td>17</td></tr></thead><tbody><tr><th>After</th><td>36</td><td>60</td><td>44</td><td>119</td><td>35</td><td>51</td><td>77</td><td>29</td><td>24</td><td>11</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2073 Shrawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Four brands of flashlight batteries are to be compared by testing each brand in five flashlights. Twenty flashlights are randomly selected and divided randomly into four groups of five. Each group uses a different battery. The lifetimes of the batteries, to the nearest hour, are as follows. At the 5% significance level, is there a significant difference in mean lifetime among the four brands?",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Brand A</th><th>Brand B</th><th>Brand C</th></tr></thead><tbody><tr><td>42</td><td>36</td><td>28</td></tr><tr><td>28</td><td>36</td><td>38</td></tr><tr><td>24</td><td>32</td><td>28</td></tr><tr><td>20</td><td>39</td><td>32</td></tr><tr><td>30</td><td>31</td><td>28</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2079 Baisakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A computer engineering department surveyed 300 students to explore whether preferred programming language is associated with year of study. At the 5% level of significance, test whether there is a significant association.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Language \\ Year</th><th>2nd</th><th>3rd</th><th>Total</th></tr></thead><tbody><tr><td>Python</td><td>40</td><td>50</td><td>90</td></tr><tr><td>C/C++</td><td>70</td><td>50</td><td>120</td></tr><tr><td>Java</td><td>60</td><td>30</td><td>90</td></tr><tr><td>Total</td><td>150</td><td>120</td><td>300</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A random sample of 200 students was selected and classified according to their grading ability in mathematics and interest in engineering as given below. Is there any relationship between student interest in engineering and ability in mathematics at the 0.05 level of significance?",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Interest / Ability</th><th>Low</th><th>Average</th><th>High</th><th>Total</th></tr></thead><tbody><tr><td>Low</td><td>60</td><td>15</td><td>15</td><td>90</td></tr><tr><td>Average</td><td>15</td><td>45</td><td>10</td><td>70</td></tr><tr><td>High</td><td>5</td><td>10</td><td>25</td><td>40</td></tr><tr><td>Total</td><td>80</td><td>70</td><td>50</td><td>200</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Describe the procedure of the test of significance for difference of two population mean for large sample.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2072 Chaitra R",
+          "2073 Shrawan B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "There was a research on voltage supply by batteries supplied by two companies. Both company claims that they are the same. But researcher suspects there is a significant difference between mean voltages between two companies. To test this, she selected independent samples from both company. Test the researcher's suspicion was correct at 5% level of significance.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th></th><th>n</th><th>Mean</th><th>Sample SD</th></tr></thead><tbody><tr><td>Company A</td><td>13</td><td>3.59 V</td><td>0.3 V</td></tr><tr><td>Company B</td><td>10</td><td>3.15 V</td><td>0.4 V</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2073 Shrawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define hypothesis. Describe the procedure of testing of hypothesis of significant difference between two population means for large samples.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2074 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Four trained operators work on production of new product. The productivity of the operators are recorded as below. Using ANOVA, test whether the difference in average productivity due to the difference in operators is significant. Use α = 5%.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Operators</th><th colspan=\"4\">Production</th></tr></thead><tbody><tr><td>1</td><td>10</td><td>12</td><td>14</td><td>16</td></tr><tr><td>2</td><td>12</td><td>11</td><td>13</td><td>16</td></tr><tr><td>3</td><td>14</td><td>15</td><td>12</td><td>11</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2071 Shrawan B",
+          "2071 Chaitra R"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "In a certain factory, there are two independent processes manufacturing the same item. The average weight in a sample of 250 items produced from one process is 120 grams with SD of 12 grams, while the corresponding figures in a sample of 400 items from the other process are 124 and 14 respectively. Test whether the two mean weights differ significantly at 5%.",
+        "expr": "n1=250, x̄1=120, s1=12 | n2=400, x̄2=124, s2=14, α=0.05",
+        "m": "5",
+        "years": [
+          "2071 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A study shows that 16 of 200 computers produced on one assembly need readjustment before shipping while same happens on 14 out of 300 produced on another assembly. Test at 1% level of significance that the second assembly is superior than first one.",
+        "expr": "n1=200, x1=16 | n2=300, x2=14, α=0.01",
+        "m": "5",
+        "years": [
+          "2069 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "In trying to evaluate the effectiveness of antibiotics in killing bacteria, a research institute compiled the following information. Find strength and direction of relationship between them.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Antibiotics (mg)</th><td>12</td><td>15</td><td>14</td><td>16</td><td>17</td><td>10</td></tr></thead><tbody><tr><td>Bacteria count</td><td>5</td><td>7</td><td>5.6</td><td>7.2</td><td>8.6</td><td>6.2</td></tr></tbody></table>",
+        "m": "4",
+        "years": [
+          "2074 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A soft drink is being bottled using two different filling machines. The standard deviation of the process for machine A and B was 0.010 and 0.015 L respectively. 30 bottles were randomly sampled from each machine and the means were 2.04 and 2.07 L respectively. Can one conclude that both machines are filling the same volume of soft-drink? Test at α = 0.01.",
+        "expr": "n1=n2=30, x̄1=2.04L, σ1=0.010 | x̄2=2.07L, σ2=0.015, α=0.01",
+        "m": "6",
+        "years": [
+          "2068 Chaitra R"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "ps5",
+    "title": "Correlation & Regression Analysis",
+    "sub": "Simple regression · Multiple regression · Partial & multiple correlation",
+    "concepts": {
+      "h": [
+        "Karl Pearson coefficient of correlation — definition, properties, calculation",
+        "Simple linear regression — principle of least squares, fit line",
+        "Coefficient of determination — definition and interpretation",
+        "Multiple regression — fit equation and estimate",
+        "Partial correlation — formula and interpretation"
+      ],
+      "m": [
+        "Properties of correlation and regression coefficients",
+        "Multiple correlation coefficient",
+        "95% confidence interval for regression slope (β)",
+        "Conditions when two regression lines are the same",
+        "Scatter plot construction and interpretation"
+      ],
+      "l": [
+        "Rank correlation (Spearman)",
+        "Regression coefficient interpretation",
+        "Analysis of residuals",
+        "Explained vs unexplained variation"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Define correlation. Define regression and write the properties of correlation coefficient. When will two regression lines of a data set be the same?",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "State principle of least squares. Using principle of least squares, find the possible best fit for the following data set.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Advertisement expenditure (Rs 000s)</th><td>40</td><td>50</td><td>38</td><td>60</td><td>65</td><td>50</td><td>35</td></tr></thead><tbody><tr><td>Sales (lakhs Rs)</td><td>38</td><td>60</td><td>55</td><td>70</td><td>60</td><td>48</td><td>30</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define partial and multiple correlation with examples. Write any two properties of partial and multiple correlation.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Raw material used in the production of a synthetic fiber is stored in a place which has no humidity control. Measurements of the relative humidity in the storage place and the moisture content of a sample of the raw material on 12 days yielded the following results. (a) Fit a straight line by the method of least squares. (b) Find 95% confidence interval for the slope of the regression line of moisture content on humidity.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Humidity x</th><td>42</td><td>35</td><td>50</td><td>43</td><td>48</td><td>62</td><td>31</td><td>36</td><td>44</td><td>39</td><td>55</td><td>48</td></tr></thead><tbody><tr><td>Moisture content y</td><td>12</td><td>8</td><td>14</td><td>9</td><td>11</td><td>16</td><td>7</td><td>9</td><td>12</td><td>10</td><td>13</td><td>11</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Discuss the properties of correlation coefficient (r). Find Karl Pearson's coefficient correlation from the bi-variate distribution of curing time and compressive strength (MPa) of concrete. Also compute coefficient of determination and interpret it.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Curing time (days)</th><td>3</td><td>7</td><td>14</td><td>21</td><td>28</td><td>35</td><td>42</td></tr></thead><tbody><tr><td>Com. Str. (MPa)</td><td>18</td><td>24</td><td>29</td><td>32</td><td>35</td><td>37</td><td>39</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2082 Bhadra R (New Course)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A transportation engineer is studying the factors that influence the pavement deterioration index (PDI) of highways. Lower values mean more deterioration. (a) Find the regression equation of PDI on ADT (Average daily traffic in '000' vehicles). (b) Estimate the PDI when ADT is 32,000.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Section</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th></tr></thead><tbody><tr><td>PDI</td><td>72</td><td>68</td><td>59</td><td>63</td><td>70</td><td>55</td><td>50</td><td>62</td><td>48</td><td>58</td></tr><tr><td>ADT</td><td>12</td><td>18</td><td>22</td><td>16</td><td>14</td><td>25</td><td>28</td><td>20</td><td>30</td><td>24</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2082 Bhadra R (New Course)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define correlation and regression with examples. Write down any four properties of the correlation and regression coefficient each.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A sample of 10 values of the variables X1, X2 and X3 were obtained as shown. Find (i) Partial correlation between X1 and X3 eliminating effect of X2. (ii) Multiple correlation between X1, X2 and X3 assuming X1 as dependent variable.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>ΣX₁=10</th><th>ΣX₂=20</th><th>ΣX₃=30</th><th>ΣX₁²=20</th><th>ΣX₂²=58</th><th>ΣX₃²=170</th></tr></thead><tbody><tr><td>N=6</td><td colspan=\"2\">ΣX₁X₂=10</td><td colspan=\"2\">ΣX₁X₃=15</td><td>ΣX₂X₃=64</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2081 Baishakh B",
+          "2078 Bhadra R",
+          "2075 Chaitra R",
+          "2071 Chaitra R"
+        ],
+        "freq": 4
+      },
+      {
+        "t": "The following table shows the corresponding values of three variables X1, X2, X3. (a) Fit the linear multiple regression equation of X3 on X1 and X2. (b) Estimate the value of X3 when X1 = 10 and X2 = 8.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>X₁</th><td>3</td><td>5</td><td>6</td><td>9</td><td>12</td><td>15</td></tr></thead><tbody><tr><td>X₂</td><td>17</td><td>11</td><td>8</td><td>5</td><td>3</td><td>2</td></tr><tr><td>X₃</td><td>90</td><td>73</td><td>56</td><td>45</td><td>30</td><td>13</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Compute the regression line: dependent variable Y on the independent variable X. Also estimate the probable value of Y if the given value of X is equal to 26.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>X</th><td>18</td><td>10</td><td>9</td><td>10</td><td>21</td><td>12</td><td>21</td><td>9</td></tr></thead><tbody><tr><td>Y</td><td>38</td><td>34</td><td>29</td><td>48</td><td>24</td><td>29</td><td>28</td><td>49</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2081 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define Karl Pearson correlation coefficient and write down the basic properties of it. Also define and interpret the coefficient of determination.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A study was done on a diesel powered light duty pickup truck to see if temperature influences emission of nitrous oxide. Emission measurements were taken at different times. (i) Find the mean and variance of the given data. (ii) Find the degree of relationship between them. (iii) Calculate the coefficient of determination and interpret the given data.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Temperature X</th><td>76.3</td><td>70.3</td><td>77.1</td><td>68.0</td><td>79.0</td><td>67.4</td><td>66.8</td><td>76.9</td><td>77.7</td><td>67.7</td></tr></thead><tbody><tr><td>Nitrous oxide Y</td><td>0.90</td><td>0.91</td><td>0.96</td><td>0.89</td><td>1.00</td><td>1.10</td><td>1.15</td><td>1.03</td><td>0.77</td><td>1.07</td></tr><tr><th></th><td colspan=\"5\">76.8 | 86.6 | 76.9 | 86.3 | 86.0</td><td colspan=\"5\">76.3 | 77.9 | 78.7 | 86.6 | 70.9</td></tr><tr><td></td><td colspan=\"5\">1.07 | 0.94 | 1.10 | 1.10 | 1.10</td><td colspan=\"5\">0.91 | 0.87 | 0.78 | 0.82 | 0.95</td></tr></tbody></table>",
+        "m": "8",
+        "years": [
+          "2081 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "An investigation of the relationship between traffic flow x (1000's of cars per 24 hours) and lead content y of bark on trees near the highway yielded the following data. (a) Find the estimated regression line. (b) Compute a 95% confidence interval for the slope of the true regression line.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Xi</th><td>8.3</td><td>8.3</td><td>12.1</td><td>12.1</td><td>17.0</td><td>17.0</td><td>17.0</td><td>24.3</td><td>24.3</td><td>24.3</td><td>33.6</td></tr></thead><tbody><tr><td>Yi</td><td>227</td><td>312</td><td>362</td><td>521</td><td>640</td><td>539</td><td>728</td><td>945</td><td>738</td><td>759</td><td>1263</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2076 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "The following data gives the experience of machine operators in years and their performance as given by the number of good parts turned out per 100 pieces. (a) Fit the regression equation of performance ratings on experience and estimate the probable performance for an operator with 8 years experience. (b) Calculate the coefficient of determination and interpret it.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Experience (X)</th><td>16</td><td>12</td><td>18</td><td>4</td><td>3</td><td>10</td><td>5</td><td>12</td></tr></thead><tbody><tr><td>Performance (Y)</td><td>87</td><td>88</td><td>89</td><td>68</td><td>78</td><td>80</td><td>75</td><td>83</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2078 Bhadra R",
+          "2076 Ashwin B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "A computer operator is interested to know data rate of internet users dependent upon band width. (i) Is there any association between band width and data rate? (ii) Fit the regression model and also interpret the estimated regression coefficient. (iii) Compute the band width when data rate is 62.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Band Width</th><td>17</td><td>35</td><td>41</td><td>19</td><td>25</td><td>20</td><td>10</td><td>15</td></tr></thead><tbody><tr><td>Data rate</td><td>47</td><td>64</td><td>68</td><td>50</td><td>60</td><td>55</td><td>30</td><td>33</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2079 Baisakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Fires and Acres Burned. Find the best predicted value of number of acres burned given that there were 80 fires.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Fires</th><td>73</td><td>69</td><td>58</td><td>48</td><td>84</td><td>62</td><td>57</td><td>45</td></tr></thead><tbody><tr><td>Acres burned</td><td>6.2</td><td>7.2</td><td>1.9</td><td>2.7</td><td>5.0</td><td>1.6</td><td>3.0</td><td>1.6</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2078 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between correlation and regression. From following data find the Karl Pearson's coefficient of correlation and interpret the result.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Marks in Statistics</th><td>39</td><td>65</td><td>62</td><td>90</td><td>82</td><td>75</td><td>25</td><td>98</td><td>36</td><td>78</td></tr></thead><tbody><tr><td>Marks in Mathematics</td><td>47</td><td>53</td><td>58</td><td>86</td><td>62</td><td>68</td><td>60</td><td>91</td><td>51</td><td>84</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2075 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "The following data gives the number of twists required to break a certain kind of forged alloy bar and percentage of alloying element A present in the metal. (i) Fit the regression equation of number of twists on percentage of element A. Determine the predicted number of twists required to break an alloy when percentage of element is 20. (ii) Find 99% confidence interval for the regression coefficient (slope).",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Number of twists</th><td>41</td><td>49</td><td>69</td><td>65</td><td>40</td><td>50</td><td>58</td><td>57</td><td>31</td><td>36</td></tr></thead><tbody><tr><td>Percentage of element A</td><td>10</td><td>12</td><td>14</td><td>15</td><td>13</td><td>12</td><td>13</td><td>14</td><td>13</td><td>12</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2078 Bhadra R",
+          "2071 Chaitra R"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "The level of pollution because of vehicular emissions in Pokhara City is not regulated. Measurements of the change in flow of vehicles and the change in the level of air pollution on 12 days yielded the following results. (a) Make a scatter plot. (b) Fit a straight line by the method of least squares. (c) Find the change in the level of air pollution when the change in the flow of vehicles is 30%.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Change in flow of vehicles (x)</th><td>28</td><td>36</td><td>15</td><td>19</td><td>24</td><td>18</td><td>25</td><td>40</td><td>63</td><td>12</td><td>16</td><td>21</td></tr></thead><tbody><tr><td>Change in level of air pollution (y)</td><td>22</td><td>26</td><td>15</td><td>18</td><td>21</td><td>17</td><td>21</td><td>31</td><td>52</td><td>8</td><td>17</td><td>20</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2080 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "The simple correlation coefficient between fertilizer (X1), seeds (X2) and productivity (X3) are r12=0.69, r13=0.64 and r23=0.85. Calculate the partial correlation r12.3 and multiple correlations R1.23.",
+        "expr": "r₁₂=0.69, r₁₃=0.64, r₂₃=0.85",
+        "m": "4",
+        "years": [
+          "2069 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "An article in Wear presents data on the fretting wear of mild steel and oil viscosity. Representative data follow, with x = oil viscosity and y = wear volume (10⁻⁴ cubic millimeters). (i) Fit the sample linear regression model using least squares. (ii) Predict fretting wear when viscosity x = 30.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>y</th><td>240</td><td>181</td><td>193</td><td>155</td><td>172</td><td>110</td><td>113</td><td>75</td><td>94</td></tr></thead><tbody><tr><td>x</td><td>1.6</td><td>9.4</td><td>15.5</td><td>20.8</td><td>22.0</td><td>35.5</td><td>43.0</td><td>40.5</td><td>33.0</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2072 Chaitra R",
+          "2072 Kartik B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "The following table shows the corresponding values of three variables X1, X2, X3. Find (i) Partial correlation between X1 and X3 eliminating effect of X2. (ii) Multiple correlation between X1, X2 and X3 assuming X1 as dependent.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>ΣX₁=10</th><th>ΣX₂=20</th><th>ΣX₃=30</th></tr></thead><tbody><tr><td>ΣX₁²=20</td><td>ΣX₂²=20</td><td>ΣX₃²=20</td></tr><tr><td>N=6</td><td>ΣX₁X₂=10</td><td>ΣX₁X₃=15</td></tr><tr><td colspan=\"3\">ΣX₂X₃=64</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2081 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A house survey on monthly expenditure on food yields following data. Obtain the multiple correlation coefficient.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Monthly expenditure (100 Rs.)</th><td>10</td><td>15</td><td>20</td><td>25</td><td>30</td><td>35</td><td>40</td></tr></thead><tbody><tr><td>Monthly income (1000 Rs.)</td><td>2</td><td>4</td><td>5</td><td>7</td><td>6</td><td>6</td><td>5</td></tr><tr><td>Size of the family</td><td>4</td><td>5</td><td>7</td><td>10</td><td>8</td><td>11</td><td>4</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2073 Shrawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Describe the regression equation of X3 on X1 and X2. A sample of 10 values of three variables was obtained as: ΣX1=10, ΣX2=29, ΣX3=39, ΣX1²=26, ΣX2²=68, ΣX3²=170, ΣX1X2=10, ΣX1X3=15, ΣX2X3=64. Find (i) Partial correlation between X1 and X3 eliminating the effect of X2. (ii) Multiple correlation between X1, X2 and X3 assuming X1 as dependent.",
+        "expr": "ΣX₁=10, ΣX₂=29, ΣX₃=39 | ΣX₁²=26, ΣX₂²=68, ΣX₃²=170 | ΣX₁X₂=10, ΣX₁X₃=15, ΣX₂X₃=64",
+        "m": "5",
+        "years": [
+          "2081 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Fit the regression line of yield of crop ('000 tones) on amount of rainfall (mm) and amount of fertilizers used (kg). Also estimate the yield of crop for the year in which rainfall is 13 mm and fertilizer used is 9 kg.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Yield</th><td>4</td><td>6</td><td>7</td><td>9</td><td>13</td><td>15</td></tr></thead><tbody><tr><td>Rainfall</td><td>3</td><td>4</td><td>6</td><td>8</td><td>12</td><td>15</td></tr><tr><td>Fertilizer</td><td>4</td><td>10</td><td>14</td><td>20</td><td>24</td><td>30</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2076 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Following data gives the samples records of the age of cars (years) and annual maintenance costs (Rs. 000). Obtain the regression equation for cost related to age and also estimate the cost of maintenance for 10 yrs old car.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Age of cars (Years)</th><td>2</td><td>4</td><td>6</td><td>8</td><td>10</td></tr></thead><tbody><tr><td>Maintenance costs (Rs. 000)</td><td>10</td><td>15</td><td>22</td><td>32</td><td>46</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2068 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "The following data gives the number of twists required to break a certain kind of forced alloy bar and percentage of alloying element A present in the metal. (i) Fit the regression equation of number of twists on percentage of element A. (ii) Determine the predicted number of twists required to break an alloy when percentage of element is 20.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Number of twists</th><td>41</td><td>49</td><td>69</td><td>65</td><td>40</td><td>50</td><td>58</td><td>57</td><td>31</td><td>36</td></tr></thead><tbody><tr><td>Percentage of element A</td><td>10</td><td>12</td><td>14</td><td>15</td><td>13</td><td>12</td><td>13</td><td>14</td><td>13</td><td>12</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2071 Shrawan B",
+          "2071 Chaitra R",
+          "2078 Bhadra R"
+        ],
+        "freq": 3
+      }
+    ]
+  },
+  {
+    "id": "ps6",
+    "title": "Statistical Quality Control",
+    "sub": "Control charts · X-bar · R-chart · P-chart · Six sigma",
+    "concepts": {
+      "h": [
+        "P-chart (proportion defective chart) — control limits, plotting, interpret",
+        "Control charts for variables — X-bar and R-chart",
+        "Quality control — importance in engineering"
+      ],
+      "m": [
+        "Six Sigma concepts",
+        "Upper control limit (UCL) and lower control limit (LCL) calculation",
+        "Process capability"
+      ],
+      "l": [
+        "Statistical process control overview",
+        "Types of control charts and their uses",
+        "Shewhart control chart philosophy"
+      ]
+    },
+    "qs": [
+      {
+        "t": "An inspector selects 10 samples, each of size 200, from 10 different lots of a production process. The number of defective items found in each sample is recorded as follows. (a) Calculate the control limits for the number of defective using a p-chart (proportion defective chart). (b) Plot the control chart, indicating the control limits and points for each sample. (c) Determine whether the process is statistically under control, based on the plotted chart.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Lot</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th></tr></thead><tbody><tr><td>No. of defective</td><td>8</td><td>12</td><td>2</td><td>20</td><td>10</td><td>15</td><td>6</td><td>20</td><td>13</td><td>9</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2082 Bhadra R (New Course)"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "ps7",
+    "title": "Descriptive Statistics — Large Dataset Problems",
+    "sub": "Sample mean · Sample SD · CV · Confidence intervals · Box plots",
+    "concepts": {
+      "h": [
+        "Sample mean, sample standard deviation from raw data",
+        "Coefficient of variation — comparing consistency",
+        "Confidence interval for population mean",
+        "Standard error of sample mean"
+      ],
+      "m": [
+        "Box plot (five-number summary) from large datasets",
+        "Testing consistency using CV",
+        "Confidence interval interpretation",
+        "Comparing two groups using descriptive statistics"
+      ],
+      "l": [
+        "Range, median from frequency distributions",
+        "Grouped data calculations",
+        "IQR and outliers",
+        "Percentiles"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Following table shows the number of hours of 45 hospital patients slept following the administration of a certain anesthetic. (a) Find sample mean, sample standard deviation and standard error of sample mean. (b) Construct 95% Confidence interval for the true population mean. Does CI appear that has been precisely estimated? Explain.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><td>7</td><td>10</td><td>12</td><td>4</td><td>8</td><td>7</td><td>3</td><td>8</td><td>5</td></tr></thead><tbody><tr><td>12</td><td>11</td><td>3</td><td>8</td><td>1</td><td>1</td><td>13</td><td>10</td><td>4</td></tr><tr><td>4</td><td>5</td><td>5</td><td>8</td><td>7</td><td>7</td><td>3</td><td>2</td><td>3</td></tr><tr><td>8</td><td>13</td><td>1</td><td>7</td><td>17</td><td>3</td><td>4</td><td>5</td><td>5</td></tr><tr><td>3</td><td>1</td><td>17</td><td>10</td><td>4</td><td>7</td><td>7</td><td>11</td><td>8</td></tr></tbody></table>",
+        "m": "8",
+        "years": [
+          "2082 Baishakh B",
+          "2081 Bhadra R",
+          "2081 Baishakh B"
+        ],
+        "freq": 3
+      },
+      {
+        "t": "The following data show the sales (in Rs. × 1000) of Big Mart across 50 outlets recorded on a particular day: 58, 62, 64, 60, 66, 63, 61, 65, 59, 68, 72, 60, 69, 67, 62, 64, 70, 65, 66, 63, 59, 61, 68, 64, 60, 63, 69, 66, 58, 62, 65, 67, 64, 60, 59, 63, 62, 66, 68, 61, 70, 63, 64, 65, 66, 60, 61, 67, 68, 62. (a) Find the average sales. (b) Is the sales performance of the outlets consistent? (c) What is the total sales of all outlets? (d) If the sales target is Rs. 3,500,000, was the target met on this day?",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "As part of a study monitoring acid rain, measurements of sulfate deposits (kg/hectare) are recorded for different locations on the Eastern Terai of Nepal. The results are listed for 12 recent and consecutive years. Find sample mean, sample standard deviation and coefficient of variation for sulfate deposits of each location. Give your conclusion about variability and uniformity from the analysis.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Year</th><th>Location I (P)</th><th>Location II (Q)</th><th>Location III (R)</th></tr></thead><tbody><tr><td>1</td><td>11.94</td><td>13.09</td><td>7.96</td></tr><tr><td>2</td><td>11.28</td><td>10.88</td><td>12.84</td></tr><tr><td>3</td><td>10.38</td><td>12.19</td><td>7.38</td></tr><tr><td>4</td><td>8.00</td><td>10.75</td><td>7.26</td></tr><tr><td>5</td><td>12.12</td><td>17.21</td><td>10.12</td></tr><tr><td>6</td><td>13.52</td><td>11.61</td><td>9.02</td></tr><tr><td>7</td><td>10.55</td><td>10.53</td><td>7.78</td></tr><tr><td>8</td><td>9.81</td><td>12.50</td><td>8.70</td></tr><tr><td>9</td><td>11.27</td><td>9.94</td><td>10.50</td></tr><tr><td>10</td><td>11.68</td><td>9.71</td><td>15.59</td></tr><tr><td>11</td><td>11.77</td><td>9.37</td><td>10.54</td></tr><tr><td>12</td><td>17.29</td><td>13.87</td><td>13.64</td></tr></tbody></table>",
+        "m": "8",
+        "years": [
+          "2081 Baishakh B",
+          "2080 Baishakh B",
+          "2078 Bhadra R",
+          "2078 Kartik B"
+        ],
+        "freq": 4
+      },
+      {
+        "t": "A semiconductor manufacturer produces devices used as central processing units. The speed of the device (in megahertz) is important because it determines the price that the manufacturer can charge. The following table contains measurements on 48 devices. Find the (a) Sample mean. (b) Sample standard deviation and coefficient of variation. (c) Standard error of sample mean. (d) What percentage of the devices has a speed exceeding 700 megahertz?",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><td>717</td><td>727</td><td>653</td><td>637</td><td>660</td><td>693</td><td>679</td><td>682</td><td>724</td><td>642</td><td>704</td><td>695</td></tr></thead><tbody><tr><td>704</td><td>652</td><td>664</td><td>702</td><td>661</td><td>720</td><td>695</td><td>670</td><td>656</td><td>718</td><td>660</td><td>648</td></tr><tr><td>683</td><td>723</td><td>710</td><td>680</td><td>684</td><td>705</td><td>681</td><td>748</td><td>697</td><td>703</td><td>660</td><td>722</td></tr><tr><td>662</td><td>709</td><td>683</td><td>705</td><td>678</td><td>674</td><td>656</td><td>667</td><td>683</td><td>691</td><td>750</td><td>685</td></tr></tbody></table>",
+        "m": "8",
+        "years": [
+          "2078 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "From the following records of randomly chosen days of a departmental store in millions of rupees. Use scientific calculator to compute the required sums. Also compute (i) Sample mean and sample standard deviation. (ii) Test the consistency of the sales. (iii) Also find the 95% confidence limit of sales.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><td>75</td><td>96</td><td>80</td><td>72</td><td>93</td><td>71</td><td>86</td><td>72</td><td>79</td></tr></thead><tbody><tr><td>98</td><td>77</td><td>84</td><td>70</td><td>96</td><td>85</td><td>84</td><td>94</td><td>71</td></tr><tr><td>89</td><td>92</td><td>76</td><td>88</td><td>78</td><td>83</td><td>96</td><td>87</td><td>71</td></tr><tr><td>66</td><td>97</td><td>76</td><td>64</td><td>77</td><td>89</td><td>73</td><td>75</td><td>85</td></tr><tr><td>82</td><td>81</td><td>85</td><td>90</td><td>87</td><td>59</td><td>93</td><td>67</td><td>64</td></tr><tr><td>94</td><td>77</td><td>66</td><td>62</td><td>92</td><td>56</td><td>58</td><td>82</td><td>75</td></tr></tbody></table>",
+        "m": "8",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "The following table shows the number of hours 45 hospital patients slept following the administration of a certain anesthetic. (a) Find sample mean, sample variance and sample standard deviation. (b) Compare a value that measures the amount of variability relative to the value of mean.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><td>7</td><td>10</td><td>12</td><td>4</td><td>8</td><td>7</td><td>3</td><td>8</td><td>5</td></tr></thead><tbody><tr><td>12</td><td>11</td><td>3</td><td>8</td><td>1</td><td>1</td><td>13</td><td>10</td><td>4</td></tr><tr><td>4</td><td>5</td><td>5</td><td>8</td><td>7</td><td>7</td><td>3</td><td>2</td><td>3</td></tr><tr><td>8</td><td>13</td><td>1</td><td>7</td><td>17</td><td>3</td><td>4</td><td>5</td><td>5</td></tr><tr><td>3</td><td>1</td><td>17</td><td>10</td><td>4</td><td>7</td><td>7</td><td>11</td><td>8</td></tr></tbody></table>",
+        "m": "8",
+        "years": [
+          "2073 Shrawan B",
+          "2072 Kartik B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "Following data gives the sample records of number of passenger taking tickets at the counter of Bus during one hour period. Find the (i) Sample mean of Number of passenger. (ii) Sample Standard deviation and Coefficient of variation. (iii) Standard error of the sample mean. (iv) Find the 95% and 99% confidence limit of sample mean.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><td>22</td><td>58</td><td>32</td><td>36</td><td>62</td><td>57</td><td>25</td><td>45</td><td>23</td><td>37</td></tr></thead><tbody><tr><td>64</td><td>56</td><td>46</td><td>60</td><td>29</td><td>49</td><td>63</td><td>36</td><td>26</td><td>58</td></tr><tr><td>60</td><td>26</td><td>58</td><td>58</td><td>29</td><td>43</td><td>53</td><td>36</td><td>45</td><td>22</td></tr><tr><td>52</td><td>43</td><td>45</td><td>31</td><td>45</td><td>39</td><td>35</td><td>38</td><td>30</td><td>60</td></tr><tr><td>58</td><td>42</td><td>54</td><td>62</td><td>52</td><td>42</td><td>65</td><td>58</td><td>51</td><td>60</td></tr><tr><td>53</td><td>45</td><td>31</td><td>53</td><td>22</td><td>53</td><td>51</td><td>52</td><td>47</td><td>59</td></tr></tbody></table>",
+        "m": "8",
+        "years": [
+          "2072 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "The following data reveals the sample of 22 pairs of observation (X,Y) drawn from large population. (i) Find the sample mean for each variable X and Y. (ii) Which series is more consistent and why? (iii) Find the standard error of the difference of mean. (iv) Find the coefficient of Karl Pearson correlation.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>X</th><td>46</td><td>61</td><td>56</td><td>68</td><td>58</td><td>45</td><td>50</td><td>59</td><td>45</td><td>66</td><td>57</td></tr></thead><tbody><tr><td>Y</td><td>49</td><td>46</td><td>43</td><td>31</td><td>26</td><td>27</td><td>29</td><td>47</td><td>37</td><td>30</td><td>43</td></tr><tr><th>X</th><td>59</td><td>66</td><td>62</td><td>57</td><td>57</td><td>45</td><td>50</td><td>61</td><td>55</td><td>47</td><td>51</td></tr><tr><td>Y</td><td>32</td><td>21</td><td>37</td><td>24</td><td>43</td><td>49</td><td>48</td><td>29</td><td>37</td><td>32</td><td>26</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2075 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "The sample of length of life of bulbs from two companies are given below. (i) Calculate mean length of life of bulbs for Company A and Company B. (ii) Calculate sample standard deviation and sample variance for given data. (iii) Which company's bulbs are more uniform?",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Length of life (hours)</th><th>Company A</th><th>Company B</th></tr></thead><tbody><tr><td>500–600</td><td>10</td><td>3</td></tr><tr><td>600–700</td><td>21</td><td>8</td></tr><tr><td>700–800</td><td>6</td><td>15</td></tr><tr><td>800–900</td><td>8</td><td>12</td></tr><tr><td>900–1000</td><td>21</td><td>4</td></tr><tr><td>1000–1100</td><td>10</td><td>5</td></tr><tr><td>1100–1200</td><td>2</td><td>15</td></tr><tr><td>1200–1300</td><td>12</td><td>13</td></tr><tr><td>1300–1400</td><td>19</td><td>7</td></tr><tr><td>1400–1500</td><td>9</td><td>7</td></tr><tr><td>1500–1600</td><td>3</td><td>4</td></tr><tr><td>1600–1700</td><td>7</td><td>6</td></tr><tr><td>1700–1800</td><td>5</td><td>3</td></tr><tr><td>1800–1900</td><td>4</td><td>2</td></tr><tr><td>1900–2000</td><td>1</td><td>3</td></tr></tbody></table>",
+        "m": "8",
+        "years": [
+          "2071 Chaitra R",
+          "2072 Kartik B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "List Five Number summary and prepare the box plot for numbers of guest registered each of 60 randomly selected days.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><td>108</td><td>94</td><td>188</td><td>116</td><td>165</td><td>181</td><td>106</td><td>133</td><td>176</td><td>110</td></tr></thead><tbody><tr><td>169</td><td>134</td><td>129</td><td>109</td><td>85</td><td>124</td><td>119</td><td>165</td><td>153</td><td>135</td></tr><tr><td>105</td><td>180</td><td>105</td><td>91</td><td>117</td><td>148</td><td>83</td><td>96</td><td>101</td><td>123</td></tr><tr><td>128</td><td>143</td><td>136</td><td>99</td><td>169</td><td>133</td><td>89</td><td>90</td><td>174</td><td>144</td></tr><tr><td>151</td><td>168</td><td>103</td><td>116</td><td>106</td><td>107</td><td>179</td><td>113</td><td>172</td><td>120</td></tr><tr><td>179</td><td>183</td><td>99</td><td>94</td><td>87</td><td>120</td><td>154</td><td>159</td><td>103</td><td>139</td></tr></tbody></table>",
+        "m": "6",
+        "years": [
+          "2076 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Following data reveals the scores of sixty candidates of IOE entrance examination. (a) Estimate average score of candidates. (b) Find unbiased estimator of true standard deviation and standard error of average score. (c) Also test for consistency of score.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><td>51.43</td><td>40</td><td>78.57</td><td>46.43</td><td>51.43</td><td>50.71</td></tr></thead><tbody><tr><td>42.14</td><td>50.71</td><td>42.86</td><td>55</td><td>71.43</td><td>64.29</td></tr><tr><td>52.86</td><td>42.14</td><td>57.14</td><td>45.71</td><td>43.57</td><td>40</td></tr><tr><td>44.29</td><td>55.71</td><td>40</td><td>48.57</td><td>48.57</td><td>49.29</td></tr><tr><td>51.43</td><td>47.14</td><td>54.29</td><td>45</td><td>53.57</td><td>50</td></tr><tr><td>49.29</td><td>60</td><td>48.57</td><td>50.71</td><td>50</td><td>49.29</td></tr><tr><td>47.14</td><td>53.57</td><td>58.57</td><td>43.57</td><td>47.14</td><td>53.57</td></tr><tr><td>47.86</td><td>47.14</td><td>40</td><td>43.57</td><td>52.86</td><td>47.86</td></tr><tr><td>49.29</td><td>49.29</td><td>42.86</td><td>47.14</td><td>48.57</td><td>50</td></tr><tr><td>47.14</td><td>50.71</td><td>52.86</td><td>47.86</td><td>47.14</td><td>70</td></tr></tbody></table>",
+        "m": "8",
+        "years": [
+          "2074 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "The following are the annual maximum flows in m³/s in a river for a 52-year period. (a) Find descriptive statistics: maximum, minimum, sample mean, range, sample standard deviation, standard error of mean. (b) Find approximate a 95% confidence interval for true average of rate of maximum flow.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><td>1980</td><td>3120</td><td>2120</td><td>1700</td><td>2550</td></tr></thead><tbody><tr><td>1700</td><td>1570</td><td>2830</td><td>2120</td><td>2410</td></tr><tr><td>1420</td><td>1980</td><td>2690</td><td>3260</td><td>1840</td></tr><tr><td>1980</td><td>4960</td><td>2120</td><td>2550</td><td>4250</td></tr><tr><td>2690</td><td>2270</td><td>5660</td><td>5950</td><td>3400</td></tr><tr><td>8500</td><td>3250</td><td>3960</td><td>2270</td><td>2410</td></tr><tr><td>2550</td><td>1980</td><td>2120</td><td>2410</td><td>3170</td></tr><tr><td>2410</td><td>1840</td><td>3120</td><td>3290</td><td>4550</td></tr><tr><td>1980</td><td>4670</td><td>1700</td><td>2410</td><td>3310</td></tr><tr><td>3120</td><td>2070</td><td>1470</td><td>2410</td><td>1130</td></tr><tr><td>3230</td><td>3090</td><td></td><td></td><td></td></tr></tbody></table>",
+        "m": "8",
+        "years": [
+          "2076 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Randomly sampled 60 TU graduated BEs, half of whom majored in civil engineering and half in computer engineering. From each, the highest salary offer (including benefits) is stated. (i) Which of these groups shows consistency on the basis of salary offer? (ii) Find standard deviation of difference of average salaries of two groups.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2079 Baisakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Following data gives sample records of observations on the yield of a chemical process using 3 batches of raw material selected randomly. Construct ANOVA table and test for the equality of the average yields of three batches of raw materials at α = 5%.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Batch I</th><td>9.7</td><td>5.6</td><td>8.4</td><td>7.9</td><td>8.2</td><td>7.7</td></tr></thead><tbody><tr><th>Batch II</th><td>10.4</td><td>9.6</td><td>7.3</td><td>6.8</td><td>8.8</td><td>9.2</td></tr><tr><th>Batch III</th><td>15.9</td><td>14.4</td><td>8.3</td><td>12.8</td><td>7.9</td><td>11.6</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "The following data reveal the scores of nine samples at entrance exams conducted by three institutes A, B, C. Calculate mean, standard deviation, coefficient of variation and answer: (i) Which institute is good? (ii) Which institute is consistent/reliable?",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Institute A</th><td>740</td><td>800</td><td>830</td><td>840</td><td>860</td><td>890</td><td>830</td><td>930</td><td>1070</td></tr></thead><tbody><tr><th>Institute B</th><td>655</td><td>775</td><td>825</td><td>978</td><td>989</td><td>1025</td><td>950</td><td>980</td><td>1100</td></tr><tr><th>Institute C</th><td>850</td><td>825</td><td>749</td><td>870</td><td>565</td><td>978</td><td>925</td><td>950</td><td>1000</td></tr></tbody></table>",
+        "m": "8",
+        "years": [
+          "2069 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A study was done on the dependence of hypertension on smoking habits. The following data were taken on 180 individuals. Humidity vs. nitrous oxide data from a diesel-powered light duty pickup truck. (i) Fit a straight line to the given data by the method of least squares and use it to predict the estimated amount of nitrous oxide for 50% humidity. (b) Find 95% confidence interval for slope of line β.",
+        "expr": "<table class=\"q-tbl-data\"><thead><tr><th>Nitrous oxide (Y)</th><td>0.90</td><td>0.91</td><td>0.96</td><td>0.89</td><td>1.00</td><td>1.10</td><td>1.15</td><td>1.03</td><td>0.77</td><td>1.07</td></tr></thead><tbody><tr><td>Humidity (X)</td><td>72.4</td><td>41.6</td><td>34.3</td><td>35.1</td><td>10.7</td><td>12.9</td><td>8.3</td><td>20.1</td><td>72.2</td><td>24.0</td></tr></tbody></table>",
+        "m": "5",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      }
+    ]
+  }
+]

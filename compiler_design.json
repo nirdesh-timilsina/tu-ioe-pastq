@@ -1,0 +1,1864 @@
+[
+  {
+    "id": "cd1",
+    "title": "Introduction",
+    "sub": "Compiler · Analysis-Synthesis · Phases · Symbol table · Error handler · Compiler tools",
+    "concepts": {
+      "h": [
+        "Compiler vs Interpreter",
+        "Phases of compiler with block diagram",
+        "Analysis vs Synthesis model",
+        "Analysis phase steps — lexical, syntax, semantic",
+        "Synthesis phase steps",
+        "Symbol table — role and importance"
+      ],
+      "m": [
+        "Cousins of compiler (preprocessor, assembler, linker, loader)",
+        "Compiler construction tools (LEX, YACC)",
+        "Error handler role in different phases",
+        "Single-pass vs multi-pass compiler",
+        "Structure editors, pretty printers, static checkers"
+      ],
+      "l": [
+        "Difference between Pascal compiler and C++ compiler",
+        "Native code compiler vs JIT compiler",
+        "Preprocessor — macro processing, file inclusion"
+      ]
+    },
+    "qs": [
+      {
+        "t": "What do you mean by compiler? How source program analyzed? Explain in brief.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2068 I"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by compiler? Explain the semantic analysis phase of compiler construction.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2069"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the various phases of compiler in detail with practical example.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2071 I"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define the compiler. Explain the phases of compiler.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2071 II"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the analysis phase of the compiling a source program with example.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2072"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Draw block diagram to represent different phases of compiler. Explain different steps in analysis phase.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2073"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Draw block diagram of compiler. Explain different steps in synthesis phase.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2074"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain briefly about different phases involved in compiler, with a block diagram.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2076"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define compiler. Explain analysis phase of compiler.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "TU CSIT Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "\"Symbol table is a necessary component of compiler\", justify this statement with examples.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "TU CSIT Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Draw the block diagram of compiler? Explain different steps in analysis phase.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Aug 2018"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is compiler? Explain the function of each phase in brief.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Nov 2023"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A compiler uses a two-pass scheme of translation, performing analysis of the source program in the first pass, and synthesis of the target program in the second pass. Clearly explain what use is made of the symbol table in the two passes of the compiler.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Nov 2018 C",
+          "KU COMP409 Feb 2019"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "What is compiler? Explain the purpose of dividing the compiler in analysis and synthesis phase.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Jan 2025"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is compiler? Explain the six phases of compiler with block diagram.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Jul 2024"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Discuss the advantage of single and multipass compiler. Also explain the action taken by every phase of compiler on the following sentence: if (Expr) then Stmtl else Stmt2",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Mar 2017"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between top-down parsing and bottom-up parsing. (Model Q from TU CSIT)",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "TU CSIT Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between Pascal compiler and C++ compiler.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2071 I",
+          "TU CSIT 2071 II"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "What do you mean by compiler? Explain different steps in synthesis phase.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Jun 2018"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "cd2",
+    "title": "Lexical Analysis",
+    "sub": "Tokens · Patterns · Lexemes · Regular expressions · Finite automata · Input buffering · Lex",
+    "concepts": {
+      "h": [
+        "Token, pattern, and lexeme — define with examples",
+        "Regular expressions for tokens (identifiers, numbers, keywords)",
+        "NFA construction from regular expression (Thomson's construction)",
+        "NFA to DFA conversion (Subset Construction)",
+        "DFA construction directly from regular expression using syntax tree (firstpos, lastpos, followpos)",
+        "Input buffering scheme — two buffer scheme"
+      ],
+      "m": [
+        "Regular definitions",
+        "Transition diagram for identifier and number",
+        "Lex/Flex specification",
+        "Error handling in lexical analysis — panic mode, error recovery",
+        "Finite automata — DFA vs NFA",
+        "ε-closure of states"
+      ],
+      "l": [
+        "Issues in designing lexical analyzer",
+        "Role of lexical analyzer in compilation",
+        "Lexical analyzer generator design",
+        "Scanning process"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Define token, pattern and lexeme. How input buffer can be used for scanner. Explain.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2068 II"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define token, pattern and lexeme with suitable example. How input buffering can be implemented for scanner, explain.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2068 II"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Why are regular expressions used in token specification? Write the regular expression to specify the identifier like in C.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2069"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Discuss the specification of lexical analyzer generator Lex.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2069"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the functional responsibilities of a lexical analyzer? Write a lexical analyzer that recognizes the identifier of C language.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2072"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are regular definitions? Given the following CFG, Stmt → if expr then stmt | if expr then stmt else stmt | ε; Expr → term relop term; Term → id | num. Write the regular definitions for the terminals used. Also construct the transition diagram for id and num.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2072"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain about design of lexical analyzer generator with its suitable diagram.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2071 I"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Design a lexical analyzer generator and explain it.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2071 II"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the main issues involved in designing lexical analyzer? Mention the various error recovery strategies for a lexical analyzer.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2071 I"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Convert the regular expression '0 + (1+0)* 00' first into NFA and then into DFA using Thomson's and Subset Construction methods.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2068 I"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Given a regular expression (ε + 0)*10. Construct the DFA recognizing the pattern described by this regular expression using syntax tree based reduction.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "TU CSIT Model Q",
+          "TU CSIT 2076"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "Given a regular expression (a+ ε)bc*. Construct the DFA recognizing the pattern described by the regular expression using syntax tree based reduction.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2072"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Convert the following RE to DFA directly. (a+b)*ab",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2073"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Give the regular expression (0+1)*011, construct a DFA equivalent to this regular expression computing follows pos ().",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2068 II"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Given a regular expression (ε + 0)*10. Construct the DFA recognizing the pattern described by this regular expression using syntax tree based reduction.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2076"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Illustrate the importance of regular expression in lexical analysis phase.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Nov 2023"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Construct nondeterministic finite automata for the regular expression (a | b)*abb(a | b)* and convert it into DFA. Show the sequence of moves for processing the input string ababbab.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Aug 2018"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is the use of deterministic finite automata in lexical analysis? Also explain input buffering scheme.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Jul 2017"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain with specific example how tokens are specified. Also explain with subroutine how recognition of token is carried out during lexical analysis phase.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Feb 2018",
+          "KU COMP409 Sep 2017"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "State the algorithm to construct an NFA from a given regular expression. Construct NFA for the regular expression (a|b)*ab*a(a|b)",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Nov 2018 C"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Construct a NFA for the regular expression (a|b)*ab. Convert this NFA into an equivalent DFA.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Feb 2019"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is the use of deterministic finite automata in lexical analysis? Explain with example.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Jul 2024"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Construct DFA from the given regular expression over the alphabet {a.b}: R.E :(aa|bb)(a|b)*aba(a|bb)",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Sep 2017"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Illustrate the importance of finite automata in compiler design.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Jan 2025"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write down the regular expressions for the following regular language: (a) The set of strings having at most two 0's where input alphabet is 0 and 1. (b) The set of identifiers in C programming language.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Mar 2025"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Calculate the follow position of the regular expression: (0|1)*0.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Mar 2025"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write the steps to compute firstpos, lastpos, followpos for the given regular expression. Convert the regular expression (a|b)* + (a|c)* to DFA directly.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Nov 2023"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write the steps to compute firstpos, lastpos, followpos for the given regular expression a(a|b)*bba. Convert the same regular expression to DFA by direct method.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Jan 2025"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write the steps to compute firstpos, lastpos, followpos. For the given regular expression convert the regular expression a(a|b)*ab to DFA directly.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Jul 2024"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write a regular expression over an alphabet {a,b} such that it generate a string in which the first symbol is either a or b, second symbol is b, third symbol is a and it might end with aa or bb or both. Augment the regular expression and finally convert it to equivalent DFA using syntax tree.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Jul 2017"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Consider the following code that is fed to the Lexical Analyzer: #include<stdio.h> int greatest(int a, int b) { if(a>b) return a; else return b; } List out the lexeme with their respective tokens and patterns.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Mar 2025"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is the role of Error Handler in the different stages of compilation process? Explain.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Mar 2025"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "cd3",
+    "title": "Syntax Analysis (Parsing)",
+    "sub": "CFG · Top-down · Bottom-up · LL(1) · LR · SLR · LALR · Operator precedence",
+    "concepts": {
+      "h": [
+        "Top-down vs bottom-up parsing — differentiate",
+        "Recursive descent parsing",
+        "Non-recursive predictive parsing (LL(1)) with algorithm",
+        "FIRST and FOLLOW computation",
+        "LL(1) parsing table construction",
+        "Shift-reduce parsing — steps and conflicts",
+        "LR(0) item sets and canonical collection",
+        "SLR(1) parsing table construction",
+        "LR(1) / CLR(1) parsing table construction",
+        "LALR(1) parsing table"
+      ],
+      "m": [
+        "Left recursion elimination",
+        "Left factoring",
+        "Context-free grammar definition and components",
+        "Ambiguous grammar — detection and examples",
+        "Kernel and non-kernel items",
+        "Operator precedence parsing",
+        "Parse tree construction"
+      ],
+      "l": [
+        "Role of parser",
+        "LL(1) vs SLR vs LALR vs CLR comparison",
+        "Conflict types — shift-reduce, reduce-reduce",
+        "Handle in shift-reduce parsing",
+        "Grammar for dangling else"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Consider the following grammar: S→(L)|a; L→L,S|S. (a) Eliminate left recursion. (b) Compute FIRST & FOLLOW for the symbol in the grammar.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2068 I"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Find first and follow of all the non terminals in the following grammar: E→TA; A→+TA|ε; T→FB; B→*FB|ε; F→(E)|id",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "TU CSIT Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the role of the parser. Write an algorithm for non-recursive predictive parsing.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2068 II"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the problem with top down parsers? Explain the LR parsing algorithm.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2071 I"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between top-down parsing and bottom-up parsing.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2071 II"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain in detail about the recursive-descent parsing with example.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2072"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Given the following grammar: E→TE'; E'→+TE'|ε; T→FT'; T'→*FT'|ε; F→(E)|id. Construct the parsing table for this grammar for non-recursive predictive parser.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2072"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Find first and follow all of the non terminals in the following grammar. A→TEE→+TE|εT→XY; Y→*XY|ε; X→(A)|a",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2073"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between LR(0) and LR(1) algorithm.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2073"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Construct LR(1) parse table for: X→pX|q; S→XX",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2073"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is shift reduction parsing technique? Show shift reduce parsing action for the string a*(a+a), given the grammar: E→E+E|E*E|(E)|a",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2074"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Find first and follow for the non-terminal in the following grammar: S→Aa|bAc|Bc|bBa; A→d; B→aA",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2074"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is shift reduce parsing techniques? Show shift reduce parsing action for the string (x+x)*a, given the grammar: S→S+S|S*S|(S)|x",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2076"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Construct SLR parsing table for the following grammar: A→aAa|bAb|ba",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2076"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between top-down and bottom-up parsing methods. Construct SLR parse table for the following grammar: S→aETe; E→Ebc; E→b; T→d",
+        "expr": null,
+        "m": "10",
+        "years": [
+          "TU CSIT Model Q (Section A)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Consider the grammar: C→AB; A→a; B→b. Calculate the canonical LR(0) items.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2068 I"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Show that the following grammar is not in a LL(1) grammar: S→cAd; A→Ab/a",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2068 II"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by Kernel and non-kernel items? Compute the Kernel items for LR(0) for the following grammar: S→CC; C→bC/d",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2068 II"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Consider the grammar: E→E+T|T; T→T*F|F; F→(E)|id. Compute the complete LR(0) collection of item set from above grammar.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2068 II"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Consider the grammar: S→Sbs|bsas|ε. (a) Show that this grammar is ambiguous by constructing two different leftmost derivations for sentence abab. (b) Construct the corresponding rightmost derivations for abab. (c) Construct the corresponding parse trees for abab.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2069"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Consider the grammar: E→E+T|T; T→T*F|F; F→(E)|id. (a) Show steps of shift-reduce parsing for the input string id+id*id. (b) Identify conflicts during the parsing.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2069"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define the term 'item', 'closure' and 'goto' used in LR parsing. Compute the SLR DFA for the following grammar: S→CC; C→aC|b",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2072"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define finite automata. Construct a finite automata that will accept a string at zeros and ones that contains an odd number of zeros and an even number of ones.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2071 I"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Translate the arithmetic expression a*-(b+c) into syntax tree. Explain the ambiguous grammar.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2071 II"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between recursive decent parsing and non recursive predictive parsing.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Aug 2018",
+          "KU COMP409 Nov 2018 C"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "Explain non-recursive predictive parsing with diagram. Compute FIRST and FOLLOW for the following grammar: S→A; A→aB|Ad; B→bBc|f; C→g",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Nov 2023"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "How Predictive Parsing differs from the Recursive-Descent Parsing? Explain.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Mar 2025"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Construct the LL(1) parsing table for following grammar and trace for [{0}]: S→[A]S|ε; A→{B}A|ε; B→()B|ε",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Nov 2018 C"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Construct the LR(1) parsing table for the following grammar: S→L=R; S→R; L→*R; L→id; R→L",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Aug 2018",
+          "KU COMP409 Jun 2018",
+          "KU COMP409 Feb 2018"
+        ],
+        "freq": 3
+      },
+      {
+        "t": "Construct the LR(1) parsing table for the following grammar: S→AA; A→aA|b",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Nov 2018 C"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Construct the LR(1) parsing table for the following grammar: S→CC; C→cC|d",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Mar 2025"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write the algorithm for the construction of canonical collection of LR(0) item. Prove the statement \"Every SLR (grammar) is unambiguous but every unambiguous grammar cannot be solved by SLR parsing\" using the following grammar: S→L=R; S→R; L→*R; L→id; R→L",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Nov 2023",
+          "KU COMP409 May 2022"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "Consider the grammar: S→AA; A→bA; B→c. (a) Describe the language that the grammar defines. (b) Is the grammar ambiguous? Justify your answer. (c) Construct a Canonical LR(1) and LALR(1) parse table for the grammar.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Aug 2018"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Construct the LL(1) parsing table for the following grammar: E→TE'; E'→+TE'|ε; T→FT'; T'→*FT'|ε; F→(E)|id. Also trace for the input string id+id*id showing input and stack content.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Aug 2018",
+          "KU COMP409 Mar 2017"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "What is LR parsing technique? Construct the SLR(1) parsing table for the following grammar: S→Aa; S→Bc; A→d; B→aA",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Feb 2018"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Construct the Non-Recursive Predictive Parsing table for the following grammar and show the steps for input string: id+id. E→TE'; E'→+TE'|ε; T→FT'; T'→*FT'|ε; F→(E)|id",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Feb 2018"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain which parser is widely used in compiler nowadays. Also, differentiate between top-down and bottom up parsing.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Jan 2025"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Discuss the algorithm for computation of the sets of LR(1) items. Also show that the following grammar is LR(1) but not LALR(1): S→Aa|bAc|Bc|bBa; A→d; B→d",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Feb 2019"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write the algorithm for the construction of canonical collection of LR(1) item. Construct the parsing table and find whether the given grammar is SLR(1) or CLR(1). Give proper justification: S→Aa|bAc|Bc|bBa; A→d; B→d",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Jan 2025"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "How LR(1) parsing table differs from SLR parsing table? Determine either the Given grammar is LR(1) grammar or not: S→CC; C→cC; C→d",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Mar 2025"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Using the following grammar construct the SLR parsing table and also parse the input \"a*b+a\": E→E+T|T; T→TF|F; F→F*|a|b",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Jul 2024"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is ambiguity? Show that the following grammar is ambiguous: S→a; S→abSb; S→aAb; A→bS; A→aAAb",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 May 2022"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Consider the following grammar: S→SAa|SBb|a|b; A→b; B→a. Construct the predictive top down parsing table. Test whether the string w=baab is valid or not.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Jun 2018",
+          "KU COMP409 Jul 2017"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "Design LL(1) parsing table for the following grammar: A→AcB|cC|C; B→bB|id; C→CaB|BbB|B. Also using parsing program test whether the string w=cid is accepted or not.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Sep 2017"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Consider the following grammar: S→aAC|bB; A→Abc|Abd|ε; B→f|g; C→h|i. (a) Design LL(1) parsing table for the grammar. (b) Check whether the string w=aebch can be parsed or not.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Sep 2017"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Construct the following grammar: E→E+T|T; T→TF|F; F→F*|a|b. (a) Construct LR(0) item sets. (b) Construct LR(0) parsing table. (c) Check whether the string w=a*a+ba* can be parsed or not.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Sep 2017"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Consider the grammar G: E→T|E+T; T→F|*F; F→id|(E). Construct LR(1) parsing table. Test whether the string w=int+(int+int) can be parsed or not.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Jul 2017"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Consider the grammar: A→aAa; A→bAb; A→ε. (a) Describe the language. (b) Is the grammar ambiguous? (c) Construct a SLR parse table. (d) Can the conflicts in the table be eliminated?",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Nov 2018 C"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the weakness of Simple LR parser. Construct canonical LR(1) parsing table for the following grammar: E→T|E−T; T→F|*F; F→id|(E)",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Mar 2017"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Consider the following grammar: S→SAa|SBb|a|b; A→b; B→a. Construct the predictive top down parsing table. Test whether the string w=baab is valid or not.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Jun 2018"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "cd4",
+    "title": "Syntax-Directed Translation & Semantic Analysis",
+    "sub": "SDD · SDT · Synthesized & Inherited attributes · Type checking · Symbol table · Run-time storage",
+    "concepts": {
+      "h": [
+        "Syntax Directed Definition (SDD) — definition and types",
+        "Synthesized attributes — definition and examples",
+        "Inherited attributes — definition and examples",
+        "Annotated parse tree construction",
+        "L-attributed definitions and evaluation",
+        "S-attributed definitions and evaluation",
+        "Type checking — static and dynamic",
+        "SDD for type checking expressions",
+        "Dependency graph construction"
+      ],
+      "m": [
+        "Type expressions — array of pointers, function types",
+        "Symbol table — construction and data structures",
+        "Run-time storage allocation — static vs dynamic",
+        "Attribute grammar",
+        "SDT for three-address code generation",
+        "Translation of infix to postfix using SDT"
+      ],
+      "l": [
+        "Semantic analysis — need and role",
+        "Coercion in type checking",
+        "Activation tree and activation record"
+      ]
+    },
+    "qs": [
+      {
+        "t": "What is Syntax Directed Definition? Define synthesized and inherited attributes with example.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "TU CSIT Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Describe the inherited and synthesized attributes of grammar using an example.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2068 I"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by S-attributed definition and how they are evaluated? Explain with example.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2068 II"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Describe the L-attributed definitions. How L-attributed definitions are evaluated?",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2069"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "How can syntax directed definition be used in type checking?",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2073"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What semantic analysis? Why is it necessary to perform semantic analysis? Explain.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2074"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write Syntax Directed Definition to carry out type checking for the following expression: E→id|E1 op E2|E1 relop E2|E1[E2]|E1↑",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2074",
+          "TU CSIT 2076"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "What are static and dynamic type checking? Write SDD to carry out type checking for the following expression: E→id|E1 op E2|E1 relop E2|E1[E2]|E1↑",
+        "expr": null,
+        "m": "10",
+        "years": [
+          "TU CSIT Model Q (Section A)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "For the following grammar: E→E+E|E*E|(E)|id. Annotate the grammar with syntax directed definitions using synthesized attributes. Remove left recursion from the grammar and re-write the annotation correspondingly.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2072"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Consider the following grammar for arithmetic expression using an operator 'op' to integer or real numbers: E→E1 op E2|num.num|num|id. Give the syntax directed definitions to determine the type of expression as when two integers are used in expression, resulting type is integer otherwise real.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2072"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write the type expressions for the following types: (a) An array of pointers to real's, where the array index range from 1 to 100. (b) Function whose domains are function from two characters and whose range is a pointer of integer.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2068 I",
+          "TU CSIT 2069"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "Discuss the importance of symbol table in compiler. How is it manipulated in the different phases of compilation?",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2073"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Discuss the importance of error handler in compiler. How is it manipulated in the different phrases of compilation?",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2074",
+          "TU CSIT 2076"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "What do you mean by runtime storage allocation? Differentiate static and dynamic allocation.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "TU CSIT Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Describe about syntax directed translation. Write syntax directed translation to convert infix expression to postfix expression.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 May 2022"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Describe the inherited and synthesizes attributes of grammar using an example.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Feb 2018",
+          "KU COMP409 Aug 2018"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "Differentiate between recursive decent parsing and non recursive predictive parsing. Define between s-attributed and l-attributed grammar. Also explain the role of dependency graph in semantic analysis with suitable example.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Jun 2018"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define annotated parse tree. Given a syntax-directed definition of a simple desk calculator (L→En prints E.val; E→E1+T gives E.val:=E1.val+T.val; etc.). For the input expression (4*7+1)*2, construct an annotated parse tree.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Aug 2018"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is type checking? Write the type expression for the following types: (a) Function whose domains are functions from two characters and whose range is a pointer of integer. (b) An array of pointers to real where the array index ranges from 1 to 50.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Aug 2018"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is type checking? Explain about static and dynamic type checking.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Nov 2018 C",
+          "KU COMP409 Feb 2019",
+          "KU COMP409 Jun 2018",
+          "KU COMP409 Nov 2023",
+          "KU COMP409 May 2022"
+        ],
+        "freq": 5
+      },
+      {
+        "t": "Explain about syntax-directed definition and dependency graph. Consider the following syntax-directed definition and construct an annotated parse tree for input expression (4*7+1)*2, along with dependency graph.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Feb 2019"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Consider the following grammar and give the syntax directed definition to construct parse tree. For the input expression 7*2+5*4, construct an annotated parse tree along with dependency graph.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Aug 2018"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Consider the following grammar and give the syntax directed definition to construct parse tree. For the input expression 5*3*4*9, construct an annotated parse tree along with dependency graph.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Nov 2018 C"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Consider the following grammar and give the syntax directed definition to construct parse tree. For the input expression 5*3+4*9, construct an annotated parse tree along with dependency graph.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Jul 2017",
+          "KU COMP409 Jun 2018",
+          "KU COMP409 Sep 2017"
+        ],
+        "freq": 3
+      },
+      {
+        "t": "Consider the following grammar and give the syntax directed definition to construct parse tree. For the input expression 4*7+1*2, construct an annotated parse tree and dependency graph.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Mar 2017"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Why are the importance of syntax directed translation scheme? Differentiate between L-attributed and S-attributed grammar.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Nov 2023"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Give the importance of syntax directed translation scheme. Differentiate between L-attributed and S-attributed grammar.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Jan 2025"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Why Syntax Directed Definition (SDT) is important in compilation process? Given the following grammar: T→FT'|T*F|F; F→num. Define its SDT and also list out either the attributes are inherited or synthesized.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Mar 2025"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define Syntax directed definition. Construct annotated parse tree for the input expression (5*3+2)*5 according to the given syntax directed definition (Production table with semantic rules for desk calculator).",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2076"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between DAG and syntax tree. Construct syntax tree and DAG for the expression: a+a*(b-c)+(b-c)*d",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Jan 2025"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the role of type checker. Explain about static and dynamic type checking.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Jan 2025"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write short notes on: (a) Directed Acyclic Graph (b) Annotated Parse Tree.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Mar 2025"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "cd5",
+    "title": "Intermediate Code Generation",
+    "sub": "Three-address code · Quadruples · Triples · DAG · P-code · Syntax tree",
+    "concepts": {
+      "h": [
+        "Three-address code — definition and examples",
+        "Convert expressions to three-address code (numericals)",
+        "Three-address code for assignments using SDD",
+        "Quadruple, Triple, and Indirect Triple representation",
+        "Intermediate code role in compilation process"
+      ],
+      "m": [
+        "Directed Acyclic Graph (DAG) for basic blocks",
+        "Postfix notation",
+        "Syntax tree as intermediate representation",
+        "Advantages of intermediate code",
+        "P-code"
+      ],
+      "l": [
+        "Different forms of intermediate code comparison",
+        "Intermediate code for control flow",
+        "Why intermediate code is used (portability)"
+      ]
+    },
+    "qs": [
+      {
+        "t": "What is the role of intermediate code generation in the entire compilation process? Convert the following into three address code: a+(b-c)*d",
+        "expr": null,
+        "m": "10",
+        "years": [
+          "TU CSIT Model Q (Section A)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by intermediate code? Explain the role of intermediate code in compiler design.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2068 I"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by three-code representation? Explain with example.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2068 II"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by three address code? Write the syntax directed definition for following grammar to produce the three address codes for assignments: >if=E; >id",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2069"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the various issues of code generator? Explain the benefits of intermediate code generation.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2071 I"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is three address code? Translate the expression a=b*−c+b*−c into three address code statement.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2072"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the advantages of intermediate code? Describe various representation of intermediate code.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2073"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define three address codes. Write three address codes for a=−b*(a+d)",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2074"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain with example about different methods of intermediate code representation.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2076"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Given a statement x=(a+b)*−c/d of a three address code scheme, represent this into Quadruple, Triple and Indirect Triple Representation method.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Jul 2017"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write short notes on: (a) Three-address code (b) Equivalence of type expression (c) Activation tree (d) Dead code elimination.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Aug 2018"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write short notes on: (a) Dead code elimination (b) Error handling technique (c) Activation tree (d) Three-address code.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Nov 2018 C"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "How three-address code can be used as the intermediate code representation? Explain with example.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Mar 2025"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the significance of Intermediate Representation in compilation process.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Sep 2017"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define three address code. Write three address code for: a=−b*(c+d)",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Feb 2018"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "cd6",
+    "title": "Code Generation",
+    "sub": "Factors affecting code generation · Basic blocks · Flow graphs · Register allocation · Dynamic programming",
+    "concepts": {
+      "h": [
+        "Factors affecting code generator",
+        "Basic blocks — definition and construction",
+        "Flow graphs from basic blocks",
+        "Optimization of basic blocks — common subexpression elimination, dead code, etc.",
+        "Register allocation and assignment",
+        "Issues in design of simple code generator"
+      ],
+      "m": [
+        "DAG representation of basic blocks — local common subexpression elimination",
+        "Next-use information in code generation",
+        "Dynamic programming code generation algorithm",
+        "Operation of simple code generator"
+      ],
+      "l": [
+        "Target machine description",
+        "Activation record",
+        "Stack vs heap organization"
+      ]
+    },
+    "qs": [
+      {
+        "t": "What is operation of simple code generator? Explain.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2068 I"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "How next-use information is useful in code-generation? Explain the steps involved on computing next-use information.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2068 II"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Discuss the issues in design of simple code generator.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2069"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the different issues in the design of code generator? Explain with example about the optimization of basic blocks.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2071 I"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the generic issues in the design of code generators? Explain.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2071 II"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the dynamic programming code generator algorithm with example.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2071 II"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain about the factors affecting code generation. ",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "TU CSIT Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Discuss about different factors affecting the process of target code generation.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2076"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Consider the following flow graph B5 and B6 (code blocks with assignments). (a) Show the local common sub expression elimination for block B5. (b) Eliminate the common sub expression from block B5 and B6. (c) Eliminate the dead code from the graph with explanation if any.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Aug 2018"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write short notes on: (a) Activation tree (b) Kernel and non-kernel items.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Nov 2023"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "cd7",
+    "title": "Code Optimization",
+    "sub": "Loop optimization · Peephole · Data flow analysis · Constant propagation · Basic block optimization",
+    "concepts": {
+      "h": [
+        "Code optimization — need and criteria",
+        "Peephole optimization with examples",
+        "Loop optimization techniques — invariant code motion, strength reduction, induction variable elimination, loop unrolling, loop fusion",
+        "Basic block optimization",
+        "Unreachable code elimination",
+        "Flow-of-control optimization",
+        "Data flow analysis"
+      ],
+      "m": [
+        "Common subexpression elimination",
+        "Dead code elimination",
+        "Copy propagation",
+        "Constant folding",
+        "Constant propagation",
+        "Partial redundancy elimination",
+        "Loops in flow graphs — identification"
+      ],
+      "l": [
+        "Global vs local optimization",
+        "Machine-independent vs machine-dependent optimization",
+        "Strength reduction in loops",
+        "Algebraic simplification"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Why is it necessary to optimize code? Explain any two code optimization techniques with example.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "TU CSIT Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Why optimization is often required in the code generated by simple code generator? Explain the unreachable code optimization.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2068 I"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define the following optimization techniques: (a) Unreachable code elimination (b) Flow-of-control optimization.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2069"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is code optimization? Explain the basic blocks and their optimization.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2071 II"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the principle sources of code optimization with example.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2071 II"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is the theme of code optimization? Why is code optimization important in compiler?",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2073"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain about peephole optimization with example.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2073"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is the theme of code optimization? What is its importance?",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2074"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain different types of loop optimization techniques.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2074"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is the purpose of code optimization? Explain different types of loop optimization techniques with example.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2076"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the peephole organization. Write a three address code for the expression r=7*3+9.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "TU CSIT 2071 I"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the need of code-optimization. Explain any two code optimization techniques with example.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Nov 2023"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is code optimization? Explain different types of loop optimization technique.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Feb 2018"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain about peephole optimization with example.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Sep 2017",
+          "KU COMP409 Jul 2017"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "Explain the need of code-optimization. Illustrate with example the loop-optimization.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 May 2022"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the following optimization technique with suitable example: (a) Common Sub Expression Elimination (b) Dead Code Elimination (c) Loop-invariant Code Motion (d) Loop unrolling.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Mar 2017"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write short notes on: (a) Local and Loop optimization (b) Induction variable elimination (c) Dead code elimination (d) Constant folding and combining.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Sep 2017"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Consider the following piece of code: c=10; a=c; i=j=0; while(i!=(a*3)){ if(j)print(\"Hello\"); i++; d[i]=10*i; b=5*I; }. Identify different kinds of optimizations possible. Rewrite the code after making optimized.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "KU COMP409 Jul 2017",
+          "KU COMP409 Sep 2017",
+          "KU COMP409 Jun 2018"
+        ],
+        "freq": 3
+      },
+      {
+        "t": "Write the block construction algorithm. Also explain about flow graph and loop. Partition the following code into basic blocks.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 May 2022"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Illustrate the importance of code optimization in compiler design. Explain various code optimization techniques in detail.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Jul 2024"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write the advantages of code optimization. Also explain different types of optimization used with proper example.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Jan 2025"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the different approaches of Code Optimization techniques? Explain in details with example.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "KU COMP409 Mar 2025"
+        ],
+        "freq": 1
+      }
+    ]
+  }
+]
