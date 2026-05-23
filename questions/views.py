@@ -9,7 +9,9 @@ def home(request):
 
 def subject_detail(request, subject_code):
     subject = get_object_or_404(Subject, code=subject_code)
-    chapters = subject.chapters.all().order_by('order')
+    chapters = subject.chapters.prefetch_related(
+        'questions__appearances'
+    ).order_by('order')
     return render(request, 'questions/subject.html', {
         'subject': subject,
         'chapters': chapters,
