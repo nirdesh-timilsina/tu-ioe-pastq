@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-l73)+3o&4h(u-djf$40#%^gy$y^vfgj%-86f2axqqvbz9(*1ir
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['nirdeshtimilsina.pythonanywhere.com']
+ALLOWED_HOSTS = ['nirdeshtimilsina.pythonanywhere.com','127.0.0.1']
 
 
 # Application definition
@@ -39,8 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'questions',
+    'tailwind',
+    'theme',
 ]
-
+TAILWIND_APP_NAME = 'theme'
+NPM_BIN_PATH = r"C:/Program Files/nodejs/npm.cmd"
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',

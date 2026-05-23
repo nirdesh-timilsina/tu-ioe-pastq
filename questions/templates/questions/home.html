@@ -1,18 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+{% load static %}
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TU IOE Past Questions</title>
+  <link rel="stylesheet" href="{% static 'css/dist/styles.css' %}">
 </head>
-<body>
-  <h1>TU IOE — Past Question Pool</h1>
-  <ul>
-    {% for subject in subjects %}
-      <li>
-        <a href="{% url 'subject_detail' subject.code %}">
-          {{ subject.code }} — {{ subject.name }}
+<body class="bg-gray-100 text-gray-900 font-sans">
+
+  <div class="bg-white border-b border-gray-200 px-6 py-4">
+    <h1 class="text-sm font-semibold uppercase tracking-widest text-gray-500">
+      TU IOE — Past Question Pool
+    </h1>
+  </div>
+
+  <div class="max-w-4xl mx-auto px-6 py-8">
+    <div class="grid grid-cols-1 gap-3">
+      {% for subject in subjects %}
+        <a href="{% url 'subject_detail' subject.code %}"
+           class="bg-white border border-gray-200 rounded-lg px-5 py-4 hover:border-blue-400 hover:shadow-sm transition-all">
+          <span class="text-xs font-mono text-gray-400">{{ subject.code }}</span>
+          <p class="text-sm font-semibold text-gray-800 mt-1">{{ subject.name }}</p>
+          <p class="text-xs text-gray-400 mt-1">Semester {{ subject.semester }}</p>
         </a>
-      </li>
-    {% endfor %}
-  </ul>
+      {% endfor %}
+    </div>
+  </div>
+
 </body>
 </html>
