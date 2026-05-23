@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ subject.name }}</title>
+</head>
+<body>
+  <a href="{% url 'home' %}">← Back</a>
+  <h1>{{ subject.code }} — {{ subject.name }}</h1>
+  
+  {% for chapter in chapters %}
+    <div>
+      <h2>{{ chapter.order }}. {{ chapter.title }}</h2>
+      <p>{{ chapter.subtitle }}</p>
+      
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Question</th>
+            <th>Marks</th>
+            <th>Frequency</th>
+            <th>Years</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for question in chapter.questions.all %}
+            <tr>
+              <td>{{ question.text }}</td>
+              <td>{{ question.marks }}</td>
+              <td>{{ question.frequency }}</td>
+              <td>
+                {% for appearance in question.appearances.all %}
+                  {{ appearance.year }} {{ appearance.session }} {{ appearance.exam_type }}{% if not forloop.last %}, {% endif %}
+                {% endfor %}
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  {% endfor %}
+</body>
+</html>

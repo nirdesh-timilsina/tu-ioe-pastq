@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TU IOE Past Questions</title>
+</head>
+<body>
+  <h1>TU IOE — Past Question Pool</h1>
+  <ul>
+    {% for subject in subjects %}
+      <li>
+        <a href="{% url 'subject_detail' subject.code %}">
+          {{ subject.code }} — {{ subject.name }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
