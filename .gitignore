@@ -7,3 +7,11 @@ db.sqlite3
 *.egg-info/
 .DS_Store
 Thumbs.db
+advanced_python_data_science.json
+artificial_intelligence.json
+compiler_design.json
+computer_networks.json
+computer_organization_architecture.json
+database_management_system.json
+probability_statistics.json
+web_application_programming.json
