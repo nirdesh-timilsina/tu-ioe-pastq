@@ -9,6 +9,7 @@
 </head>
 <body class="bg-gray-100 text-gray-900 font-sans">
 
+  <!-- TOP NAVIGATION BAR -->
   <div class="bg-white border-b border-gray-200 px-6 py-4">
     <a href="{% url 'home' %}" class="text-xs text-blue-600 hover:underline">← Back</a>
     <h1 class="text-sm font-semibold uppercase tracking-widest text-gray-500 mt-1">
@@ -16,11 +17,29 @@
     </h1>
   </div>
 
+  <!-- MAIN CONTENT AREA -->
   <div class="max-w-4xl mx-auto px-6 py-8">
-{% for chapter in chapters %}
-    <div class="bg-white border border-gray-200 rounded-lg mb-4 overflow-hidden">
+
+    <!-- SEARCH BOX -->
+    <div class="mb-6">
+      <input 
+        type="text" 
+        id="searchInput"
+        placeholder="Search questions in this subject..."
+        class="w-full px-4 py-2 text-sm border border-gray-200 rounded-lg bg-white focus:outline-none focus:border-blue-400"
+      >
+      <span id="noMatchSpan"></span>
+    </div>
+
+    <!-- CHAPTERS LOOP — each chapter is one card -->
+    {% for chapter in chapters %}
+
+      <!-- CHAPTER CARD — chapter-card class used by JS search -->
+      <div class="chapter-card bg-white border border-gray-200 rounded-lg mb-4 overflow-hidden">
+
+        <!-- CHAPTER HEADER — clickable to toggle questions visibility -->
         <div class="px-5 py-4 border-b border-gray-100 cursor-pointer flex items-center justify-between"
-            onclick="toggleChapter('chapter-{{ chapter.id }}', this)">
+             onclick="toggleChapter('chapter-{{ chapter.id }}', this)">
           <div>
             <span class="text-xs font-mono text-gray-400">Unit {{ chapter.order }}</span>
             <h2 class="text-sm font-semibold text-gray-800 mt-1">{{ chapter.title }}</h2>
@@ -29,7 +48,8 @@
           <span class="text-gray-400 text-xs transition-transform duration-200">▶</span>
         </div>
 
-        <div id="chapter-{{ chapter.id }}" class="hidden overflow-x-auto">
+        <!-- QUESTIONS TABLE — hidden by default, chapter-content class used by JS search -->
+        <div id="chapter-{{ chapter.id }}" class="chapter-content hidden overflow-x-auto">
           <table class="w-full text-sm">
             <thead>
               <tr class="bg-gray-50 border-b border-gray-100">
@@ -41,10 +61,20 @@
               </tr>
             </thead>
             <tbody>
+
+              <!-- QUESTIONS LOOP — question-row class used by JS search -->
               {% for question in chapter.questions.all %}
-                <tr class="border-b border-gray-50 hover:bg-gray-50 transition-colors">
-                  <td class="px-3 py-3 text-center"><span class="text-xs font-mono bg-gray-100 text-gray-600 rounded-full px-2 py-1">{{forloop.counter}}</span></td>
-                  <td class="px-5 py-3 text-gray-700 leading-relaxed">
+                <tr class="question-row border-b border-gray-50 hover:bg-gray-50 transition-colors">
+
+                  <!-- SERIAL NUMBER -->
+                  <td class="px-3 py-3 text-center">
+                    <span class="text-xs font-mono bg-gray-100 text-gray-600 rounded-full px-2 py-1">
+                      {{ forloop.counter }}
+                    </span>
+                  </td>
+
+                  <!-- QUESTION TEXT — question-text class used by JS search -->
+                  <td class="question-text px-5 py-3 text-gray-700 leading-relaxed">
                     {{ question.text }}
                     {% if question.expression %}
                       <div class="mt-1 text-xs font-mono bg-blue-50 text-blue-700 border border-blue-100 rounded px-2 py-1 inline-block">
@@ -52,6 +82,8 @@
                       </div>
                     {% endif %}
                   </td>
+
+                  <!-- MARKS BADGE -->
                   <td class="px-3 py-3 text-center">
                     {% if question.marks %}
                       <span class="text-xs font-mono bg-gray-100 text-gray-600 rounded-full px-2 py-1">
@@ -59,6 +91,8 @@
                       </span>
                     {% endif %}
                   </td>
+
+                  <!-- FREQUENCY — color coded by importance -->
                   <td class="px-3 py-3 text-center">
                     <span class="text-xs font-mono font-semibold 
                       {% if question.frequency >= 5 %}text-red-500
@@ -67,6 +101,8 @@
                       {{ question.frequency }}
                     </span>
                   </td>
+
+                  <!-- YEAR TAGS — R=Regular(blue), B=Back(orange), others=gray -->
                   <td class="px-5 py-3">
                     <div class="flex flex-wrap gap-1">
                       {% for appearance in question.appearances.all %}
@@ -81,29 +117,83 @@
                       {% endfor %}
                     </div>
                   </td>
+
                 </tr>
               {% endfor %}
+
             </tbody>
           </table>
         </div>
+        <!-- END QUESTIONS TABLE -->
 
       </div>
-    {% endfor %}
-  
-<script>
-  function toggleChapter(id, header){
-    const content = document.getElementById(id)
-    const arrow = header.querySelector('span:last-child')
+      <!-- END CHAPTER CARD -->
 
-    if (content.classList.contains('hidden')){
-      content.classList.remove('hidden')
-      arrow.style.transform='rotate(90deg)'
-    }
-    else{
-      content.classList.add('hidden')
-      arrow.style.transform = 'rotate(0deg)'
+    {% endfor %}
+    <!-- END CHAPTERS LOOP -->
+
+  </div>
+  <!-- END MAIN CONTENT -->
+
+<script>
+  // TOGGLE CHAPTER — show/hide questions when chapter header is clicked
+  function toggleChapter(id, header) {
+    const content = document.getElementById(id);
+    const arrow = header.querySelector('span:last-child');
+
+    if (content.classList.contains('hidden')) {
+      content.classList.remove('hidden');
+      arrow.style.transform = 'rotate(90deg)';
+    } else {
+      content.classList.add('hidden');
+      arrow.style.transform = 'rotate(0deg)';
     }
   }
+
+  // SEARCH — filters questions live as user types, no page reload
+  document.getElementById('searchInput').addEventListener('input', function() {
+    const query = this.value.toLowerCase().trim();
+
+    // Loop through every chapter card
+    let countMatch = 0;
+    document.querySelectorAll('.chapter-card').forEach(function(card) {
+      const rows = card.querySelectorAll('.question-row');
+      let chapterHasMatch = false;
+      
+      // Check each question row
+      rows.forEach(function(row) {
+        const text = row.querySelector('.question-text').textContent.toLowerCase();
+
+        if (query === '' || text.includes(query)) {
+          // Show matching question
+          row.classList.remove('hidden');
+          chapterHasMatch = true;
+          countMatch++;
+        } else {
+          // Hide non-matching question
+          row.classList.add('hidden');
+        }
+      });
+
+      if (query === '') {
+        // No search — show all chapters, collapse all
+        card.classList.remove('hidden');
+        card.querySelector('.chapter-content').classList.add('hidden');
+      } else if (chapterHasMatch) {
+        // Has matching questions — show chapter and expand it
+        card.classList.remove('hidden');
+        card.querySelector('.chapter-content').classList.remove('hidden');
+      } else {
+        // No matching questions — hide entire chapter
+        card.classList.add('hidden');
+      }
+    });
+    if (countMatch == 0){
+      document.getElementById("noMatchSpan").textContent="No Match Found";
+    }
+    else{document.getElementById("noMatchSpan").textContent="";}
+  });
 </script>
+
 </body>
 </html>
