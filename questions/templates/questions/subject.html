@@ -47,7 +47,48 @@
           </div>
           <span class="text-gray-400 text-xs transition-transform duration-200">▶</span>
         </div>
+        <!-- CONCEPTS SECTION — high/medium/low priority topics -->
+       <!-- CONCEPTS TOGGLE BUTTON — only visible when chapter is open -->
+      <div class="concepts-toggle-wrap px-5 py-2 border-b border-gray-100 hidden">
+        <button 
+          onclick="toggleConcepts('concepts-{{ chapter.id }}')"
+          class="cursor-pointer font-semibold text-grey-600 border border-purple-200 bg-purple-50 px-3 py-1 rounded-full hover:bg-purple-100 transition-colors">
+          Key Concepts
+        </button>
+      </div>
 
+      <!-- CONCEPTS SECTION — hidden until button clicked -->
+      <div id="concepts-{{ chapter.id }}" class="hidden px-5 py-3 bg-gray-50 border-b border-gray-100">
+        <p class="font-semibold text-gray-400 uppercase tracking-wider mb-2">Key Concepts</p>
+        
+        {% if chapter.concepts.h %}
+        <div class="flex flex-wrap gap-2 mb-1">
+          <span class="text-xs font-mono text-blue-500 w-4">H</span>
+          {% for topic in chapter.concepts.h %}
+            <span class="text-xs px-2 py-1 rounded-full bg-blue-50 text-blue-600 border-blue-100">{{ topic }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if chapter.concepts.m %}
+        <div class="flex flex-wrap gap-2 mb-1">
+          <span class="text-xs font-mono text-indigo-500 w-4">M</span>
+          {% for topic in chapter.concepts.m %}
+            <span class="text-xs px-2 py-1 rounded-full bg-indigo-50 text-indigo-600 border-indigo-100">{{ topic }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if chapter.concepts.l %}
+        <div class="flex flex-wrap gap-2">
+          <span class="text-xs font-mono text-gray-400 w-4">L</span>
+          {% for topic in chapter.concepts.l %}
+            <span class="text-xs px-2 py-1 rounded-full bg-gray-100 text-gray-500 border border-gray-200">{{ topic }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+        <!-- END CONCEPTS SECTION -->
         <!-- QUESTIONS TABLE — hidden by default, chapter-content class used by JS search -->
         <div id="chapter-{{ chapter.id }}" class="chapter-content hidden overflow-x-auto">
           <table class="w-full text-sm">
@@ -138,16 +179,26 @@
 <script>
   // TOGGLE CHAPTER — show/hide questions when chapter header is clicked
   function toggleChapter(id, header) {
-    const content = document.getElementById(id);
-    const arrow = header.querySelector('span:last-child');
+  const content = document.getElementById(id);
+  const arrow = header.querySelector('span:last-child');
+  const conceptsWrap = header.closest('.chapter-card').querySelector('.concepts-toggle-wrap');
 
-    if (content.classList.contains('hidden')) {
-      content.classList.remove('hidden');
-      arrow.style.transform = 'rotate(90deg)';
-    } else {
-      content.classList.add('hidden');
-      arrow.style.transform = 'rotate(0deg)';
-    }
+  if (content.classList.contains('hidden')) {
+    content.classList.remove('hidden');
+    arrow.style.transform = 'rotate(90deg)';
+    conceptsWrap.classList.remove('hidden');
+  } else {
+    content.classList.add('hidden');
+    arrow.style.transform = 'rotate(0deg)';
+    conceptsWrap.classList.add('hidden');
+    // Also hide concepts if chapter closes
+    document.getElementById('concepts-' + id.replace('chapter-', '')).classList.add('hidden');
+  }
+  }
+
+  function toggleConcepts(id) {
+  const concepts = document.getElementById(id);
+  concepts.classList.toggle('hidden');
   }
 
   // SEARCH — filters questions live as user types, no page reload

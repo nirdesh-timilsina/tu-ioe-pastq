@@ -58,7 +58,13 @@ SUBJECTS = [
         'name' : 'Artificial Intelligence',
         'semester':6
     },
-]
+    {
+        'file' : 'software_engineering.json',
+        'code' : 'ENCT352',
+        'name' : 'Software Engineering',
+        'semester':6
+    },
+    ]
 
 def parse_appearance(year_string):
     """Parse '2081 Bhadra R' into year, session, exam_type"""
@@ -78,7 +84,7 @@ def import_subject(subject_info):
     with open(subject_info['file'], 'r', encoding='utf-8') as f:
         chapters_data = json.load(f)
     
-    subject, created = Subject.objects.get_or_create(
+    subject, created = Subject.objects.update_or_create(
         code=subject_info['code'],
         defaults={
             'name': subject_info['name'],
@@ -88,12 +94,13 @@ def import_subject(subject_info):
     print(f"{'Created' if created else 'Skipped'} subject: {subject.code}")
     
     for order, chapter_data in enumerate(chapters_data, start=1):
-        chapter, created = Chapter.objects.get_or_create(
+        chapter, created = Chapter.objects.update_or_create(
             subject=subject,
             order=order,
             defaults={
                 'title': chapter_data.get('title', ''),
                 'subtitle': chapter_data.get('sub', ''),
+                'concepts':chapter_data.get('concepts',{}),
             }
         )
         

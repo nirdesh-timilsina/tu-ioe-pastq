@@ -1,0 +1,1181 @@
+[
+  {
+    "id": "se1",
+    "title": "Unit 1 — Introduction",
+    "sub": "software crisis · software characteristics · software myths · legacy software · application domains",
+    "concepts": {
+      "h": ["software crisis definition and causes", "typical software characteristics", "software doesn't wear out justification"],
+      "m": ["software myths", "legacy software", "software application domains"],
+      "l": ["essence of practice", "general principles of software engineering"]
+    },
+    "qs": [
+      {
+        "t": "What is software crisis? What are typical software characteristics?",
+        "expr": null,
+        "m": "4+3",
+        "years": ["2076 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is software crisis? Briefly explain the qualities of a good software.",
+        "expr": null,
+        "m": "3+4",
+        "years": ["2078 Kartik B"],
+        "freq": 1
+      },
+      {
+        "t": "What is software crisis? Explain with the help of an example.",
+        "expr": null,
+        "m": "5",
+        "years": ["2068 Chaitra R", "2073 Shrawan B"],
+        "freq": 2
+      },
+      {
+        "t": "Define software. List the typical software characteristics? Justify this statement \"software doesn't wear out\".",
+        "expr": null,
+        "m": "1+3+4",
+        "years": ["2078 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What are typical software characteristics? What do you mean by software crisis? Elaborate.",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2072 Kartik B"],
+        "freq": 1
+      },
+      {
+        "t": "What are typical software characteristics? Discuss spiral model of software development in brief.",
+        "expr": null,
+        "m": "3+5",
+        "years": ["2079 Baishakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Define software crisis. How can you say that there was software crisis in late 60s? Explain incremental model. Write its advantages and disadvantages.",
+        "expr": null,
+        "m": "5+4+3",
+        "years": ["2075 Chaitra B","2075 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "What factors have contributed to the making of the present software crisis? Suggest the possible solutions to the present software crisis?",
+        "expr": null,
+        "m": "3+3",
+        "years": ["2075 Ashwin B", "2075 Ashwin R"],
+        "freq": 2
+      },
+      {
+        "t": "What is software crisis and what is its reason? Describe evolutionary model, in brief, explaining how it reduces crisis problem.",
+        "expr": null,
+        "m": "8",
+        "years": ["2073 Shrawan R"],
+        "freq": 1
+      },
+      {
+        "t": "\"Walking on water and developing software from specification are easy if both are frozen\". Justify this statement.",
+        "expr": null,
+        "m": "5",
+        "years": ["2074 Chaitra R", "2074 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "What is software crisis? Explain with the help of example?",
+        "expr": null,
+        "m": "5",
+        "years": ["2074 Ashwin B"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "se2",
+    "title": "Unit 2 — The Software Process",
+    "sub": "waterfall model · spiral model · prototyping · incremental model · agile · scrum · XP",
+    "concepts": {
+      "h": ["spiral model explanation and pros/cons", "waterfall model limitations", "prototyping model", "incremental model advantages/disadvantages", "waterfall vs spiral comparison", "spiral model accommodating waterfall and prototyping"],
+      "m": ["agile manifesto and principles", "scrum framework", "model selection for given scenarios", "RAD model", "evolutionary models"],
+      "l": ["lean software development", "XP practices", "umbrella activities", "process framework"]
+    },
+    "qs": [
+      {
+        "t": "Describe Spiral model for software development. What are its advantages and disadvantages?",
+        "expr": null,
+        "m": "5",
+        "years": ["2068 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is a software process model? Explain how both the waterfall model and prototyping model of software process can be accommodated in spiral process model?",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2078 Kartik B"],
+        "freq": 1
+      },
+      {
+        "t": "What are the reasons for software runways? Explain how both the waterfall model of the software process and prototyping model can be accommodated in the spiral process model.",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2072 Kartik B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the Prototyping model of software development. What are its advantages and disadvantages?",
+        "expr": null,
+        "m": "5+2",
+        "years": ["2076 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by prototype? What are the risks if the prototyping becomes uncontrolled? Explain RAD in brief.",
+        "expr": null,
+        "m": "1+3+3",
+        "years": ["2072 Chaitra R", "2072 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "Explain details about current model of software process. Explain why the waterfall model of the software process is not an accurate reflection of software development activities.",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2071 Chaitra R", "2071 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "Explain why the waterfall model of software development is not an accurate reflection of software development activities. Explain better alternative model.",
+        "expr": null,
+        "m": "10",
+        "years": ["2071 Shrawan B"],
+        "freq": 1
+      },
+      {
+        "t": "Compare between waterfall model and spiral model of software development process. What is the role of user participation in selection of life cycle model?",
+        "expr": null,
+        "m": "11",
+        "years": ["2067 Ashadh R","2067 Ashadh B"],
+        "freq": 2
+      },
+      {
+        "t": "What are the advantages and limitations of water fall process model? List out various models of software development. Explain the limitations of water fall model in detail.",
+        "expr": null,
+        "m": "10",
+        "years": ["2068 Baishakh R","2068 Baishakh B"],
+        "freq": 2
+      },
+      {
+        "t": "Suppose a travel and tour agency needs a software for automating its book keeping activities. The set of activities to be automated are rather simple and are at present being carried out manually. The travel agency had indicated that it is unsure about the type of user interface which would be suitable for its employees and its customers. Would it be proper for a development team to use the spiral model for developing this software? Justify.",
+        "expr": null,
+        "m": "6",
+        "years": ["2075 Ashwin B", "2075 Ashwin R"],
+        "freq": 2
+      },
+      {
+        "t": "Assume that you are the technical manager of software development organization. A client approached for a software solution. The problem stated by client have uncertainties which lead to loss if not planned and solved. Which model do you suggest for his project? Justify. Explain that model with its pros and cons.",
+        "expr": null,
+        "m": "5",
+        "years": ["2074 Chaitra R", "2074 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "What do you mean by requirement elicitation and analysis? List the characteristics, advantages and disadvantages of Incremental Development Model.",
+        "expr": null,
+        "m": "4+6",
+        "years": ["2076 Ashwin B"],
+        "freq": 1
+      },
+      {
+        "t": "Select and justify an appropriate software process model. [Tutorial]",
+        "expr": null,
+        "m": "",
+        "years": ["Model Q"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "se3",
+    "title": "Unit 3 — Software Requirements Engineering",
+    "sub": "SRS · functional requirements · non-functional requirements · use cases · requirement elicitation · DFD · agile requirements",
+    "concepts": {
+      "h": ["functional and non-functional requirements for given scenarios", "DFD level 0 and level 1 for case studies", "use case diagrams", "requirement elicitation process guidelines", "SRS characteristics"],
+      "m": ["requirement engineering process steps", "context diagram", "requirement management", "user stories and product backlog"],
+      "l": ["agile requirements engineering", "story mapping", "backlog grooming", "acceptance criteria"]
+    },
+    "qs": [
+      {
+        "t": "What do you mean by software requirements document? Explain requirement engineering process in detail.",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2078 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is requirement engineering? Explain its steps.",
+        "expr": null,
+        "m": "4",
+        "years": ["2074 Chaitra R", "2074 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "Why it is so difficult to gain a clear understanding of what the customer wants? Describe the guidelines for the requirement elicitation process with suitable examples.",
+        "expr": null,
+        "m": "3+4",
+        "years": ["2075 Ashwin B", "2075 Ashwin R"],
+        "freq": 2
+      },
+      {
+        "t": "Why it is so difficult to gain a clear understanding of what the customer wants? What are the guidelines for the requirement elicitation process?",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2071 Chaitra R", "2071 Chaitra B", "2071 Shrawan B"],
+        "freq": 3
+      },
+      {
+        "t": "Give your view on requirement engineering and requirement specification.",
+        "expr": null,
+        "m": "10",
+        "years": ["2071 Shrawan B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the importance of requirement engineering. List out requirement elicitation techniques. What are the problems in formation of requirements?",
+        "expr": null,
+        "m": "12",
+        "years": ["2067 Ashadh R"],
+        "freq": 1
+      },
+      {
+        "t": "Briefly discuss all the activities to be carried out in problem definition and feasibility analysis.",
+        "expr": null,
+        "m": "6",
+        "years": ["2072 Chaitra R", "2072 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "Explain software requirement specification (SRS). What are the characteristics of a good software requirement specification document?",
+        "expr": null,
+        "m": "10",
+        "years": ["2068 Baishakh R"],
+        "freq": 1
+      },
+      {
+        "t": "Prepare a list of functional requirements, level-0 and level-1 DFD for the following project: An automated ticket issuing system sells bus tickets. When the user presses the button, a menu is displayed with potential destination along with a message to the user to select a destination. Once a destination is selected, users are requested to input their credit card. Its validity is checked and the user is then requested to input their personal information. When the credit transaction has been validated, the ticket is issued.",
+        "expr": null,
+        "m": "3+2+3",
+        "years": ["2079 Baishakh B"],
+        "freq": 1
+      },
+      {
+        "t": "A restaurant uses an information system that takes customer orders, sends the order to the kitchen, monitors the goods sold and inventory and generates reports for management. List functional and non-functional requirements for this Restaurant Information System.",
+        "expr": null,
+        "m": "5",
+        "years": ["2068 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "A restaurant uses an information system that takes customer orders, sends the order to the kitchen, monitors the goods sold and inventory and generates reports for management. a) List functional and non-functional requirements for this system. b) Develop DFD level 0 and level 1 for above scenario.",
+        "expr": null,
+        "m": "5+3+5",
+        "years": ["2078 Kartik B"],
+        "freq": 1
+      },
+      {
+        "t": "Study the narration for a ride sharing system and prepare analysis and design models as specified below: [DIAGRAM NEEDED] Real-time ridesharing is a service that arranges one-time shared rides on very short notice. Vehicle owners register to the system as Service Provider and customers register as Service Seeker. The vehicle registration can be done for motorbike and car only. This type of service makes use of GPS navigation and smartphones. The system calculates estimated fare, searches nearby service providers and displays vehicle number and mobile. Once the service provider picks the seeker, system tracks the route and calculates the fare. Seeker may pay in cash or e-sewa. a) List functional and non-functional requirements for the system. b) Draw Level 0 DFD. c) Draw Level 1 DFD.",
+        "expr": null,
+        "m": "5+3+5",
+        "years": ["2076 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "In a particular college, a sports week needs to be organized you have been assigned a role of business analyst to design a DFD diagram for the whole system. Assuming the system of business analyst to design a DFD diagram for the whole system including online registration, student council, form fill up, sport event venue and activities such as time, score card, rules and regulations, card system and prize distribution. a) Prepare the list of process and agents. b) Draw the DFD up to level 1. c) Distinguish between functional and non-functional requirements.",
+        "expr": null,
+        "m": "3+5+2",
+        "years": ["2076 Ashwin B"],
+        "freq": 1
+      },
+      {
+        "t": "DFD level-0 and DFD level-1 for the case study given below: A travel agency wants an Airline Ticketing System to be developed for the office so that user can easily book flight tickets from anywhere. First of all, the customer enters the destination and data for the flight. After that, the system displays the available airlines for the same along with route or available time which is provided by the airlines company. Now the customer selects the airline which he/she finds appropriate where he/she can either book the ticket or confirm the ticket. The customer pays the ticket charge either via e-sewa or transferring the amount to the agency's bank account directly. The customer has to provide the valid email address to get the notification of booking or ticket confirmation.",
+        "expr": null,
+        "m": "3+5",
+        "years": ["2075 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "A company needs to develop a Time Management System (TMS) for its executives. [Full TMS scenario describing appointment scheduling, meeting arrangement, e-mail notifications, statistics, graphical interface, remote access, leave management] a) List out all functional and non-functional requirements of the Time Management System. b) Draw a labelled DFD for the following Time Management Software (TMS). Clearly show the context diagram and its hierarchical decompositions up to level 2.",
+        "expr": null,
+        "m": "6+6",
+        "years": ["2075 Ashwin B", "2075 Ashwin R"],
+        "freq": 2
+      },
+      {
+        "t": "A customer presents a cheque to a clerk. The clerk checks a database containing all account numbers and makes sure whether the account number in the cheque is valid, whether adequate balance is there in the account to pay the cheque and whether the signature is authentic. Having done these the clerk gives the customer a token. The clerk also debits the customer account. If the cash cannot be paid due to an error on the cheque, the cheque is returned. The cashier calls out the token number, checks signature, pays cash, enters cash paid in daybook and files the cheque. Prepare physical and logical DFD.",
+        "expr": null,
+        "m": "8",
+        "years": ["2074 Chaitra R", "2074 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "In a particular school, there are various departments. There are various instructors and are having direct employment from corresponding departments. Students are admitted to school and later they choose their subject study program offered through various departments. [Full school scenario] i) Prepare the list of processes and agents ii) Draw the DFD for graduation and associated processes iii) Depict the relationship between instructor, HOD and Department",
+        "expr": null,
+        "m": "5+5+5",
+        "years": ["2073 Shrawan R", "2073 Shrawan B"],
+        "freq": 2
+      },
+      {
+        "t": "Read the case mentioned hereunder carefully: A customer visits an online movie portal. He chooses DVD movies from three different categories: Sci-Fi, Classical and Romantic and places the order for the same. He is supposed to be able to make online payment using his bank details. Upon successful transaction he is expected to receive confirmation through his e-mail. a) Make DFD level 1 for the system b) What do you mean by DFD balancing in the given case?",
+        "expr": null,
+        "m": "5+3",
+        "years": ["2071 Chaitra R", "2071 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "Draw TWO DFD diagrams for simple e-commerce site based order processing system. Assume all necessary and required specifications on your own and state them clearly first.",
+        "expr": null,
+        "m": "2+4+4",
+        "years": ["2072 Chaitra R", "2072 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "For better healthcare facilities in remote areas, Ministry of Health (MOH) launches Telemedicine project. Through this project expert doctor from central hospital can examine patient in remote places through video conferencing. MOH propose to maintain central server to hold all patient records and medical history. Also system should able to manage routine of doctors, appointments and follow ups. (i) list out all functional and non-functional requirement of the systems (ii) Make project Feasibility Report",
+        "expr": null,
+        "m": "6+6",
+        "years": ["2074 Chaitra R", "2074 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "Draw use case diagram for a system illustrating the interactions between a doctor, who sees patients and prescribes him medicine and treatments. List some functional and non-functional requirements in this case.",
+        "expr": null,
+        "m": "5+3",
+        "years": ["2078 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is the purpose of use case diagrams? Construct use case diagrams and context level diagram for a library management system.",
+        "expr": null,
+        "m": "2+4+2",
+        "years": ["2079 Baishakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Mahanpur Nagarpalika is planning to develop new system for Tourists with all the details of their monumental structures, tourist attraction places and also cultural programs offering restaurants within the municipality. They have also plan to integrate entry tickets booking and purchasing through web as well as through app similar as the online movie ticket purchasing. i) The list of system quality attributes including both functional and non-functional requirement of the systems. ii) Complete data models with illustrative model diagram.",
+        "expr": null,
+        "m": "6+6",
+        "years": ["2074 Ashwin B", "2074 Ashwin R"],
+        "freq": 2
+      },
+      {
+        "t": "Explain requirement management process with necessary illustration.",
+        "expr": null,
+        "m": "5",
+        "years": ["2068 Chaitra R"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "se4",
+    "title": "Unit 4 — Architectural Design",
+    "sub": "architectural styles · modular design · cohesion and coupling · client-server · layered architecture · multi-tier",
+    "concepts": {
+      "h": ["client-server architecture", "layered/multi-tier architecture (2-tier, 3-tier)", "modular decomposition styles", "architectural design importance", "control styles in architectural design"],
+      "m": ["thin client vs thick client", "multiprocessor architecture", "distributed object architecture", "cohesion and coupling"],
+      "l": ["call-reference architecture", "architectural design principles", "taxonomy of architectural styles"]
+    },
+    "qs": [
+      {
+        "t": "Differentiate between thin client and thick client model. Describe layered architecture for software.",
+        "expr": null,
+        "m": "3+5",
+        "years": ["2079 Baishakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between thin client model and thick client model. Describe multiprocessor architecture for software.",
+        "expr": null,
+        "m": "3+5",
+        "years": ["2073 Shrawan R", "2073 Shrawan B"],
+        "freq": 2
+      },
+      {
+        "t": "What is software architecture? Why architecture is important to drive software development? Explain multi-tier architecture with example.",
+        "expr": null,
+        "m": "2+2+4",
+        "years": ["2078 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Why architecture is important to drive software development? Explain 2 tier and 3 tier architecture with example.",
+        "expr": null,
+        "m": "3+3",
+        "years": ["2074 Ashwin B", "2074 Ashwin R"],
+        "freq": 2
+      },
+      {
+        "t": "What do you understand by control styles in architectural design? Explain call reference architecture with suitable example.",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2078 Kartik B"],
+        "freq": 1
+      },
+      {
+        "t": "Why is architectural design really important? What are the different types of control styles used by software engineers in designing the architectures? Explain in detail.",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2076 Ashwin B"],
+        "freq": 1
+      },
+      {
+        "t": "Describe software architecture. Explain Client-Server architecture and its importance.",
+        "expr": null,
+        "m": "3+4",
+        "years": ["2076 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is software architecture? Why it is important in software engineering? Explain multiprocessor architecture with example.",
+        "expr": null,
+        "m": "2+3+5",
+        "years": ["2068 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain why it may be necessary to design the system architecture before specifications are written. Explain client-server architecture with appropriate example.",
+        "expr": null,
+        "m": "4+5",
+        "years": ["2071 Chaitra R", "2071 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "Why is it necessary to design the system architecture before specifications are written? Explain the different methods of modular decompositions with suitable examples.",
+        "expr": null,
+        "m": "3+4",
+        "years": ["2075 Ashwin B", "2075 Ashwin R"],
+        "freq": 2
+      },
+      {
+        "t": "What is software design architecture and what is its significance in software engineering? What are the common modular decomposition styles used in architectural design? Explain.",
+        "expr": null,
+        "m": "2+3+5",
+        "years": ["2075 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "How the modular decomposition concept is practiced in system design processes? Illustrate with your own example of a second level DFD.",
+        "expr": null,
+        "m": "4+6",
+        "years": ["2071 Shrawan B"],
+        "freq": 1
+      },
+      {
+        "t": "Compare the following: i) Client-server versus distributed object architecture",
+        "expr": null,
+        "m": "3",
+        "years": ["2074 Ashwin B", "2074 Ashwin R"],
+        "freq": 2
+      },
+      {
+        "t": "Write short notes on: a) Distributed Object architecture b) Modular decomposition",
+        "expr": null,
+        "m": "3+3",
+        "years": ["2074 Chaitra R", "2074 Chaitra B"],
+        "freq": 2
+      }
+    ]
+  },
+  {
+    "id": "se5",
+    "title": "Unit 5 — System Modeling",
+    "sub": "DFD · use case diagrams · activity diagrams · class diagrams · behavioral modeling · scenario-based analysis",
+    "concepts": {
+      "h": ["DFD construction (level 0 and level 1) for scenarios", "use case diagrams with actors and system boundary", "behavior model vs data model"],
+      "m": ["activity diagrams", "class-based modeling", "context diagrams", "scenario identification", "DFD balancing"],
+      "l": ["role of abstraction", "need for system modeling", "sequence diagrams"]
+    },
+    "qs": [
+      {
+        "t": "What is a behavior model? How does it differentiate from data model of the same system? Explain with examples and model.",
+        "expr": null,
+        "m": "3+3+2",
+        "years": ["2072 Kartik B"],
+        "freq": 1
+      },
+      {
+        "t": "What is behavior modeling in systems analysis process? Illustrate with a sample model diagram of any web-based transaction portal system.",
+        "expr": null,
+        "m": "5",
+        "years": ["2071 Shrawan B"],
+        "freq": 1
+      },
+      {
+        "t": "Why system modeling is important? Mention the weakness of structured analysis method?",
+        "expr": null,
+        "m": "2+3",
+        "years": ["2068 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Compare the following: iv) Process model versus data model",
+        "expr": null,
+        "m": "3",
+        "years": ["2074 Ashwin B", "2074 Ashwin R"],
+        "freq": 2
+      }
+    ]
+  },
+  {
+    "id": "se6",
+    "title": "Unit 6 — Coding and Testing",
+    "sub": "verification · validation · unit testing · integration testing · black-box · white-box · TDD · V-model · inspection · code review",
+    "concepts": {
+      "h": ["verification vs validation", "black-box vs white-box testing", "unit testing vs integration testing", "V-model for testing", "software inspection and formal methods", "alpha vs beta testing"],
+      "m": ["COCOMO calculation", "cyclomatic complexity", "regression testing", "system testing", "acceptance testing", "code walkthrough vs inspection"],
+      "l": ["TDD", "automated unit testing", "refactoring", "cleanroom technique", "continuous testing", "stub and driver testing"]
+    },
+    "qs": [
+      {
+        "t": "Compare validation and verification. Explain software inspection process. Explain unit test, integration test and system test.",
+        "expr": null,
+        "m": "4+4+3",
+        "years": ["2078 Kartik B"],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between verification and validation. Explain how and why the V-model emphasis software V and V. Discuss various hierarchical level of testing.",
+        "expr": null,
+        "m": "2+4+4",
+        "years": ["2078 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between verification and validation. Write different types of fault that can be determined from inspection. Distinguish between alpha and beta testing.",
+        "expr": null,
+        "m": "5+2",
+        "years": ["2076 Ashwin B"],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between verification and validation. What are the types of the faults that can be uncovered by software inspection? Differentiate between black-box testing and white-box testing.",
+        "expr": null,
+        "m": "3+2+5",
+        "years": ["2076 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is verification and validation? Explain their difference. Why is verification and validation planning necessary in software engineering?",
+        "expr": null,
+        "m": "3+2",
+        "years": ["2075 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Write about stub and driver testing. Differentiate between white box and black box testing.",
+        "expr": null,
+        "m": "3+3",
+        "years": ["2075 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Discuss the differences between verification and validation.",
+        "expr": null,
+        "m": "4",
+        "years": ["2074 Chaitra R", "2074 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "Compare and Contrast: (i) Unit testing and Integration testing (ii) Alpha testing and beta testing",
+        "expr": null,
+        "m": "4",
+        "years": ["2074 Chaitra R", "2074 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "Compare and contrast: (a) alpha and beta testing (b) black box and white box testing (c) unit and integration testing.",
+        "expr": null,
+        "m": "8",
+        "years": ["2073 Shrawan R", "2073 Shrawan B"],
+        "freq": 2
+      },
+      {
+        "t": "Explain software inspections and formal methods. Explain the V-model for test-based software development.",
+        "expr": null,
+        "m": "4+6",
+        "years": ["2079 Baishakh B"],
+        "freq": 1
+      },
+      {
+        "t": "How does the SEI CMM ensure quality aspects of any complex software under development? What are the differences between ISO and CMM?",
+        "expr": null,
+        "m": "4+3",
+        "years": ["2071 Chaitra R", "2071 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "Differentiate between functional testing and structural testing. A web enabled system with a robust back-end database estimated to be of about 200 KLOC when complete. Assuming the system will work in semidetached mode, calculate the effort required per month, the development time, average number of staff required and the productivity rate. Consider COCOMO-2 for reference.",
+        "expr": null,
+        "m": "5+3",
+        "years": ["2072 Kartik B"],
+        "freq": 1
+      },
+      {
+        "t": "What is COCOMO? Calculate COCOMO effort, development time in calendar month, average staffing and productivity for project of application program that is estimated to be 49,200 lines of code.",
+        "expr": null,
+        "m": "3+5",
+        "years": ["2071 Chaitra R", "2071 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "What is COCOMO? Illustrate the calculation with an appropriate example.",
+        "expr": null,
+        "m": "5",
+        "years": ["2071 Shrawan B"],
+        "freq": 1
+      },
+      {
+        "t": "Define regression testing. Explain cyclomatic complexity as a software metric.",
+        "expr": null,
+        "m": "2+3",
+        "years": ["2078 Kartik B"],
+        "freq": 1
+      },
+      {
+        "t": "Describe Cyclomatic Complexity as a software testing metrics. Use the concept of Halstead's metrics to compute the program length, program vocabulary, program volume, potential volume, program level, programming effort and time for the following code. Int x, y, z; z = 0; while (x > 0) { z = z + y; x = x - 1; } printf(\"%d\", z);",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2075 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is verification planning? Why such planning is required? What are the different steps involved in it? Explain.",
+        "expr": null,
+        "m": "8",
+        "years": ["2071 Shrawan B"],
+        "freq": 1
+      },
+      {
+        "t": "What is software verification? Clarify its role in ensuring the correctness of software implementation. Compare and contrast the Black Box and White box testing in V and V process.",
+        "expr": null,
+        "m": "5+5",
+        "years": ["2074 Ashwin B", "2074 Ashwin R"],
+        "freq": 2
+      },
+      {
+        "t": "In theory, formal verification could be automated if the original specification is stated completely and precisely. Why is this hard to achieve in practice? Explain.",
+        "expr": null,
+        "m": "8",
+        "years": ["2072 Chaitra R", "2072 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "\"Validation examines the dynamic behavior of software system\". Explain this with an example.",
+        "expr": null,
+        "m": "5",
+        "years": ["2073 Shrawan R", "2073 Shrawan B"],
+        "freq": 2
+      },
+      {
+        "t": "Explain why program inspection are an effective technique for discovering errors in a program? What types of error are unlikely to be discovered through inspections?",
+        "expr": null,
+        "m": "5+5",
+        "years": ["2068 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Consider a program for the determination of the nature of roots of a quadratic equation. Its input is a triple of positive integers (say a, b, c) and values may be from interval [0, 100]. The program output may have one of the following words: [Not a quadratic equation; Real roots, Imaginary roots, Equal roots]. Design test cases to test this program.",
+        "expr": null,
+        "m": "5",
+        "years": ["2068 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Establish the chronology among component, release unit and integration testing. Also write distinctive notes on their testing.",
+        "expr": null,
+        "m": "3+4",
+        "years": ["2071 Chaitra R", "2071 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "What is exception and error testing in the context of system implementation?",
+        "expr": null,
+        "m": "5",
+        "years": ["2071 Shrawan B"],
+        "freq": 1
+      },
+      {
+        "t": "What is COCOMO? Using standard method, estimate cost of software construction process. State your assumption clearly before calculating the cost estimate.",
+        "expr": null,
+        "m": "8",
+        "years": ["2074 Chaitra R", "2074 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "An application has following: 10 low external inputs, 8 high external outputs, 13 logical files, 17 interface files, 11 average external inquires and complexity adjustment factor of 1.10. What are the unadjusted and adjusted function point counts?",
+        "expr": null,
+        "m": "5",
+        "years": ["2074 Chaitra R", "2074 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "Explain how software cost estimation is done using function point oriented and object point oriented methods.",
+        "expr": null,
+        "m": "5",
+        "years": ["2074 Ashwin B", "2074 Ashwin R"],
+        "freq": 2
+      },
+      {
+        "t": "Lines of code (LOC) and function point counts (FPC) are two measures of the size of a system. Explain advantages and disadvantages of using these two metrics for measuring systems.",
+        "expr": null,
+        "m": "3+3",
+        "years": ["2072 Chaitra R", "2072 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "Why software quality standards are needed? What are the metrics for software project size estimation? Discuss cyclomatic complexity with suitable example.",
+        "expr": null,
+        "m": "2+3+3",
+        "years": ["2072 Kartik B"],
+        "freq": 1
+      },
+      {
+        "t": "What is COCOMO? What are the different types of COCOMO models proposed? What is the problem with using lines of code?",
+        "expr": null,
+        "m": "1+3+2",
+        "years": ["2078 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is the purpose of using different COCOMO models? Explain the COCOMO model in cost estimation of the software.",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2079 Baishakh B"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "se7",
+    "title": "Unit 7 — Software Quality, Assurance, Maintenance",
+    "sub": "SQA · FTR · CMMI levels · ISO standards · software maintenance · quality attributes · reviews and inspections",
+    "concepts": {
+      "h": ["CMMI levels explanation", "Formal Technical Review (FTR) process", "ISO vs CMMI comparison", "software quality measures and attributes", "staged CMMI model"],
+      "m": ["SQA objectives", "software reliability", "software maintenance types", "quality concepts"],
+      "l": ["maintenance effort", "lifecycle considerations", "statistical SQA", "Garvin's quality dimensions"]
+    },
+    "qs": [
+      {
+        "t": "Differentiate between ISO and CMMI standards for software quality. What are formal technical reviews? Discuss all the levels of CMMI.",
+        "expr": null,
+        "m": "3+5+2",
+        "years": ["2079 Baishakh B"],
+        "freq": 1
+      },
+      {
+        "t": "What are software quality measures? Explain in details about staged CMMI model.",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2074 Chaitra R", "2074 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "Explain CMMI model to evaluate the maturity of a software development.",
+        "expr": null,
+        "m": "8",
+        "years": ["2074 Ashwin B", "2074 Ashwin R"],
+        "freq": 2
+      },
+      {
+        "t": "How many levels are there in CMM? Explain in detail about all the levels.",
+        "expr": null,
+        "m": "2+5",
+        "years": ["2072 Kartik B"],
+        "freq": 1
+      },
+      {
+        "t": "The CMM rates software companies according to how well they identify and manage their software processes onto the 5 different levels. Explain any three out of these five levels. What advantages are there for a company to move up to the top level?",
+        "expr": null,
+        "m": "8",
+        "years": ["2072 Chaitra R", "2072 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "Explain how CMM encourages continuous improvement of software process. Describe various key process areas of CMM at various maturity levels.",
+        "expr": null,
+        "m": "12",
+        "years": ["2067 Ashadh R"],
+        "freq": 1
+      },
+      {
+        "t": "What is software reliability and how can we measure it? Briefly explain CMM and its different levels.",
+        "expr": null,
+        "m": "4+5",
+        "years": ["2078 Kartik B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain formal technical review process. Explain how CMMI model is used to evaluate the maturity of a software development.",
+        "expr": null,
+        "m": "5+5",
+        "years": ["2078 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain different levels of CMMI.",
+        "expr": null,
+        "m": "5",
+        "years": ["2076 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define SQA. What are the main objectives of Formal Technical Reviews? Define term software reliability. Explain how CMM encourages continuous improvement of software process.",
+        "expr": null,
+        "m": "2+4+2+4",
+        "years": ["2076 Ashwin B"],
+        "freq": 1
+      },
+      {
+        "t": "What are the importance of quality management in Software Development? Explain about staged CMMI Model.",
+        "expr": null,
+        "m": "3+4",
+        "years": ["2075 Ashwin B", "2075 Ashwin R"],
+        "freq": 2
+      },
+      {
+        "t": "What do you mean by Formal Technical Review (FTR)? How is a formal technical review conducted?",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2075 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Describe software reliability and SQA.",
+        "expr": null,
+        "m": "3+3",
+        "years": ["2075 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "How do you conduct formal technical review? Explain Garvin's quality dimensions.",
+        "expr": null,
+        "m": "6+4",
+        "years": ["2068 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Give a suitable definition of software quality and briefly describe the rationale for your definition. Explain with quality attributes for software.",
+        "expr": null,
+        "m": "2+3+3",
+        "years": ["2073 Shrawan R", "2073 Shrawan B"],
+        "freq": 2
+      },
+      {
+        "t": "What is Software Quality Assurance (SQA)? What steps are required to perform Statistical SQA?",
+        "expr": null,
+        "m": "10",
+        "years": ["2068 Baishakh R"],
+        "freq": 1
+      },
+      {
+        "t": "What are the main objectives of Formal Technical Reviews (FTR)? What is clean room software engineering?",
+        "expr": null,
+        "m": "10",
+        "years": ["2068 Baishakh R"],
+        "freq": 1
+      },
+      {
+        "t": "What are the types of software maintenance? Give some design principles for maintainability.",
+        "expr": null,
+        "m": "10",
+        "years": ["2068 Baishakh R"],
+        "freq": 1
+      },
+      {
+        "t": "What are software quality measures? Why SQA is important? Explain.",
+        "expr": null,
+        "m": "5",
+        "years": ["2074 Ashwin B", "2074 Ashwin R"],
+        "freq": 2
+      }
+    ]
+  },
+  {
+    "id": "se8",
+    "title": "Unit 8 — Software Configuration Management",
+    "sub": "version control · change management · branching strategies · SCM · version vs release · baseline",
+    "concepts": {
+      "h": ["software configuration management definition and importance", "version vs release distinction", "change management process", "version control with git"],
+      "m": ["branching strategies (Git-flow)", "baseline and codeline", "SCM objectives"],
+      "l": ["configuration management planning", "continuous integration basics"]
+    },
+    "qs": [
+      {
+        "t": "What is software configuration management and why is it important? How could you do change management systematically in software projects?",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2079 Baishakh B"],
+        "freq": 1
+      },
+      {
+        "t": "What is the difference between version and release? Explain why we need Software Configuration Management (SCM).",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2073 Shrawan R", "2073 Shrawan B"],
+        "freq": 2
+      },
+      {
+        "t": "What is the difference between version and variant of a system? Describe change management process in software engineering.",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2078 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What are the main objectives of configuration management and version control? What is code line and baseline inversion management?",
+        "expr": null,
+        "m": "3+3",
+        "years": ["2072 Chaitra R", "2072 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "Explain the versioning process in the context of configuration management with all the associated components.",
+        "expr": null,
+        "m": "5",
+        "years": ["2071 Shrawan B"],
+        "freq": 1
+      },
+      {
+        "t": "\"Survival of the fittest\" is valid to software industry in today's competitive market. Explain the statement in the context of issues modern software configuration management must address nowadays.",
+        "expr": null,
+        "m": "8",
+        "years": ["2072 Kartik B"],
+        "freq": 1
+      },
+      {
+        "t": "Write short notes on: Need of software configuration management",
+        "expr": null,
+        "m": "2",
+        "years": ["2076 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Compare the following: iii) Change management versus version management",
+        "expr": null,
+        "m": "3",
+        "years": ["2074 Ashwin B", "2074 Ashwin R"],
+        "freq": 2
+      },
+      {
+        "t": "Describe configuration management planning.",
+        "expr": null,
+        "m": "5",
+        "years": ["2075 Chaitra R"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "se9",
+    "title": "Unit 9 — Recent Trends",
+    "sub": "DevOps · CI/CD · microservices · cloud-native · AI-assisted development · software reuse · CBSE · real-time systems",
+    "concepts": {
+      "h": ["software reuse benefits and problems / factors for reuse planning", "CBSE (Component-Based Software Engineering)", "real-time vs non-real-time systems", "data acquisition systems"],
+      "m": ["CI/CD pipelines", "design patterns", "COTS reuse", "microservices and cloud-native", "low-code/no-code"],
+      "l": ["AI-assisted development", "green software engineering", "infrastructure as code"]
+    },
+    "qs": [
+      {
+        "t": "What are the pros and cons of software reuse? What factors need to be taken care while software reuse planning?",
+        "expr": null,
+        "m": "5+2",
+        "years": ["2079 Baishakh B"],
+        "freq": 1
+      },
+      {
+        "t": "What are the benefits and problems of software reuse? What factors need to be taken care of while software reuse planning?",
+        "expr": null,
+        "m": "3+4",
+        "years": ["2078 Kartik B", "2068 Chaitra R"],
+        "freq": 2
+      },
+      {
+        "t": "List the different levels in which software reuse may be possible. What are the advantages and disadvantages of software reuse?",
+        "expr": null,
+        "m": "3+4",
+        "years": ["2078 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What are the main problems with software reuse? List key factors that should be considered for reusing software components.",
+        "expr": null,
+        "m": "3+3",
+        "years": ["2076 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Justify the statement \"Advantages of reuse are lower costs, faster software development and lower risks.\" What is a design pattern?",
+        "expr": null,
+        "m": "3+2",
+        "years": ["2076 Ashwin B"],
+        "freq": 1
+      },
+      {
+        "t": "What are the major technical and non-technical factors that hinder software reuse? Do you suggest to reuse much software and, if not, why not?",
+        "expr": null,
+        "m": "4+3",
+        "years": ["2075 Ashwin B", "2075 Ashwin R"],
+        "freq": 2
+      },
+      {
+        "t": "Briefly describe advantages and disadvantages of software reuse. What is COTS reuse?",
+        "expr": null,
+        "m": "4+2",
+        "years": ["2075 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "What are the different factors to be considered before reusing software components. Explain.",
+        "expr": null,
+        "m": "5",
+        "years": ["2075 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "What are the benefits and problem of software reuse? What factors need to be taken care of while software reuse planning?",
+        "expr": null,
+        "m": "5",
+        "years": ["2074 Ashwin B", "2074 Ashwin R"],
+        "freq": 2
+      },
+      {
+        "t": "Mention the situations in which the software reuse is recommended. What do you mean by design pattern?",
+        "expr": null,
+        "m": "4+2",
+        "years": ["2072 Chaitra R", "2072 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "Justify the statement \"Advantages of reuse are lower costs, faster software development and lower risks.\"",
+        "expr": null,
+        "m": "4",
+        "years": ["2073 Shrawan R", "2073 Shrawan B"],
+        "freq": 2
+      },
+      {
+        "t": "What are the components and component-based software engineering? What are the advantages and disadvantages of using components?",
+        "expr": null,
+        "m": "2+3",
+        "years": ["2079 Baishakh B"],
+        "freq": 1
+      },
+      {
+        "t": "What is a component? Explain the component-based software engineering (CBSE) process in brief.",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2076 Ashwin B"],
+        "freq": 1
+      },
+      {
+        "t": "What are the benefits of CBSE? What are software components? Explain with symbols for components.",
+        "expr": null,
+        "m": "2+3",
+        "years": ["2078 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What are the benefits of CBSE? How closely code generation feature of case tools are associated with CBSE? Explain.",
+        "expr": null,
+        "m": "3+5",
+        "years": ["2071 Chaitra R", "2071 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "Explain component-based software engineering (CBSE) process.",
+        "expr": null,
+        "m": "5",
+        "years": ["2074 Chaitra R", "2074 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "What are the reasons behind the modern tendency toward the use of Component based Software Engineering?",
+        "expr": null,
+        "m": "5",
+        "years": ["2072 Chaitra R", "2072 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "What is component composition? Briefly explain the use of COCOMO model.",
+        "expr": null,
+        "m": "2+3",
+        "years": ["2076 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define real-time operating system. List out some important characteristics of RTOS.",
+        "expr": null,
+        "m": "1+3",
+        "years": ["2079 Baishakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate real-time software and other software. Explain data acquisition system.",
+        "expr": null,
+        "m": "2+3",
+        "years": ["2078 Kartik B"],
+        "freq": 1
+      },
+      {
+        "t": "Distinguish between a real time and non-real time system. What is a data acquisition system?",
+        "expr": null,
+        "m": "2+2",
+        "years": ["2078 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between hard real time system and soft real time system. Outline real time system design process.",
+        "expr": null,
+        "m": "2+3",
+        "years": ["2076 Ashwin B"],
+        "freq": 1
+      },
+      {
+        "t": "How is a real-time software different from other software? What is a data acquisition system?",
+        "expr": null,
+        "m": "2+3",
+        "years": ["2075 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "How do real-time software and operating system differ from non-real time software and operating system? Describe Data Acquisition System.",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2071 Chaitra R", "2071 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "Explain how is real time OS and software different from non-real time OS and software?",
+        "expr": null,
+        "m": "6",
+        "years": ["2072 Chaitra R", "2072 Chaitra B"],
+        "freq": 2
+      },
+      {
+        "t": "What specific considerations are to be made while designing typical software to be operated in real-time environment? Explain.",
+        "expr": null,
+        "m": "5",
+        "years": ["2071 Shrawan B"],
+        "freq": 1
+      },
+      {
+        "t": "What is the role of data acquisition system? Explain the difference between hard and soft real time system.",
+        "expr": null,
+        "m": "2+3",
+        "years": ["2076 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Prepare a brief notes on design pattern with statement of their benefits.",
+        "expr": null,
+        "m": "5",
+        "years": ["2071 Shrawan B"],
+        "freq": 1
+      }
+    ]
+  }
+]
