@@ -64,6 +64,18 @@ SUBJECTS = [
         'name' : 'Software Engineering',
         'semester':6
     },
+     {
+        'file' : 'engineering_economics.json',
+        'code' : 'ENCE356',
+        'name' : 'Engineering Economics',
+        'semester':6
+    },
+     {
+        'file' : 'simulation_and_modelling.json',
+        'code' : 'ENCT353',
+        'name' : 'Simulation & Modelling',
+        'semester':6
+    },
     ]
 
 def parse_appearance(year_string):
