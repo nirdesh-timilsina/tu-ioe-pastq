@@ -4,30 +4,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TU IOE Past Questions</title>
+  <title>Semester {{ semester }} — TU IOE</title>
   <link rel="stylesheet" href="{% static 'css/dist/styles.css' %}">
 </head>
 <body class="bg-gray-100 text-gray-900 font-sans">
 
   <!-- TOP BAR -->
   <div class="bg-white border-b border-gray-200 px-6 py-4">
-    <h1 class="text-sm font-semibold uppercase tracking-widest text-gray-500">
-      TU IOE — Past Question Pool
+    <a href="{% url 'home' %}" class="text-xs text-blue-600 hover:underline">← Back</a>
+    <h1 class="text-sm font-semibold uppercase tracking-widest text-gray-500 mt-1">
+      Semester {{ semester }} — Subjects
     </h1>
   </div>
 
-  <!-- SEMESTER LIST -->
+  <!-- SUBJECTS LIST -->
   <div class="max-w-4xl mx-auto px-6 py-8">
     <div class="grid grid-cols-1 gap-3">
-      {% for semester, subjects in semesters.items %}
-        <a href="{% url 'semester_detail' semester %}"
+      {% for subject in subjects %}
+        <a href="{% url 'subject_detail' subject.code %}"
            class="bg-white border border-gray-200 rounded-lg px-5 py-4 hover:border-blue-400 hover:shadow-sm transition-all">
-          <p class="text-sm font-semibold text-gray-800">Semester {{ semester }}</p>
-          <p class="text-xs text-gray-400 mt-1">{{ subjects|length }} subjects</p>
+          <span class="text-xs font-mono text-gray-400">{{ subject.code }}</span>
+          <p class="text-sm font-semibold text-gray-800 mt-1">{{ subject.name }}</p>
         </a>
       {% endfor %}
     </div>
   </div>
 
 </body>
-</html> 
+</html>
