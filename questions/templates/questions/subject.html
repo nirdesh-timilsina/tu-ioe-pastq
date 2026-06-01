@@ -5,6 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ subject.name }}</title>
+  <style>
+  .q-tbl-data { border-collapse: collapse; font-size: 11px; margin-top: 6px; }
+  .q-tbl-data th { background: #f0f4ff; color: #1e40af; font-weight: 600; padding: 3px 8px; border: 1px solid #c7d2fe; text-align: center; }
+  .q-tbl-data td { padding: 2px 8px; border: 1px solid #e2e8f0; color: #374151; text-align: center; }
+  .q-tbl-data tr:nth-child(even) td { background: #f8fafc; }
+</style>
   <link rel="stylesheet" href="{% static 'css/dist/styles.css' %}">
 </head>
 <body class="bg-gray-100 text-gray-900 font-sans">
@@ -117,11 +123,15 @@
                   <!-- QUESTION TEXT — question-text class used by JS search -->
                   <td class="question-text px-5 py-3 text-gray-700 leading-relaxed">
                     {{ question.text }}
-                    {% if question.expression %}
-                      <div class="mt-1 text-xs font-mono bg-blue-50 text-blue-700 border border-blue-100 rounded px-2 py-1 inline-block">
-                        {{ question.expression }}
-                      </div>
-                    {% endif %}
+        {% if question.expression %}
+          {% if '<table' in question.expression %}
+            {{question.expression|safe }}
+          {% else %}
+            <div class="mt-1 text-xs font-mono bg-blue-50 text-blue-700 border border-blue-100 rounded px-2 py-1 inline-block">
+              {{ question.expression }}
+            </div>
+          {% endif %}
+        {% endif %}
                   </td>
 
                   <!-- MARKS BADGE -->
