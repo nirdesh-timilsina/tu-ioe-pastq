@@ -1,0 +1,1391 @@
+[
+  {
+    "id": "ee1",
+    "title": "Introduction to Engineering Economics",
+    "sub": "micro/macro/engineering economics · principles · role of engineers · cash flow diagram",
+    "concepts": {
+      "h": ["Role of engineers in economic decision making", "Principles of engineering economics", "Cash flow diagram construction", "Sunk cost and opportunity cost", "Definition of engineering economics"],
+      "m": ["Micro vs macro economics", "Terminology in engineering economics", "Economic decision making process", "Scarcity and resource allocation"],
+      "l": ["History of engineering economics", "Socialistic vs capitalistic economy", "Elements of cost overview"]
+    },
+    "qs": [
+      {
+        "t": "Explain the role of engineers in decision making in investment.",
+        "expr": null,
+        "m": "4",
+        "years": ["2079 Ashwin B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the roles of engineers in making economic decision with appropriate examples.",
+        "expr": null,
+        "m": "4",
+        "years": ["2070 Bhadra R", "2070 Magh B"],
+        "freq": 2
+      },
+      {
+        "t": "Define Engineering Economics. Write down the principles of Engineering Economic Analysis.",
+        "expr": null,
+        "m": "4",
+        "years": ["2074 Bhadra R", "2073 Bhadra R", "2071 Bhadra R", "2070 Bhadra R"],
+        "freq": 4
+      },
+      {
+        "t": "Define term Engineering economy. Explain principles of engineering economy.",
+        "expr": null,
+        "m": "1+3",
+        "years": ["2074 Bhadra R", "2073 Bhadra R"],
+        "freq": 2
+      },
+      {
+        "t": "What do you mean by engineering economics? List out the principles of Engineering Economics.",
+        "expr": null,
+        "m": "1+3",
+        "years": ["2078 Baishakh B", "2078 Baishakh R"],
+        "freq": 2
+      },
+      {
+        "t": "Describe different principles of engineering economics. What do you mean by sunk cost and opportunity cost?",
+        "expr": null,
+        "m": "4+2",
+        "years": ["2079 Jestha B"],
+        "freq": 1
+      },
+      {
+        "t": "Scarcity is an emerging issue in engineering field. How does the study of economics help to engineers in decision making process? Discuss.",
+        "expr": null,
+        "m": "5",
+        "years": ["2070 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Why does an engineer must have the knowledge of economics during decision making process? List out principles of engineering economics.",
+        "expr": null,
+        "m": "1+3",
+        "years": ["2076 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Define opportunity cost. Why engineering economics is considered as important aspect for making decision for engineers? Explain.",
+        "expr": null,
+        "m": "1+3",
+        "years": ["2075 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the importance of Engineering Economics for Engineers.",
+        "expr": null,
+        "m": "4",
+        "years": ["2078 Poush B"],
+        "freq": 1
+      },
+      {
+        "t": "Use the consistent view point and Make uncertainty explicit. Explain these two principles of engineering economics.",
+        "expr": null,
+        "m": "2+2",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define mutually exclusive, independent and contingent project with relevant examples.",
+        "expr": null,
+        "m": "3",
+        "years": ["2078 Poush B", "2079 Jestha B"],
+        "freq": 2
+      },
+      {
+        "t": "What are the principles of engineering economics? How does it help to decision making process?",
+        "expr": null,
+        "m": "",
+        "years": ["2069 Poush B"],
+        "freq": 1
+      },
+      {
+        "t": "Define engineering economy. Enlist the principles of engineering economy.",
+        "expr": null,
+        "m": "1+3",
+        "years": ["2069 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "\"Engineers play the important role in making the economic decision\". Do you agree with this statement? Discuss.",
+        "expr": null,
+        "m": "6",
+        "years": ["2068 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define economic system. Write advantages of socialistic economy.",
+        "expr": null,
+        "m": "1+3",
+        "years": ["2067 Mangsir R"],
+        "freq": 1
+      },
+      {
+        "t": "Define economic system. Discuss briefly on the characteristics of capitalistic economy.",
+        "expr": null,
+        "m": "2+2",
+        "years": ["2065 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "State and explain principles of engineering economics.",
+        "expr": null,
+        "m": "4",
+        "years": ["2075 Baisakh B"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "ee2",
+    "title": "Market Economics",
+    "sub": "demand · supply · elasticity · government policies · externality · market failure",
+    "concepts": {
+      "h": ["Demand and supply relationship", "Elasticity of demand"],
+      "m": ["Government policies and market", "Externality and market inefficiency"],
+      "l": ["Market failure and firm behavior", "Market equilibrium"]
+    },
+    "qs": [
+      {
+        "t": "What are the sources of risk in engineering projects in Nepal? Enumerate the sources of risk in engineering projects.",
+        "expr": null,
+        "m": "4",
+        "years": ["2070 Bhadra R", "2078 Poush B"],
+        "freq": 2
+      }
+    ]
+  },
+  {
+    "id": "ee3",
+    "title": "Cost",
+    "sub": "cost classification · sunk cost · opportunity cost · life-cycle cost · cost estimation · standard costing · variance analysis",
+    "concepts": {
+      "h": ["Sunk cost and opportunity cost", "Cost classification (fixed, variable, marginal)", "Standard costing and variance analysis", "Break-even analysis", "Elements of cost"],
+      "m": ["Direct and indirect costs", "Life-cycle costing", "Manufacturing vs non-manufacturing cost", "Cost estimation methods"],
+      "l": ["Book cost vs cash cost", "Cost control", "Job and process costing"]
+    },
+    "qs": [
+      {
+        "t": "Explain with suitable examples the principle of Break-even Analysis in case of single and mutually exclusive alternatives.",
+        "expr": null,
+        "m": "4",
+        "years": ["2079 Ashwin B", "2079 Jestha B"],
+        "freq": 2
+      },
+      {
+        "t": "Define breakeven point and breakeven volume. How does interest rate change affect the project?",
+        "expr": null,
+        "m": "2+2",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "A newly established hat company estimated following data; Output of hat per annum = 3,00,000 NOS; Expected sales revenue per annum = Rs. 1,50,00,000; Fixed cost = Rs. 35,00,000; Variable cost = Rs. 66,00,000. i) Find out breakeven level of output. ii) If fixed cost increases to Rs. 40,00,000, find out its effect on breakeven point. iii) What should be output if profit desired is Rs. 10,00,000 per year?",
+        "expr": null,
+        "m": "",
+        "years": ["2076 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Fixed cost = Rs. 60 million, Variable cost/unit = Rs. 50,000, Selling price/unit = Rs. 8,000. Find BEP volume. What would be the effect on profit/loss when Sp increases by 20%.",
+        "expr": null,
+        "m": "4",
+        "years": ["2066 Magh R"],
+        "freq": 1
+      },
+      {
+        "t": "Calculate break-even hours of operation per year to become cost equal and recommend economic motorbike if it is operated 250 km daily.\n\n| | Tiger | Ninja |\n|---|---|---|\n| Purchase cost (Rs.) | 20,00,000 | 10,00,000 |\n| Tax per year (Rs.) | 30,000 | 10,000 |\n| Insurance (Rs.) | 15,000 | 10,000 |\n| Maintenance cost (Rs.) | 5,000 | 10,000 |\n| Mileage | 50 Km/Liter | 10 Km/Liter |\n| Useful Life | 8 years | 8 years |\n| MARR | 20% per year | |\n| Fuel Cost | Rs. 108/Liter | |\n| Salvage Value | 40% of Purchase cost | |",
+        "expr": null,
+        "m": "4",
+        "years": ["2078 Poush B"],
+        "freq": 1
+      },
+      {
+        "t": "Calculate break-even hours of operation per year to become cost equal and recommend economic pump if it is to be operated 5 hours daily at full load.\n\n| | KHASA Pump | SARVO Pump |\n|---|---|---|\n| Capacity | 100 hp | 100 hp |\n| Purchase cost (Rs.) | 5,00,000 | 10,00,000 |\n| Tax per year (Rs.) | 10,000 | 15,000 |\n| Maintenance cost per year (Rs.) | 36,500 | 29,200 |\n| Efficiency | 80% | 90% |\n| Life year | 5 | 5 |\n| Salvage value | 20% of purchase cost for both | |\n| MARR | 20% per year | |\n| Electricity cost | Rs. 10/kwhr | |",
+        "expr": null,
+        "m": "8",
+        "years": ["2070 Magh B", "2070 Bhadra R"],
+        "freq": 2
+      },
+      {
+        "t": "The information given below shows the records of a manufacturing company comparing the actual data with the data from the standard cost card. Calculate all the variances. Also indicate the favorable and adverse variances.\n\n| | Production (Units) | Direct Material (Kg.) | Direct Material cost (Rs.) | Working Days | Fixed Overheads (Rs.) | Variable overheads (Rs.) |\n|---|---|---|---|---|---|---|\n| Standard | 10 | 50 | 10000 | 12 | 5000 | 25000 |\n| Actual | 8 | 45 | 9000 | 10 | 6000 | 20000 |",
+        "expr": null,
+        "m": "10",
+        "years": ["2068 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between Financial and Economic analysis.",
+        "expr": null,
+        "m": "2",
+        "years": ["2078 Chaitra R", "2075 Baisakh B", "2073 Bhadra R", "2070 Bhadra R", "2070 Magh B"],
+        "freq": 5
+      },
+      {
+        "t": "What do you mean by financial and economic analysis? Briefly explain the concept of lifecycle costing.",
+        "expr": null,
+        "m": "2+2",
+        "years": ["2075 Baisakh B"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "ee4",
+    "title": "Time Value of Money",
+    "sub": "simple & compound interest · nominal & effective interest · continuous compounding · economic equivalence · cash flow types · gradient",
+    "concepts": {
+      "h": ["Nominal vs effective interest rate calculation", "Present worth / future worth of gradient series", "Economic equivalence problems", "Compound interest with different compounding periods", "Geometric gradient series", "Uniform series (annuity) problems"],
+      "m": ["Continuous compounding", "Linear gradient formulae", "Standard cash flow types and formulae", "Monthly/quarterly/semi-annual compounding"],
+      "l": ["Simple vs compound interest differentiation", "Time value of money concept", "Cash flow diagram for complex patterns"]
+    },
+    "qs": [
+      {
+        "t": "Explain different types of standard cash flow with their economic equivalence formulae.",
+        "expr": null,
+        "m": "4",
+        "years": ["2079 Ashwin B"],
+        "freq": 1
+      },
+      {
+        "t": "What is the time value of money? Explain and differentiate nominal and effective interest rate. How long will it take for Rs 25,000 to triple itself, if the interest rate is 8% per year?",
+        "expr": null,
+        "m": "1+2+2",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define time value of money, nominal and effective interest rate. Calculate future sum at the end of 5th year when monthly deposit is Rs 6,000 for 3 years that earns 7% interest per year.",
+        "expr": null,
+        "m": "3+3",
+        "years": ["2075 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "What is nominal and effective interest rate? Evaluate FW at the end of 10 years with 12% interest rate compounded monthly of a cash flow of Rs. 40,000 at the beginning of each year for 5 years.",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is nominal and effective interest rate? Evaluate FW at the end of 15 years with 10% interest rate compounded monthly of a cash flow of Rs. 50,000 at the beginning of each year for first 10 years.",
+        "expr": null,
+        "m": "3+5",
+        "years": ["2071 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is effective and nominal interest rate? Evaluate FW at the end of 10 years with 8% interest rate compounded continuously of a cash flow of Rs. 500 at the beginning of each year for first 5 years.",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2070 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define time value of money. Calculate effective interest when r = 5% and compounding semi-annually, quarterly, monthly & continuously.",
+        "expr": null,
+        "m": "1+3",
+        "years": ["2078 Baishakh B", "2078 Baishakh R"],
+        "freq": 2
+      },
+      {
+        "t": "A bank is starting its nominal interest rate of 9% p.a and compounding quarterly. Calculate the effective interest rate (i) a year (ii) a quarter (iii) a month (iv) half year.",
+        "expr": null,
+        "m": "4",
+        "years": ["2075 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "If you planned to borrow some amount of money from your friend right now by promising that you will repay her at the end of this year by Rs 10,000 and will be decreased the amount for succeeding years by Rs 1000 per year then after for another next 4 years. Consider 12% interest pa compounding daily, what amount will she be ready to lend you?",
+        "expr": null,
+        "m": "4",
+        "years": ["2079 Ashwin B"],
+        "freq": 1
+      },
+      {
+        "t": "If you wish to withdraw Rs 2000 at the end of 1st year and expecting to be increased by 15% pa then after till end of 8 years, what amount need to be deposited in a bank right now which has an interest of 15% pa.",
+        "expr": null,
+        "m": "4",
+        "years": ["2075 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "If you make equal monthly deposits of Rs. 5000 into the bank for 10 years, saving accounts that pays interest rate of 6% compounded monthly, what would be the amount at the end of 15 years?",
+        "expr": null,
+        "m": "4",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "How much rupees should you deposit now so that you will be able to draw Rs.5000 at the end of this month which increases by 2 percent per month for 15 years. Bank interest rate is 5% per year.",
+        "expr": null,
+        "m": "4",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "How much should you deposit at present for monthly draw of Rs. 15,000 throughout 4 years when interest rate is 6% per year?",
+        "expr": null,
+        "m": "4",
+        "years": ["2078 Baishakh B", "2078 Baishakh R"],
+        "freq": 2
+      },
+      {
+        "t": "Cash flow at the end of 1st year is Rs. 5,000; find FW using gradient formula taking MARR = 7% when Cash flow increases by 10% over 5 years.",
+        "expr": null,
+        "m": "2",
+        "years": ["2078 Baishakh B", "2078 Baishakh R"],
+        "freq": 2
+      },
+      {
+        "t": "How much money must be invested in an account that pays 9% per year interest compounded quarterly to draw Rs 6000 at the end of first year and drawing amount increases by Rs 1000 there after up to 10 years (use gradient formula).",
+        "expr": null,
+        "m": "8",
+        "years": ["2079 Jestha B"],
+        "freq": 1
+      },
+      {
+        "t": "Airplane ticket price will increase 8% in each of the next four years. The cost of end of the 1st year is Rs 2,000. How much needs to be put away now to cover the passenger travel at the end of year for the next 4 years, taking i=5%?",
+        "expr": null,
+        "m": "3",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "If you deposit Rs.10000 in a saving account now which gives 10% nominal interest rate, what will be the amount after 5 years if interest is compounded (i) semi-annually (ii) Monthly.",
+        "expr": null,
+        "m": "2",
+        "years": ["2070 Magh B", "2070 Bhadra R"],
+        "freq": 2
+      },
+      {
+        "t": "Find the value of P if i=10%. Use gradient formula also. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "4",
+        "years": ["2070 Magh B", "2070 Bhadra R"],
+        "freq": 2
+      },
+      {
+        "t": "The two cash flow transactions shown below are said to be equivalent at 10% interest, compounded annually. Find the unknown X value which satisfies the equivalence. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "5",
+        "years": ["2076 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "A man is planning to retire in 25 years. He wishes to deposit regular money every month until he retires so that he will receive annual payments of Rs 4,50,000 after the first year of his retirement for the next 10 years. How much he deposit if the interest rate is 8%, compounded monthly?",
+        "expr": null,
+        "m": "5",
+        "years": ["2076 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Kamal aged 30 years now had borrowed Rs. 5,00,000 from a bank, 5 years ago. The bank charged interest rate at 10% per year compounded monthly. What will be the semiannual equal installment to clear the loan if his payments start now and wishes to repay within 5 years from now?",
+        "expr": null,
+        "m": "5",
+        "years": ["2078 Poush B"],
+        "freq": 1
+      },
+      {
+        "t": "For the gratuity scheme of the employee, every month an organization deposits 10% of monthly salary of the employee into a gratuity fund, which is Rs. 9,000 for the first month. Also, there is provision of salary increment of 20% every year. What will be the gratuity amount at the end of 3 year, if the 10% of the monthly salary is deposited throughout that 3 years, at an interest rate of 12% compounded monthly.",
+        "expr": null,
+        "m": "6",
+        "years": ["2078 Poush B"],
+        "freq": 1
+      },
+      {
+        "t": "Mr. Ram deposits Rs.10,000 in a scheme that doubles the money in 5 years. What interest rate did he deposit in? If the inflation rate is 7%, what is the real (inflation free) interest rate?",
+        "expr": null,
+        "m": "",
+        "years": ["2079 Ashwin B"],
+        "freq": 1
+      },
+      {
+        "t": "Ramesh, a Civil Engineer is planning to place a total of 20% of his salary, which is Rs. 250000 per year now, each year in mutual fund. He expects 7% salary increase each year for next 15 years. If the mutual fund will average 10% annual return, what will be the sum-amount at the end of 15 years? If salary increases by Rs 25000 per year, what will be the amount?",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2069 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Mr. Kumar has inspected his yearly household expenses for the last 10 years. Cost averages were steady at Rs 100000 per year for the first 5 years, but have increased consistently by Rs 15000 per year for each of the last 5 years. Calculate total present worth in year zero. Use gradient formula.",
+        "expr": null,
+        "m": "8",
+        "years": ["2068 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Mr. Basnet purchases a car which cost Rs. 20,00,000. He pays 40% as down payment. Remaining amount will be paid on installment basis and wishes to pay Rs. 25,000 per month for next five years. What annual interest rate will he be paying? At the end of 3rd year, what lump sum amount should he pay to clear all his dues?",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2067 Mangsir R"],
+        "freq": 1
+      },
+      {
+        "t": "Find the value of A and G if i = 10%. A = 3G. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "8",
+        "years": ["2067 Mangsir R"],
+        "freq": 1
+      },
+      {
+        "t": "Define time value of money, nominal and effective interest rate.",
+        "expr": null,
+        "m": "1+2+2",
+        "years": ["2075 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "You deposit Rs 10,000 in a scheme that doubles the money in 5 years. What interest rate did you deposit in? If the inflation rate is 7%, what is the real (inflation free) interest rate?",
+        "expr": null,
+        "m": "",
+        "years": ["2079 Ashwin B"],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between nominal and effective interest. Calculate both nominal and effective annual interest if you deposit now, Rs 1,00,000 and you can draw Rs 1000 per month for ever.",
+        "expr": null,
+        "m": "6",
+        "years": ["2068 Jestha B"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "ee5",
+    "title": "Methods of Economic Analysis",
+    "sub": "payback period · NPV · AW · FW · IRR · ERR · B/C ratio · MARR · repeatability · co-termination · mutually exclusive · independent · contingent projects · incremental analysis",
+    "concepts": {
+      "h": ["IRR calculation and acceptability (with unrecovered balance/U-B diagram)", "B/C ratio (conventional and modified, AW/FW/PW formulation)", "Repeatability assumption for project selection", "ERR calculation", "Co-termination / co-terminated assumption", "Payback period (simple and discounted)", "AW/PW/FW equivalent worth evaluation", "Mutually exclusive project comparison using incremental IRR", "Drawbacks of IRR method"],
+      "m": ["MARR determination and factors", "Capitalized worth", "Financial vs economic analysis", "Independent and contingent project combinations", "Net present worth method", "Incremental analysis essentials"],
+      "l": ["Weighted average cost of capital (WACC)", "Capital budgeting overview", "Lifecycle cost analysis"]
+    },
+    "qs": [
+      {
+        "t": "Find both types of B/C ratio using AW formulation from the following cash flow of a project. Initial investment = Rs. 5,00,000, Revenue = Rs. 50,000 in the first year and increases by 15,000 each year after that, Expenses = 30,000 in the first year and decreases by 3% each year after that. Salvage value at the end of 8 years = 25,000. MARR = 8%.",
+        "expr": null,
+        "m": "6",
+        "years": ["2079 Ashwin B"],
+        "freq": 1
+      },
+      {
+        "t": "Find both types of B/C ratio using FW formulation from the following cash flow of a project. Initial investment = Rs 5,00,000, Revenue = Rs 5,0000 in the first year and increases by 15000 each year after that, Expenses = 30000 in the first year and increase by 5% each year after that. Salvage value at the end of 8 years = 25000. MARR = 8%.",
+        "expr": null,
+        "m": "8",
+        "years": ["2075 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Calculate IRR of the project and comment on its acceptability if MARR = 12%. Show U/B diagram also.\n\n| EOY | NCF |\n|---|---|\n| 0 | -40,000 |\n| 1 | -4250 |\n| 2 | +9280 |\n| 3 | +38600 |\n| 4 | +61460 |\n| 5 | -20000 |",
+        "expr": null,
+        "m": "6",
+        "years": ["2079 Ashwin B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain drawbacks of IRR with suitable examples.",
+        "expr": null,
+        "m": "4",
+        "years": ["2079 Ashwin B", "2079 Jestha B", "2078 Chaitra R", "2076 Baisakh B", "2075 Bhadra R", "2074 Bhadra R", "2073 Bhadra R"],
+        "freq": 7
+      },
+      {
+        "t": "Use repeatability assumption to select the best project from the following three projects.\n\n| Project | A | B | C |\n|---|---|---|---|\n| Initial Investment | 1,00,000 | 2,00,000 | 3,00,000 |\n| Annual Expenditure | 25,000 | 20,000 | 15,000 |\n| Useful life (yrs) | 3 | 4 | 6 |\n| Salvage Value | 40,000 | 50,000 | 60,000 |\n| MARR | 14% | | |",
+        "expr": null,
+        "m": "8",
+        "years": ["2079 Ashwin B", "2075 Bhadra R", "2071 Bhadra R"],
+        "freq": 3
+      },
+      {
+        "t": "Calculate both IRR and ERR. MARR = ε = 12%.\n\n| EOY | NCR |\n|---|---|\n| 0 | -45,000 |\n| 1 | -4,000 |\n| 2 | +9,000 |\n| 3 | +40,000 |\n| 4 | +60,000 |\n| 5 | +10,000 |",
+        "expr": null,
+        "m": "6",
+        "years": ["2075 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Calculate both IRR and ERR if MARR = ε = 15% and also suggest the feasibility of the project.\n\n| EOY | Net C.F. |\n|---|---|\n| 0 | -1,00,000 |\n| 1 | 32000 |\n| 2 | 48000 |\n| 3 | 65000 |\n| 4 | 75000 |\n| 5 | -38000 |\n| 6 | 50000 |",
+        "expr": null,
+        "m": "6",
+        "years": ["2079 Jestha B"],
+        "freq": 1
+      },
+      {
+        "t": "Recommend the best project to be implemented among following mutually exclusive projects using IRR method. Useful life = 10 years for all projects and MARR = 16%. Use AW formulation and incremental analysis.\n\n| Project | A | B | C | D |\n|---|---|---|---|---|\n| Initial Investment (Rs) | 350000 | 450000 | 600000 | 800000 |\n| Annual Revenues (Rs) | 90000 | 100000 | 110000 | 165000 |\n| Salvage Value (Rs) | 50000 | 75000 | 75000 | 90000 |",
+        "expr": null,
+        "m": "8",
+        "years": ["2079 Jestha B"],
+        "freq": 1
+      },
+      {
+        "t": "Recommend the best project using co-terminated method if study period is 8 years and MARR = 15%.\n\n| Project | A | B |\n|---|---|---|\n| Initial Investment (Rs) | 350000 | 450000 |\n| Annual Revenues (Rs) | 120000 | 150000 |\n| Annual Expenses (Rs) | 30000 | 50000 |\n| Salvage Value (Rs) | 60000 | 80000 |\n| Useful Life (Years) | 6 | 10 |",
+        "expr": null,
+        "m": "8",
+        "years": ["2079 Jestha B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the limitations of IRR with suitable examples. Compute ERR for a project with following projected cash flows. MARR=12%, ε=15% (if needed).\n\n| EOY | 0 | 1 | 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|---|---|---|\n| Cash Flows | -3,00,000 | 1,50,000 | 2,00,000 | -1,00,000 | 2,00,000 | 1,50,000 | -50,000 |",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2076 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Evaluate IRR and ERR if MARR = 10%. Prepare the uncovered investment balance diagram.\n\n| EOY | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| Cash inflow | 0 | $5000 | $5000 | $5000 | $5000 | $5000 |\n| Cash outflow | $10000 | $1000 | $1400 | $1800 | $2200 | $2600 |",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2078 Baishakh B", "2078 Baishakh R"],
+        "freq": 2
+      },
+      {
+        "t": "Define IRR. Find IRR and ERR of the following project. MARR = ε = 15%.\n\n| Year | 0 | 1 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| Cashflow | -50 | -10 | 30 | 40 | 50 |",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2071 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Nepal government is planning to invest three irrigation projects. The detail cash flow estimation are given below (in billion) with MARR = 10% and life of each project is 20 years.\n\n| | Koshi | Gandaki | Karnali |\n|---|---|---|---|\n| Initial cost | 20,000 | 22,000 | 24,000 |\n| Annual benefit | 4,000 | 4,500 | 5,000 |\n| Annual cost | 1,000 | 1,200 | 1,400 |\n\nCompare mutually exclusive project to invest.",
+        "expr": null,
+        "m": "6",
+        "years": ["2075 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Use repeatability assumption to select the best project.\n\n| | Project A | Project B | Project C |\n|---|---|---|---|\n| Initial cost | 1,00,000 | 2,00,000 | 3,00,000 |\n| Annual income | 25,000 | 30,000 | 45,000 |\n| Salvage value | 20,000 | 50,000 | 70,000 |\n| Useful life year | 6 | 10 | 15 |\n| MARR | 12% | | |",
+        "expr": null,
+        "m": "6",
+        "years": ["2075 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define mutually exclusive, independent and contingent projects. How much should you deposit at present that earns 12% interest per year when you can draw Rs 10,000 per month for (i) 50 years (ii) Forever.",
+        "expr": null,
+        "m": "2+2",
+        "years": ["2075 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Use IRR method to evaluate following project when MARR is 15%. Make also unrecovered balance graph.\n\n| EOY | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| Cash flow | -60,000 | 20,000 | 40,000 | -40,000 | 50,000 | 70,000 |",
+        "expr": null,
+        "m": "5",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Compare the following two mutually exclusive projects by using (i) Co-terminated (ii) Repeatability assumption taking MARR = 8%.\n\n| | Project A | Project B |\n|---|---|---|\n| Initial cost | 1,50,000 | 2,00,000 |\n| Annual revenue | 90,000 | 1,00,000 |\n| Operating cost | 20,000 | 20,000 |\n| Life year | 4 | 6 |\n| Salvage value | 80,000 | 1,20,000 |",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Your college is considering to purchase a vehicle of Rs. 3,00,000 expecting salvage value Rs 50,000 at the end of 10th year. The use of vehicle saves Rs. 80,000 per year. When it needs Rs. 20,000 operating cost for each year. Find: (i) Both type of B/C ratio by FW formulation (ii) both types of payback period.",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Evaluate both type of BCR (FW Formulation). Take Useful life = 10 years. [Machine A: Initial Investment Rs.6000, Annual Benefits Rs.3000, O&M Cost Rs.1000, Salvage Value Rs.1500, MARR 10%]",
+        "expr": null,
+        "m": "4",
+        "years": ["2071 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Evaluate both type of Payback Period. If Useful life = 5 years. (Take Standard payback period = 3 years) [Machine A: Initial Investment Rs.6000, Annual Benefits Rs.3000, O&M Cost Rs.1000, Salvage Value Rs.1500, MARR 10%]",
+        "expr": null,
+        "m": "4",
+        "years": ["2071 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the factors affecting determination of MARR.",
+        "expr": null,
+        "m": "4",
+        "years": ["2071 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Use Repeatability assumption to select the best project from the following three projects.\n\n| Project | A | B | C |\n|---|---|---|---|\n| Initial Investment | 100000 | 200000 | 250000 |\n| Annual Expenditure | 25000 | 20000 | 15000 |\n| Useful Life, Years | 3 | 5 | 7 |\n| Salvage Value | 40000 | 50000 | 60000 |\n| MARR | 14% | | |",
+        "expr": null,
+        "m": "6",
+        "years": ["2071 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Choose the best project among these alternatives using IRR, if MARR = 15% and study period is 10 years. Salvage value is 20%.\n\n| Project | A | B | C | D |\n|---|---|---|---|---|\n| First Cost Rs. | 900 | 1500 | 2500 | 4000 |\n| Annual Revenue Rs. | 150 | 276 | 400 | 925 |",
+        "expr": null,
+        "m": "6",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Consider the following two mutually exclusive alternatives; recommend the best alternatives using repeatability assumptions. MARR = 15%.\n\n| | Project X (Rs.) | Project B (Rs.) |\n|---|---|---|\n| Initial Cost | 100,000 | 150,000 |\n| Annual Cost | 25,000 | 12,000 |\n| Salvage Value | 40000 | 50000 |\n| Useful Life | 6 years | 10 years |",
+        "expr": null,
+        "m": "16",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Evaluate the project by using AW formulation of the project at i = 12%.\n\n| EOY | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| Cash flow | -3000 | 800 | 1000 | 1100 | 1210 | 1464 |",
+        "expr": null,
+        "m": "4",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Calculate the ERR of the following cash flow. MARR = 12%, reinvestment rate = 14%.\n\n| EOY | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| Cash flow | -100,000 | 25,000 | 40,000 | -10,000 | 50,000 | 50,000 |",
+        "expr": null,
+        "m": "6",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Select the best proposal using ERR (ε=25%, MARR=20%).\n\n| EOY | 0 | 1 | 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|---|---|---|\n| Proposal A | -6400 | 2620 | 2900 | 3020 | 3100 | 3100 | 2600 |\n| Proposal B | -7550 | 2050 | 4060 | 4000 | 3900 | 3900 | 3400 |",
+        "expr": null,
+        "m": "4",
+        "years": ["2070 Magh B", "2070 Bhadra R"],
+        "freq": 2
+      },
+      {
+        "t": "State and explain about the cases of mutually exclusive, contingent and independent projects with example. Compare the following projects by using repeatability assumption when MARR is 12%.\n\n| Project | A | B |\n|---|---|---|\n| Initial investment | 2,00,000 | 3,00,000 |\n| Annual revenue | 25,000 | 30,000 |\n| Annual costs | 7,000 | 9,000 |\n| Useful life year | 6 | 8 |\n| Salvage value | 10,000 | 20,000 |",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2070 Magh B", "2070 Bhadra R"],
+        "freq": 2
+      },
+      {
+        "t": "Determine both types of B/C ratio by using FW formulation.\n\n| Initial investment (Rs.) | 2,50,000 |\n|---|---|\n| Annual revenue (Rs.) | 50,000 at the end of first year and increasing by Rs. 30,000 for each year |\n| Annual O&M cost (Rs.) | 30,000 |\n| Salvage value (Rs.) | 50,000 |\n| Useful life year | 5 |\n| MARR | 15% |",
+        "expr": null,
+        "m": "",
+        "years": ["2069 Poush B"],
+        "freq": 1
+      },
+      {
+        "t": "Recommend the best project from the following information by using repeatability assumption when MARR is 12%.\n\n| Project | A | B |\n|---|---|---|\n| Initial investment (Rs.) | 4,00,000 | 7,00,000 |\n| Annual revenue (Rs.) | 1,75,000 | 2,50,000 |\n| Annual cost (Rs.) | 25,000 | 35,000 |\n| Salvage value (Rs.) | 40,000 | 70,000 |\n| Useful life (year) | 6 | 8 |",
+        "expr": null,
+        "m": "",
+        "years": ["2069 Poush B"],
+        "freq": 1
+      },
+      {
+        "t": "Use IRR method to evaluate following project when MARR is 20%.\n\n| End of year | cash flow |\n|---|---|\n| 0 | -60,000 |\n| 1 | 20,000 |\n| 2 | 40,000 |\n| 3 | 50,000 |\n| 4 | 50,000 |\n| 5 | 70,000 |",
+        "expr": null,
+        "m": "",
+        "years": ["2069 Poush B"],
+        "freq": 1
+      },
+      {
+        "t": "Compute IRR using trial and error process of the following project. Determine also investment decision. Initial investment = 25,000; Annual revenue = 8,000; Salvage value = 5,000; Useful life = 5 years; MARR = 20%.",
+        "expr": null,
+        "m": "4",
+        "years": ["2070 Magh B", "2070 Bhadra R"],
+        "freq": 2
+      },
+      {
+        "t": "Make investment decision for the following project by using (i) IRR (ii) B/C (iii) Discounted Payback methods. Initial cost = Rs. 4,00,000; Annual Revenue = Rs. 1,60,000 for the 1st year and decreases by Rs. 10,000 thereafter; Annual Expenses = Rs. 40,000 for the 1st year and increases by Rs. 5,000 thereafter; Salvage value = Rs. 1,00,000; Life year = 8; MARR = 9% per year.",
+        "expr": null,
+        "m": "4+4+4",
+        "years": ["2075 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Compare following two projects by IRR method when i = 10% per year.\n\n| | Initial Cost | Annual revenue | Annual cost | Salvage value | life year |\n|---|---|---|---|---|---|\n| Project A | 5,00,000 | 2,00,000 | 50,000 | 80,000 | 7 |\n| Project B | 7,00,000 | 3,00,000 | 1,00,000 | 1,50,000 | 7 |",
+        "expr": null,
+        "m": "4",
+        "years": ["2075 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Select the best project by using repeatability assumption when MARR = 13%.\n\n| | Initial cost | Annual revenue | O and M | Life year | Salvage value |\n|---|---|---|---|---|---|\n| Project X | 4,00,000 | 1,75,000 | 50,000 | 4 | 1,00,000 |\n| Project Y | 7,00,000 | 2,50,000 | 70,000 | 6 | 1,50,000 |",
+        "expr": null,
+        "m": "4",
+        "years": ["2075 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Why incremental analysis is essence during comparative analysis of alternatives using BCR, IRR and ERR? Illustrate with the help of example. Compare the following mentioned projects using IRR method MARR=14%.\n\n| Alternatives | Investment | Gross Revenues | O & M | Salvage Value | Life Span (years) |\n|---|---|---|---|---|---|\n| Project A | 20,00,000 | 8,50,000 | 3,50,000 | 15% of First Cost | 8 |\n| Project B | 25,00,000 | 9,00,000 | 3,50,000 | | |\n| Project C | 40,00,000 | 9,50,000 | 2,50,000 | | |\n| Project D | 35,00,000 | 10,00,000 | 3,00,000 | | |",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2076 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain Capitalized Worth. Four projects are being considered with the estimated cash flow over 10 years. Recommend which investment alternative should be selected. Assume MARR=10%.\n\n| Project | A | B | C | D |\n|---|---|---|---|---|\n| Initial Investment | 320000 | 250000 | 720000 | 800000 |\n| life | 5 | 6 | 7 | 8 |\n| Annual revenues | 70000 | 50000 | 120000 | 160000 |\n| Salvage Value | 40000 | 30000 | 50000 | 60000 |\n| B & C | Mutually Exclusive | | | |\n| D | Contingent on C | | | |\n| A | Contingent on B | | | |",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2076 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Decide the feasibility of the project from B/C ratio method, having initial investment of Rs. 2,000/- generating revenue of Rs. 400/- for the first year and increases by 50% each year up to its project life which is 5 years. Operating and maintenance cost is Rs. 100/- per year and salvage value is Rs. 300/-. MARR = 12% per year.",
+        "expr": null,
+        "m": "2+2",
+        "years": ["2078 Poush B"],
+        "freq": 1
+      },
+      {
+        "t": "Recommend the best project from the following information using co-termination assumptions when MARR is 12% per year and study period is of 5 years.\n\n| Project | Software Company | Construction Company |\n|---|---|---|\n| Investment | 400,000 | 600,000 |\n| Annual Revenue | 1,50,000 | 2,00,000 |\n| Annual Cost | 30,000 | 40,000 |\n| Salvage Value | 50,000 | 60,000 |\n| Useful life | 5 years | 8 years |\n| MARR | 12% | |",
+        "expr": null,
+        "m": "8",
+        "years": ["2078 Poush B"],
+        "freq": 1
+      },
+      {
+        "t": "Compute the IRR for the Commercial building constructed on a lease land with contract period of 5 years, whose initial investment is Rs. 25,00,00,000/-, annual rent is 10,00,00,000/-, annual expense is 2,00,00,000/- and is to be sold at 5,00,00,000/- to land owner after contract period. MARR = 12% per year. Also draw unrecovered investment diagram in graphical and tabular form.",
+        "expr": null,
+        "m": "3+2+3",
+        "years": ["2078 Poush B"],
+        "freq": 1
+      },
+      {
+        "t": "Illustrate with example, why incremental analysis is needed and how it can be performed?",
+        "expr": null,
+        "m": "2",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Based on following information select the best alternative using ERR method.\n\n| | Alternative X | Alternative Y |\n|---|---|---|\n| Investment | Rs 10,000 | Rs 15,000 |\n| Revenue | Rs 5,000 | Rs 8,000 |\n| Life | 5 years | |\n| MARR | 10%, Reinvestment rate = 12% | |\n| Salvage value | 12% of Investment | |\n| O & M | Rs 1,500 | |",
+        "expr": null,
+        "m": "4",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "You are planning to invest in a project for 7 years. Based on the following information, which option would you prefer over others and why? Take MARR = 11%. Use suitable methodology.\n\n| | Project A | Project B |\n|---|---|---|\n| Investment | Rs 100,000 | Rs 120,000 |\n| Revenue | Rs 25,000 | Rs 17,000 |\n| Life | 10 years | 7 years |",
+        "expr": null,
+        "m": "5",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Assess the feasibility by computing both types of Payback periods from the following information regarding an engineering project.\n\n| EOY | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| Cash Flows | -25,00,000 | 5,20,000 | 12,00,000 | 12,00,000 | 8,00,000 | 10,00,000 |\n\nBank provides a loan for investment @ 16% pa.",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2076 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Calculate the Discounted Payback period if MARR is 10%.\n\n| EOY | 0 | 1 | 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|---|---|---|\n| inflow | 0 | $3000 | $4000 | $5000 | $6000 | $7000 | $8000 |\n| outflow | $10000 | $1000 | $900 | $800 | $700 | $600 | $500 |\n\n(Standard Payback period is 4 years)",
+        "expr": null,
+        "m": "4",
+        "years": ["2078 Baishakh B", "2078 Baishakh R"],
+        "freq": 2
+      },
+      {
+        "t": "Which option would you recommend?\n\n| Option | First Cost | Annual Benefit | Annual Cost | Salvage Value | Useful life |\n|---|---|---|---|---|---|\n| A | $3500 | $1900 | $600 | $500 | 4 years |\n| B | $5000 | $2500 | $1300 | $1000 | 8 years |\n\nUsing the repeatability assumption and the FW formulation if MARR is 10%.",
+        "expr": null,
+        "m": "4",
+        "years": ["2078 Baishakh B", "2078 Baishakh R"],
+        "freq": 2
+      },
+      {
+        "t": "Using the co-termination assumption if study period is 4 years. MARR is 12%. Select suitable method and Evaluate. Which method do you prefer and why? [Same projects as above repeatability question]",
+        "expr": null,
+        "m": "6",
+        "years": ["2078 Baishakh B", "2078 Baishakh R"],
+        "freq": 2
+      },
+      {
+        "t": "With suitable examples the comparing mutually exclusive, contingent and independent project in combination.",
+        "expr": null,
+        "m": "4",
+        "years": ["2078 Baishakh B", "2078 Baishakh R"],
+        "freq": 2
+      },
+      {
+        "t": "An equipment costing of Rs.5,00,000 is estimated to have life of 10 years and expected annual revenue is Rs.1,10,000 with annual cost of Rs.20,000. Determine the investment decision from PW, AW, and FW method to this equipment when salvage value is Rs.1,00,000 and MARR = 12%.",
+        "expr": null,
+        "m": "",
+        "years": ["2069 Poush B"],
+        "freq": 1
+      },
+      {
+        "t": "Equipment costs 2,50,000 and has salvage value of 50,000 at the end of its expected life 5 years. Annual expenses will be 40,000. It will produce a revenue of 120,000 per year. MARR = 20% = ε. (i) Evaluate IRR using AW formulation. (ii) Evaluate both type of B/C ratio with FW formulation. (iii) Find ERR.",
+        "expr": null,
+        "m": "4+4+4",
+        "years": ["2069 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Consider the following cash flow of project: Initial investment = Rs 25,000; Net annual revenue = Rs 8,000; Salvation value after 5 years = Rs 5,000. Calculate IRR of the project. Is the investment on this project accepted? Assume MARR = 20%. Show that unrecovered project balance in graphical as well as tabular form.",
+        "expr": null,
+        "m": "8",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "You planned to invest in a project which has stated following information regarding investment plan in its proposal: First Cost = Rs 2 Lakhs, Project's Life = 4 years, Salvage value = Rs 50 thousands, Gross revenue = Rs 1 lakh, O and M = Rs 30 thousands. Draw your decision based on discounted payback period method and modified benefit cost ratio. You are provided with 14% MARR.",
+        "expr": null,
+        "m": "3+3",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "ee6",
+    "title": "Replacement Analysis",
+    "sub": "defender vs challenger · economic service life · AEC · replacement strategy · finite/infinite planning horizon · cashflow approach · opportunity cost approach",
+    "concepts": {
+      "h": ["Economic service life calculation (minimizing AEC)", "AEC comparison of defender and challenger", "Replacement strategy with finite planning horizon", "Cash flow approach vs opportunity cost approach", "Replacement analysis when planning horizon is infinite"],
+      "m": ["Reasons for replacement of assets", "AEC table and optimal replacement timing", "Defender and challenger definitions", "Replacement with given AEC table"],
+      "l": ["Capital recovery cost concept", "Sunk cost in replacement", "Replacement analysis with finite study period"]
+    },
+    "qs": [
+      {
+        "t": "Find economic service life from the following information: Initial Cost = Rs 25,000; Operation cost = Rs 10,000 for 1st year and increase by 15% thereafter; Salvage value = Rs 10,000 for the first year and decrease Rs 1000 each year; Useful life = 6 years; MARR = 12%.",
+        "expr": null,
+        "m": "6",
+        "years": ["2079 Ashwin B"],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by replacement analysis? Determine the choice between defender and challenger with following information from AEC approach when useful life is 5 years and MARR is 10%.\n\n| | Defender | Challenger |\n|---|---|---|\n| Initial investment (Rs.) | 1500000 | 3000000 |\n| Annual Cost (Rs.) | 500000 | 75000 |\n| Salvage value (Rs.) | 250000 | 500000 |",
+        "expr": null,
+        "m": "6",
+        "years": ["2079 Ashwin B"],
+        "freq": 1
+      },
+      {
+        "t": "A 5-year old defender has a current market value of Rs 40,000, except Operation and Maintenance of Rs 30,000 this year, increasing by Rs 15,000 per year. Future market values are expected to decline by Rs 10,000 per year. The Challenger costs Rs 60,000 and has Operation and Maintenance of Rs 20,000 per year, increasing by Rs 10,000 each year. Salvage value expected at the end of 5 year is Rs 20,000. Calculate the economic service life of both defender and challenger.",
+        "expr": null,
+        "m": "",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between cashflow approach and opportunity cost approach used in replacement analysis. A machine has a first cost of $50000. Its market value declines 20% annually. The operation and maintenance cost start at $3500 at first year and climb up by $2000 per year. The firm's MARR is 9%. Find the minimum EUAC for this machine and its economic service life if useful life is 7 years.",
+        "expr": null,
+        "m": "4+8",
+        "years": ["2079 Jestha B"],
+        "freq": 1
+      },
+      {
+        "t": "Define replacement. Explain the main reasons for replacement. Find economic service life from the following data. Initial cost = Rs 50,000; Operating cost = Rs 10,000 for the 1st year that increases by 15% thereafter; Salvage value = Decreases each year by 20% from previous value; Useful life = 7 years; MARR = 15% per year.",
+        "expr": null,
+        "m": "1+3+8",
+        "years": ["2075 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by replacement analysis and economic service life? What are the procedures for replacement when planning horizon is infinite and finite? Calculate AECs from the following information and determine economic service life. I = 18,000; N = 8 years; O and M = 3,000 for the 1st year and increases by 15% thereafter; S = Decline by 20% each successive year over than previous price; MARR = 12% per year.",
+        "expr": null,
+        "m": "2+2+2+6",
+        "years": ["2075 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain about the Sunk Cost, Economic life and reasons for replacement of an asset. The Annual Equivalent Cost of defender and challenger are given in the table below. What is the best replacement strategy? Use MARR = 10%. The planning horizon of the project is 8 years.\n\n| End of year (n) | 1 | 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|---|---|\n| (AEC)D | 5400 | 5200 | 5500 | 5700 | 6200 | 6600 |\n| (AEC)C | 7700 | 6200 | 5700 | 5500 | 5680 | 5900 |",
+        "expr": null,
+        "m": "8+4",
+        "years": ["2071 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain about the reasons for replacement of asset. The Annual Equivalent Cost (AEC) of the defender and challenger are given in the table below. What is the best replacement strategy? Use MARR = 12%. The planning horizon of the project is 8 years.\n\n| End of Year (n) | 1 | 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|---|---|\n| (AEC)D | 5300 | 5250 | 5400 | 5750 | 6200 | 5550 |\n| (AEC)C | 7700 | 6150 | 5700 | 5600 | 5675 | 5800 |",
+        "expr": null,
+        "m": "4+8",
+        "years": ["2070 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "The new machine costs 10,000 operating cost 2200 in first year, then increases by 20% per year. Market value is 6000 after one year and will decline by 15% each year N=5 years. If required, old machine can work another 3 years. Market value now is 5000 and will decline by 25% each year. Immediate overhauling to restore to operable condition costs 1200. Operating costs 2000 in the first year increases by 1500 per year thereafter. MARR = 15%. i) Find the economic service life of this machine (new). ii) AEC of defender is as followings: [DIAGRAM NEEDED] When should the old machine be replaced with the new machine.\n\n| N | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|\n| AEC | 5380 | 5203 | 5468 | 5845 |",
+        "expr": null,
+        "m": "8+4",
+        "years": ["2070 Magh B", "2070 Bhadra R"],
+        "freq": 2
+      },
+      {
+        "t": "Define defender and challenger and Explain economic service life. Company X is going to purchase a router having initial cost Rs.18,000 having salvage value of Rs.12000 at the end of first year and decreases by 20% each year then after for remaining useful life. Annual operation and maintenance cost is Rs. 5000 in first year and increases by Rs.2000 each year. Its useful life is 6 years. Calculate economic service life of the router.",
+        "expr": null,
+        "m": "2+2+8",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What are the procedure for replacement analysis when planning horizon is infinite? Find economic service life from the following information. Initial cost = Rs 50,000; Operation cost = Rs 10,000 for the 1st year and increases by 15% thereafter; Salvage value = Decline each successive year by 20% over previous year; Useful life = 8 years; MARR = 15%.",
+        "expr": null,
+        "m": "4+8",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "A chemical plant owns a filter press that was bought 3 years ago for Rs. 30,000. Now it has a market value of Rs. 9000, a life of 5 years, and a salvage value of Rs. 2000 at that time. The challenger has a cost of Rs. 36,000, a life of 5 years, and estimated market value of Rs. 12,000 after 5 years. 5 years planning period to be used and the MARR is 15%. The operating and maintenance cost of the alternatives are given in the following table:\n\n| End of Year | Defender | Challenger |\n|---|---|---|\n| 0 | 0 | 0 |\n| 1 | 7,000 | 0 |\n| 2 | 8,000 | 1,000 |\n| 3 | 9,000 | 2,000 |\n| 4 | 10,000 | 3,000 |\n| 5 | 11,000 | 4,000 |\n\nShould the old filter press be replaced now? Use cashflow approach.",
+        "expr": null,
+        "m": "",
+        "years": ["2076 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Consider the following cashflow for defender and challenger.\n\n| | Defender | Challenger |\n|---|---|---|\n| Market Price | Rs. 50,000 | Initial Cost = Rs. 75,000 |\n| Remaining useful life | 3 years | Useful life = 3 years |\n| Salvage value | Rs. 12,500 | Salvage value = Rs. 30,000 |\n| Operation and Maintenance Cost | 40,000 | Operation and Maintenance Cost = 30,000 |\n\nPerform the replacement analysis using the cashflow approach and opportunity cost approach.",
+        "expr": null,
+        "m": "8",
+        "years": ["2076 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by replacement analysis? Determine the choice between defender and challenger with following information from AEC approach when useful life is 5 years and MARR is 10%.\n\n| Item | Defender | Challenger |\n|---|---|---|\n| Initial investment (Rs.) | 25,00,000 | 35,00,000 |\n| Annual cost (Rs.) | 10,00,000 | 7,50,000 |\n| Salvage value (Rs.) | 5,00,000 | 12,00,000 |",
+        "expr": null,
+        "m": "",
+        "years": ["2069 Poush B"],
+        "freq": 1
+      },
+      {
+        "t": "Define economic service life of an asset. From the following information find the economic service life of an asset. Initial investment = 50,000; Annual operating cost = 10,000 for the first year and increasing by 15% over the previous year; Salvage value = Declining each year by 20% from the previous year's salvage value; Useful life = 7 years; MARR = 15%.",
+        "expr": null,
+        "m": "",
+        "years": ["2069 Poush B"],
+        "freq": 1
+      },
+      {
+        "t": "What is the economic service life of an asset? Find the economic service life of a new electric lift truck which costs $20,000, has an operating cost of $1000 in the first year and salvage value of $12,000 at the end of the first year. For the remaining years, operating costs increase each year by 10% over the previous year's operating costs. Similarly the salvage value declines each year by 20% from the previous years salvage value. The lift truck has a maximum life of 7 years. An overhaul costing of $3000 and $5000 will be required during the fifth and seventh year of service respectively. The firm's required rate of return is 15% per year.",
+        "expr": null,
+        "m": "",
+        "years": ["2069 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Why replacement analysis is necessary in economic analysis? How do you make replacement analysis when planning horizon is finite?",
+        "expr": null,
+        "m": "2+2",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "A paper printing company is considering for replacement of old machine with newer one. For this, Defender: If repair the old machine, that can be used for another 5 years which will require Rs. 13,000 for overhaul repair. The electricity and labor cost are estimated Rs. 19,000 for the first year and expected to increase by Rs. 13,000 per year thereafter. The company can sell this printing machine for Rs. 50,000 and future market value is expected to decline by 20% each year over the previous year's value. Challenger: The new machine costs Rs. 1,00,000. And will have electricity and labor cost of Rs. 20,000 in the first year and expected to increase by 15% per year thereafter. The expected salvage value is Rs. 60,000 after one year and will decline by 15% each year for 8 years. Find the economic life for each option and determine when the defender should be replaced at MARR = 15%.",
+        "expr": null,
+        "m": "12",
+        "years": ["2078 Poush B"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "ee7",
+    "title": "Risk Analysis",
+    "sub": "sensitivity analysis · breakeven analysis · scenario analysis · decision tree · sources of risk",
+    "concepts": {
+      "h": ["Sensitivity analysis with graph over ±% range for multiple parameters (Initial Investment, Net Revenue, Useful Life, MARR)", "Decision tree analysis with probability and FW/PW calculation", "Breakeven analysis (single and mutually exclusive alternatives)", "Identifying most sensitive parameter from sensitivity diagram"],
+      "m": ["Scenario analysis", "Sources of risk in engineering projects", "Sensitivity analysis using IRR method", "Sensitivity analysis using BCR"],
+      "l": ["Concept of certainty, uncertainty and risk", "Risk analysis methods overview"]
+    },
+    "qs": [
+      {
+        "t": "Perform a sensitivity analysis (Over a range of ±15% with 5% increment) with using net worth method (FW formulation) for the parameters (i) Useful life (ii) Initial investment (iii) Net Revenue. It is given that, I = Rs 1,00,000, SV = Rs 22,000, Net Revenues = Rs 40,000 at first year then increased by 15% each year, Useful life = 6 years and MARR = 15%. Suggest which of the considered parameter of the project is more sensitive and why? Plot sensitivity graph also.",
+        "expr": null,
+        "m": "6",
+        "years": ["2079 Ashwin B"],
+        "freq": 1
+      },
+      {
+        "t": "How scenario analysis can be performed? Explain it with suitable examples.",
+        "expr": null,
+        "m": "2",
+        "years": ["2079 Ashwin B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain different methods of analyzing the riskiness of the project. Perform sensitivity analysis to identify the most sensitive parameter by plotting sensitivity graph, using conventional BCR for a project having following information over the range of ±15% (with increment of 5%) for the parameters (i) Initial Investment (ii) Net Annual Revenues (iii) Interest Rate.\n\n| Initial Investment (Rs) | 115000 |\n|---|---|\n| Net Annual Revenues (Rs) | 30000 |\n| Salvages Value (Rs) | 25000 |\n| Life of project (Years) | 12 |\n| MARR | 10% per year |",
+        "expr": null,
+        "m": "2+8",
+        "years": ["2079 Jestha B"],
+        "freq": 1
+      },
+      {
+        "t": "Perform a sensitivity analysis over a range of ±15% with 5% increment using AW formulation for i) Initial Investment, ii) Net annual income, iii) Useful life & iv) MARR. Given Parameters: Initial cost = Rs 125,000; Salvage value = Rs 25,000; Annual Income = Rs 60,000; Annual Cost = Rs 20,000; Useful Life = 6 Years; MARR = 8%. Which parameter is the most sensitive among the given? Give reasons.",
+        "expr": null,
+        "m": "",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "A firm plans to install its manufacturing unit either in Butwal or Birganj. Preliminary feasibility study gives the following information depicted in table. Further added cost for advertisement are Rs 200,000 and Rs 250,000 for Butwal and Birganj respectively. Where should the firm target to install its unit?\n\n| | Butwal | | | Birganj | | |\n|---|---|---|---|---|---|---|\n| | High | Medium | Low | High | Medium | Low |\n| Success Probability | 0.2 | 0.5 | 0.3 | 0.3 | 0.4 | 0.3 |\n| Income | 400,000 | 300,000 | 150,000 | 500,000 | 350,000 | 100,000 |",
+        "expr": null,
+        "m": "4",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Enunciate different methods of analyzing the riskiness of the project. Perform sensitivity analysis to identify the most sensitive parameter, among considered parameters by plotting the graph, using IRR computations for a project having following information over the range of ±15% (interval of 5%) for the parameters: (i) Net Annual Revenues (ii) Salvage Value (iii) Life Span.\n\n| Investment (Rs) | Net Annual Revenues (Rs) | Salvage Value (Rs) | Life of Project (Year) |\n|---|---|---|---|\n| 80,000 | 25,000 | 10,000 | 12 |",
+        "expr": null,
+        "m": "2+8",
+        "years": ["2075 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "A project costs Rs. 125,000 with annual revenue of Rs.65,000 and annual cost of Rs.35,000. Salvage value will be 8% of the initial investment. Perform Sensitivity analysis using PW formulation over a range of ±40% in i) Initial Investment ii) Annual Revenue iii) Useful Life and iv) MARR. Draw the sensitivity diagram and indicate the most sensitive and least sensitive parameters.",
+        "expr": null,
+        "m": "6+2",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain about the decision tree analysis. Perform sensitivity analysis of the following project over range of ±30% at an interval of ±10% in (i) Initial Investment (ii) Net Annual Revenue and (iii) Useful life. Use PW formulation.\n\n| Initial Investment (Rs) | 1,00,000 |\n|---|---|\n| Net Annual Revenue (Rs) | 40,000 |\n| Salvage Value (Rs) | 15,000 |\n| Useful life (years) | 6 |\n| MARR (%) | 10 |",
+        "expr": null,
+        "m": "2+10",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the concept of scenario and decision tree analysis. If 20 watt CFL bulb price is Rs.280 and 100 watt filament bulb price is Rs. 30 at market but their lighting power is equal. Which bulb do you prefer to use in your house when electricity cost is Rs. 12 per unit?",
+        "expr": null,
+        "m": "6",
+        "years": ["2075 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Perform sensitivity analysis for the following project over range of ±30% in parameters; (i) Initial investment (ii) Annual revenue (iii) life year.\n\n| Initial Cost | Rs. 5,00,000 |\n|---|---|\n| Annual revenue | Rs. 1,20,000 |\n| Salvage value | Rs. 80,000 |\n| Life year | 6 year |\n| MARR | 10% per year |",
+        "expr": null,
+        "m": "6",
+        "years": ["2075 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "For the improvement of a manufacturing plant, following three alternatives are being considered. The estimated investments and the corresponding increment in income are also given as below. Draw decision tree diagram of the situation and decide on the best alternative using FW formulation. MARR = 15%. Life of the Project is 6 years.\n\n| Alternatives | Investment Cost | Sales | Annual Income |\n|---|---|---|---|\n| A | 1000000 | High (P=0.4) / Medium (P=0.5) / Low (P=0.1) | 500000 / 300000 / 125500 |\n| B | 600000 | High (P=0.2) / Medium (P=0.5) / Low (P=0.3) | 400000 / 250000 / 100000 |\n| C | 400000 | High (P=0.5) / Medium (P=0.1) / Low (P=0.4) | 200000 / 125000 / 50000 |",
+        "expr": null,
+        "m": "6",
+        "years": ["2071 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Perform sensitivity analysis of the following project over a range of 10 to 50 percent in (i) initial investment and (ii) MARR using PW formulation. Assume Sv = 0. Draw sensitivity diagram also. [Rs 1,00,000 Investment, Income Rs 40,000, Useful life 6 years, MARR 15%]",
+        "expr": null,
+        "m": "6",
+        "years": ["2071 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Investigate the Modified BCR (using FW formulation) over a range of ±30% in initial investment, useful life and MARR, of the following project. Initial investment = $200,000; Salvage value = $25,000; MARR = 12%; Annual Revenue = $50,000; Annual expenses = $5,000; Useful life = 10 years. Draw also sensitivity diagram and interpret.",
+        "expr": null,
+        "m": "8",
+        "years": ["2076 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "What are the sources of risk in engineering projects in Nepal? A real-state developer seeks to determine the most economical height for a new office building which will be sold after five years. The relevant net annual revenues and net resale values are given below.\n\n| | 4 Floors | 5 Floors |\n|---|---|---|\n| First Cost | 125,000,000 | 200,000,000 |\n| Annual Revenues | 19,910,000 | 37,815,000 |\n| Net Resale Value | 200,000,000 | 300,000,000 |\n\nThe developer is uncertain about the interest rate i to use, but is certain that it is in the range of 5 to 30%. For each building height, find the range of values of i for which that building height is the most economical. Draw sensitivity diagram to support your answer.",
+        "expr": null,
+        "m": "4+8",
+        "years": ["2070 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Perform sensitivity analysis over ±25% for the following project on parameters i) Initial Investment ii) Annual revenue iii) Useful life. When I=10,000; AR=4,000 for the 1st year that increases by 500 thereafter for next 4 years; MARR=10% per year.",
+        "expr": null,
+        "m": "",
+        "years": ["2076 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the Decision Tree Analysis with appropriate illustration.",
+        "expr": null,
+        "m": "4",
+        "years": ["2076 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Perform sensitivity analysis over a range of ±15% with 5% increment using AW formulation for i) Initial Investment, ii) Net annual income, iii) Useful life & iv) MARR.",
+        "expr": null,
+        "m": "",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "If the cost of 25 watt CFL bulb is Rs.260 whereas the cost of 100 watt Filament bulb is Rs.35 but these bulbs have equal lighting power. Which bulb do you prefer in your use and why? When electricity cost is Rs.11 per unit (kw-hr).",
+        "expr": null,
+        "m": "",
+        "years": ["2069 Poush B"],
+        "freq": 1
+      },
+      {
+        "t": "Perform sensitivity analysis over a range of ±30% in i) initial investment ii) net annual revenue iii) useful life year. Draw also sensitivity diagram.\n\n| Initial investment (Rs.) | 5,00,000 |\n|---|---|\n| Net annual revenue (Rs.) | 1,20,000 |\n| Salvage value (Rs.) | 80,000 |\n| Useful life (year) | 6 |\n| MARR | 10% |",
+        "expr": null,
+        "m": "",
+        "years": ["2069 Poush B"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "ee8",
+    "title": "Depreciation and Taxes",
+    "sub": "depreciation methods · SL · DDB · SOYD · MACRS · sinking fund · book value · corporate tax · after-tax cash flow · ATCF analysis",
+    "concepts": {
+      "h": ["MACRS depreciation schedule and after-tax cash flow", "Declining balance depreciation (DDB with switchover)", "SOYD depreciation", "After-tax cash flow analysis and IRR/PW", "Straight line depreciation", "Corporate income tax and personal tax definitions"],
+      "m": ["Book value calculation", "Reasons for depreciation", "After-tax IRR evaluation", "Depreciation with tax rate and PW/AW evaluation"],
+      "l": ["Sinking fund depreciation method", "Depreciation terminology (book value, salvage, useful life)", "Advantages of depreciation"]
+    },
+    "qs": [
+      {
+        "t": "You purchased a machine at a cost of Rs 3,20,000 and it is classed as a 5 years property. The depreciation is on MACRS schedule. The estimated annual revenue to be generated by machine is Rs 1,50,000 and Operation and Maintenance cost is Rs 25,000. Determine the after tax present worth if MARR is 15% and Tax rate applicable is 30%.",
+        "expr": null,
+        "m": "8",
+        "years": ["2079 Ashwin B"],
+        "freq": 1
+      },
+      {
+        "t": "Write down the reasons for depreciation and method of charging depreciations.",
+        "expr": null,
+        "m": "4",
+        "years": ["2079 Ashwin B"],
+        "freq": 1
+      },
+      {
+        "t": "Describe the procedure of depreciation calculation using MACRS method. A firm is considering the following investment project. [DIAGRAM NEEDED]\n\n| Year | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| BTCF (in thousands) | -1000 | 500 | 340 | 244 | 100 | 100 |\n\nThe salvage value at the end of 5th year will be Rs 0. Double declining balance method will be used for depreciation estimation. The rate of income tax is 34%. If the firm requires a 10% after tax rate of return, should the project be undertaken?",
+        "expr": null,
+        "m": "4+8",
+        "years": ["2079 Jestha B"],
+        "freq": 1
+      },
+      {
+        "t": "An asset has installed value of 45,000. Ss = 0. It is classed as a 5 year property. Determine approximate MACRS depreciation schedule. Over 6 years it is estimated to generate revenue of Rs. 23,000 per year with annual operating cost 7300. Required rate of return = 15% after tax. Tax rate = 40%. Evaluate after tax IRR with annual worth method.",
+        "expr": null,
+        "m": "6+6",
+        "years": ["2070 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "An asset classified as 5-year property has value of Rs. 90,000 with no salvage value at the end of its useful life. Compute the MACRS % and depreciation amount for the asset. Estimate its cashflow at the time of before and after tax pay when the company has to pay income tax of 30%; when it is estimated to generate revenue of Rs. 25,000 per year with annual cost of Rs. 5,000. Assume, i = 12% per year.",
+        "expr": null,
+        "m": "6+6",
+        "years": ["2078 Poush B"],
+        "freq": 1
+      },
+      {
+        "t": "Define depreciation. What are the advantages of depreciation concept? Your college is considering purchase vehicle of Rs. 4,00,000 that assigned to 5 years useful life and expected salvage value is Rs. 1,00,000. Calculate depreciation for each year by using declining balance and MACRS.",
+        "expr": null,
+        "m": "1+2+3+3",
+        "years": ["2075 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by tax, personal tax and corporate tax? Develop a model to calculate after tax cash flow.",
+        "expr": null,
+        "m": "1+1+1+2",
+        "years": ["2075 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the terms depreciation, corporate tax, personal income tax and book value. Show the depreciations and book values in each year for an equipment having following details using MACRS method. Investment (I) = 25,00,000; Useful life (n) = 7 years.",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2075 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Perform after tax cash flow analysis to examine the feasibility of a project having investment of Rs 1,00,000 in a machine, with zero salvage value, 5 years useful life, net annual revenues of Rs 20,000 at the end of first year then after increases by Rs 10,000 pa. Use SL depreciation. Tax rate is 25%.",
+        "expr": null,
+        "m": "6",
+        "years": ["2075 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "List out advantages of depreciation. Calculate depreciation amount for each year using declining balance and MACRS methods. I=10,00,000; N=5 years; S=2,00,000 (If applicable).",
+        "expr": null,
+        "m": "1+2+3",
+        "years": ["2076 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Define direct tax & indirect tax. Prepare after tax cash flow of a project having following cash flow details. Initial cost = 1,00,000; Useful life = 5 years; Salvage value = 20,000; Annual income = Rs. 20,000 at the end of first year and increases by Rs. 2000/year; Tax rate = 20%; Depreciation method sum of year digit.",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2076 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Prepare a schedule of charging depreciation and carry out the book value for each year of a machinery having first cost of Rs. 80,000 with salvage value of Rs 10,000 after 5 years using i) DDB Method, ii) SOYD method, iii) MACRS method. Also, find after tax net present value based on above calculated SOYD depreciation. Net annual revenues from machinery are Rs 35,000 for 5 years. 25% tax rate and MARR = 15%.",
+        "expr": null,
+        "m": "",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define depreciation. What are the causes for it? If a machine costing of Rs. 1,50,000 is purchased by expecting salvage value Rs.40,000 at the end of 6th year. Calculate depreciation amount for each years by i) SOYD ii) Declining balance.",
+        "expr": null,
+        "m": "2+5",
+        "years": ["2070 Magh B", "2070 Bhadra R"],
+        "freq": 2
+      },
+      {
+        "t": "Suppose an equipment purchased for Rs.10,00,000. It is expected to generate income of Rs. 3,50,000 per year during 5 years and corporate income tax rate is 25% per year. Under the recovery periods depreciation are as follows.\n\n| Year | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| Depreciation amount | 1,00,000 | 2,00,000 | 2,00,000 | 2,00,000 | 1,00,000 |\n\nCalculate ATCFs and determine profitability (IRR) when MARR is 15% by using PW method.",
+        "expr": null,
+        "m": "6",
+        "years": ["2070 Magh B", "2070 Bhadra R"],
+        "freq": 2
+      },
+      {
+        "t": "A taxpayer wants to use costing of Rs. 10,000 asset in business that assigned to 5 years life. Find: a) Depreciation amount for each year using straight line and declining balance method taking salvage value Rs.1,500. b) Rate of depreciation and depreciation amount by MACRS guideline. c) After tax cash flow when annual income is Rs.3,000 and business has to pay 25% corporate tax followed by declining balance deprecation.",
+        "expr": null,
+        "m": "3×4",
+        "years": ["2076 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Compute the annual depreciation allowances and the resulting book value using the double declining balance method with Switch over to straight line method. Cost of asset = Rs. 100,000, Useful life = 5 years, Salvage Value = 20000.",
+        "expr": null,
+        "m": "6",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "A company bought a machine at Rs 25000 which is expected to produce benefit of Rs 8000 per year for five years. Its salvage value at the end of five years is Rs 10000. Calculate after tax cashflow if Tax rate is 40% and depreciation is on Sinking fund method. I = 20%.",
+        "expr": null,
+        "m": "6",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Write down the causes for depreciation of assets. If a machine costing of Rs. 1,00,000 is purchased by expecting salvage value of Rs 20,000 at the end of 6th years. Calculate the depreciation amount for each years by SOYD and straight line method.",
+        "expr": null,
+        "m": "2+5+5",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by depreciation? Explain about the causes of it. Explain about any three methods of depreciation calculation that are used commonly. A machine purchased for Rs. 60,000 by expecting useful life of 10 years. Calculate the depreciation amount for each year by using deciding balance method when rate of depreciation is 20% per year.",
+        "expr": null,
+        "m": "6+6",
+        "years": ["2071 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "A machine costs Rs 15000. Its useful life is 5 years and salvage valve is Rs 900. Compute the annual depreciation allowances and resulting book values using double balance depreciation methods.",
+        "expr": null,
+        "m": "8",
+        "years": ["2069 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by depreciation and what are its causes? A machine purchased for Rs. 50,000 by expecting useful life of 10 years. Calculate its depreciation amount for each year by using declining balance method when rate of depreciation is 20% per year.",
+        "expr": null,
+        "m": "",
+        "years": ["2069 Poush B"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "ee9",
+    "title": "Measurement of National Income, Inflation and Exchange Rates",
+    "sub": "GDP · inflation · CPI · constant vs actual dollar · equivalence under inflation · real vs nominal interest rate · exchange rates · fiscal budget · financial statements",
+    "concepts": {
+      "h": ["Constant dollar vs actual dollar analysis and equivalence calculation", "Inflation-adjusted IRR (inflation free interest rate)", "Market interest rate, inflation free rate, and CPI relationship", "NPV/PW calculation with inflation (actual dollar analysis)", "Real and nominal interest rate relationship"],
+      "m": ["GDP components and measurement", "Inflation controlling measures", "Causes and effects of inflation", "Equivalence calculation under inflation with constant dollar series"],
+      "l": ["Financial statements overview", "Nominal vs real exchange rates", "Fiscal budget and monetary policy", "Unemployment measurement"]
+    },
+    "qs": [
+      {
+        "t": "What is inflation? Describe about CPI. You deposit Rs 10,000 in a scheme that doubles the money in 5 years. What interest rate did you deposit in? If the inflation rate is 7%, what is the real (inflation free) interest rate?",
+        "expr": null,
+        "m": "2+2",
+        "years": ["2079 Ashwin B"],
+        "freq": 1
+      },
+      {
+        "t": "Define different interest rates used in inflation analysis. Calculate the NPV if MARR = ε = 12% and inflation rate is 7%.\n\n| Year | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| Const. Dollar (Rs) | -9000 | 1500 | 2000 | 2500 | 2800 | 3800 |",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2079 Jestha B"],
+        "freq": 1
+      },
+      {
+        "t": "Define constant dollar and actual dollar amount. Suppose you borrowed Rs.1,20,000 from a bank to buy a bike and you have promised to pay Rs.6000 per month for two years. What is the inflation free interest rate you are supposed to pay if average inflation rate is 0.75% per month.",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define Constant dollar amount and Actual dollar amount. Suppose you borrowed Rs. 100000 from a bank to buy a bike and you have promised to pay Rs. 5500 per month for two years. What is the inflation free interest rate you are supposed to pay if average inflation rate is 0.75% per month.",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2071 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define inflation. Calculate IRR if MARR = 12% and inflation rate is 8%.\n\n| Year | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|\n| Constant Dollar | -6000 | 1500 | 2000 | 2500 | 3000 |",
+        "expr": null,
+        "m": "1+3",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Calculate the equivalent present worth of the project from the following cash flow. Assume inflation free interest rate as 5% and inflation as 10% respectively.\n\n| EOY | Cash flow in Actual $ |\n|---|---|\n| 0 | -7,50,000 |\n| 1 | 3,20,000 |\n| 2 | 3,75,000 |\n| 3 | 3,28,000 |\n| 4 | 2,90,000 |\n| 5 | 5,80,000 |",
+        "expr": null,
+        "m": "4",
+        "years": ["2075 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "How do you measure the average inflation rate? Explain with an example. Calculate IRR (Inflation free) the following cash flow if inflation rate is 10% per year.\n\n| EOY | Cash flow in Actual $ |\n|---|---|\n| 0 | -7,50,000 |\n| 1 | 3,20,000 |\n| 2 | 3,57,000 |\n| 3 | 3,28,000 |\n| 4 | 2,90,000 |\n| 5 | 5,80,000 |",
+        "expr": null,
+        "m": "4",
+        "years": ["2076 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "The annual fuel cost required to operate a small solid waste treatment plant are projected to be Rs. 200000 without considering any future inflation. The best estimate indicates that the annual inflation free interest rate I' will be 6% and the general inflation rate, f, will be 5%. If the plant has the remaining useful life of four years, what is the present equivalent of its fuel costs? Use actual dollar analysis.",
+        "expr": null,
+        "m": "5",
+        "years": ["2070 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Evaluate the PW of the following project: Initial investment = Rs. 1,00,000 (constant dollars); Annual sales income = Rs. 40,000 (constant dollars); Annual labour cost = Rs. 3,000 (constant dollars); Annual material X = Rs. 2,000 (constant dollars); Annual material Y = Rs. 1,000 (constant dollars); Salvage Value = 20% of initial investment (constant dollars). Inflation rate for sales income, labour cost, materials X, material Y and salvage value are 5%, 8%, 0%, 6% and 3% respectively for the project period. Take market interest rate = 20%, project life is 4 years.",
+        "expr": null,
+        "m": "5",
+        "years": ["2070 Magh B", "2070 Bhadra R"],
+        "freq": 2
+      },
+      {
+        "t": "What is Actual and Constant Dollar? The cost of apple per kg is Rs 150. The Cost increases to 6%, 8% and 9% per kg in first year, second year and third year respectively. Determine the average inflation rate for 3 years.",
+        "expr": null,
+        "m": "1+1",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is inflation? List out the impact of inflation. Calculate the rate of inflation when CPI moves from 100 to 250 over three years.",
+        "expr": null,
+        "m": "1+2+1",
+        "years": ["2075 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Draw the concept of inflation using suitable example. If the real interest rate is given as 5% and general inflation rate as 8%, calculate MARR. Explain meaning of constant dollar and actual dollar.",
+        "expr": null,
+        "m": "1+1.5+1.5",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define inflation. List out its effects. If the inflation rate is 5% per year and the market interest rate is 13% per year. What is the implied interest (inflation free) rate in inflationary economy?",
+        "expr": null,
+        "m": "1+1+2",
+        "years": ["2069 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "A series of five constant dollar (or real dollar) income (beginning with $5000 at the end of the first year) are increasing at the rate of 7% per year for five years. Inflation free interest rate is 5% and inflation is 8%. Is it feasible investment if investment cost is $20,000?",
+        "expr": null,
+        "m": "4",
+        "years": ["2069 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Choose the best project from the following alternatives. Assume an average inflation of 5% and interest rate is 15% per year.\n\n| Project | A | B |\n|---|---|---|\n| Initial Cost (Rs.) | 30,000 | 40,000 |\n| Life | 5 Years | 5 Years |\n| Salvage Value (Rs.) | 4,000 | 6,000 |\n| Annual O and M cost (Rs.) | 6,000 | 5,000 |",
+        "expr": null,
+        "m": "",
+        "years": ["2078 Poush B"],
+        "freq": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,1370 @@
+[
+  {
+    "id": "cn1",
+    "title": "Introduction",
+    "sub": "OSI/TCP-IP · Protocols · Layered arch · Devices",
+    "concepts": {
+      "h": [
+        "OSI vs TCP/IP comparison",
+        "Layered architecture — why/need",
+        "Protocol definition & examples",
+        "Client-server vs P2P model",
+        "Functions of each OSI/TCP-IP layer"
+      ],
+      "m": [
+        "Headers & trailers / encapsulation",
+        "Protocols at each TCP/IP layer",
+        "OSI layer task identification"
+      ],
+      "l": [
+        "Layer design issues",
+        "Service primitives",
+        "Network topology types",
+        "Networking devices (hub, switch, router, bridge)"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Differentiate between TCP/IP and OSI model.",
+        "expr": null,
+        "m": "4–8",
+        "years": [
+          "2082 Bhadra R",
+          "2081 Bhadra R",
+          "2080 Bhadra R",
+          "2079 Bhadra R",
+          "2078 Bhadra R",
+          "2076 Chaitra R",
+          "2075 Chaitra R",
+          "2074 Chaitra R",
+          "2073 Shrawan B",
+          "2072 Chaitra R",
+          "2071 Chaitra R",
+          "2071 Shrawan B"
+        ],
+        "freq": 12
+      },
+      {
+        "t": "Define Network. List a function of each layer of OSI reference model and compare it with TCP/IP model.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2081 Bhadra R",
+          "2080 Bhadra R"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "Explain client/server and P2P network model with their advantages and disadvantages. Discuss layers of TCP/IP model with suitable diagram.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between Client Server and Peer to Peer architecture. Discuss the functions of each layer of OSI model.",
+        "expr": null,
+        "m": "3+5",
+        "years": [
+          "2080 Bhadra R",
+          "2075 Chaitra R",
+          "2074 Chaitra R",
+          "2071 Chaitra R",
+          "2070 Chaitra R"
+        ],
+        "freq": 5
+      },
+      {
+        "t": "Why do we need layered architecture in computer network? Discuss the function of each layer of TCP/IP networking model.",
+        "expr": null,
+        "m": "3+5",
+        "years": [
+          "2080 Baishakh B",
+          "2069 Chaitra R"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "What is a protocol? List out the common protocols used at each layer of TCP/IP model. Differentiate between client-server and P2P network.",
+        "expr": null,
+        "m": "1+3+4",
+        "years": [
+          "2081 Baishakh B",
+          "2081 Bhadra Back"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "Compare OSI reference model and TCP/IP reference model mentioning their similarities and differences.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2079 Bhadra R",
+          "2072 Kartik B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "What do you mean by network architecture? Compare TCP/IP and OSI reference models. Explain X.25 Network with its key feature.",
+        "expr": null,
+        "m": "2+3+3",
+        "years": [
+          "2071 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Why layering is important? Explain design issues for layers in detail. Mention service primitives for implementing connection-oriented service.",
+        "expr": null,
+        "m": "2+4+2",
+        "years": [
+          "2075 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Compare OSI layer with TCP/IP Layer. Explain in which level of OSI layer following tasks are done: error detection, encryption, logical identification, socket connection, dialogue control, physical identification.",
+        "expr": null,
+        "m": "5+3",
+        "years": [
+          "2072 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the features of Client/Server Architecture? What are headers and trailers and how do they get added and removed?",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2076 Ashwin B",
+          "2070 Chaitra R"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "Why do we need layered architecture in networks? Differentiate between TCP/IP and OSI model.",
+        "expr": null,
+        "m": "2+2+4",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "cn2",
+    "title": "Physical Layer",
+    "sub": "Transmission media · Switching · Multiplexing · ISDN",
+    "concepts": {
+      "h": [
+        "Circuit vs packet switching",
+        "Guided & unguided transmission media",
+        "Types of multiplexing (FDM, TDM, WDM)"
+      ],
+      "m": [
+        "Datagram vs virtual circuit switching",
+        "Throughput calculation",
+        "Frame relay network",
+        "ISDN architecture & channels"
+      ],
+      "l": [
+        "Line of sight (LOS) propagation",
+        "Optical fiber block diagram",
+        "El telephone hierarchy",
+        "FDDI fault tolerance"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Explain line of sight (LOS) propagation modes. Draw block diagram generic optical fiber (OF) communication system and its RF range.",
+        "expr": null,
+        "m": "4+2",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "List out the most common guided and unguided transmission media used in computer networks. Explain any one of the guided transmission media with examples.",
+        "expr": null,
+        "m": "3+5",
+        "years": [
+          "2082 Baishakh B",
+          "2081 Baishakh B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "What is transmission medium? Explain different transmission medium with their merits and demerits.",
+        "expr": null,
+        "m": "1+7",
+        "years": [
+          "2076 Chaitra R",
+          "2074 Chaitra R"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "What is multiplexing? What is its importance in communication? Explain different types of multiplexing techniques.",
+        "expr": null,
+        "m": "1+2+5",
+        "years": [
+          "2080 Baishakh B",
+          "Model Q"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "What are the importance of switching and multiplexing? Explain different techniques of multiplexing with typical applications of each.",
+        "expr": null,
+        "m": "3+3",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is switching and multiplexing? Explain switching technique used in modern computer networks.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2079 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by switching in communication? Compare switching with multiplexing. Explain the El Telephone hierarchy system.",
+        "expr": null,
+        "m": "2+2+4",
+        "years": [
+          "2073 Shrawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is switching? What are the various switching techniques? Elaborate packet switching with a proper diagram.",
+        "expr": null,
+        "m": "1+2+5",
+        "years": [
+          "2075 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define Throughput. A network with bandwidth of 20 Mbps can pass only an average of 18,000 frames per minute with each frame carrying an average of 20,000 bits. Calculate the throughput. Differentiate between Packet switching and Virtual Circuit switching.",
+        "expr": null,
+        "m": "1+3+4",
+        "years": [
+          "2078 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the factors to be considered while selecting media for communication? Differentiate between datagram and virtual circuit switching approach with respect to Frame Relay Network.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define transmission media. Compare among Twisted Pair, Coaxial cable and Fiber optic.",
+        "expr": null,
+        "m": "3+5",
+        "years": [
+          "2074 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is ISDN? Explain the working principle of ISDN with its interface and functional group.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2076 Ashwin B",
+          "2075 Ashwin B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "What are the factors that cause packet delay in computer networks? What are the differences between circuit switching and packet switching?",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2074 Ashwin B"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "cn3",
+    "title": "Data Link Layer",
+    "sub": "Error control · CSMA · Ethernet · WLAN · VLAN · ARQ",
+    "concepts": {
+      "h": [
+        "CSMA/CD working principle",
+        "CRC calculation (numericals)",
+        "Pure ALOHA vs Slotted ALOHA",
+        "Bit stuffing / framing",
+        "DLL functions",
+        "VLAN"
+      ],
+      "m": [
+        "Ethernet IEEE 802.3 frame format",
+        "CSMA/CA in WLAN",
+        "Go-Back-N & Selective Repeat ARQ",
+        "Piggybacking",
+        "Token bus/ring/FDDI",
+        "Hamming distance",
+        "LLC and MAC sublayers"
+      ],
+      "l": [
+        "IEEE 802.5 frame format",
+        "Multiple access protocols overview",
+        "ATM virtual circuit switching",
+        "CSMA/CD vs CSMA"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Write different ways to correct backward error correction. Compare pure Aloha and slotted Aloha mentioning the condition for no collision.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is CSMA/CD? Why is it not applicable in wireless LAN? What are the techniques used to avoid the possible collisions in WLAN? Explain.",
+        "expr": null,
+        "m": "2+2+4",
+        "years": [
+          "2081 Baishakh B",
+          "2080 Baishakh B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "How CSMA/CD works? Describe Ethernet (IEEE 802.3) frame structure with function of each field.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2079 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the working principle of CSMA/CD with appropriate figure.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2076 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is collision? How is it occurred? How the possibility of collision is reduced in IEEE 802.3 and IEEE 802.11? Explain.",
+        "expr": null,
+        "m": "1+1+6",
+        "years": [
+          "2076 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is collision? What are the problems due to collision? How the possibilities of collision be reduced in IEEE 802.3 and IEEE 802.11 protocols?",
+        "expr": null,
+        "m": "1+1+4",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain Go-back-N ARQ and Selective Repeat ARQ with example. How CSMA/CD is better than CSMA?",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2078 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the functions of data link layer? How to detect signal collision in CSMA/CD? List the ethernet cable specification standards for 802.3.",
+        "expr": null,
+        "m": "2+3+3",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is Hamming distance? How do you apply it in data link layer error control mechanism? Calculate the CRC for an 8 bit sequence 11001101. Generator polynomial is x^4+x^2+1. Also find the transmitted bit frame.",
+        "expr": null,
+        "m": "1+2+5",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is piggy-backing? How do you apply it in data link layer flow control mechanism? Calculate the CRC for a 10 bit sequence 1010001101. Generator polynomial is x^5+x^4+x^2+1. Also find the transmitted bit frame.",
+        "expr": null,
+        "m": "1+2+5",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain how CRC detects errors. M(x)=x^7+x^4+x^3+x^2+1, generator G(x)=x^3+1. Show actual bit string transmitted; if third bit is inverted, show how error is detected.",
+        "expr": null,
+        "m": "3+5",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is the main functionality of data link layer? Differentiate between circuit switching and packet switching.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2082 Baishakh Back"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "State the various design issues for the data link layer. What is piggybacking? A bit string 0111101111101111110 needs to be transmitted at data link layer. What is the string actually transmitted after bit stuffing?",
+        "expr": null,
+        "m": "3+3+2",
+        "years": [
+          "2075 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is a virtual LAN? Why is it called as virtual? Explain how frames can be delivered from one computer to another within the same VLAN across different switches.",
+        "expr": null,
+        "m": "1+1+4",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Briefly explain different types of Data Link Layer framing mechanisms. List the features of FDDI.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2072 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What do you understand by Media Access Control? What is its significance in data link layer? Explain why token bus is also called as the token ring.",
+        "expr": null,
+        "m": "2+2+4",
+        "years": [
+          "2073 Shrawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write short note on: VLAN.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2082 Bhadra R",
+          "2080 Baishakh B",
+          "2076 Ashwin B",
+          "2070 Chaitra R"
+        ],
+        "freq": 4
+      }
+    ]
+  },
+  {
+    "id": "cn4",
+    "title": "Network Layer",
+    "sub": "IP addressing · Routing · IPv6 · NAT · ARP · ICMP · Congestion",
+    "concepts": {
+      "h": [
+        "Subnetting / VLSM numericals",
+        "OSPF link state routing",
+        "Distance vector vs link state routing",
+        "IPv4→IPv6 transition strategies",
+        "IPv6 features & addressing",
+        "Leaky bucket & token bucket",
+        "ARP"
+      ],
+      "m": [
+        "RIP routing protocol",
+        "CIDR & supernetting",
+        "DR/BDR election in OSPF",
+        "IPv4 vs IPv6 header",
+        "ICMP uses",
+        "TTL and protocol field",
+        "ISATAP and 6-to-4 tunneling",
+        "6RD for IPv6",
+        "IPv6 address types"
+      ],
+      "l": [
+        "BGP/EIGRP overview",
+        "NAPT/NAT",
+        "ICMPv6/NDP",
+        "IPv6 extension headers",
+        "Congestion control mechanisms",
+        "Classful vs classless addressing"
+      ]
+    },
+    "qs": [
+      {
+        "t": "What are routing protocols? Explain OSPF process in link state routing.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Subnetting: Company XYZ, IP 160.24.96.0/21, 6 departments (1024, 750, 254, 500, 151, 45 users) + point-to-point links. List CIDR, network address, broadcast address, usable host range and wasted IP.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Subnetting: IP 202.97.43.0/25, 4 LANs with 14, 55, 10, 29 hosts. Find subnet mask, network address, broadcast, usable host IP ranges.",
+        "expr": null,
+        "m": "1+7",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Subnetting: Block 200.74.20.0/24 for 5 departments (4, 54, 120, 12, 30 hosts). List network address, broadcast, usable host range and wasted IP.",
+        "expr": null,
+        "m": "1+7",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Subnetting: Block 16.16.16.0/21, divide equally for 5 departments. List network address, broadcast, subnet mask and usable IP.",
+        "expr": null,
+        "m": "3+5",
+        "years": [
+          "2081 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Subnetting: Block 10.20.30.0/24, 4 LANs (4, 64, 24, 18 hosts) + 4 WAN links. List subnet wasted IPs.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Subnetting: Block 200.80.40.0/24 with 5 departments (29, 5, 16, 43, 14 hosts) + point-to-point links. List subnet mask, network address, broadcast, usable host IP ranges and wasted IPs.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2080 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Subnetting: ISP block 172.24.96.0/21 for 4 departments A, B, C, D (750, 200, 500, 45 hosts) + 3 point-to-point links. Find network address, broadcast, subnet mask, usable host range.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2079 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Subnetting: Block 202.50.0.0/24, 6 departments (125, 59, 27, 14, 4, 2 hosts). Find subnet mask, network address, broadcast, wasted IPs and usable host ranges.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2078 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Subnetting: Company leased 222.70.94.0/24 for 5 departments (50, 30, 25, 12, 10 hosts) + 2 point-to-point links. List network address, broadcast, usable IP range, subnet mask; also mention unused IP range.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2076 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Subnetting: Block 192.168.1.0/24 for 6 departments (16, 32, 61, 8, 6, 24 computers). Find network address, broadcast, usable IP range, subnet mask.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2076 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Subnetting: Block 120.89.96.0/19, 4 departments A, B, C, D requesting 100, 500, 800, 400 addresses. Perform subnetting with minimum wastage.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2075 Chaitra R",
+          "2074 Ashwin B",
+          "2073 Shrawan B",
+          "2072 Chaitra R"
+        ],
+        "freq": 4
+      },
+      {
+        "t": "Subnetting: Pool of Class C, allocate 32, 65, 10, 21, 9 IPs to departments A–E with minimum loss.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2074 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Subnetting: Block 202.77.19.0/24, allocate 30, 24, 25, 20 IPs to 4 departments with minimum wastage.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2072 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Subnetting: Block 10.10.10.0/24, 4 departments (5, 16, 23, 27 hosts). Find subnet mask, network address, broadcast, unassigned range.",
+        "expr": null,
+        "m": "10",
+        "years": [
+          "2071 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Subnetting: Block 202.70.64.0/24, 4 departments (A=23, B=18, C=28, D=13 hosts). Find subnet mask, network address, broadcast, usable host range.",
+        "expr": null,
+        "m": "10",
+        "years": [
+          "2068 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Subnetting: Block 202.70.64.0/19, 4 departments requesting 100, 500, 800, 400 addresses.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2073 Shrawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Subnetting: Block 200.10.80.32/25, 5 departments requiring 5, 40, 28, 12, 6 hosts.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2068 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is adaptive and non-adaptive routing? List properties of link state routing and mention how Designated Router (DR) is elected in OSPF routing.",
+        "expr": null,
+        "m": "2+2+4",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define routed and routing protocol. Explain RIP routing operation with its timer details.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is unicast and multicast? Compare distance vector routing protocol and link state routing protocol with examples.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2080 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is DR and BDR in OSPF? How do OSPF routers come into fully adjacency states?",
+        "expr": null,
+        "m": "3+5",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define routing algorithm. List properties/goals of routing algorithm. What is link state routing? Show how routing tables are populated in LSR with example.",
+        "expr": null,
+        "m": "3+5",
+        "years": [
+          "2078 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Why routing is essential in computer networking? Compare distance vector routing algorithm with link state routing algorithm.",
+        "expr": null,
+        "m": "3+5",
+        "years": [
+          "2075 Ashwin B",
+          "2067 Ashadh B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "What is routing? Differentiate between distance vector and link state routing algorithms.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2076 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "List IPv6 extension headers in order. Explain ISATAP and 6-to-4 tunneling with their address format for IPv4 to IPv6 transition.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Map IPv4 addresses with its IPv6 equivalent. What are the latest best IPv6 transition methodologies? Explain anyone.",
+        "expr": null,
+        "m": "2+2+4",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Critically compare IPv4 and IPv6 in terms of routing and head manipulation. Explain the importance and implementation of 6RD for IPv6 based services on existing IPv4 networking.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Compare the IPv4 header with IPv6 header. Explain the dual stack strategy to transit from IPv4 to IPv6.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2081 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "List the advantages of IPv6 over IPv4. Explain any two suitable transition strategies for IPv4 to IPv6.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2078 Bhadra R",
+          "2076 Ashwin B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "What are the problems of IPv4? How can IPv6 reduce these problems? Explain header translation mechanism for transition from IPv4 to IPv6.",
+        "expr": null,
+        "m": "2+2+4",
+        "years": [
+          "2079 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain three address types in IPv6 with IP notations. How does an IPv6 machine acquire IPv6 address automatically?",
+        "expr": null,
+        "m": "3+5",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is ICMP? Explain the importance and uses of ICMP in TCP/IP protocol suite.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2081 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is the purpose of TTL and protocol field in IPv4 header? Which protocol provides feedback to hosts/routers? What is ARP and how does it work?",
+        "expr": null,
+        "m": "4+1+3",
+        "years": [
+          "2076 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Why TCP is known as reliable protocol? What are the congestion control techniques? Discuss Token Bucket approach and compare it with leaky bucket.",
+        "expr": null,
+        "m": "2+2+4",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "How does Token Bucket control the congestion over the Leaky Bucket algorithm?",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the services provided by Transport layer? Explain about Leaky-Bucket algorithm for congestion control.",
+        "expr": null,
+        "m": "3+5",
+        "years": [
+          "2078 Bhadra R"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "cn5",
+    "title": "Transport Layer",
+    "sub": "TCP · UDP · 3-way handshake · Flow control · Sockets",
+    "concepts": {
+      "h": [
+        "TCP 3-way handshake (connection establishment & release)",
+        "TCP vs UDP differences",
+        "UDP header fields & functions",
+        "TCP reliability mechanisms",
+        "TCP header format"
+      ],
+      "m": [
+        "Port numbers — purpose and standardization",
+        "TCP sliding window / flow control",
+        "Socket — definition and importance",
+        "Transport layer services"
+      ],
+      "l": [
+        "Why two transport protocols?",
+        "UDP use cases despite being unreliable",
+        "Process-to-process communication",
+        "Socket programming basics"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Write UDP header field and functions. Explain TCP 3-way handshaking for connection establishment and release.",
+        "expr": null,
+        "m": "2+3+3",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Discuss UDP header and compare it with TCP. What is port address? Explain briefly about leaky-bucket algorithm used for traffic shaping.",
+        "expr": null,
+        "m": "2+2+4",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Though UDP is said to be unreliable protocol, it is used in Internet. Why? Explain the three way handshake principle of a TCP connection between client and server.",
+        "expr": null,
+        "m": "3+5",
+        "years": [
+          "2081 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the services provided by the transport layer? Explain connection establishment and connection release of TCP for data transfer with suitable diagrams.",
+        "expr": null,
+        "m": "2+4",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the features of UDP protocol? In which case is UDP preferred as a transport layer protocol? Discuss with practical examples.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2079 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the TCP segment structure. Why TCP is known as reliable protocol and also describe how reliability is provided by TCP.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2076 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the differences between TCP and UDP services? Explain the TCP datagram format in detail.",
+        "expr": null,
+        "m": "3+5",
+        "years": [
+          "2075 Ashwin B",
+          "2068 Chaitra R"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "Why do you think that there exist two protocols in transport layer whereas there exists only one protocol in Internet layer in TCP/IP reference model? Explain token bucket algorithm for congestion control.",
+        "expr": null,
+        "m": "5+3",
+        "years": [
+          "2069 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Why port number is used in networking? What are the services of transport layer? Differentiate between TCP and UDP protocol.",
+        "expr": null,
+        "m": "1+2+5",
+        "years": [
+          "2071 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is port number? Why is it necessary to standardize the port numbers for well-known servers? What happens when a web service is hosted at some different port such as 8765 instead of 80?",
+        "expr": null,
+        "m": "2+4+2",
+        "years": [
+          "2080 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "How connection is established and released in TCP. Explain Token Bucket algorithm.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2074 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the TCP protocol with its Header. What do you understand by socket? Explain with its importance.",
+        "expr": null,
+        "m": "5+3",
+        "years": [
+          "2074 Ashwin B"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "cn6",
+    "title": "Upper Layers & Network Design",
+    "sub": "DNS · HTTP · FTP · SMTP · POP · IMAP · DHCP · Proxy",
+    "concepts": {
+      "h": [
+        "DNS recursive vs iterative query",
+        "DNS working principle with diagram",
+        "SMTP working principle",
+        "POP3 vs IMAP comparison",
+        "HTTP/HTTPS",
+        "Proxy server purpose and use"
+      ],
+      "m": [
+        "FTP client-server connection process",
+        "DNS resource records",
+        "DNS delegation",
+        "DHCP lease renew process",
+        "DNS hierarchy & authoritative server resolution"
+      ],
+      "l": [
+        "TFTP",
+        "MIME / encoding over SMTP",
+        "Web server vs file server communication",
+        "SNMP"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Compare DNS recursive query vs. iterative query. Explain iterative query for browsing www.youtube.com.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "How does a DNS recursive query work? Discuss DHCP lease renew process with example diagram.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by DNS delegation? List the step-by-step working principle of SMTP.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is DNS? Why is it used? How is the DNS request from a client computer resolved from the authoritative server? Explain with necessary diagrams.",
+        "expr": null,
+        "m": "2+2+4",
+        "years": [
+          "2079 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is DNS server? Explain the recursive and iterative query.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2080 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is the importance of DNS? How can a DNS request from a client computer be resolved from authoritative server?",
+        "expr": null,
+        "m": "2+4",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is DNS? Explain the working principle of DNS with a proper diagram. Compare IMAP and POP3 protocols.",
+        "expr": null,
+        "m": "1+4+3",
+        "years": [
+          "2076 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is a proxy server? Why is it used? Discuss briefly on HTTP and HTTPS services.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2081 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is HTTP protocol? With an example explain how a request initiated by a HTTP client is served by a HTTP server.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2069 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is recursive and iterative query? Explain with suitable diagram. Discuss the DNS records.",
+        "expr": null,
+        "m": "6+2",
+        "years": [
+          "2074 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are resource records in DNS? Explain the types of DNS queries with example.",
+        "expr": null,
+        "m": "3+5",
+        "years": [
+          "2078 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "How does an FTP client connect to an FTP server? Compare POP3 and IMAP protocols.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "SMTP is a text based protocol and uses 7 bit ASCII. How can this be used to transmit images? Explain.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2071 Shrawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Which protocols are used in sending and receiving an email? Illustrate with necessary figure. Give a comparison of POP3 and IMAP.",
+        "expr": null,
+        "m": "5+3",
+        "years": [
+          "2074 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is TFTP? Explain working principle of FTP with data transfer process including proper port connection.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2076 Ashwin B"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "cn7",
+    "title": "Advanced Topics",
+    "sub": "Network security · Cryptography · RSA · Firewall · SDN · VPN",
+    "concepts": {
+      "h": [
+        "RSA algorithm — encrypt & decrypt (numericals)",
+        "Firewall — types and working",
+        "Symmetric vs asymmetric key encryption",
+        "Digital signature",
+        "VPN",
+        "Properties of secure communication"
+      ],
+      "m": [
+        "Packet filtering firewall",
+        "PGP",
+        "AES technique",
+        "IPSec — AH and ESP",
+        "Diffie-Hellman algorithm",
+        "DES algorithm"
+      ],
+      "l": [
+        "ACL on router",
+        "SDN architecture",
+        "SSL/TLS",
+        "WEP",
+        "IDS",
+        "Public key cryptography concept"
+      ]
+    },
+    "qs": [
+      {
+        "t": "What do you mean by firewall? Encrypt and decrypt the word \"attack\" using RSA.",
+        "expr": null,
+        "m": "2+4+2",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is router ACL? How do you apply ACL to block the IP network 202.70.91.0/24 incoming to interface Fast Ethernet of a router? Encrypt the word \"ISPNet\" using any suitable AES technique.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the fundamental differences between AES and DES? Encrypt the word \"ComNet\" using any suitable AES technique.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is public key cryptography? Encrypt the word \"security\" using the RSA algorithm. Also show the decryption to obtain the plaintext.",
+        "expr": null,
+        "m": "1+7",
+        "years": [
+          "2081 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is a digital signature? Encrypt the message \"PANDEMIC\" using RSA algorithm. Also obtain the plaintext from the ciphertext.",
+        "expr": null,
+        "m": "1+7",
+        "years": [
+          "2079 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write down the steps involved in RSA encryption algorithm. Encrypt the word \"Computer\" using RSA algorithm.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2078 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "How does a Digital Signature work? Encrypt the word HELLO using RSA algorithm. Also decrypt it by showing steps.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2076 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is PGP? Use RSA algorithm to encrypt/decrypt the word COW.",
+        "expr": null,
+        "m": "3+5",
+        "years": [
+          "2080 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "List properties of secure communication. Encrypt and decrypt \"ROSE\" using RSA algorithm.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2076 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the desirable properties of secure communication. Explain how packet filtering firewall works.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2076 Chaitra R",
+          "2075 Chaitra R"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "Compare symmetric key encryption method with asymmetric key encryption. Explain RSA algorithm with example.",
+        "expr": null,
+        "m": "3+5",
+        "years": [
+          "2073 Shrawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is network security? How can firewalls enhance network security? Explain how firewalls can protect a system.",
+        "expr": null,
+        "m": "2+2+4",
+        "years": [
+          "2069 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain briefly how firewalls protect network and explain different types of firewall.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2072 Chaitra R",
+          "2070 Chaitra R"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "What is SDN? Explain its architecture with necessary diagrams.",
+        "expr": null,
+        "m": "2+4",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is VPN? Encrypt a message \"network\" using RSA algorithm.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2075 Ashwin B",
+          "2079 Bhadra R"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "Write short note on: AH and ESP (IPSec).",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2082 Bhadra R",
+          "2080 Baishakh B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "Write short note on: Digital Signature.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2075 Chaitra R",
+          "2074 Ashwin B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "What is firewall? What are their types? Encrypt and decrypt \"OVEL\" message using RSA algorithm.",
+        "expr": null,
+        "m": "1+1+6",
+        "years": [
+          "2072 Kartik B"
+        ],
+        "freq": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,2222 @@
+[
+  {
+    "id": "coa1",
+    "title": "Introduction",
+    "sub": "Org vs Arch · Instruction cycle · Bus · Performance · RISC",
+    "concepts": {
+      "h": [
+        "Computer organization vs architecture — differentiate",
+        "Instruction cycle state diagram with interrupt",
+        "Types of bus and comparison",
+        "Bus interconnection structures"
+      ],
+      "m": [
+        "Performance metrics: CPI, MIPS, MFLOPS",
+        "Amdahl's law and speedup calculation",
+        "PCI bus configuration / design goals",
+        "Structure of a computer (single processor, multi-core)"
+      ],
+      "l": [
+        "RISC architecture concepts",
+        "Overlapped register window / Berkeley RISC",
+        "Performance balance",
+        "Functional view and four types of operations"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Compare between computer architecture and organization. Explain the types of bus used in computer organization.",
+        "expr": null,
+        "m": "3+3",
+        "years": [
+          "2082 Bhadra R",
+          "2081 Bhadra R",
+          "2074 Chaitra R",
+          "2072 Kartik B"
+        ],
+        "freq": 4
+      },
+      {
+        "t": "Distinguish between computer organization and architecture. Explain instruction cycle state diagram with interrupt handling.",
+        "expr": null,
+        "m": "3+3",
+        "years": [
+          "2081 Bhadra R",
+          "2081 Baishakh B",
+          "2074 Chaitra R"
+        ],
+        "freq": 3
+      },
+      {
+        "t": "Differentiate between computer organization and architecture. Compare and explain the bus structure of typical computer system.",
+        "expr": null,
+        "m": "2+4",
+        "years": [
+          "2078 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain instruction cycle state diagram. Describe PCI bus configuration.",
+        "expr": null,
+        "m": "3+3",
+        "years": [
+          "2081 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define structure and function of a computer system. Draw instruction cycle state diagram with interrupt.",
+        "expr": null,
+        "m": "4+2",
+        "years": [
+          "2080 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain about the structural and functional viewpoint of a computer. Explain different elements of bus design.",
+        "expr": null,
+        "m": "4+2",
+        "years": [
+          "2079 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Draw the instruction cycle state diagram with example.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2076 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is PCI? Explain the design goals and performance metrics for a computer system regarding its organization and architecture.",
+        "expr": null,
+        "m": "1+5",
+        "years": [
+          "2076 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define computer architecture. Discuss the limitations of using single bus system to connect different devices. What does width of address bus represent in a system?",
+        "expr": null,
+        "m": "2+2+2",
+        "years": [
+          "2075 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Discuss about the usage of a Multiple Hierarchical Bus Architecture over single bus system.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the major differences between computer architecture and computer organization? What does the width of data bus and address bus represent in a system? Why is bus hierarchy required?",
+        "expr": null,
+        "m": "2+2+2",
+        "years": [
+          "2071 Chaitra R",
+          "2071 Shawan B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "What do you understand by Bus Interconnection? What are the driving factors behind the need to design for performance?",
+        "expr": null,
+        "m": "2+4",
+        "years": [
+          "2071 Shawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is performance balance and why is it required? Explain different elements of bus design.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2070 Ashad B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the functional view and four types of operations used in computer.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2068 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the interconnection of CPU with Memory and I/O devices along with different operations over them.",
+        "expr": null,
+        "m": "3+3",
+        "years": [
+          "2070 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between computer architecture and computer organization. Explain the computer functions with different cycles.",
+        "expr": null,
+        "m": "3+3",
+        "years": [
+          "2072 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between Computer organization and architecture. Draw the instruction cycle state diagram with interrupt. (Model Q)",
+        "expr": null,
+        "m": "3+3",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "coa2",
+    "title": "Central Processing Unit (CPU)",
+    "sub": "Instruction formats · Addressing modes · Register org · Stack",
+    "concepts": {
+      "h": [
+        "Instruction format coding in 0, 1, 2, 3 address formats (numerical)",
+        "Addressing modes — types, examples, advantages/disadvantages",
+        "Data manipulation instructions (arithmetic, logical, shift)",
+        "Data transfer instructions"
+      ],
+      "m": [
+        "Stack organization — register stack, memory stack",
+        "Reverse Polish Notation (RPN) evaluation",
+        "CPU register organization",
+        "Instruction set — program control instructions",
+        "Status bit conditions (carry, overflow, sign, zero)"
+      ],
+      "l": [
+        "Zero address instruction format",
+        "Interrupt types and ISR",
+        "RISC vs CISC comparison"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Write down the code to evaluate Y=(A-B/C)*[D+(E*G)] in three address, two address, one address and zero address instruction format.",
+        "expr": "Y = (A-B/C) * [D+(E*G)]",
+        "m": "8",
+        "years": [
+          "2081 Bhadra R",
+          "2076 Chaitra R"
+        ],
+        "freq": 5
+      },
+      {
+        "t": "Write down the code to evaluate the following expression in three address, two address, one address and zero address instruction format.",
+        "expr": "Y = ((A+B)+(C/D)) / E(F-G)",
+        "m": "2+8",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write program for N = ((P-Q×R)/S)+((T/U)+V×W) using three address, two address, one address and zero address instruction format.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2081 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write down the code to evaluate the following expression in three address, two address, one address and zero address instruction format.",
+        "expr": "X = (A-B+C*(D*E-F)) / (G+H*k)",
+        "m": "8",
+        "years": [
+          "2080 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write a code for X = ((A+B)/C) × (D-E) using three addresses, two addresses, one address and zero address instruction format.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2079 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write down the code for Y = (A-B/C)×(D+E×G)/F using three address, two address, one address and zero address instruction format.",
+        "expr": "Y = (A-B/C) × (D+E×G) / F",
+        "m": "8",
+        "years": [
+          "2078 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write the arithmetic statement Y=(W+X)*(Y-Z) using Zero, One, Two and Three address instruction format.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2076 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write a code for Y=(A+B)/C + D/(E*F) using three address, two address, one address and zero address instruction format.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2075 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write codes for given operation using zero, one, two and three address instruction format.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2075 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write the arithmetic statement X=(P+Q)×(R+S) using zero, one, two and three address instruction format.",
+        "expr": "X = (P+Q) × (R+S)",
+        "m": "8",
+        "years": [
+          "2074 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write a code for Y=A*(B+D/C)+(G*E)/F using three addresses, two address, one address and zero address instruction format.",
+        "expr": "Y = A*(B+D/C)+(G*E)/F",
+        "m": "8",
+        "years": [
+          "2073 Shrawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write a code for X=(A-B*F)*C+D/E using three-,two-,one- and zero- address instruction format.",
+        "expr": "X = (A-B*F)*C+D/E",
+        "m": "4+8",
+        "years": [
+          "2072 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write down the Y=A/B+(C×D)+F(H/G) equation in three address, two address, one address and zero address instruction.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2070 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "How can you perform X=(A+B)×(C+D) operation by using zero, one, two and three address instruction format?",
+        "expr": "X = (A+B) × (C+D)",
+        "m": "3+5",
+        "years": [
+          "2071 Chaitra R",
+          "2071 Shawan B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "Write down the following equation in three addresses, two addresses, one address and zero address instruction. Y=A+(B*C)+D.",
+        "expr": "Y = A+(B*C)+D",
+        "m": "8",
+        "years": [
+          "2068 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write down the Y=AB+(F/G)+CD equation in three-address, two address, one address and zero address instruction.",
+        "expr": "Y = AB+(F/G)+CD",
+        "m": "8",
+        "years": [
+          "2067 Ashadh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write down the code to evaluate Y=(A+B)*(C+D)+G/E*F using three address, two address one address and zero address instruction format.",
+        "expr": "Y = (A+B)*(C+D)+G/E*F",
+        "m": "8",
+        "years": [
+          "2072 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the data manipulation instruction with example. Differentiate between register direct and register indirect addressing modes.",
+        "expr": null,
+        "m": "5+5",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the data transfer instruction with example. Differentiate between Immediate and direct addressing modes.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are different types of addressing modes? List out its types and explain them with examples.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write down the different types of addressing modes and explain each of them with advantages and disadvantages.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2081 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is addressing mode? Explain about the different types of addressing modes with suitable example.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the different types of addressing modes? Compare them with advantages and disadvantages.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2080 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "List out the different types of addressing modes and explain each of them with suitable example.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2079 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Comparison between different types of addressing modes with its advantages and disadvantages.",
+        "expr": null,
+        "m": "10",
+        "years": [
+          "2078 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define addressing modes. Mention the different types of addressing modes and comparison between them.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2076 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the different types of addressing modes and compare each of them.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2076 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write down the need for addressing modes. Explain the various addressing modes with example.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2074 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define addressing mode. Explain different types of addressing modes with example.",
+        "expr": null,
+        "m": "10",
+        "years": [
+          "2068 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the different types of addressing modes? Compare each of them with algorithm as well as advantages and disadvantages.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2068 Baishakh B",
+          "2070 Chaitra R",
+          "2070 Ashad B"
+        ],
+        "freq": 3
+      },
+      {
+        "t": "Explain the logical and bit manipulation instruction with example. Describe the displacement addressing mode with example.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the general organization of register in CPU. Describe the operation of LD (load) instruction under various addressing modes with syntax.",
+        "expr": null,
+        "m": "6+4",
+        "years": [
+          "2071 Chaitra R",
+          "2071 Shawan B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "Explain different types of data manipulation instructions with example.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2078 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between RISC and CISC architecture.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2078 Bhadra R",
+          "2075 Ashwin B",
+          "2073 Shrawan B",
+          "2072 Chaitra R"
+        ],
+        "freq": 4
+      }
+    ]
+  },
+  {
+    "id": "coa3",
+    "title": "Control Unit (CU)",
+    "sub": "Hardwired · Microprogrammed · Microinstruction · Sequencing",
+    "concepts": {
+      "h": [
+        "Hardwired vs microprogrammed control unit — differentiate",
+        "Microprogram sequencer for control memory — diagram & explanation",
+        "Microinstruction format with fields",
+        "Write microprogram for fetch cycle and add cycle"
+      ],
+      "m": [
+        "Address generation / address sequencing in CU",
+        "Control memory organization",
+        "Symbolic vs binary microinstruction",
+        "Wilkes control architecture",
+        "Next address generation"
+      ],
+      "l": [
+        "Application of microprogramming",
+        "Control signal generation using microprogram",
+        "Factors to choose microprogrammed over hardwired"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Comparison between main memory and control memory. Explain microprogram sequencer for control memory with block diagram.",
+        "expr": null,
+        "m": "4+6",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write a microprogram for the fetch cycle and addition cycle. Explain the microinstruction format with example.",
+        "expr": null,
+        "m": "5+5",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the micro instruction format. Difference between symbolic and binary micro instruction.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2081 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between Hardwired and Microprogrammed Control Unit. Explain with diagram the working of microprogram sequencer for control memory.",
+        "expr": null,
+        "m": "2+4",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between hardwired and micro programmed control unit. Explain with block diagram of micro programmed control unit.",
+        "expr": null,
+        "m": "5+5",
+        "years": [
+          "2080 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain address sequencing with the help of a block diagram. Describe micro-instruction format in detail.",
+        "expr": null,
+        "m": "5+3",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Describe the operation of hardwired control unit with a typical block diagram. Explain the operation of microprogram sequencer used in microprogrammed control unit.",
+        "expr": null,
+        "m": "5+5",
+        "years": [
+          "2079 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the organization structure of a microprogram control unit and the generation of control signals using microprogram.",
+        "expr": null,
+        "m": "10",
+        "years": [
+          "2078 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write down the symbolic microprogram for fetch routine and addition execute routine. Explain with diagram the working of microprogram sequencer for control memory.",
+        "expr": null,
+        "m": "4+6",
+        "years": [
+          "2078 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "How address of micro instruction is generated by next address generator in control unit? Explain with suitable diagram.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2076 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain block diagram of micro-programmed control organization. Describe various fields in micro-instruction format with diagram showing different fields.",
+        "expr": null,
+        "m": "4+6",
+        "years": [
+          "2076 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate hardwired and micro-programmed control unit. Draw and explain block diagram of micro-programmed sequencer for control memory.",
+        "expr": null,
+        "m": "10",
+        "years": [
+          "2075 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Draw the diagram of Micro-programmed sequencer for a control memory and explain it.",
+        "expr": null,
+        "m": "10",
+        "years": [
+          "2075 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Compare and contrast between hardwired and microprogrammed control unit. Explain the micro program sequencer used in microprogrammed control unit.",
+        "expr": null,
+        "m": "4+6",
+        "years": [
+          "2074 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain microinstruction format used in microprogramming Control unit and write micro program for fetch cycle.",
+        "expr": null,
+        "m": "6+4",
+        "years": [
+          "2073 Shrawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What factors cause micro-programmed control unit to be selected over hardwired control unit. Explain with relevant block diagram, how address of control memory is selected in micro-programmed control unit.",
+        "expr": null,
+        "m": "3+7",
+        "years": [
+          "2072 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the address sequencer with the help of a block diagram. Explain about microinstruction format in detail.",
+        "expr": null,
+        "m": "5+5",
+        "years": [
+          "2072 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is address sequencing? Explain the selection of address for control memory with its block diagram.",
+        "expr": null,
+        "m": "3+7",
+        "years": [
+          "2071 Chaitra R",
+          "2071 Shawan B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "Explain various fields in micro-instruction format with neat and clean block diagram. Describe how address of control memory is selected.",
+        "expr": null,
+        "m": "3+7",
+        "years": [
+          "2068 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the three types of control signals? Explain the key steps of hardware implementation of control unit.",
+        "expr": null,
+        "m": "3+7",
+        "years": [
+          "2068 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the basic hardwired control unit components and also mention the major steps when you are designing the hardwired control unit.",
+        "expr": null,
+        "m": "4+6",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "coa4",
+    "title": "Memory System",
+    "sub": "Cache memory · Mapping techniques · Memory hierarchy · Replacement algorithms",
+    "concepts": {
+      "h": [
+        "Cache memory — direct mapping technique with example",
+        "Set associative mapping — explain",
+        "Replacement algorithms (LRU, FIFO) in cache",
+        "Write policy techniques in cache",
+        "Cache mapping comparison (direct vs associative vs set-associative)"
+      ],
+      "m": [
+        "Memory hierarchy — draw and explain",
+        "Characteristics of memory system",
+        "Direct mapping numerical (given main memory and cache blocks)",
+        "Cache principles (hit ratio, miss ratio)"
+      ],
+      "l": [
+        "RAM types (SRAM, DRAM)",
+        "ROM types (PROM, EPROM, EEPROM)",
+        "DDR, DIMM, SODIMM",
+        "External memory (RAID, SSD)"
+      ]
+    },
+    "qs": [
+      {
+        "t": "What do you mean by mapping function? Why replacement policy is used in fully associative mapping and set associative mapping? Explain with example.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Why memory hierarchy is required in computer system? Explain the least recently used (LRU) replacement algorithm with example.",
+        "expr": null,
+        "m": "3+5",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Describe the cache memory principles. Differentiate between direct mapping and set associative mapping.",
+        "expr": null,
+        "m": "3+5",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain in briefly the characteristics of a memory system. Differentiate between direct mapping and set associative mapping.",
+        "expr": null,
+        "m": "3+7",
+        "years": [
+          "2081 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the characteristics of a memory system briefly. Explain direct cache mapping technique with example. (Model Q)",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain different write policy techniques in cache memory. (Model Q)",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain direct Cache mapping technique with example. Explain different write policy techniques in cache memory.",
+        "expr": null,
+        "m": "7+3",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is set associative mapping? Explain how it combines the feature of direct and associated mapping technique. Explain different replacement algorithm techniques used in cache memory.",
+        "expr": null,
+        "m": "2+3+3",
+        "years": [
+          "2080 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Describe how Set-Associative Mapping works in Cache memory mapping. Explain different write policy techniques in cache memory.",
+        "expr": null,
+        "m": "3+5",
+        "years": [
+          "2079 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain Least Recently Used (LRU) replacement algorithm in case of hit and miss with suitable example.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2078 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain various mapping methods used in cache memory organization and compare each of them with example.",
+        "expr": null,
+        "m": "10",
+        "years": [
+          "2078 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define cache mapping techniques. Explain direct mapping technique with suitable diagram. Why replacement algorithm is necessary in associative mapping? Justify.",
+        "expr": null,
+        "m": "2+4+4",
+        "years": [
+          "2076 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Describe cache operation briefly. Explain about associative mapping technique. Give reasons why replacement algorithm is not required in direct mapping technique.",
+        "expr": null,
+        "m": "2+6+2",
+        "years": [
+          "2076 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write characteristics of memory system? Suppose main memory has 64 blocks and cache memory has 8 blocks when 10 blocks of main memory are used, show how mapping is performed in direct mapping technique.",
+        "expr": null,
+        "m": "4+6",
+        "years": [
+          "2075 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the various types of elements of cache design and also explain the various mapping techniques used in cache with example.",
+        "expr": null,
+        "m": "4+6",
+        "years": [
+          "2075 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write down the characteristics of memory system. Suppose main memory has 32 blocks and cache memory has 8 blocks when 12 blocks of main memory are used, show how mapping is performed in direct mapping.",
+        "expr": null,
+        "m": "4+6",
+        "years": [
+          "2074 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Describe how set associative mapping combines the feature of direct and associated mapping technique. Explain different write policy techniques in cache memory.",
+        "expr": null,
+        "m": "5+3",
+        "years": [
+          "2073 Shrawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Draw the memory hierarchy. Explain direct cache mapping with its merits and demerits.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2072 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Draw the memory hierarchy. Explain Associative Cache Mapping with example.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2072 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain cache organization. Explain the cache mapping techniques with example.",
+        "expr": null,
+        "m": "4+6",
+        "years": [
+          "2071 Chaitra R",
+          "2071 Shawan B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "What are the major differences between different cache mapping techniques? Suppose main memory has 32 blocks and Cache memory has 8 blocks when 10 blocks of main memory are used, show how mapping is performed in direct mapping technique.",
+        "expr": null,
+        "m": "6+2",
+        "years": [
+          "2070 Ashad B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Mention the characteristics of computer memory. Differentiate between associative mappings and set associative mapping with example.",
+        "expr": null,
+        "m": "3+5",
+        "years": [
+          "2070 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain cache read operation. What are the demerits of direct mapping technique and describe in details any one mapping technique that solves these problems.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2068 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Why replacement algorithm is used when designing the cache? Explain with example.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2067 Ashadh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Why cache management is necessary in mapping process? Differentiate between direct mapping address structure and associative mapping address structure.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2067 Ashadh B"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "coa5",
+    "title": "Computer Arithmetic",
+    "sub": "ALU · Integer arithmetic · Booth's · Division algorithms · Floating point",
+    "concepts": {
+      "h": [
+        "Booth's multiplication algorithm (numerical)",
+        "Non-restoring division algorithm (numerical)",
+        "Restoring division algorithm (numerical)",
+        "Floating point addition & subtraction algorithm",
+        "Floating point division algorithm (flowchart)"
+      ],
+      "m": [
+        "ALU design — 1-bit or 2-bit ALU (numerical)",
+        "Comparison: restoring vs non-restoring division",
+        "Integer representation — sign-magnitude, two's complement",
+        "Booth's algorithm flowchart with hardware diagram"
+      ],
+      "l": [
+        "Floating point multiplication & division",
+        "Fixed-point representation",
+        "IEEE 754 floating point standard"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Divide 11/3 using non-restoring division algorithm.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Draw the flowchart of floating-point division.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Draw a flowchart for non-restoring division algorithm and describe the steps. Divide 12/5 using non-restoring division algorithm.",
+        "expr": null,
+        "m": "5+5",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the floating-point multiplication and division process with example.",
+        "expr": null,
+        "m": "3+3",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Draw a flowchart for Booth's multiplication algorithm for signed multiplication. Multiply -6×7 using Booth's multiplication algorithm.",
+        "expr": null,
+        "m": "5+5",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the floating-point addition and subtraction process with example.",
+        "expr": null,
+        "m": "3+3",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Draw the flowchart for Restoring Division. Divide 11/5 using restoring division.",
+        "expr": null,
+        "m": "4+6",
+        "years": [
+          "2081 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Multiply 10 × (-7) using Booth's multiplication algorithm.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2081 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain Booth's algorithm. Multiply (9 × -4) using Booth's multiplication algorithm.",
+        "expr": null,
+        "m": "4+6",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Compare restoring division algorithm with non-restoring division algorithm.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain non-restoring division algorithm with flow-chart and also divide 12/5 using same algorithm.",
+        "expr": null,
+        "m": "5+5",
+        "years": [
+          "2080 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Multiply -6×7 using Booth's multiplication algorithm.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2080 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Draw the flowchart for Non-Restoring Division. Perform 13/5 using restoring division.",
+        "expr": null,
+        "m": "4+6",
+        "years": [
+          "2079 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain floating point addition and subtraction algorithm with an example.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2079 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the non-restoring division algorithm for division. Divide 10/5 using non-restoring division.",
+        "expr": null,
+        "m": "5+5",
+        "years": [
+          "2078 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the floating point addition and subtraction process using flow chart.",
+        "expr": null,
+        "m": "3+3",
+        "years": [
+          "2078 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Draw the flowchart of Booth's multiplication algorithm and multiply -7 × -10 using Booth's multiplication algorithm.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2078 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Describe the procedure for floating point addition and subtraction with help of flowchart and example.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2078 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the Booth's algorithm for multiplication. Multiply 10 × (-5) using Booth's multiplication algorithm.",
+        "expr": null,
+        "m": "5+5",
+        "years": [
+          "2076 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Comparison between restoring and non-restoring division algorithms with example.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2076 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write an algorithm of Booth multiplication. Perform 8×4 using Booth multiplication algorithm.",
+        "expr": null,
+        "m": "10",
+        "years": [
+          "2076 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between restoring division and non-restoring division and describe the non-restoring division algorithm.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2076 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write an algorithm for non-restoring division. Perform the 10/3 using restoring division algorithm.",
+        "expr": null,
+        "m": "3+7",
+        "years": [
+          "2075 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Multiply -6×-11 using Booth's Multiplication algorithm.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2075 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain Booth's multiplication algorithm for signed 2's complement numbers in details with a suitable example and give the hardware requirements diagram.",
+        "expr": null,
+        "m": "10",
+        "years": [
+          "2075 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between restoring and non-restoring division.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2075 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Perform multiplication -7×3 using Booth algorithm.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2074 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the process of floating point number addition and subtraction with flowchart and example.",
+        "expr": null,
+        "m": "10",
+        "years": [
+          "2074 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain floating point addition and subtraction algorithm with example.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2073 Shrawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain signed binary division algorithm. Use the non-restoring division algorithm to divide 15 by 4.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2073 Shrawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain Booth's multiplication hardware algorithm with diagram. Multiply -5×-9 using Booth's multiplication algorithm.",
+        "expr": null,
+        "m": "5+5",
+        "years": [
+          "2072 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Draw the flowchart for division of floating point numbers.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2072 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain Booth multiplication algorithm. Multiply -6×12 using Booth's algorithm.",
+        "expr": null,
+        "m": "4+6",
+        "years": [
+          "2072 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Draw the flowchart for restoring division method.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2072 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Design a Booth multiplication algorithm hardware. Multiply 5 and -6 using Booth multiplication algorithm.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2071 Chaitra R",
+          "2071 Shawan B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "Draw the flowchart for floating point Division.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2071 Chaitra R",
+          "2071 Shawan B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "Write down the detail algorithm of Booth Multiplication. Illustrate the multiplication of (9) and (-3) using 2's complement method.",
+        "expr": null,
+        "m": "5+5",
+        "years": [
+          "2071 Shawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "How division operation can be performed? Explain with its hardware implementation.",
+        "expr": null,
+        "m": "10",
+        "years": [
+          "2070 Ashad B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Draw a flowchart of floating point subtraction.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2070 Ashad B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the Booth algorithm and multiply Y=8×9 using Booth algorithms.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2070 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the non-restoring division along with its algorithm, flowchart and example.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2070 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain Booth algorithm. Use the Booth algorithm to multiply 23 by -21, where each number is represented using 6 bits.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2068 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain floating point division algorithm.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2068 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the Booth algorithm and its hardware implementation. Multiply the 6×7 using this algorithm.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2067 Ashadh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between restoring division and non restoring division with example.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2068 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Design a 1-bit ALU which can perform addition, AND, OR, and X-OR operations. Explain the different types of instruction formats.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Design a 2-bit ALU that can perform subtraction, AND, OR and XOR.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2075 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the stages of ALU design? Explain with the example of 2-bit ALU performing addition, subtraction, OR and XOR.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2070 Ashad B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain Booth's algorithm. Multiply (Model Q)",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain floating point division algorithm with example. (Model Q)",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "coa6",
+    "title": "Pipelining & Vector Processing",
+    "sub": "Instruction pipeline · Hazards · Arithmetic pipeline · Speedup · Flynn's classification",
+    "concepts": {
+      "h": [
+        "Instruction pipeline — 4-stage with time-space diagram",
+        "Pipeline hazards — data, control, structural (explain with examples)",
+        "Speedup factor proof for pipelined processor",
+        "Arithmetic pipeline — floating point add/subtract"
+      ],
+      "m": [
+        "Flynn's classification of computer systems",
+        "Pipeline conflicts and how to overcome them",
+        "RISC pipeline execution stages",
+        "Six-stage instruction pipeline"
+      ],
+      "l": [
+        "Vector processing",
+        "Superscalar processors",
+        "Array processors (SIMD)",
+        "Parallel processing types"
+      ]
+    },
+    "qs": [
+      {
+        "t": "How parallel processing can be achieved in instruction pipeline? Explain the four segments pipeline having six tasks with time-space diagram.",
+        "expr": null,
+        "m": "4+6",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Discuss the pipeline conflicts with example. Describe 4-stage instruction pipeline with diagram.",
+        "expr": null,
+        "m": "4+6",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is pipelining? Describe four stage instruction pipeline. Explain the Flynn's classification of computer system.",
+        "expr": null,
+        "m": "1+4+4",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Construct time-space diagram for four instructions with four-stage pipeline and show how pipelining reduces the execution time? Explain arithmetic pipeline for solving floating-point addition/subtraction.",
+        "expr": null,
+        "m": "5+5",
+        "years": [
+          "2081 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Show that the Speedup factor for a Pipelined Processor is equal to the number of stages in a pipeline. Explain about the different types of conflicts that can be seen in a pipeline.",
+        "expr": null,
+        "m": "4+6",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "How can we prove that pipelining improves the performance of a computer? Explain the operation of instruction pipeline for processing four segment instruction cycle with the help of space-time diagram.",
+        "expr": null,
+        "m": "4+6",
+        "years": [
+          "2080 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain arithmetic pipelining with example. Describe different types of pipeline hazards with example.",
+        "expr": null,
+        "m": "4+6",
+        "years": [
+          "2079 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is meant by hazard in pipelining? Explain with example data and control hazards in pipeline conflict.",
+        "expr": null,
+        "m": "4+6",
+        "years": [
+          "2078 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "How pipeline processing is done in an instruction pipeline? Explain four segment instruction pipeline with timing diagram.",
+        "expr": null,
+        "m": "3+5",
+        "years": [
+          "2078 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain four stage instruction pipeline and also draw a time-space diagram for four segments having six tasks.",
+        "expr": null,
+        "m": "10",
+        "years": [
+          "2076 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Describe the hazard in a pipeline. Explain the different types of hazards. How can these be overcome?",
+        "expr": null,
+        "m": "2+4+2",
+        "years": [
+          "2076 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Derive expression showing speed up ratio equals number of segments in pipeline. Discuss in detail about data dependency problem that arises in pipelining along with its solution.",
+        "expr": null,
+        "m": "3+5",
+        "years": [
+          "2075 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain six stage instruction pipeline with example.",
+        "expr": null,
+        "m": "10",
+        "years": [
+          "2075 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is pipeline? How performance of computer is increased using pipelining? Explain with example.",
+        "expr": null,
+        "m": "2+6",
+        "years": [
+          "2074 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain in detail how the arithmetic pipeline increases the performance of a system.",
+        "expr": null,
+        "m": "7",
+        "years": [
+          "2073 Shrawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "\"RISC has the ability to use efficient instruction pipeline\". Justify the statement.",
+        "expr": null,
+        "m": "3",
+        "years": [
+          "2073 Shrawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Describe Flynn's classification. Explain control pipeline hazard and its solutions.",
+        "expr": null,
+        "m": "4+6",
+        "years": [
+          "2072 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define pipeline and explain its types. Describe different pipeline hazards with example.",
+        "expr": null,
+        "m": "4+6",
+        "years": [
+          "2072 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the Arithmetic pipeline and instruction pipeline with example.",
+        "expr": null,
+        "m": "10",
+        "years": [
+          "2071 Chaitra R",
+          "2071 Shawan B",
+          "2070 Chaitra R"
+        ],
+        "freq": 3
+      },
+      {
+        "t": "What is instruction hazard in pipeline? What is the four segment instruction pipeline? Explain with example.",
+        "expr": null,
+        "m": "2+8",
+        "years": [
+          "2070 Ashad B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Discuss about parallel processing? How parallel processing can be achieved in pipelining, explain it with time-space diagram for four segments pipeline having six tasks.",
+        "expr": null,
+        "m": "4+6",
+        "years": [
+          "2071 Shawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain six stage instruction pipelines with examples. Draw a time space diagram for 5 segments and 7 tasks. (Model Q)",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "coa7",
+    "title": "Input / Output",
+    "sub": "Programmed I/O · Interrupt-driven I/O · DMA · IOP · I/O channels",
+    "concepts": {
+      "h": [
+        "DMA controller — block diagram and explanation",
+        "Comparison: Programmed I/O vs Interrupt-driven I/O vs DMA",
+        "CPU-IOP communication channel with diagram",
+        "Why IOP is used in I/O organization"
+      ],
+      "m": [
+        "I/O interface role in computer system",
+        "Isolated I/O vs Memory-mapped I/O",
+        "Priority interrupt types and selection mechanism",
+        "Three I/O techniques for data block transfer"
+      ],
+      "l": [
+        "I/O channels and processors",
+        "External interface types",
+        "SCSI",
+        "Plug and Play device configuration"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Explain DMA controller with block diagram. Comparison between programmed I/O with interrupt driven I/O.",
+        "expr": null,
+        "m": "6+4",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Compare and contrast between DMA and I/O processor. Explain the communication between CPU and IOP communication channel with necessary block diagram.",
+        "expr": null,
+        "m": "5+5",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Compare and contrast between programmed I/O and interrupt driven I/O. Explain the CPU and IOP communication channel using diagram.",
+        "expr": null,
+        "m": "5+5",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Why IOP is used in input-output organization? With the help of a neat diagram, explain how DMA technique is used to transfer data in a computer system.",
+        "expr": null,
+        "m": "3+7",
+        "years": [
+          "2081 Baishakh B",
+          "Model Q"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "Explain three I/O techniques for input of a block of data. Show the role of I/O processor to assist the operation of the CPU.",
+        "expr": null,
+        "m": "6+4",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain CPU-IOP Communication with diagram. Explain DMA controller with suitable block diagram.",
+        "expr": null,
+        "m": "5+5",
+        "years": [
+          "2080 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Elaborate the roles of I/O interface in a computer system. Explain how data transfer is performed with programmed I/O technique with necessary diagram.",
+        "expr": null,
+        "m": "10",
+        "years": [
+          "2079 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between isolated and memory mapped Input-output. Explain with block diagram of DMA transfer in a computer system.",
+        "expr": null,
+        "m": "4+6",
+        "years": [
+          "2078 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain with block diagram of DMA controller. How DMA techniques is different from programmed Input-Output?",
+        "expr": null,
+        "m": "6+4",
+        "years": [
+          "2078 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Comparison between program I/O, Interrupt driven I/O and direct memory access. Why data communication processor is required in an I/O organization.",
+        "expr": null,
+        "m": "8+2",
+        "years": [
+          "2076 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the DMA operation with block diagram. How does DMA have request over the CPU when both request a memory transfer?",
+        "expr": null,
+        "m": "8+2",
+        "years": [
+          "2076 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain three reasons behind the requirement of I/O interfaces. Why memory address spaces are reduced in memory mapped I/O? Describe DMA controller with suitable block diagram.",
+        "expr": null,
+        "m": "3+2+5",
+        "years": [
+          "2075 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Why I/O processor is needed in I/O organization? Explain the CPU-IOP communication with diagram.",
+        "expr": null,
+        "m": "3+7",
+        "years": [
+          "2075 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain I/O Interface. Compare programmed I/O, Interrupt driven I/O and direct memory access (DMA).",
+        "expr": null,
+        "m": "2+8",
+        "years": [
+          "2074 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Why input-output processor is needed in an input-output organization? How does a computer know which device issued the interrupt; if multiple devices, how does the selection take place?",
+        "expr": null,
+        "m": "5+5",
+        "years": [
+          "2073 Shrawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between Isolated I/O and Memory-mapped I/O. Describe DMA controller with suitable block diagram.",
+        "expr": null,
+        "m": "4+6",
+        "years": [
+          "2072 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the different types of priority interrupt? Explain the communication between CPU and IOP with necessary block diagram.",
+        "expr": null,
+        "m": "4+6",
+        "years": [
+          "2072 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Highlight the role of I/O interface in a computer system. Describe the drawbacks of programmed I/O and interrupt driven I/O and explain how DMA overcomes their drawbacks.",
+        "expr": null,
+        "m": "4+6",
+        "years": [
+          "2071 Chaitra R",
+          "2071 Shawan B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "How does DMA overcome the problems of programmed I/O and interrupt-driven I/O techniques? Explain.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2070 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Why IOP is used in I/O organization? Explain.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2070 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between programmed I/O, interrupt-driven I/O and direct memory access (DMA).",
+        "expr": null,
+        "m": "10",
+        "years": [
+          "2070 Ashad B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Why input-output processor is needed in an input-output organization? Explain with block diagram.",
+        "expr": null,
+        "m": "10",
+        "years": [
+          "2068 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the input/output interface with example.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2068 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Compare between program I/O, interrupt driven I/O and Direct Memory Access (DMA).",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2068 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the four types of I/O commands that an interface receive during the communication link between the processor and peripherals? Explain the I/O bus and interface modules.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2067 Ashadh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Mention the three possible configurations of DMA and compare them.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2067 Ashadh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the functions of I/O Module? What is the purpose of priority interrupt; explain priority interrupt types with key characteristics.",
+        "expr": null,
+        "m": "3+7",
+        "years": [
+          "2071 Shawan B"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "coa8",
+    "title": "Multiprocessor System",
+    "sub": "Interconnection structures · Tightly/loosely coupled · Interprocessor comm",
+    "concepts": {
+      "h": [
+        "Compare and contrast interconnection structures (crossbar, omega, hypercube, bus)",
+        "Tightly coupled vs loosely coupled multiprocessor",
+        "Interprocessor communication and synchronization"
+      ],
+      "m": [
+        "Characteristics of multiprocessors",
+        "Crossbar switch interconnection with block diagram",
+        "8×8 Omega switching network",
+        "Multiprocessor classification by memory organization"
+      ],
+      "l": [
+        "Hypercube interconnection",
+        "Time-shared common bus",
+        "Multistage switching network",
+        "OS configurations in multiprocessor system"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Compare and contrast the interconnection structures used in multiprocessing system.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2082 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Briefly discuss 8×8 omega switching networking with example.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2082 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Briefly discuss on inter-processor communication and synchronization.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2081 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Discuss about loosely-coupled and tightly-coupled architecture.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2081 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "List out the characteristics of a Multiprocessor.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2080 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the crossbar switch interconnection structure with block diagram.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2080 Baishakh B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Compare and contrast the interconnection structures used in multiprocessing environment.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2079 Bhadra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Compare and contrast the interconnection structures used in multiprocessor system.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2078 Bhadra R",
+          "2078 Kartik B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "Differentiate between tightly coupled multiprocessor and loosely coupled multiprocessor.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2078 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Discuss about hypercube interconnection network with example.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2076 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Discuss about tightly-coupled multiprocessor with block diagram.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2076 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain inter-processor synchronization with example.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2075 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write down the characteristics of multiprocessors.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2075 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain various configurations of OS in multiprocessor system.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2074 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by interconnection structure? Explain different types of interconnections indeed required in Computer Architecture.",
+        "expr": null,
+        "m": "2+4",
+        "years": [
+          "2073 Shrawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Discuss about inter process synchronization with the suitable mechanism.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2072 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain about multiprocessor and multiprocessing in brief.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2072 Kartik B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "How can multiprocessor be classified according to their memory organization? Explain.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2071 Chaitra R",
+          "2071 Shawan B"
+        ],
+        "freq": 2
+      },
+      {
+        "t": "Explain the interprocessor synchronization with example.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2070 Ashad B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the characteristics of multiprocessors.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2070 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define the multiprocessor and its characteristics.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2068 Chaitra R"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the Interconnection structures of computer.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2075 Ashwin B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Describe how the multiprocessor systems increase the performance level and reliability.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2073 Shrawan B"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Compare and contrast different interconnection structures. (Model Q)",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,1263 @@
+[
+  {
+    "id": "sm1",
+    "title": "Introduction to Simulation",
+    "sub": "simulation study steps · advantages & disadvantages · types of models · Monte Carlo · discrete-event",
+    "concepts": {
+      "h": ["Steps in simulation study with flowchart", "Advantages and disadvantages of simulation", "Definition of simulation and modeling", "Areas/applications of simulation"],
+      "m": ["When is simulation appropriate/not appropriate", "Components/elements of a system", "Continuous vs discrete systems", "Monte Carlo simulation", "Discrete-event simulation"],
+      "l": ["Model development life cycle", "System environment concepts"]
+    },
+    "qs": [
+      {
+        "t": "Define modeling and simulation. What are the various steps in simulation study? Illustrate with the flowchart.",
+        "expr": null,
+        "m": "3+5",
+        "years": ["2079 Shrawan B"],
+        "freq": 1
+      },
+      {
+        "t": "Define Simulation and Modeling. What are the advantages and disadvantages of Simulation?",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2079 Jestha B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain with various steps of simulation study. List advantages of simulation study.",
+        "expr": null,
+        "m": "6+2",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "When do we use Simulation? What are the different phases in Simulation Study? Explain.",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2078 Kartik B"],
+        "freq": 1
+      },
+      {
+        "t": "What are the advantages of simulation? Explain briefly the steps in simulation study. List the areas of application of simulation.",
+        "expr": null,
+        "m": "2+4+2",
+        "years": ["2077 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the steps of Simulation study.",
+        "expr": null,
+        "m": "8",
+        "years": ["2075 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is simulation? Explain the steps of Simulation Study with flowchart.",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define system, model and simulation. And clarify with suitable example. List various advantage and disadvantage of simulation?",
+        "expr": null,
+        "m": "3+1+4",
+        "years": ["2073 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the different components of system with example. Write down the advantages and disadvantages of Simulation.",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is Simulation and Modeling? Explain when simulation is appropriate and not appropriate tool.",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2072 Ashwin R"],
+        "freq": 1
+      },
+      {
+        "t": "What is simulation and modelling? Explain the steps in simulation study.",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2071 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define modeling and simulation. Explain steps involved in simulation study.",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2070 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define simulation. What are the various steps in simulation study? Explain.",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2066 Magh R"],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by simulation and modeling? Explain the types of models.",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2065 Baishakh B"],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by system modeling? Explain the advantages and disadvantages of simulation.",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2064 Poush R"],
+        "freq": 1
+      },
+      {
+        "t": "What is system modeling? Differentiate between static mathematical model and dynamic mathematical model with example.",
+        "expr": null,
+        "m": "3+7",
+        "years": ["2067 Mangsir R"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "sm2",
+    "title": "Physical and Mathematical Models",
+    "sub": "static physical model · dynamic physical model · static mathematical model · dynamic mathematical model · differential equations",
+    "concepts": {
+      "h": ["Dynamic mathematical/physical model with example", "Static mathematical model with example", "Compare static vs dynamic mathematical models", "Significance of differential equations in simulation"],
+      "m": ["Distributed lag model", "Static physical model", "Compare static vs dynamic physical models"],
+      "l": ["Partial differential equations in modeling"]
+    },
+    "qs": [
+      {
+        "t": "Explain dynamic mathematical model with practical example.",
+        "expr": null,
+        "m": "6",
+        "years": ["2079 Shrawan B"],
+        "freq": 1
+      },
+      {
+        "t": "Compare static and dynamic mathematical models with example.",
+        "expr": null,
+        "m": "6",
+        "years": ["2079 Jestha B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain dynamic physical model with practical example.",
+        "expr": null,
+        "m": "6",
+        "years": ["2078 Chaitra R", "2073 Magh B", "2071 Bhadra R"],
+        "freq": 3
+      },
+      {
+        "t": "Explain Static mathematical model and Dynamic mathematical model with example.",
+        "expr": null,
+        "m": "8",
+        "years": ["2078 Kartik B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain Static Mathematical Model with a practical example.",
+        "expr": null,
+        "m": "8",
+        "years": ["2077 Chaitra R", "2075 Bhadra R", "2072 Ashwin R"],
+        "freq": 3
+      },
+      {
+        "t": "Explain Static mathematical model and dynamic mathematical model with example.",
+        "expr": null,
+        "m": "6",
+        "years": ["2075 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between static mathematical model and dynamic mathematical model with suitable examples.",
+        "expr": null,
+        "m": "6",
+        "years": ["2074 Bhadra R", "2073 Bhadra R"],
+        "freq": 2
+      },
+      {
+        "t": "What is dynamic mathematical model? Explain with examples.",
+        "expr": null,
+        "m": "6",
+        "years": ["2070 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define simulation and modeling. Explain dynamic mathematical modeling with an example.",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2068 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the static mathematical models and dynamic mathematical models with example. What are the main differences between them?",
+        "expr": null,
+        "m": "10",
+        "years": ["2069 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the static physical model, dynamic physical model and compare them.",
+        "expr": null,
+        "m": "8",
+        "years": ["2065 Baishakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain Static mathematical model and Dynamic mathematical model and compare them.",
+        "expr": null,
+        "m": "8",
+        "years": ["2064 Poush R"],
+        "freq": 1
+      },
+      {
+        "t": "What is a distributed lag model? Explain with an example.",
+        "expr": null,
+        "m": "8",
+        "years": ["2068 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by distributed lag models in system simulation? Explain with example.",
+        "expr": null,
+        "m": "8",
+        "years": ["2065 Baishakh B"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "sm3",
+    "title": "Simulation of Continuous Systems",
+    "sub": "analog computer · analog methods · automobile suspension · liver model · hybrid simulation · feedback systems · digital-analog simulator",
+    "concepts": {
+      "h": ["Analog computer model of automobile suspension problem with equations and diagram", "Analog computer model of liver with equations and diagram", "Analog method definition and explanation", "Why analog computers are preferred over digital computers"],
+      "m": ["Hybrid simulation definition", "Digital-analog simulators", "Feedback systems", "Continuous system simulation languages"],
+      "l": ["CSSL overview", "Analog computer pros and cons"]
+    },
+    "qs": [
+      {
+        "t": "Define analog method. Explain the analog computer model of liver with necessary diagrams and equations. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "2+8",
+        "years": ["2079 Shrawan B"],
+        "freq": 1
+      },
+      {
+        "t": "Define hybrid simulation. Explain analog simulation model of a liver. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2079 Jestha B"],
+        "freq": 1
+      },
+      {
+        "t": "Why differential equations are important in simulation and modeling? What is analog computer? Explain the analog method for automobile suspension problem with necessary equations and figure. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "2+2+6",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "When are analog computers preferred over digital computers? Explain the analog computer model of an automobile suspension problem with necessary equation and figure. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "2+8",
+        "years": ["2078 Kartik B"],
+        "freq": 1
+      },
+      {
+        "t": "Why do we need digital-analog simulator? Explain the analog model at automobile suspension problem with equation and diagram. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2077 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is analog method? Explain with the example of Automobile suspension problem. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "2+8",
+        "years": ["2075 Bhadra R", "2071 Bhadra R"],
+        "freq": 2
+      },
+      {
+        "t": "Write down the significance of differential equations. Explain the analog computer model of liver with necessary equation and diagrams. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "4+6",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Design and explain analog method of automobile suspension problem? Explain feedback system with suitable example? [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "6+4",
+        "years": ["2073 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Why differential equations are important in scientific and engineering studies? Explain the analog method for Automobile Suspension Problem with necessary equations and figure. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "4+6",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is analog computer; explain with its pros and cons. Explain the analog computer model for liver with necessary figures. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "4+6",
+        "years": ["2072 Ashwin R"],
+        "freq": 1
+      },
+      {
+        "t": "What is analog method? Explain with example of automobile suspension problem. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "4+6",
+        "years": ["2070 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the digital analog simulator. Design the analog computer model of the liver and explain it. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "4+8",
+        "years": ["2069 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by digital-analog simulators? Explain the analog methods with example.",
+        "expr": null,
+        "m": "4+6",
+        "years": ["2065 Baishakh B"],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by continuous system model? Design the analog computer model of liver with example. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "3+5",
+        "years": ["2064 Poush R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the analog method with example of automobile suspension problem. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "10",
+        "years": ["2067 Mangsir R"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "sm4",
+    "title": "Simulation of Queuing Systems",
+    "sub": "elements of queuing system · Kendall's notation · system utilization · M/M/1 queue · network of queues · applications",
+    "concepts": {
+      "h": ["Elements/characteristics of queuing system", "Kendall's notation with examples and interpretation", "System utilization and average waiting time calculation", "Queuing notation interpretation (e.g. M/D/1/FIFO/10)"],
+      "m": ["Single server queue numerical (arrival/service rate given)", "Multi-server queue numerical", "Applications of queuing system", "Optimum number of servers calculation"],
+      "l": ["Network of queues", "Role of queuing in simulation study"]
+    },
+    "qs": [
+      {
+        "t": "Explain elements of a queuing system. Define system utilization. Explain Kendall Notation for queuing system with an example.",
+        "expr": null,
+        "m": "5+1+4",
+        "years": ["2079 Shrawan B"],
+        "freq": 1
+      },
+      {
+        "t": "Define queueing system. Explain Kendal's notation. Attendants in a workshop manage the tool cribs as mechanics, assumed to be from an infinite calling population, arrive for service. Assume poisson arrivals at the rate of 2 mechanics per minute and exponentially distributed service times with mean 40 seconds. Calculate the optimum number of attendants required and the probability of having zero mechanics in the system.",
+        "expr": null,
+        "m": "3+3+5",
+        "years": ["2079 Jestha B"],
+        "freq": 1
+      },
+      {
+        "t": "Discuss the elements of queuing systems and its applications. Define the meaning of D/M/1/LIFO/20/80.",
+        "expr": null,
+        "m": "8+2",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is Kendall's Notation in queuing system? Give any two examples. Consider a single server queue where given customer arrival rate is 25/hr and service rate is 35/hr. Calculate its system utilization and average waiting time in the queue. Comment on the result.",
+        "expr": null,
+        "m": "4+6",
+        "years": ["2078 Kartik B"],
+        "freq": 1
+      },
+      {
+        "t": "Discuss about characteristics and applications of queuing systems. What do you mean by DA/M/6/FIFO/25/3000 in queuing notation?",
+        "expr": null,
+        "m": "5+3",
+        "years": ["2077 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "What are the characteristics of Queuing system? What do you mean by Kendall notation in queuing system? What is the meaning of M/D/8/15/1000/LIFO?",
+        "expr": null,
+        "m": "4+3+3",
+        "years": ["2075 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define queuing system with block diagram and its uses. Explain M/M/4/20/2000/FCFS and D/M/2/LIFO/18 system. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "6+2+2",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is queuing model, explain with figure? What is the meaning of M/D/2/60/150/FIFO in queuing notation? Explain the Kendall notation with example. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "3+2+5",
+        "years": ["2073 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "What is a queuing system? List the various characteristics of queuing system. Explain role of queuing system in simulation study. Explain Kendall notation with example.",
+        "expr": null,
+        "m": "2+2+2+4",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What are the characteristics of queuing system? Discuss any one practical application of queuing system.",
+        "expr": null,
+        "m": "5+5",
+        "years": ["2072 Ashwin R"],
+        "freq": 1
+      },
+      {
+        "t": "What is the model of queuing system? What do you mean by the Kendall's notation in queuing systems? What is the meaning of M/D/8/15/LIFO in queuing system? Explain.",
+        "expr": null,
+        "m": "5+2.5+2.5",
+        "years": ["2071 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Mention the characteristics of queuing system. Explain the Kendall's notation in queuing systems. What is the meaning of M/D/6/10/FIFO in queuing system?",
+        "expr": null,
+        "m": "2.5+5+2.5",
+        "years": ["2070 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is queuing system? How is it useful for simulation? Explain the different types of queuing system with example.",
+        "expr": null,
+        "m": "2+2+6",
+        "years": ["2069 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What are the components of a queuing system? How can you measure system performance of queuing system? Explain.",
+        "expr": null,
+        "m": "4+6",
+        "years": ["2067 Mangsir R"],
+        "freq": 1
+      },
+      {
+        "t": "What are the characteristics of Queuing system? Explain the Kendall notation for queuing systems. Define the meaning of D/M/I/LIFO/8/40.",
+        "expr": null,
+        "m": "4+6+2",
+        "years": ["2066 Magh R"],
+        "freq": 1
+      },
+      {
+        "t": "Write down the characteristics of queueing system. Explain the queueing notation with example.",
+        "expr": null,
+        "m": "4+5",
+        "years": ["2064 Poush R"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "sm5",
+    "title": "Markov Chains",
+    "sub": "key features · transition matrix · Markov process · applications · brand switching problems",
+    "concepts": {
+      "h": ["Markov chain with transition probability and example", "Brand switching numerical (Honda/Yamaha, Sony/Samsung, Coke/Pepsi type)", "Features and applications of Markov chains"],
+      "m": ["Transition matrix explanation", "Multi-step transition probability computation", "Characteristics of Markov chains"],
+      "l": ["Markov process formulation from scratch"]
+    },
+    "qs": [
+      {
+        "t": "Explain Markov chain with transition probability. What are the features and applications of Markov chains? Explain with example.",
+        "expr": null,
+        "m": "3+5",
+        "years": ["2079 Shrawan B"],
+        "freq": 1
+      },
+      {
+        "t": "List the characteristics of Markov Chain. Explain application of Markov Chain with an example.",
+        "expr": null,
+        "m": "4+6",
+        "years": ["2079 Jestha B"],
+        "freq": 1
+      },
+      {
+        "t": "Given that a chance of a Honda user to buy a Honda in next purchase is 60% and that his next purchase will be Yamaha or Bajaj is 30% and 10% respectively. Also if a chance of a Yamaha user to buy a Yamaha in next purchase is 70% and that his next purchase will be Bajaj or Honda is 10% and 20% respectively and a chance of a Bajaj user to buy Bajaj in next purchase is 65% and that his next purchase will be Honda or Yamaha is 20% and 15% respectively.\na) Design the Markov Model for the given Scenario.\nb) What is the probability to buy Honda after two purchases for a current Yamaha user?",
+        "expr": null,
+        "m": "3+3",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain transition matrix in Markov Chain with suitable example. Write any two features of Markov Chain.",
+        "expr": null,
+        "m": "4+2",
+        "years": ["2078 Kartik B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain markov chain process, its features and applications with example.",
+        "expr": null,
+        "m": "8",
+        "years": ["2077 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Given that a chance of a Ford car user to buy a ford car in next purchase is 70% and that his next purchase will be a Scorpio car is 30% and chance of a Scorpio car user to buy a Scorpio car at the next purchase is 80% and chance that his next purchase will be ford car is 20%. What is the probability to buy a Scorpio car after three purchase of a current Ford car user? If 70% user uses Ford car today, what percentage of user will use Scorpio after 3 purchases?",
+        "expr": null,
+        "m": "6",
+        "years": ["2075 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Given that change of a Sony user to buy Sony at next purchase is 80% and that his next purchase will be Samsung is 20% and change of a Samsung user to buy Samsung at next purchase is 85% and chance that his next purchase will be Sony is 15%. What is the probability to buy Sony after three purchase of a current Samsung user? If 60% user uses Sony today, what percentage of user uses Samsung after three purchase?",
+        "expr": null,
+        "m": "4+2",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Write down the application of Markov chains? Given that chance of a Sony user to buy Sony at next purchase is 75% and that his next purchase will be Samsung is 25% and chance of a Samsung user to buy Samsung at next purchase is 85% and chance that his next purchase will be Sony is 15%. What is the probability to buy Sony user after three purchase of a current Samsung user?",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2073 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Define Markov chain. List the key feature and application of Markov chain.",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What are the key features of Markov chain? Given that chance of a Honda Bike user to buy Honda Bike at next purchase is 70% and that his next purchase will be Yamaha Bike is 30% and change of a Yamaha Bike user to buy Yamaha Bike at next purchase is 80% and change that his next purchase will be Honda Bike is 20%. What is the probability to buy Yamaha Bike after three purchase of a current Honda Bike user?",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2072 Ashwin R"],
+        "freq": 1
+      },
+      {
+        "t": "Given figure shows Coke and Pepsi purchaser [DIAGRAM NEEDED]\na) If currently Coke purchaser, what is the probability of Pepsi purchaser in 3rd purchase?\nb) If 55% of people use Coke today, what percentage of people will use Coke after 3 purchases?",
+        "expr": null,
+        "m": "6",
+        "years": ["2071 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain Markov Chain with an appropriate example.",
+        "expr": null,
+        "m": "6",
+        "years": ["2070 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain Markov chains with example and its applications.",
+        "expr": null,
+        "m": "10",
+        "years": ["2069 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is Markov chain? Explain an application of Markov chain.",
+        "expr": null,
+        "m": "8",
+        "years": ["2068 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the Markov chains with example and its applications.",
+        "expr": null,
+        "m": "8",
+        "years": ["2066 Magh R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the Markov chains and its application with example.",
+        "expr": null,
+        "m": "8",
+        "years": ["2065 Baishakh B"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "sm6",
+    "title": "Random Numbers",
+    "sub": "pseudo random numbers · linear congruential method · KS test · chi-square test · gap test · poker test · autocorrelation test · properties",
+    "concepts": {
+      "h": ["Poker test for 4-digit and 5-digit numbers (numerical)", "Kolmogorov-Smirnov test (algorithm + numerical)", "Chi-square test for uniformity and autocorrelation (numerical)", "Pseudo random numbers vs true random numbers", "Random number generation methods (LCM, multiplicative)"],
+      "m": ["Gap test algorithm and example", "Properties of random numbers", "Requirements for a good pseudo random number generator", "Testing for serial auto-correlation"],
+      "l": ["Inversion, rejection, composition, convolution methods", "Generating discrete distributions"]
+    },
+    "qs": [
+      {
+        "t": "What do you mean by pseudo random number? How is it different from true random number? What are the requirements for good pseudo random number generator? Explain with example.",
+        "expr": null,
+        "m": "3+5",
+        "years": ["2079 Shrawan B"],
+        "freq": 1
+      },
+      {
+        "t": "A sequence of random numbers is given below. Use Chi-Sq test with a = 0.10 to test whether these numbers are serially auto-correlated or not. Use X²0,10,7 = 12.017, X²0,10,8 = 13.362, X²0,10,6 = 1.3645, X²0,10,9 = 14.634.\n39,65,27,48,85,66,11,53,38,59,5,72,15,45,80,73,60,94,56,24,36,76,46,40,77,42,87,32,57,63,62,31,64,96,75,4,99,78,10,13,3,30,22,35,55,18,84,49,51,34,83,19,43,21,2,37,52,89,33,47,67,41,16,95,54,100,74,71,81,68,1,61,20",
+        "expr": null,
+        "m": "8",
+        "years": ["2079 Shrawan B"],
+        "freq": 1
+      },
+      {
+        "t": "A set of 10,000 4-digit random values have been generated. An observation shows that 4731 values have all different digits, 2272 have 2 of a kind digits, 769 have 3 of a kind, 1547 have 2 pairs and 681 have all same digits. Test these values for randomness using Poker test (use 9.49 as critical value).",
+        "expr": null,
+        "m": "8",
+        "years": ["2079 Jestha B"],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by uniformity test? Explain the process of uniformity test of random numbers by K-S method, using your own example.",
+        "expr": null,
+        "m": "2+8",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "A sequence of 1000 four digit numbers where generated as follows:\n\n| Combination | Observed Frequency |\n|---|---|\n| All different digits | 540 |\n| One pair | 320 |\n| Two pair | 70 |\n| Three of a kind | 50 |\n| All same digits | 20 |\n\nUse poker test to check independence. (Use tabulated value as 9.488 for confidence of 95% and N = 4).",
+        "expr": null,
+        "m": "8",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "What are different random number generation methods? Explain with examples.",
+        "expr": null,
+        "m": "8",
+        "years": ["2078 Kartik B", "2073 Bhadra R"],
+        "freq": 2
+      },
+      {
+        "t": "A sequence of 10000, 5 digit number has been generated and analysis indicates the following combinations and frequencies:\n\n| Combination | Observed Frequency Oi |\n|---|---|\n| Five different digits | 2900 |\n| One pair | 5100 |\n| Two pair | 872 |\n| Three of a kind | 990 |\n| Four of a kind | 8 |\n| Full house | 120 |\n| Five of a kind | 10 |\n\nBased on poker test, test these numbers are independent or not at a confidence level of 95%. For α = 0.05 and degree of freedom = 6, chi square tabulated is 12.592.",
+        "expr": null,
+        "m": "8",
+        "years": ["2078 Kartik B"],
+        "freq": 1
+      },
+      {
+        "t": "What are different random number generation methods. Explain with examples.",
+        "expr": null,
+        "m": "8",
+        "years": ["2077 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Why do we use gap test? A sequence of 1000 four-digit numbers has been generated and an analysis indicates the following combinations and frequencies:\n\n| Combination Distribution (i) | Observed Frequency |\n|---|---|\n| 4 different digits | 540 |\n| 3 like digits | 50 |\n| 4 like digits | 20 |\n| 2 Pairs | 70 |\n| 1 Pair | 320 |\n\nUse Poker's test to determine if these random numbers are independent, α = 0.05 and n = 4 such that χ²(0.05,4) = 9.49.",
+        "expr": null,
+        "m": "2+8",
+        "years": ["2075 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What are the properties of random number? Explain the techniques of generation of random number with appropriate example.",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What are the properties of Random number? Using Chi-square test the uniformity at 90% for the given random numbers. Degree of freedom for 6: 10.645, 7 = 12.017, 8 = 13.362, 9 = 14.684, 10 = 15.987.\n\n| 20 | 34 | 43 | 42 | 14 | 10 | 33 | 17 | 6 | 11 |\n|---|---|---|---|---|---|---|---|---|---|\n| 15 | 16 | 4 | 1 | 35 | 22 | 9 | 46 | 37 | 57 |\n| 51 | 49 | 40 | 27 | 59 | 5 | 44 | 19 | 41 | 55 |\n| 53 | 29 | 3 | 31 | 48 | 8 | 56 | 28 | 12 | 7 |",
+        "expr": null,
+        "m": "3+6",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "A sequence of 1000 four digit number has been generated and an analysis indicates the following combination and frequencies:\n\n| Combination (i) | Observed Frequency (Oi) |\n|---|---|\n| Four different digit | 520 |\n| One pair | 390 |\n| Two pair | 55 |\n| Three like digit | 34 |\n| Four like digit | 1 |\n| Total | 1000 |\n\nBased on Poker Test Check whether the number are independent. Use α = 0.05 and N = 6 is 12.592.",
+        "expr": null,
+        "m": "8",
+        "years": ["2073 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by pseudo random numbers? Explain Gap test algorithm with example.",
+        "expr": null,
+        "m": "2+8",
+        "years": ["2073 Magh B", "2066 Magh R"],
+        "freq": 2
+      },
+      {
+        "t": "What are different random number generation methods? Explain with examples.",
+        "expr": null,
+        "m": "8",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What are the properties of Random numbers? Explain the algorithm of Kolmogorov-Smirnov Test with example.",
+        "expr": null,
+        "m": "4+6",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What are the properties of random numbers? Explain the steps of Gap test algorithm with example.",
+        "expr": null,
+        "m": "4+6",
+        "years": ["2072 Ashwin R"],
+        "freq": 1
+      },
+      {
+        "t": "A sequence of 10,000 five digit numbers has been generated and analysis indicates the following combinations and frequencies:\n\n| Combinations (i) | Observed Frequency (Oi) |\n|---|---|\n| All different | 3400 |\n| One pair | 4570 |\n| Two pair | 1150 |\n| Three of a kind | 750 |\n| Full house | 85 |\n| Four of a kind | 40 |\n| Five of a kind | 15 |\n| Total | 10,000 |\n\nBased on Poker Test Check whether the number are independent. Use α = 0.05 and N = 6 is 12.592.",
+        "expr": null,
+        "m": "8",
+        "years": ["2072 Ashwin R"],
+        "freq": 1
+      },
+      {
+        "t": "Write an algorithm for gap test. Formulate 4-digit poker test with suitable data with example.",
+        "expr": null,
+        "m": "4+6",
+        "years": ["2071 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define pseudo random numbers. The following numbers have been generated 0.44, 0.19, 0.88, 0.27, 0.55, 0.13, 0.63, 0.74, 0.11 and 0.33. Use the Kolmogorov-Smirnov test with α = 0.05 to determine, if the hypothesis that the numbers are uniformly distributed on the interval [0, 1] can be rejected. (Note that the critical value of D for α 0.05 and N = 10 is 0.410.)",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2071 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is a random number? What are the problems associated with generating pseudo random numbers.",
+        "expr": null,
+        "m": "8",
+        "years": ["2070 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "A set of 10,000 4-digit random values have been generated. An observation shows than 5065 values have all different digits, 2000 have 2 of a kind digits, 760 have 3 of a kind, 1500 have 2 pairs and 675 have all same digits. Test these values for randomness using Poker test (Use α = 0.05).",
+        "expr": null,
+        "m": "7",
+        "years": ["2070 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What are the two statistical properties of Random number? Explain the gap test algorithm with example.",
+        "expr": null,
+        "m": "2+8",
+        "years": ["2069 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "A sequence of 1000 four digit numbers has been generated and analysis indicates the following combinations with frequencies:\n\n| Combination (i) | Observed Frequency (Oi) |\n|---|---|\n| Four different digits | 570 |\n| One pair | 380 |\n| Two pairs | 34 |\n| Three like digits | 15 |\n| Four like digits | 1 |\n| Total | 1000 |\n\nBased on poker test check whether the numbers are independent. Use α = 0.10 and N = 4 is 7.78.",
+        "expr": null,
+        "m": "8",
+        "years": ["2069 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is a random number? Explain linear congruential method for generating random numbers with an example.",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2068 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Given below the sequence of 100 random numbers. Use chi-square test with α = 0.05 to check the number for uniform distribution and serial auto correlation.\n\n| 09 | 05 | 92 | 15 | 10 | 90 | 23 | 15 | 84 | 27 | 20 | 77 | 35 | 25 | 72 | 44 |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| 30 | 65 | 43 | 35 | 60 | 56 | 40 | 55 | 63 | 45 | 47 | 47 | 42 | 30 | 57 | 70 |\n| 66 | 30 | 91 | 65 | 24 | 99 | 70 | 18 | 8 | 76 | 13 | 14 | 80 | 05 | 72 | 56 |\n| 21 | 85 | 96 | 28 | 90 | 35 | 94 | 85 | 40 | 07 | 78 | 49 | 10 | 72 | 56 | 15 |\n| 63 | 66 | 20 | 60 | 70 | 23 | 58 | 71 | 30 | 43 | 87 | 39 | 49 | 99 | 40 | 36 |\n| 98 | 45 | 30 | 09 | 50 | 24 | 14 | 55 | 18 | 07 | 92 | 87 | 64 | 53 | 22 | 76 |\n| 35 | 42 | 11 | 29 | | | | | | | | | | | | |",
+        "expr": null,
+        "m": "12",
+        "years": ["2068 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the pseudo random numbers and its applications. The following numbers have been generated 0.54, 0.73, 0.98, 0.11, 0.29, 0.23, 0.65, 0.84 and 0.37. Use the Kolmogorov-Smirnov test with α = 0.05 to determine, if the hypothesis that the numbers are uniformly distributed on the interval [0, 1] can be rejected. (Note that the critical value of D for α = 0.05 and N = 9 is 0.432.)",
+        "expr": null,
+        "m": "4+6",
+        "years": ["2067 Mangsir R"],
+        "freq": 1
+      },
+      {
+        "t": "Mention the properties of random numbers. Explain the methods of generating pseudo random numbers.",
+        "expr": null,
+        "m": "4+8",
+        "years": ["2066 Magh R"],
+        "freq": 1
+      },
+      {
+        "t": "State the various test for random numbers and explain briefly any one of uniformity test method.",
+        "expr": null,
+        "m": "4+5",
+        "years": ["2066 Magh R"],
+        "freq": 1
+      },
+      {
+        "t": "A sequence of 1000 four-digit numbers has been generated and an analysis indicates the following combinations and frequencies:\n\n| Combinations i | Observed Frequency, Oi |\n|---|---|\n| Four Different digits | 540 |\n| One pair | 320 |\n| Two pairs | 70 |\n| Three like digit | 50 |\n| Four like digit | 20 |\n| Total | 1000 |\n\nBased on the poker test, test these numbers are independent. Use α = 0.05. Note that the critical value, α = 0.05 and N = 4 is 9.49.",
+        "expr": null,
+        "m": "8",
+        "years": ["2066 Magh R"],
+        "freq": 1
+      },
+      {
+        "t": "What are the properties of random numbers? Explain the algorithm of Gap Test.",
+        "expr": null,
+        "m": "3+5",
+        "years": ["2065 Baishakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Why poker test is used? Develop the poker test for four digit numbers.",
+        "expr": null,
+        "m": "4+6",
+        "years": ["2065 Baishakh B", "2064 Poush R"],
+        "freq": 2
+      },
+      {
+        "t": "Why random numbers are used in simulation? Explain the random number generation method with example.",
+        "expr": null,
+        "m": "3+5",
+        "years": ["2064 Poush R"],
+        "freq": 1
+      },
+      {
+        "t": "Why poker test is used? Develop the poker test for five-digit numbers.",
+        "expr": null,
+        "m": "4+6",
+        "years": ["2064 Poush R"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "sm7",
+    "title": "Verification and Validation of Simulation Models",
+    "sub": "verification vs validation · calibration · iterative calibration · Naylor and Finger approach · three-step validation",
+    "concepts": {
+      "h": ["Naylor and Finger's steps used in validation", "Iterative process of calibrating a model", "Three-step validation process", "Comparison between verification and validation"],
+      "m": ["Calibration and validation together", "Validation errors"],
+      "l": ["Formal verification techniques"]
+    },
+    "qs": [
+      {
+        "t": "Explain Naylor and Finger's steps used in validation.",
+        "expr": null,
+        "m": "5",
+        "years": ["2079 Shrawan B", "2078 Kartik B", "2070 Bhadra R", "2073 Bhadra R"],
+        "freq": 4
+      },
+      {
+        "t": "Explain three step validation in detail.",
+        "expr": null,
+        "m": "7",
+        "years": ["2079 Jestha B"],
+        "freq": 1
+      },
+      {
+        "t": "Comparison between verification and Validation with example.",
+        "expr": null,
+        "m": "5",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain Naylor and Finger validation approach.",
+        "expr": null,
+        "m": "5",
+        "years": ["2078 Kartik B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain iterative process of calibrating a model. Why is it done?",
+        "expr": null,
+        "m": "5",
+        "years": ["2077 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain with example the iterative process of calibrating of model.",
+        "expr": null,
+        "m": "5",
+        "years": ["2075 Bhadra R", "2073 Magh B", "2071 Bhadra R", "2073 Bhadra R"],
+        "freq": 4
+      },
+      {
+        "t": "Explain about the Calibration and Validation of Models.",
+        "expr": null,
+        "m": "5",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is calibration and validation of models? Explain with practical example.",
+        "expr": null,
+        "m": "5",
+        "years": ["2072 Ashwin R"],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by calibration and validation of model? Explain the iterative process of calibrating of model with example.",
+        "expr": null,
+        "m": "4+5",
+        "years": ["2064 Poush R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the Naylor and Finger validation approach.",
+        "expr": null,
+        "m": "5",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "sm8",
+    "title": "Analysis of Simulation Output",
+    "sub": "confidence intervals · estimation methods · simulation run statistics · replication of runs · elimination of initial bias",
+    "concepts": {
+      "h": ["Replication of runs for analysis of simulation outputs", "Elimination of initial bias with example", "Estimation methods in simulation output analysis"],
+      "m": ["Simulation run statistics with example", "Confidence intervals and hypothesis testing in simulation"],
+      "l": ["Types of simulation output analysis methods"]
+    },
+    "qs": [
+      {
+        "t": "Explain the replication of runs for analysis of simulation outputs.",
+        "expr": null,
+        "m": "5",
+        "years": ["2079 Shrawan B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain elimination of initial bias with example.",
+        "expr": null,
+        "m": "6",
+        "years": ["2079 Jestha B"],
+        "freq": 1
+      },
+      {
+        "t": "What are the various methods used to analyze simulation output? Explain any one of them.",
+        "expr": null,
+        "m": "5",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "How is the estimation method used in simulation output analysis?",
+        "expr": null,
+        "m": "5",
+        "years": ["2078 Kartik B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain replications of runs in simulation output analysis.",
+        "expr": null,
+        "m": "5",
+        "years": ["2077 Chaitra R", "2075 Bhadra R", "2068 Bhadra R"],
+        "freq": 3
+      },
+      {
+        "t": "How can you use estimation methods in analysis of simulation output? Explain with example.",
+        "expr": null,
+        "m": "5",
+        "years": ["2075 Bhadra R", "2073 Magh B", "2071 Bhadra R", "2066 Magh R"],
+        "freq": 4
+      },
+      {
+        "t": "Define initial Bias. Explain the methods for the elimination of initial bias.",
+        "expr": null,
+        "m": "5",
+        "years": ["2072 Ashwin R"],
+        "freq": 1
+      },
+      {
+        "t": "What is initial bias? What is the approach for elimination of initial bias?",
+        "expr": null,
+        "m": "5",
+        "years": ["2070 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the simulation Run statistics with example.",
+        "expr": null,
+        "m": "5",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Write different types of simulation output analysis. In the case of infinite population which output analysis method is applicable. Why? Explain.",
+        "expr": null,
+        "m": "4+6",
+        "years": ["2069 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the significance of elimination of initial bias in modeling with an example.",
+        "expr": null,
+        "m": "8",
+        "years": ["2068 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Why an analysis of simulation output is important? Explain the elimination of initial bias with example.",
+        "expr": null,
+        "m": "2+8",
+        "years": ["2067 Mangsir R"],
+        "freq": 1
+      },
+      {
+        "t": "How can you use estimation methods in analysis of simulation output? Explain with example.",
+        "expr": null,
+        "m": "3+2",
+        "years": ["2066 Magh R"],
+        "freq": 1
+      },
+      {
+        "t": "How can you use simulation run statistics in an analysis of simulation output?",
+        "expr": null,
+        "m": "8",
+        "years": ["2065 Baishakh B"],
+        "freq": 1
+      },
+      {
+        "t": "How can you use replication of runs in an analysis of simulation output? Explain.",
+        "expr": null,
+        "m": "8",
+        "years": ["2064 Poush R"],
+        "freq": 1
+      },
+      {
+        "t": "How you can analyze simulation output using simulation runs statistics? Explain.",
+        "expr": null,
+        "m": "6",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "sm9",
+    "title": "Simulation Software",
+    "sub": "simulation in Java · GPSS blocks · GPSS models · simulation in Python · other simulation software",
+    "concepts": {
+      "h": ["Simulation in Java for single server queue model", "GPSS block diagram symbols (at least 4-5)", "GPSS simulation models (telephone system, supermarket, manufacturing shop)"],
+      "m": ["Basic blocks of GPSS", "What is simulation software / GPSS definition", "GPSS telephone system model"],
+      "l": ["Simulation in Python", "Other simulation software overview"]
+    },
+    "qs": [
+      {
+        "t": "Explain Simulation in JAVA for signal server queue.",
+        "expr": null,
+        "m": "6",
+        "years": ["2079 Shrawan B"],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by simulation software? Explain basic blocks of GPSS.",
+        "expr": null,
+        "m": "3+7",
+        "years": ["2079 Jestha B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain at least 4 GPSS block diagram symbols.",
+        "expr": null,
+        "m": "6",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain about simulation in Java with single server queue model example.",
+        "expr": null,
+        "m": "6",
+        "years": ["2078 Kartik B"],
+        "freq": 1
+      },
+      {
+        "t": "What is GPSS? Explain four general blocks used in GPSS with an example.",
+        "expr": null,
+        "m": "6",
+        "years": ["2077 Chaitra R", "2075 Bhadra R"],
+        "freq": 2
+      },
+      {
+        "t": "Briefly explain about simulation in Java.",
+        "expr": null,
+        "m": "6",
+        "years": ["2075 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the structure of Java Simulation with example.",
+        "expr": null,
+        "m": "6",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the overall structure of Java Simulation of a Single Server Queue.",
+        "expr": null,
+        "m": "6",
+        "years": ["2073 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the single server queuing simulation model using JAVA.",
+        "expr": null,
+        "m": "6",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain in brief the simulation in JAVA with example.",
+        "expr": null,
+        "m": "6",
+        "years": ["2072 Ashwin R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain with example of simulation in JAVA with single server queue model.",
+        "expr": null,
+        "m": "6",
+        "years": ["2071 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the at least 5 GPSS block diagram symbols with example.",
+        "expr": null,
+        "m": "6",
+        "years": ["2070 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is a GPSS? List some of the common block diagram symbols used in GPSS.",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2068 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain a GPSS simulation model of a supermarket.",
+        "expr": null,
+        "m": "12",
+        "years": ["2068 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the gap test and its algorithm with example. Design the manufacturing shop model using GPSS and explain it.",
+        "expr": null,
+        "m": "10",
+        "years": ["2067 Mangsir R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the discrete systems modeling and simulation with GPSS. Explain the telephone system in GPSS model.",
+        "expr": null,
+        "m": "4+8",
+        "years": ["2066 Magh R"],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by GPSS? Explain the simulation of telephone system.",
+        "expr": null,
+        "m": "4+8",
+        "years": ["2065 Baishakh B"],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by GPSS program? Explain the simulation of manufacturing shop.",
+        "expr": null,
+        "m": "4+8",
+        "years": ["2064 Poush R"],
+        "freq": 1
+      },
+      {
+        "t": "Define the succession of events. Design a telephone system simulation model using GPSS symbols and explain in brief.",
+        "expr": null,
+        "m": "2+8",
+        "years": ["2069 Bhadra R"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "sm10",
+    "title": "Simulation of Computer Systems",
+    "sub": "levels of abstraction · CPU simulation · memory simulation · website server simulation · computer network simulation",
+    "concepts": {
+      "h": ["Different levels of abstraction for simulation of computer system", "CPU simulation with example", "Simulation of computer system that services requests from WWW / website server"],
+      "m": ["Memory simulation", "Simulation of computer networks"],
+      "l": ["High level computer system simulation tools"]
+    },
+    "qs": [
+      {
+        "t": "Explain different levels of abstraction for simulation of computer system.",
+        "expr": null,
+        "m": "6",
+        "years": ["2079 Shrawan B", "2077 Chaitra R", "2075 Bhadra R", "2074 Bhadra R", "2073 Bhadra R", "2072 Ashwin R", "2071 Bhadra R", "2078 Chaitra R"],
+        "freq": 8
+      },
+      {
+        "t": "Explain about simulation in Java with website server system.",
+        "expr": null,
+        "m": "6",
+        "years": ["2078 Kartik B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the simulation model of computer system that services request from www.",
+        "expr": null,
+        "m": "6",
+        "years": ["2073 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain about simulation of a central processing unit for the lower level of abstraction.",
+        "expr": null,
+        "m": "6",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the different level of abstraction for the simulation of computer system.",
+        "expr": null,
+        "m": "6",
+        "years": ["2072 Ashwin R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain with CPU simulation by sketching a simulation model of computer system. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "6",
+        "years": ["2071 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain CPU simulation with example.",
+        "expr": null,
+        "m": "6",
+        "years": ["2075 Bhadra R", "2074 Bhadra R"],
+        "freq": 2
+      },
+      {
+        "t": "Explain different levels of abstraction to be considered in simulation of a computer.",
+        "expr": null,
+        "m": "8",
+        "years": ["2079 Jestha B"],
+        "freq": 1
+      }
+    ]
+  }
+]

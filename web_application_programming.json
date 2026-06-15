@@ -1,0 +1,1193 @@
+[
+  {
+    "id": "wap1",
+    "title": "Introduction to Web & HTML/CSS",
+    "sub": "Client-server · HTTP · HTML5 · CSS · Bootstrap · Box model",
+    "concepts": {
+      "h": [
+        "Client-server architecture and HTTP request-response cycle",
+        "HTML5 semantic elements — header, footer, section, article, nav",
+        "CSS box model — margin, padding, border, content (diagram)",
+        "CSS selectors — element, class, id, attribute, universal",
+        "Responsive web design with media queries",
+        "Block vs inline elements"
+      ],
+      "m": [
+        "Difference between HTTP and HTTPS",
+        "CSS combinators",
+        "Bootstrap grid system and responsive layout",
+        "CSS frameworks introduction",
+        "Forms and input types in HTML",
+        "Tables, lists, multimedia tags in HTML",
+        "Rowspan and colspan in HTML tables"
+      ],
+      "l": [
+        "DNS lookup flow and browser rendering basics",
+        "URL structure",
+        "Web 2.0 key features",
+        "Internet vs Web distinction",
+        "iframe usage in HTML",
+        "Semantic web concept"
+      ]
+    },
+    "qs": [
+      {
+        "t": "What is the CSS box model? Explain margin, padding, border, and content with a neat diagram. Differentiate between block and inline elements with examples.",
+        "expr": null,
+        "m": "2+3+3",
+        "years": [
+          "2073 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define CSS selectors. Explain different types of CSS selectors (element, class, id, attribute, universal) with examples.",
+        "expr": null,
+        "m": "1+3",
+        "years": [
+          "2074 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are CSS combinators? Explain different types with suitable examples.",
+        "expr": null,
+        "m": "1+3",
+        "years": [
+          "2074 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define media queries. Explain responsive web design using media queries with examples.",
+        "expr": null,
+        "m": "1+3",
+        "years": [
+          "2072 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is Bootstrap? Explain the role of Bootstrap in responsive web design.",
+        "expr": null,
+        "m": "1+3",
+        "years": [
+          "2072 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the rowspan and colspan attributes in HTML tables with examples. What are the attributes of list tags? Explain with suitable examples.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2076 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Describe the structure of an HTML document and explain different types of CSS. Write an HTML code snippet to demonstrate the basic structure with sectioning elements.",
+        "expr": null,
+        "m": "3+2+3",
+        "years": [
+          "2077 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is the Internet and the Web? Explain the importance of Web technology and describe the concept of Web 2.0 with its key features.",
+        "expr": null,
+        "m": "2+2+4",
+        "years": [
+          "2080 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Describe the concept of the client/server computing paradigm and its role in modern computing. Illustrate with real-world examples of applications that utilize this architecture.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2078 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the concept of multi-tier architecture in web development. Illustrate with a diagram a three-tier architecture consisting of: Presentation layer, Business logic layer, and Data layer.",
+        "expr": null,
+        "m": "3+5",
+        "years": [
+          "2079 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Create an HTML page containing an iframe within a paragraph (source: http://www.tuiost.edu.np, dimensions: 200px height, 400px width). Include tags for header, article, and footer. Insert a link containing mailto:info@iost.edu.np in the footer tag and set the keywords \"iost\", \"csit\" using Meta tag.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2075 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write an HTML script to insert an audio file in an HTML page using controls and autoplay properties. Also explain how to insert different multimedia elements in HTML.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2071 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the concept of semantic web.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Design an HTML form for student registration with the following: name, email, phone, program selection (dropdown), and a submit button.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write short notes on: (a) Responsive web design (b) Mobile-first approach.",
+        "expr": null,
+        "m": "3+4",
+        "years": [
+          "2074 Chaitra (NCE)"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "wap2",
+    "title": "JavaScript & Client-Side Programming",
+    "sub": "JS essentials · DOM · Events · ES6+ · Async · jQuery",
+    "concepts": {
+      "h": [
+        "DOM manipulation and event handling with examples",
+        "Arrow functions, spread/rest operator, destructuring (ES6+)",
+        "Promises, callbacks, async/await — async flow",
+        "Local storage and session storage vs cookies",
+        "Event Object in JavaScript",
+        "NaN — definition and when it occurs"
+      ],
+      "m": [
+        "JavaScript execution model",
+        "Different ways to include JavaScript in HTML",
+        "JavaScript modules and imports",
+        "Callback hell — definition",
+        "jQuery selectors — types with examples",
+        "What is jQuery vs JavaScript",
+        "NoScript tag purpose",
+        "Statement, expression, keywords in JavaScript",
+        "Data types in JavaScript"
+      ],
+      "l": [
+        "GUI interactions — hover effects, dynamic menus, modals",
+        "AJAX with jQuery",
+        "JavaScript program — continuous time display (HH:MM:SS)",
+        "Write a program displaying background color change every second",
+        "What is NaN in JavaScript"
+      ]
+    },
+    "qs": [
+      {
+        "t": "What is jQuery? What is the use of jQuery? How is jQuery differing from JavaScript?",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2073 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain JavaScript Execution Model.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2080 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain JavaScript Modules with example.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2080 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is need for client side scripting? Explain features of JavaScript?",
+        "expr": null,
+        "m": "2+4",
+        "years": [
+          "2079 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is JavaScript? What are the potential platforms where JavaScript can be used?",
+        "expr": null,
+        "m": "2+4",
+        "years": [
+          "2080 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is JavaScript Event? Explain with Example.",
+        "expr": null,
+        "m": "2+4",
+        "years": [
+          "2079 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are different data types in JavaScript?",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2079 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is Event Object? Explain with Example.",
+        "expr": null,
+        "m": "2+4",
+        "years": [
+          "2078 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is NoScript? What are different ways to include JavaScript in an HTML document?",
+        "expr": null,
+        "m": "2+4",
+        "years": [
+          "2078 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is NoScript? What is NaN in JavaScript? When does it occur?",
+        "expr": null,
+        "m": "2+2+2",
+        "years": [
+          "2077 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is callback hell?",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2077 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "How do you use local storage in JavaScript?",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2078 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are the major differences between Session storage and Cookie storage?",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2076 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain spread operator with example.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "2076 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "List different types of jQuery selectors with one example of each.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2072 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is arrow function? Write rules of writing JSX in React.",
+        "expr": null,
+        "m": "2+4",
+        "years": [
+          "2072 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain Statement, Expression and Keywords in JavaScript.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2075 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write JavaScript code to change background color of web page every second.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2075 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain different methods that are available to access DOM elements using id, class, name and selector with suitable examples.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2075 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write a program that displays the continuous time in the web page. The time should be in the format HH:MM:SS.",
+        "expr": null,
+        "m": "2+4",
+        "years": [
+          "2071 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain AJAX. List benefits of using AJAX. Demonstrate AJAX with jQuery.",
+        "expr": null,
+        "m": "2+2+6",
+        "years": [
+          "2071 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write a program which includes a function sum(). This function sum() should be designed to add an arbitrary list of parameters. (e.g. if you call the function sum() as sum(1, 2) it should return 3 and if again you call the function sum() as sum(1, 3, 4) it should return 8).",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2073 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "How can you create a simple modal popup using HTML, CSS, and JavaScript that opens and closes on button clicks?",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2072 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain DOM manipulation and event handling using JavaScript with suitable code examples. Demonstrate add/remove DOM nodes dynamically.",
+        "expr": null,
+        "m": "10",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "List and explain any three features of Modern JavaScript with code snippets (ES6+).",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write short notes on: (a) DevOps principles (b) DevOps lifecycle.",
+        "expr": null,
+        "m": "4+3",
+        "years": [
+          "2072 Chaitra (NCE)"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "wap3",
+    "title": "React JS & SPA",
+    "sub": "Components · Props · State · React Router · Fetch API",
+    "concepts": {
+      "h": [
+        "React component-based UI and props — demonstration",
+        "State management and data flow (useState)",
+        "React JSX rules",
+        "Traditional Multi-Page Apps vs SPAs",
+        "Principles of React",
+        "Fetch API — fetching data, handling errors & loading states"
+      ],
+      "m": [
+        "React Router — client-side routing",
+        "Comparison: React vs Angular vs Vue",
+        "React architecture diagram for SPA",
+        "What is React? Why use it?"
+      ],
+      "l": [
+        "One-way data flow concept",
+        "Parent-child state communication",
+        "Comparison of JS libraries"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Explain principles of React.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2073 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are components in React? Demonstrate how props are passed to React components.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2074 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is arrow function? Write rules of writing JSX in React.",
+        "expr": null,
+        "m": "2+4",
+        "years": [
+          "2072 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain Promise with example.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2074 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "A college wants to develop a Single Page Application (SPA) for course selection using React JS. (A) Draw an architecture diagram for SPA using React (components, props, state, router). (B) Explain the flow of data from a backend API to UI components using fetch() and state hooks. (C) Compare React with Angular and Vue.",
+        "expr": null,
+        "m": "10",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "wap4",
+    "title": "Server-Side Programming — Django",
+    "sub": "MVC/MTV · Views · Templates · ORM · Sessions · Middleware",
+    "concepts": {
+      "h": [
+        "MVC Architecture with neat diagram",
+        "MTV Architecture with neat diagram",
+        "Django file structure — project and app",
+        "Django Template Language syntax",
+        "What is ORM? Benefits of ORM",
+        "Middleware — custom middleware for logging",
+        "Form data handling, CSRF, session usage"
+      ],
+      "m": [
+        "Database migration",
+        "What are static files?",
+        "Django field types for models",
+        "How to set, get and delete sessions",
+        "How to set, get and delete cookies from server side",
+        "Routing, URL dispatcher",
+        "Template inheritance and partial template snippets",
+        "Django request-response cycle block diagram"
+      ],
+      "l": [
+        "Comparison: Django vs Flask vs FastAPI vs Spring Boot vs Node.js",
+        "Environment variables in Django settings",
+        "What is Templating? Server-side dynamic HTML generation"
+      ]
+    },
+    "qs": [
+      {
+        "t": "What is middleware? Create custom middleware for logging.",
+        "expr": null,
+        "m": "2+4",
+        "years": [
+          "2073 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain with example syntax of Django Template Language.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2073 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is Templating? How do you generate dynamic HTML content in server side?",
+        "expr": null,
+        "m": "1+4",
+        "years": [
+          "2076 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is API versioning and why is it needed? List the three common approaches for API versioning. Explain API structure best practices including consistent response format with JSON examples for success and error responses, and pagination implementation.",
+        "expr": null,
+        "m": "2+3+4",
+        "years": [
+          "2076 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is Django? Explain file structure of Django Project and Django App.",
+        "expr": null,
+        "m": "1+4",
+        "years": [
+          "2078 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain MVC Architecture with neat diagram.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2080 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain how to set, get and delete sessions.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2080 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is a database? What are types of databases?",
+        "expr": null,
+        "m": "2+4",
+        "years": [
+          "2072 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "How do you inherit templates and how do you include partial template snippets?",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2072 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is Database Migration? What are the major differences between Sessions and Cookies?",
+        "expr": null,
+        "m": "2+4",
+        "years": [
+          "2074 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are different field types for defining models in Django? Give example.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2074 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are static files? What is ORM? What are benefits of ORM?",
+        "expr": null,
+        "m": "2+2+2",
+        "years": [
+          "2075 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain MTV Architecture with neat diagram.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2079 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain how to set, get and delete cookies from server side.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2079 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is Routing? How do you handle routing in server side? Give examples.",
+        "expr": null,
+        "m": "1+4",
+        "years": [
+          "2077 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write a Django flow for: (A) URL routing (B) View handling form data (C) Template rendering (D) Session storage. Design the complete request to response cycle using a block diagram.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain Model-View-Controller (MVC) architecture with a labeled diagram.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Compare Django, Flask, FastAPI, ASP.NET, Spring Boot, and Node.js.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "2071 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What are environment variables? Explain why sensitive information like database passwords and API keys should be stored in environment variables instead of source code. Demonstrate how to use environment variables in Django settings.",
+        "expr": null,
+        "m": "2+4+2",
+        "years": [
+          "2075 Chaitra (NCE)"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "wap5",
+    "title": "Web Services & APIs",
+    "sub": "REST · JSON · XML · Serialization · Microservices · CORS",
+    "concepts": {
+      "h": [
+        "REST principles and the six architectural constraints",
+        "RESTful API design — HTTP verbs, endpoints, URL design",
+        "JSON vs XML — syntax, differences, parsing",
+        "Statelessness in REST architecture",
+        "What is CORS? Why is it needed in full-stack apps?",
+        "Microservices architecture — API gateway, service communication"
+      ],
+      "m": [
+        "Difference between PUT and PATCH HTTP methods",
+        "HTTP status codes — success, client error, server error",
+        "What is API (definition), Open APIs vs Internal APIs",
+        "Serialization and deserialization in Django REST Framework",
+        "Data validation and serialization flow"
+      ],
+      "l": [
+        "Building and testing a simple REST API with Postman",
+        "Define XML and its syntax rules, structure components",
+        "Monolithic vs microservices architecture comparison"
+      ]
+    },
+    "qs": [
+      {
+        "t": "How do you parse JSON data in Python using the `json` module? How do you convert Python dictionary back to JSON string? Write a Python program to parse a JSON string containing book information (id, title, author, year, genres array), access and print each field, modify the data (add rating, append to genres), and convert back to JSON.",
+        "expr": null,
+        "m": "2+2+5",
+        "years": [
+          "2073 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define JSON (JavaScript Object Notation). List the syntax rules of JSON. Explain JSON data types with examples and provide a complete JSON example showing simple values, nested objects, arrays, and null values.",
+        "expr": null,
+        "m": "2+2+5",
+        "years": [
+          "2075 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define API (Application Programming Interface). Differentiate between Open APIs and Internal APIs. Explain why APIs are important in modern software development with purposes.",
+        "expr": null,
+        "m": "2+2+5",
+        "years": [
+          "2080 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is REST? Explain the six architectural constraints of REST with their benefits.",
+        "expr": null,
+        "m": "2+7",
+        "years": [
+          "2079 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is the difference between PUT and PATCH HTTP methods? What status code is returned when a resource is successfully created using POST? Explain different HTTP status codes with their meanings including from success, from client error, and from server error categories.",
+        "expr": null,
+        "m": "2+2+5",
+        "years": [
+          "2078 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is statelessness in REST architecture? Explain the practices for Endpoints and URL design in RESTful APIs with good and bad examples for each.",
+        "expr": null,
+        "m": "3+6",
+        "years": [
+          "2077 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define XML (eXtensible Markup Language) and write syntax rules for XML. Explain XML structure components (Declaration, Element, Attribute, Comment, CDATA) with examples and provide a complete XML example showing nested elements, attributes, and arrays representation.",
+        "expr": null,
+        "m": "3+6",
+        "years": [
+          "2074 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define serialization in the context of Django REST Framework. Define deserialization and explain why it is important. Explain the complete serialization and deserialization flow in Django REST Framework for both incoming requests and outgoing responses with step-by-step process.",
+        "expr": null,
+        "m": "2+2+5",
+        "years": [
+          "2072 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define microservices architecture. Define monolithic architecture. Compare monolithic and microservices architecture including key differences (deployment, scaling, database, technology), when to use each approach, and diagram representation of each.",
+        "expr": null,
+        "m": "2+2+5",
+        "years": [
+          "2071 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is CORS (Cross-Origin Resource Sharing)? Differentiate between simple requests and preflight requests. Explain four CORS response headers and their purposes.",
+        "expr": null,
+        "m": "2+2+4",
+        "years": [
+          "2071 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Consider a hospital management system designing Microservices Architecture. Explain with an architectural diagram highlighting: (A) API gateway (B) Service communication (C) Independent deployments (D) Database per service strategy.",
+        "expr": null,
+        "m": "5",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain JSON versus XML, with examples, advantages, and data parsing workflow.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain why CORS is needed in full-stack applications.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "wap6",
+    "title": "Web Application Security",
+    "sub": "XSS · SQL Injection · CSRF · Input validation · Auth · Hashing",
+    "concepts": {
+      "h": [
+        "XSS — Stored vs Reflected, four impacts on web apps",
+        "SQL Injection — how attacks work, four preventive measures",
+        "CSRF — how it exploits sessions, Django CSRF protection with code",
+        "Differentiate authentication vs authorization",
+        "Password hashing — why plain text is dangerous, key properties",
+        "Input validation vs input sanitization"
+      ],
+      "m": [
+        "HTML encoding and its role in preventing XSS",
+        "Whitelist vs blacklist (allowlist/denylist) validation",
+        "Why server-side validation is mandatory even with client-side",
+        "Cookie security attributes — Secure, HttpOnly, SameSite",
+        "Session-based authentication working mechanism",
+        "Session security concerns — hijacking, fixation, prediction"
+      ],
+      "l": [
+        "Django settings for secure session cookies",
+        "CORS policies and session hardening",
+        "JWT flow and secure token handling",
+        "Environment variables for security"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Differentiate between authentication and authorization. Explain why storing passwords in plain text is dangerous. Describe the concept of password hashing and its key properties.",
+        "expr": null,
+        "m": "2+2+4",
+        "years": [
+          "2073 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define Cross-Site Scripting (XSS). Differentiate between Stored XSS and Reflected XSS. Explain four potential impacts of XSS attacks on web applications.",
+        "expr": null,
+        "m": "2+2+4",
+        "years": [
+          "2080 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define Cross-Site Request Forgery (CSRF). Explain how CSRF attacks exploit user sessions. Describe how Django's CSRF protection mechanism works with a code example.",
+        "expr": null,
+        "m": "2+3+3",
+        "years": [
+          "2078 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Define input sanitization. Explain the difference between input validation and input sanitization. Describe HTML encoding and its role in preventing XSS attacks.",
+        "expr": null,
+        "m": "2+3+3",
+        "years": [
+          "2076 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is input validation? Differentiate between whitelist (allowlist) and blacklist (denylist) validation approaches. Explain why server-side validation is mandatory even when client-side validation is implemented.",
+        "expr": null,
+        "m": "2+3+3",
+        "years": [
+          "2077 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "What is SQL Injection? Explain how SQL Injection attacks work with an example. Describe four preventive measures against SQL Injection in web applications.",
+        "expr": null,
+        "m": "2+2+4",
+        "years": [
+          "2079 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain the purpose of the following cookie security attributes: Secure, HttpOnly, and SameSite. Write the Django settings to configure secure session cookies.",
+        "expr": null,
+        "m": "6+2",
+        "years": [
+          "2074 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain session-based authentication and its working mechanism. Describe three session security concerns (session hijacking, session fixation, and session prediction) and their prevention methods.",
+        "expr": null,
+        "m": "4+4",
+        "years": [
+          "2072 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain SQL Injection, XSS, and CSRF with examples.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "wap7",
+    "title": "Forms, Validation & File Handling",
+    "sub": "Form design · Server-side validation · File upload · ORM CRUD",
+    "concepts": {
+      "h": [
+        "Design HTML form and write server-side code with validation rules",
+        "File upload validation — extension and size checks",
+        "Write controller for login with database lookup",
+        "Form validation using Django with CSRF"
+      ],
+      "m": [
+        "Create form with registration fields + full validation",
+        "File upload — only images allowed, < 2MB limit",
+        "Login form with session redirect",
+        "Patient/student data form with specific validation rules"
+      ],
+      "l": [
+        "Form POST processing",
+        "Storing validated data to database table",
+        "TU registration + file upload form"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Design a form and write corresponding server side code to store the user's values after satisfying the following validation rules: Length of Full name up to 40 characters; Email address must be valid email address; Username must start with string and followed by number; Password length must be more than 8 characters.",
+        "expr": null,
+        "m": "7",
+        "years": [
+          "2076 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Create a HTML page containing a division with image and its description in paragraph. Write a JavaScript function to change the value of description in the paragraph during onmouseover and onmouseout on the image.",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2074 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write a server side code to upload a file and validate: File extension (only allow image files: jpg, jpeg, png, gif); File size (must be less than 2MB).",
+        "expr": null,
+        "m": "6",
+        "years": [
+          "2075 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write a controller that accepts username and password as arguments and checks with student table; if credentials match, redirect to dashboard page, otherwise display 'Invalid username/password'. Assume user already exists.",
+        "expr": null,
+        "m": "7",
+        "years": [
+          "2078 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Create a form to input Name, Email, password. All fields are required. Email should be valid. Phone number should be valid (9********* or 01*******). Password must be at least 8 characters long and contain at least one uppercase letter, one lowercase letter, one number and one symbol.",
+        "expr": null,
+        "m": "10",
+        "years": [
+          "2077 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write server side script to create and validate form with the following rule and store given data into 'patients' table with details (name, patient_id, mobile, gender, address, dob, doctor name): Name, Mobile, Doctor Name, Gender, DOB: Required; Mobile: 10 digit start with 98, 97 or 96; DOB: YYYY-MM-DD format.",
+        "expr": null,
+        "m": "7",
+        "years": [
+          "2077 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Design following forms and write corresponding server side code to store the user's values after satisfying following validation rules. Form fields: TU Registration Number, Email Address, Upload your Project File. Validation: Registration number, email and upload file are mandatory; Email address should be proper email format; Upload file format must include pdf, doc, docx, ppt, pptx, jpeg; File size must be less than 5MB.",
+        "expr": null,
+        "m": "8",
+        "years": [
+          "2071 Chaitra (NCE)"
+        ],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "wap8",
+    "title": "Deployment, Testing & Modern Trends",
+    "sub": "CI/CD · DevOps · PWA · Full-stack integration · Testing",
+    "concepts": {
+      "h": [
+        "CI/CD pipelines — Continuous Integration vs Continuous Delivery vs Continuous Deployment",
+        "Progressive Web Apps (PWAs) — service workers, manifest, offline-first",
+        "Full-stack development overview — frontend-backend integration, build pipeline",
+        "DevOps lifecycle and principles",
+        "Test-Driven Development (TDD)"
+      ],
+      "m": [
+        "GitHub Actions",
+        "Unit testing and the AAA pattern",
+        "Integration testing approaches",
+        "Quality Assurance (QA) vs Testing",
+        "Test automation benefits",
+        "Code review practices",
+        "Web app manifest"
+      ],
+      "l": [
+        "Docker introduction",
+        "Build pipeline in web development",
+        "Breakpoints in responsive design"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Write short notes on: (a) Web app manifest (b) Build pipeline in web development.",
+        "expr": null,
+        "m": "4+3",
+        "years": [
+          "2073 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write short notes on: (a) Full-stack development (b) Frontend-backend integration.",
+        "expr": null,
+        "m": "3+4",
+        "years": [
+          "2080 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write short notes on: (a) Continuous Integration (CI) (b) Continuous Delivery vs Continuous Deployment.",
+        "expr": null,
+        "m": "3+4",
+        "years": [
+          "2076 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write short notes on: (a) DevOps principles (b) DevOps lifecycle.",
+        "expr": null,
+        "m": "4+3",
+        "years": [
+          "2072 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write short notes on: (a) Test-Driven Development (TDD) (b) Quality Assurance (QA) vs Testing.",
+        "expr": null,
+        "m": "4+3",
+        "years": [
+          "2078 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write short notes on: (a) Unit testing and the AAA pattern (b) Integration testing approaches.",
+        "expr": null,
+        "m": "4+3",
+        "years": [
+          "2079 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write short notes on: (a) Test automation benefits (b) Code review practices.",
+        "expr": null,
+        "m": "3+4",
+        "years": [
+          "2077 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write short notes on: (a) CI/CD pipelines (b) GitHub Actions.",
+        "expr": null,
+        "m": "4+3",
+        "years": [
+          "2075 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write short notes on: (a) Progressive Web Apps (PWAs) (b) Breakpoints in responsive design.",
+        "expr": null,
+        "m": "4+3",
+        "years": [
+          "2071 Chaitra (NCE)"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Explain CI/CD and Continuous Integration and Continuous Delivery.",
+        "expr": null,
+        "m": "3+4",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      },
+      {
+        "t": "Write short notes on: (a) Progressive web apps.",
+        "expr": null,
+        "m": "4",
+        "years": [
+          "Model Q"
+        ],
+        "freq": 1
+      }
+    ]
+  }
+]
