@@ -1,0 +1,1883 @@
+[
+  {
+    "id": "dsa1",
+    "title": "Introduction",
+    "sub": "Data structures · ADT · Algorithm design techniques · Time & space complexity · Asymptotic notations",
+    "concepts": {
+      "h": [
+        "Define data structure, differentiate linear and non-linear / primitive and non-primitive",
+        "Abstract Data Type (ADT) — definition, examples, value definition and operator definition",
+        "Asymptotic notations: Big-Oh (O), Big-Omega (Ω), Big-Theta (Θ) — definition with examples and curves",
+        "Rate of growth / time and space complexity of algorithms"
+      ],
+      "m": [
+        "Algorithm definition and properties",
+        "Best, worst and average case analysis",
+        "Significance/importance of data structures and application areas",
+        "Algorithm design techniques overview (brute force, divide and conquer, greedy, dynamic programming, etc.)"
+      ],
+      "l": [
+        "Small-o and small-omega notations",
+        "Need of data structures",
+        "Types of data structures and characteristics"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Define data structure. Differentiate between linear and non-linear data structures with examples. What is the rate of growth of an algorithm, and why is it important?",
+        "expr": null,
+        "m": "1+2+2",
+        "years": ["2082 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define data structure. Differentiate between primitive and non-primitive data structure.",
+        "expr": null,
+        "m": "2+2",
+        "years": ["2081 Chaitra R", "2080 Chaitra R", "2079 Chaitra R", "2072 Magh B", "2069 Bhadra R"],
+        "freq": 5
+      },
+      {
+        "t": "What are linear and nonlinear data structures? Define abstract data type (ADT) with suitable example.",
+        "expr": null,
+        "m": "1+3",
+        "years": ["2080 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define data structure with its types.",
+        "expr": null,
+        "m": "4",
+        "years": ["2076 Baisakh B", "2076 Bhadra R"],
+        "freq": 2
+      },
+      {
+        "t": "Define data structure with its importance.",
+        "expr": null,
+        "m": "4",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define a data structure? Explain the basic data structure operations.",
+        "expr": null,
+        "m": "4",
+        "years": ["2072 Ashwin R"],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by data structure? What are the different types of data structures and operations that can be carried out on them?",
+        "expr": null,
+        "m": "1+3",
+        "years": ["2071 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Define data type and define abstract data type (ADT) with suitable example.",
+        "expr": null,
+        "m": "4",
+        "years": ["2069 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define abstract data types with examples. Differentiate between primitive and non-primitive data structure.",
+        "expr": null,
+        "m": "2+2",
+        "years": ["2081 Chaitra R", "2080 Chaitra R"],
+        "freq": 2
+      },
+      {
+        "t": "Explain the importance of data structures and point out the areas in which data structures are being applied extensively. Explain why List is called as Abstract Data type (ADT).",
+        "expr": null,
+        "m": "2+2",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Briefly explain the statement \"ADT provides extraction\" with suitable example.",
+        "expr": null,
+        "m": "4",
+        "years": ["2077 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by Abstract Data Type? What is difference between primitive and non-primitive data structure?",
+        "expr": null,
+        "m": "2+2",
+        "years": ["2075 Bhadra R", "2073 Magh B"],
+        "freq": 2
+      },
+      {
+        "t": "Define ADT and construct ADT of Linked List using value definition and operator definition.",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2075 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Describe value definition and operator definition of ADT and apply it to describe STACK. Is stack a linear or non-linear data structure?",
+        "expr": null,
+        "m": "4",
+        "years": ["2073 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between ADT and Data Structure. What are the significant traits of good algorithm?",
+        "expr": null,
+        "m": "2+2",
+        "years": ["2071 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define ADT with suitable example.",
+        "expr": null,
+        "m": "4",
+        "years": ["2070 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by Abstract Data Type (ADT)? Give an example to illustrate implementation of an ADT.",
+        "expr": null,
+        "m": "4",
+        "years": ["2069 Poush B"],
+        "freq": 1
+      },
+      {
+        "t": "Define data structures. Explain ADT with suitable example.",
+        "expr": null,
+        "m": "4",
+        "years": ["2068 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define data types. Classify algorithms and explain any one that you have studied.",
+        "expr": null,
+        "m": "4",
+        "years": ["2068 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Define algorithm and write down its properties.",
+        "expr": null,
+        "m": "4",
+        "years": ["2076 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define an Omega and Theta notation with suitable example.",
+        "expr": null,
+        "m": "4",
+        "years": ["2081 Chaitra R", "2080 Chaitra R"],
+        "freq": 2
+      },
+      {
+        "t": "Briefly explain the significance of asymptotic notations with suitable diagram.",
+        "expr": null,
+        "m": "4",
+        "years": ["2077 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain about Big Omega (Ω) and Big Theta (θ) notions.",
+        "expr": null,
+        "m": "2+2",
+        "years": ["2079 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define Big-Oh and Theta notation with suitable example.",
+        "expr": null,
+        "m": "4",
+        "years": ["2080 Chaitra R", "2079 Chaitra R"],
+        "freq": 2
+      },
+      {
+        "t": "Explain Big-oh notation with its significance and limitation.",
+        "expr": null,
+        "m": "4",
+        "years": ["2075 Bhadra R", "2073 Magh B"],
+        "freq": 2
+      },
+      {
+        "t": "Define big-O notation and Big-Ω notation with their respective curves.",
+        "expr": null,
+        "m": "5",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What do you mean by asymptotic notation? Define Big-O notation with its properties.",
+        "expr": null,
+        "m": "2+2",
+        "years": ["2076 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define Omega and Theta notation with suitable example.",
+        "expr": null,
+        "m": "4",
+        "years": ["2073 Bhadra R", "2072 Ashwin R", "2070 Bhadra R"],
+        "freq": 3
+      },
+      {
+        "t": "Define Big O, Big Omega and Big Theta notation.",
+        "expr": null,
+        "m": "4",
+        "years": ["2072 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Why do we use asymptotic notations during algorithm analysis? Show that whether the following assertion is true or false, justify: 1/2 n(n-1) ∈ Θ(n²)",
+        "expr": "1/2 n(n-1) ∈ Θ(n²)",
+        "m": "1+3",
+        "years": ["2071 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Justify ½ (n(n-1)) ∈ n². Differentiate between small o and small ω notations.",
+        "expr": "½ (n(n-1)) ∈ n²",
+        "m": "2+2",
+        "years": ["2070 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Define Θ, O and Ω notation with their respective curves.",
+        "expr": null,
+        "m": "4",
+        "years": ["2069 Poush B"],
+        "freq": 1
+      },
+      {
+        "t": "Define O, Θ and Ω notations with corresponding curves.",
+        "expr": null,
+        "m": "4",
+        "years": ["2068 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "How do you find complexity of any algorithm? Explain with suitable example.",
+        "expr": null,
+        "m": "4",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Describe the importance of growth function in algorithm. Discuss about theta function, Big-Oh function and Omega function.",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2075 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "If you have two different algorithms for the solution of same problem with O(n) and O(log n), which one would you prefer and why?",
+        "expr": null,
+        "m": "4",
+        "years": ["2069 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Illustrate measures of efficiency of algorithm with standard curve and problem size.",
+        "expr": null,
+        "m": "4",
+        "years": ["2068 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is the usage of asymptotic notation? Explain big-O notation with its properties.",
+        "expr": null,
+        "m": "1+3",
+        "years": ["2071 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Provide best case, average case and worst case for following algorithms in Big-Oh: bubble sort, insertion sort, merge sort and selection sort.",
+        "expr": null,
+        "m": "2",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "dsa2",
+    "title": "Stack and Recursion",
+    "sub": "Stack operations · Array implementation · Infix/postfix/prefix conversion · Expression evaluation · Recursion · Tower of Hanoi",
+    "concepts": {
+      "h": [
+        "Infix to postfix/prefix conversion showing stack status at each step",
+        "Postfix expression evaluation using stack with given values",
+        "Tower of Hanoi (TOH) — algorithm for n disks, recursion tree for 3 or 4 disks",
+        "Define stack with operations; push/pop algorithm"
+      ],
+      "m": [
+        "Recursion vs iteration; tail and non-tail recursion",
+        "How recursion uses stack — illustrated with factorial or fibonacci",
+        "Stack in circular queue overflow/underflow; static vs dynamic implementation of stack",
+        "Recursion tree generation; box trace concept"
+      ],
+      "l": [
+        "Advantages and disadvantages of recursion",
+        "Direct and indirect recursion",
+        "Balancing parentheses using stack",
+        "Reversal of string using stack"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Convert following infix expression into postfix expression showing status of stack in each step: A*B - (C*D - (E/F) $G*H) - I. Generate a recursion tree to evaluate 4th Fibonacci term.",
+        "expr": "A*B - (C*D - (E/F) $G*H) - I",
+        "m": "4+4",
+        "years": ["2082 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define stack. How can we use a stack to evaluate a postfix expression? Explain. Evaluate AB C+D×EF/- using stacks. Use A=7, B=3, C=2, D=5, E=8 and F=4.",
+        "expr": "AB C+D×EF/-",
+        "m": "2+2+4",
+        "years": ["2081 Chaitra R", "2080 Chaitra R"],
+        "freq": 2
+      },
+      {
+        "t": "Convert following infix expressions to Postfix and Evaluate the postfix expressions using A=8, B=5, C=4, D=6, E=2, F=1, G=12 and H=3: A+(B*C-(D/E+F)-G)*H",
+        "expr": "A+(B*C-(D/E+F)-G)*H",
+        "m": "5+3",
+        "years": ["2080 Chaitra R", "2079 Chaitra R"],
+        "freq": 2
+      },
+      {
+        "t": "What is stack? Convert the infix expression a+b*c+(d*e-f)*g into postfix expression.",
+        "expr": "a+b*c+(d*e-f)*g",
+        "m": "2+6",
+        "years": ["2079 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define stack. Convert following infix expression to postfix expression showing stack status in each step: A×(B+C)-(B^D)×A+E/F",
+        "expr": "A×(B+C)-(B^D)×A+E/F",
+        "m": "2+6",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define stack. Convert following infix expression showing stack status after every step: (A*B*(((C^X+D^Y)+E/Z)*F)))",
+        "expr": "(A*B*(((C^X+D^Y)+E/Z)*F)))",
+        "m": "2+6",
+        "years": ["2077 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define stack. Evaluate the postfix expression A*BC-DE*F/+G* with status of stack where A=2, B=3, C=10, D=5, E=2, F=4 and G=6.",
+        "expr": "A*BC-DE*F/+G*",
+        "m": "1+4",
+        "years": ["2076 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Write an algorithm for converting infix expression to postfix expression. Convert the given infix expression to postfix expression using above algorithm: a^b*c-d-e-f/e/(g-h)",
+        "expr": "a^b*c-d-e-f/e/(g-h)",
+        "m": "5+5",
+        "years": ["2076 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define stack. Convert given infix expression to postfix showing stack status in each step: (A+B*(C+D/E)^F*G)",
+        "expr": "(A+B*(C+D/E)^F*G)",
+        "m": "2+6",
+        "years": ["2075 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define stack. How to convert infix to postfix notation? Explain with example. Evaluate the postfix expression AB+C*DEFG-*+- with status of stack where A=2, B=3, C=10, D=5, E=2, F=4 and G=6.",
+        "expr": "AB+C*DEFG-*+-",
+        "m": "2+4+4",
+        "years": ["2075 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Convert A+B-C*(D-E+F/G)/H expression into postfix expression using stack.",
+        "expr": "A+B-C*(D-E+F/G)/H",
+        "m": "10",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain how a circular queue differs from linear queue with suitable example. Show status of stack while converting following infix expression to postfix expression: A+B-(C*D/E+F)-G*H.",
+        "expr": "A+B-(C*D/E+F)-G*H",
+        "m": "5+5",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define stack. Convert given infix expression to postfix showing stack status in each step and also evaluate it using given values A=8, B=2, C=3, D=1, E=1: A/B-(C+D)*E",
+        "expr": "A/B-(C+D)*E",
+        "m": "2+6",
+        "years": ["2068 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Convert the given infix expression (A+B)*(C-D) into equivalent postfix expression showing each steps in tabular form and evaluate the obtained postfix expression showing STACK status each time when A=5, B=7, C=9 and D=4.",
+        "expr": "(A+B)*(C-D)",
+        "m": "6",
+        "years": ["2068 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Convert the given infix expression A/B-(C+D)*E into equivalent postfix expression showing each steps in tabular form and evaluate the obtained postfix expression showing STACK status each time when A=8, B=2, C=3, D=1 and E=1.",
+        "expr": "A/B-(C+D)*E",
+        "m": "6",
+        "years": ["2068 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is a stack data structure? Is stack a linear or non-linear data structure?",
+        "expr": null,
+        "m": "3+2",
+        "years": ["2073 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "What is stack? Write an algorithm to convert infix expression into postfix expression using stack.",
+        "expr": null,
+        "m": "1+4",
+        "years": ["2072 Ashwin R"],
+        "freq": 1
+      },
+      {
+        "t": "Define Stack. Write an algorithm to convert given infix expression to postfix expression. What is polish notation and reverse polish notation? Convert the following expression to postfix expression using Stacks: P: (a+b*c+(d*e+f)*g)",
+        "expr": "P: (a+b*c+(d*e+f)*g)",
+        "m": "1+4+2+3",
+        "years": ["2071 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "a) What is the importance of postfix expression? Convert the given infix expression (a+b*c+(d/e*f)-g) into equivalent postfix expression showing the status of stack in each steps. b) How elements are inserted and deleted in circular queue? Explain with example.",
+        "expr": "(a+b*c+(d/e*f)-g)",
+        "m": "2+3",
+        "years": ["2071 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Convert the following infix expression into postfix and also evaluate it: A+(B*C-(D/E^F)*G)*H",
+        "expr": "A+(B*C-(D/E^F)*G)*H",
+        "m": "4+1",
+        "years": ["2070 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Evaluate the following postfix expression showing stack after every step in tabular form: 574-*8/4+",
+        "expr": "574-*8/4+",
+        "m": "5",
+        "years": ["2069 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define Stack with suitable example. Write down the algorithm for the basic operation that can be performed over the stack. Convert the given infix expression (A+(B*C-(D/E-F)*G)*H) into equivalent prefix and postfix expressions showing each steps in tabular form.",
+        "expr": "(A+(B*C-(D/E-F)*G)*H)",
+        "m": "1+3+6",
+        "years": ["2069 Poush B"],
+        "freq": 1
+      },
+      {
+        "t": "Convert a*b^c-d+(e/f*g)/(k-l) into prefix and postfix expression. Write an algorithm for top of stack fix stack operation.",
+        "expr": "a*b^c-d+(e/f*g)/(k-l)",
+        "m": "4+3",
+        "years": ["2072 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Discuss advantages and disadvantages of recursion. Generate a recursion tree for TOH problem consisting 3-discs.",
+        "expr": null,
+        "m": "3+5",
+        "years": ["2075 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Write an algorithm for Tower of Hanoi (TOH) with 'n' disks. Construct a recursion tree for TOH problem with 4 disks.",
+        "expr": null,
+        "m": "3+3",
+        "years": ["2081 Chaitra R", "2080 Chaitra R"],
+        "freq": 2
+      },
+      {
+        "t": "What is recursion? Explain recursive module for Tower of Hanoi (TOH) problem.",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2079 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Illustrate the use of stack in recursion taking any recursive program of your choice.",
+        "expr": null,
+        "m": "6",
+        "years": ["2077 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "What are tail and non-tail recursions? Write an algorithm for TOH with 'n' disks and generate a recursion tree of TOH problem with 3 disks.",
+        "expr": null,
+        "m": "2+2+4",
+        "years": ["2076 Baisakh B", "2076 Bhadra R"],
+        "freq": 2
+      },
+      {
+        "t": "Write an algorithm to find nth Fibonacci number using tail recursion. Generate a recursion tree of TOH problem with 4 disks.",
+        "expr": null,
+        "m": "3+5",
+        "years": ["2080 Chaitra R", "2079 Chaitra R"],
+        "freq": 2
+      },
+      {
+        "t": "What is tree recursion? Write an algorithm for TOH with 'n' disks and generate a recursion tree of TOH problem with 3 disks.",
+        "expr": null,
+        "m": "1+3+4",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain how recursion uses stack data structures, use factorial of number calculation to illustrate the concept.",
+        "expr": null,
+        "m": "6",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain how a recursive algorithm uses stack with suitable illustrative stack diagram.",
+        "expr": null,
+        "m": "8",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "How recursive algorithm uses STACK to store intermediate results, illustrate with an example? Distinguish between normal function and recursive function.",
+        "expr": null,
+        "m": "5+3",
+        "years": ["2075 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain how recursive program uses stack with illustrative stack diagram. Write an algorithm for solving Tower Hanoi problem with 'n' discs.",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2076 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Do you think recursive function is slow? Compare recursive and non-recursive functions. Draw recursion tree for Tower of Hanoi assuming 4 disks.",
+        "expr": null,
+        "m": "1+2+5",
+        "years": ["2072 Ashwin R"],
+        "freq": 1
+      },
+      {
+        "t": "Define a recursion. Which algorithm would you refer between iterative and recursion? Explain TOH problem with its solution for 'n' disks.",
+        "expr": null,
+        "m": "1+2",
+        "years": ["2072 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain TOH problem with its solution for 'n' disks.",
+        "expr": null,
+        "m": "5",
+        "years": ["2072 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "a) What are the main characteristics of recursion? Write three methods for solving recurrences. b) How do you solve TOH using recursion? Show the steps to solve TOH problem for 3 disks.",
+        "expr": null,
+        "m": "2+2+4",
+        "years": ["2071 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define recursion. Which algorithm would you prefer between iterative and recursive for the Fibonacci sequence and why? Discuss TOH problem and its solution.",
+        "expr": null,
+        "m": "8",
+        "years": ["2068 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is tail and non-tail recursion with example? Write an algorithm for solving a Tower of Hanoi (TOH) problem using recursion.",
+        "expr": null,
+        "m": "3+5",
+        "years": ["2070 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Write an algorithm for Tower of Hanoi (TOH) with 'n' disks. Construct a recursion tree for TOH problem with 3 disks. Explain the basic principle of recursion with example.",
+        "expr": null,
+        "m": "6+2",
+        "years": ["2073 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "State properties of recursion. Why recursive method for Fibonacci sequence is not preferred? Write an algorithm for TOH problem and use it to find the solution for three disks.",
+        "expr": null,
+        "m": "8",
+        "years": ["2068 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "What is box trace? Construct a recursion tree for tower of Hanoi problem consisting of 3 disks.",
+        "expr": null,
+        "m": "1+3",
+        "years": ["2071 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Write an algorithm for TOH problem. Hence find all solution for three disks from your algorithm, showing recursion tree for the same.",
+        "expr": null,
+        "m": "3+5",
+        "years": ["2069 Poush B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain how recursion uses stack. Write an algorithm for solving Tower of Hanoi problem with 'n' discs.",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2076 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain direct and indirect recursion with suitable example.",
+        "expr": null,
+        "m": "4",
+        "years": ["2071 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Define recursion. What do you mean by direct and indirect recursion? Explain with example.",
+        "expr": null,
+        "m": "2+2",
+        "years": ["2069 Bhadra R"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "dsa3",
+    "title": "Queues",
+    "sub": "Queue operations · Linear queue · Circular queue · Double-ended queue · Priority queue",
+    "concepts": {
+      "h": [
+        "Circular queue — enqueue and dequeue algorithms; why circular queue is efficient over linear queue",
+        "Queue overflow and underflow conditions",
+        "Array implementation of circular queue with insertion and deletion"
+      ],
+      "m": [
+        "Define queue and its operations; linear queue limitations",
+        "Enqueue and dequeue operation algorithms for both linear and circular queue",
+        "Priority queue / double-ended queue definition"
+      ],
+      "l": [
+        "Display operation on circular queue",
+        "Types of queues overview",
+        "Queue as ADT"
+      ]
+    },
+    "qs": [
+      {
+        "t": "What is the problem with linear queue implementation? Also explain solution for the problem with example and respective enqueue and dequeue algorithms.",
+        "expr": null,
+        "m": "2+2+3",
+        "years": ["2082 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Write an algorithm for enqueue and dequeue operations in circular queue.",
+        "expr": null,
+        "m": "3+3",
+        "years": ["2081 Chaitra R", "2080 Chaitra R"],
+        "freq": 2
+      },
+      {
+        "t": "Explain how circular queue is efficient compared to linear queue. Write down an algorithm to perform insertion and deletion operation in a linear queue.",
+        "expr": null,
+        "m": "2+3",
+        "years": ["2080 Chaitra R", "2079 Chaitra R"],
+        "freq": 2
+      },
+      {
+        "t": "Define Queue with its logical representation. Write an algorithm to enqueue() and dequeue() element in Circular Queue.",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2079 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is queue? What are different operations that can be performed over queue?",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2077 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate linear queue and circular queue with suitable example.",
+        "expr": null,
+        "m": "5",
+        "years": ["2076 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Define linear queue and circular queue. Explain queue operation in circular queue.",
+        "expr": null,
+        "m": "3+5",
+        "years": ["2075 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain how circular queue is efficient compared to linear queue. Write down an algorithm to perform insertion and deletion operation in a circular queue.",
+        "expr": null,
+        "m": "2+3",
+        "years": ["2080 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define a queue. Explain enqueue and dequeue operation with example.",
+        "expr": null,
+        "m": "1+4",
+        "years": ["2074 Bhadra R", "2072 Ashwin R", "2070 Bhadra R"],
+        "freq": 3
+      },
+      {
+        "t": "When do you get error message 'Queue overflow and Queue underflow'? Explain with example.",
+        "expr": null,
+        "m": "2+3",
+        "years": ["2073 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Write an algorithm to implement circular queue with the condition for insertion, deletion, queue full and queue empty.",
+        "expr": null,
+        "m": "5",
+        "years": ["2070 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Write an algorithm to design a data structure that provides enqueue, dequeue and display operations. The first two are the normal circular queue operations and the last one returns all elements in the circular queue without removing them from queue.",
+        "expr": null,
+        "m": "5",
+        "years": ["2072 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Define linear and circular queue. Write down algorithms for basic operations that can be performed over linear and circular queues.",
+        "expr": null,
+        "m": "5",
+        "years": ["2069 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Implement a linear queue as a list by using static implementation. Write pseudo code for this implementation.",
+        "expr": null,
+        "m": "6",
+        "years": ["2071 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Suppose you are asked to simulate people waiting in a petrol pump, which data structure would you use? Discuss suitable algorithm required for your simulation.",
+        "expr": null,
+        "m": "4",
+        "years": ["2068 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "In some unfair customer service centre, a person who comes at last gets services at first and the persons who come at first are still waiting for the services up to last. Devise a suitable algorithm required for the simulation of this system.",
+        "expr": null,
+        "m": "4",
+        "years": ["2068 Magh B"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "dsa4",
+    "title": "Linked List",
+    "sub": "Singly linked list · Doubly linked list · Circular linked list · Stack/Queue using linked list · Polynomial addition",
+    "concepts": {
+      "h": [
+        "Polynomial addition using linked list — algorithm and explanation",
+        "Push and pop operations in stack implemented using singly linked list",
+        "Insert and delete node at Kth position in doubly linked list",
+        "Array implementation of list vs dynamic (linked) list"
+      ],
+      "m": [
+        "Insert/delete node in singly linked list (at beginning, end, given position, after given node)",
+        "Implement queue using linked list",
+        "Circular linked list — significance and operations",
+        "Static list vs dynamic list — differences and limitations"
+      ],
+      "l": [
+        "ADT of linked list",
+        "Advantages and disadvantages of doubly linked list",
+        "Polynomial representation using linked list"
+      ]
+    },
+    "qs": [
+      {
+        "t": "In a linked list data cannot be accessed randomly, justify with suitable example. Explain with algorithm how the addition of polynomial equations is done using linked list.",
+        "expr": null,
+        "m": "2+5",
+        "years": ["2082 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "a) Define a linked list. Write algorithms for push and pop operations in the dynamic implementation of a stack using a singly linked list. b) Write an algorithm to insert a node at a specified position in a doubly linked list. Describe how a polynomial can be represented using a linked list with an example.",
+        "expr": null,
+        "m": "1+3+3+2",
+        "years": ["2082 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Write algorithms for insertion of data at beginning and end in array implementation of lists.",
+        "expr": null,
+        "m": "3+3",
+        "years": ["2081 Chaitra R", "2080 Chaitra R"],
+        "freq": 2
+      },
+      {
+        "t": "Explain array representation of list. How it is different from dynamic list?",
+        "expr": null,
+        "m": "2+2",
+        "years": ["2080 Chaitra R", "2079 Chaitra R", "2076 Baisakh B", "2075 Baisakh B"],
+        "freq": 4
+      },
+      {
+        "t": "Write algorithm to insert data at the beginning in array implementation of lists.",
+        "expr": null,
+        "m": "4",
+        "years": ["2079 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the significance of dynamic list data structures over static list. Write algorithms to implement list structure using array for the operations: a) Insert at given position in the list b) Delete from given position in the list",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is difference between static and dynamic implementation of list? How do you insert element in static list?",
+        "expr": null,
+        "m": "3+3",
+        "years": ["2076 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between array implementation and Dynamic implementation of list with suitable example.",
+        "expr": null,
+        "m": "4",
+        "years": ["2075 Bhadra R", "2073 Bhadra R"],
+        "freq": 2
+      },
+      {
+        "t": "Explain array representation of list in C with suitable example. What are limitations of this implementation?",
+        "expr": null,
+        "m": "6",
+        "years": ["2068 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "What are the considerations to be taken while developing an algorithm using linked list? Explain array implementation of list in C with suitable example.",
+        "expr": null,
+        "m": "6",
+        "years": ["2068 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "How can a linked list be used to implement push and pop operations in stack? Write algorithm for deleting the Kth node from a doubly linked list.",
+        "expr": null,
+        "m": "5+3",
+        "years": ["2081 Chaitra R", "2080 Chaitra R"],
+        "freq": 2
+      },
+      {
+        "t": "Write an algorithm to insert a new node after any given node in doubly linked list. Explain how you add two polynomials with the help of linked list.",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2080 Chaitra R", "2079 Chaitra R"],
+        "freq": 2
+      },
+      {
+        "t": "Write an algorithm to insert a new node after a given node and to delete the last node of singly linked list.",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2079 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Consider two linked lists that represent two polynomials. Subtract them and return the difference as a linked list. Write an algorithm and program to implement above scenario.",
+        "expr": null,
+        "m": "10",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "How do you delete a node at the end of the doubly linked list? Explain how the addition of polynomial equations is done using linked list.",
+        "expr": null,
+        "m": "5+5",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain how the addition of polynomial equations is done using linked list. Write an algorithm to insert element in queue using linked list.",
+        "expr": null,
+        "m": "5+5",
+        "years": ["2076 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain operations of stack using linked list. How do you add a node at the Kth position of the doubly linked list?",
+        "expr": null,
+        "m": "5+5",
+        "years": ["2076 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "How do you perform a push and pop operation in stack as a linked list? How do you insert and delete a node at the kth position of the doubly linked list.",
+        "expr": null,
+        "m": "5+5",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Write algorithms of implementation of stack and queue using singly linked list.",
+        "expr": null,
+        "m": "10",
+        "years": ["2075 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Define different types of linked list with suitable example.",
+        "expr": null,
+        "m": "5",
+        "years": ["2072 Ashwin R", "2070 Bhadra R"],
+        "freq": 2
+      },
+      {
+        "t": "Write an algorithm creates a single linked list.",
+        "expr": null,
+        "m": "5",
+        "years": ["2072 Ashwin R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain how you insert and delete kth element in doubly linked list.",
+        "expr": null,
+        "m": "5",
+        "years": ["2070 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define a doubly linked list with its advantages and disadvantages. Write an algorithm to insert an element before Kth node in doubly linked list.",
+        "expr": null,
+        "m": "3+3",
+        "years": ["2072 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain how do you add two polynomials using linked list.",
+        "expr": null,
+        "m": "4",
+        "years": ["2072 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "In a linked list data cannot be accessed randomly, Justify with suitable example. Write complete algorithm to implement circular queue linked list.",
+        "expr": null,
+        "m": "2+8",
+        "years": ["2073 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Write algorithms to insert and delete a node before a node in a singly linked list. How can you implement stack and queue using linked list?",
+        "expr": null,
+        "m": "5+5",
+        "years": ["2070 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "What is list? Explain the operations that can be performed in lists.",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2070 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "a) Mention the significance of circular linked list with suitable example. b) Explain how you add two polynomials with the help of linked list.",
+        "expr": null,
+        "m": "5+5",
+        "years": ["2071 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate singly linked list from doubly linked list. Write an algorithm for the dynamic implementation of queue. Also verify your algorithm with necessary illustrations.",
+        "expr": null,
+        "m": "2+6+2",
+        "years": ["2068 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define doubly linked list and mention its merits. Devise an algorithm that overcomes the demerits of array implementation of stack. Also verify your algorithm with necessary illustrations.",
+        "expr": null,
+        "m": "2+6+2",
+        "years": ["2068 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "How doubly linked list differ from singly linked list. Write an algorithm for deleting Kth node from the doubly linked list. How do you represent polynomial equation using linked list? Write an algorithm to add two polynomial equations.",
+        "expr": null,
+        "m": "2+3+2+3",
+        "years": ["2069 Poush B"],
+        "freq": 1
+      },
+      {
+        "t": "Suppose you have a doubly linked list that stores bank customers information. Explain how a customer with account number 00056PR can be deleted and how a new customer can be inserted. What is the difference in this implementation relative to singly linked list?",
+        "expr": null,
+        "m": "6+4",
+        "years": ["2071 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Suppose you have a doubly linked list that stores employee information. Explain how an employee with employee ID 165-64 can be deleted from the list with necessary illustrations and pseudo codes.",
+        "expr": null,
+        "m": "7",
+        "years": ["2069 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Write an algorithm to insert element after Kth node in doubly linked list. Explain the advantages and disadvantages of using doubly linked list.",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2075 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain a linked list. Write algorithm to solve polynomial equations using linked list.",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Write algorithms for insertion and deletion of data in array implementation of lists.",
+        "expr": null,
+        "m": "6",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Why do you choose either static implementation or dynamic implementation for list? State the reasons.",
+        "expr": null,
+        "m": "4",
+        "years": ["2072 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Discuss merits and demerits of contiguous list. Explain static implementation of list.",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2069 Poush B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain with example how nth node in a singly linked list can be deleted?",
+        "expr": null,
+        "m": "6",
+        "years": ["2077 Chaitra R"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "dsa5",
+    "title": "Tree",
+    "sub": "Binary tree · BST · AVL tree · B-tree · Huffman · Tree traversals · Red-black tree",
+    "concepts": {
+      "h": [
+        "Construct AVL tree for given sequence with rotations (LL, RR, LR, RL)",
+        "Construct B-tree of given order from a sequence of data",
+        "Construct binary tree from given preorder and inorder traversals",
+        "Binary Search Tree — insertion, deletion, searching, traversal"
+      ],
+      "m": [
+        "Define AVL tree, need, rotations explained with examples",
+        "Huffman coding algorithm — construct Huffman code for given symbols and frequencies",
+        "BST — deletion of node with one/two children; explain with example",
+        "Explain pre-order, in-order, post-order traversal with example"
+      ],
+      "l": [
+        "Red-Black tree — definition and purpose",
+        "Heap tree — construction showing each insertion step",
+        "Almost complete binary tree / complete binary tree definition and depth proof",
+        "Construct expression tree and traverse"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Describe an AVL tree. Construct AVL tree for following sequence of elements: 15, 30, 35, 60, 55, 70, 94, 80, 88, 10, 5.",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2081 Chaitra R", "2080 Chaitra R"],
+        "freq": 2
+      },
+      {
+        "t": "Construct a binary tree from its given preorder and inorder traversals. Preorder: A, H, G, I, F, E, B, C, D. Inorder: G, H, F, I, E, A, B, D, C",
+        "expr": null,
+        "m": "4",
+        "years": ["2081 Chaitra R", "2080 Chaitra R"],
+        "freq": 2
+      },
+      {
+        "t": "What do you mean by complete binary tree? Explain with example. Create an AVL balanced tree for the following sequence of elements: 10, 9, 8, 4, 5, 7, 32, 16, 11, 1, 12 and 2.",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2080 Chaitra R", "2079 Chaitra R"],
+        "freq": 2
+      },
+      {
+        "t": "Create a Binary Search Tree by inserting the nodes: 12, 15, 25, 18, 20, 30, 28, 10 and 5. Then delete element 25 from it.",
+        "expr": null,
+        "m": "3+2",
+        "years": ["2080 Chaitra R", "2079 Chaitra R"],
+        "freq": 2
+      },
+      {
+        "t": "Construct an AVL tree for following sequence of elements: 42, 36, 56, 27, 63, 72, 30, 25, 20, 10.",
+        "expr": null,
+        "m": "6",
+        "years": ["2079 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Construct a B-tree of order 5 from the following data: 4, 23, 12, 45, 3, 21, 41, 31, 26, 10, 12, 32",
+        "expr": null,
+        "m": "6",
+        "years": ["2079 Chaitra R", "2078 Chaitra R"],
+        "freq": 2
+      },
+      {
+        "t": "Explain pre-order and in-order tree traversal with example. Construct an AVL balanced tree with given set of data: 15, 20, 24, 10, 13, 7, 30, 36, 25",
+        "expr": null,
+        "m": "3+3+6",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Construct a Huffman code for the given symbols.\n| Symbol | A | B | C | D | E | F |\n|---|---|---|---|---|---|---|\n| Frequency (in thousands) | 35 | 18 | 10 | 20 | 9 | 8 |",
+        "expr": null,
+        "m": "6",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Describe an AVL tree. Construct AVL tree for following sequence of elements: 5, 10, 15, 30, 25, 20, 4, 2, 1",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2077 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain balancing of B-tree with example. Construct an AVL tree from following sequence of data: 10, 20, 15, 25, 30, 16, 18, 19.",
+        "expr": null,
+        "m": "4+6",
+        "years": ["2077 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Create a heap tree showing each insertion steps for the following data: 28, 24, 50, 36, 42, 58, 22, 56, 46. Use same heap tree to sort the data showing each intermediate step.",
+        "expr": null,
+        "m": "8",
+        "years": ["2077 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain deletion of node with two children in BST with suitable example. Construct an AVL tree for following data: 36, 12, 42, 23, 65, 96, 37, 79, 19, 24, 33 and 44.",
+        "expr": null,
+        "m": "5+5",
+        "years": ["2076 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "What is an AVL tree? Construct AVL tree using following sequence of data: 16, 27, 9, 11, 36, 54, 81, 63, 72",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2076 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Describe the insertion operation in B-tree with suitable example.",
+        "expr": null,
+        "m": "6",
+        "years": ["2076 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain deletion of node with one child in BST with suitable example. Construct a B-tree of order 5 for following data: 82, 12, 22, 23, 56, 96, 37, 99, 59, 74, 28, 65, 60 and 44.",
+        "expr": null,
+        "m": "5+5",
+        "years": ["2075 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain shell sort. Sort the numbers 92, 83, 22, 49, 36, 98, 12, 9, 70 and 51 using shell sort.",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2075 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Discuss about AVL rotations with suitable examples. Create a AVL balanced tree for data sequence 10 20 30 50 45 40 8 5 3.",
+        "expr": null,
+        "m": "6+6",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Construct an AVL tree for following sequence of elements: 3, 2, 1, 4, 5, 6, 7, 16, 15, 14, 13, 12",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2073 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Draw a binary Tree. Preorder: F A E K C D H G B. In order: E A C K F H D B G",
+        "expr": null,
+        "m": "6",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define almost complete binary tree. Construct a tree from its given preorder and inorder traversals. Inorder: EACKFHDBG. Preorder: FAEKEDHGB",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2075 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Construct AVL tree for following sequence of elements: 52, 65, 72, 15, 11, 32, and 20.",
+        "expr": null,
+        "m": "2+5",
+        "years": ["2071 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Define an almost complete binary tree. Show that the depth of complete binary tree is log2(T+1)-1 where T is the total number of nodes in a tree.",
+        "expr": "log2(T+1)-1",
+        "m": "2+3",
+        "years": ["2071 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Create an AVL balanced tree for the set of data 10, 20, 30, 35, 50, 70, 40, 80, 60, 65 by explaining each rotation rules used.",
+        "expr": null,
+        "m": "6",
+        "years": ["2072 Ashwin R"],
+        "freq": 1
+      },
+      {
+        "t": "Construct B-tree of order 5 for the set of data C N G A H E K Q M F W L T Z D P R X Y S showing each steps.",
+        "expr": null,
+        "m": "6",
+        "years": ["2072 Ashwin R"],
+        "freq": 1
+      },
+      {
+        "t": "Write an algorithm for inserting nodes in BST. Encode the symbols A, B, C, D, E and F with frequencies 0.10, 0.08, 0.15, 0.12, 0.30 and 0.25 respectively by using Huffman algorithm. Also calculate average number of bits used to encode a symbol.",
+        "expr": null,
+        "m": "4+6+2",
+        "years": ["2068 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define Huffman tree with its properties and example. Construct a B-tree of order 3 for given set of data: 52, 46, 27, 81, 90, 108, 72, 110, 35, 115, 121 and 86.",
+        "expr": null,
+        "m": "6+6",
+        "years": ["2072 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "What is an almost complete binary tree? Create an AVL tree using the following data sets: jan, feb, mar, apr, may, jun, july, aug, sept, oct, nov, dec.",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2070 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Define Red Black tree. Write an algorithm for constructing a Huffman Code.",
+        "expr": null,
+        "m": "2+4",
+        "years": ["2070 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Show the sequence of nodes in preorder and postorder traversal in the BST formed by 52, 38, 40, 27, 20, 66, 55, 46, 60, 26, 5, 68, 23, 54. Construct B-tree from the data set given by 78, 21, 14, 11, 97, 85, 74, 63 showing each insertion steps.",
+        "expr": null,
+        "m": "6+6",
+        "years": ["2069 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Write an algorithm to implement a Binary Search Tree using doubly linked list.",
+        "expr": null,
+        "m": "6",
+        "years": ["2073 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "a) What are the properties of a Binary Search Tree (BST)? Explain recursive algorithm to search a BST. b) If you delete a Node from an AVL tree and insert it back again, will you always get the original tree back? Illustrate with example.",
+        "expr": null,
+        "m": "3+5+4",
+        "years": ["2069 Poush B"],
+        "freq": 1
+      },
+      {
+        "t": "a) Construct expression tree for (a+(b*c)-d+(e*f/g)) and traverse it according to pre-order and in-order traversal algorithm. b) Write an algorithm for the insertion of B-Tree. Create an AVL tree for the following data: jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec",
+        "expr": "(a+(b*c)-d+(e*f/g))",
+        "m": "6+6",
+        "years": ["2071 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Create an AVL tree from the data: 24, 12, 8, 15, 35, 30, 57, 40, 45, 78. How can you resolve underflow problem in B-tree? Discuss with reference to balance and combine. Define Red-Black tree and mention its purpose.",
+        "expr": null,
+        "m": "5+5+2",
+        "years": ["2068 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Prove that strictly binary tree with n leaves contain 2n-1 nodes.",
+        "expr": null,
+        "m": "6",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What are different traversal methods for a binary tree? What will be the result of pre-order traversal for given binary search tree with nodes: 20, 10, 18, 4, 8, 5, 13, 16, 47, 1, and 27. Write down the properties of B-tree. Construct a B-tree of order 5 for following data: 3, 14, 7, 1, 8, 5, 11, 17, and 13.",
+        "expr": null,
+        "m": "3+4+2+3",
+        "years": ["2070 Bhadra R"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "dsa6",
+    "title": "Graphs",
+    "sub": "Graph representation · BFS · DFS · Topological sort · Minimum spanning tree · Shortest path · Warshall's algorithm · Dijkstra · Kruskal · Prim",
+    "concepts": {
+      "h": [
+        "Minimum spanning tree — Kruskal's algorithm with given graph [DIAGRAM NEEDED]",
+        "Dijkstra's shortest path algorithm — step by step with given graph [DIAGRAM NEEDED]",
+        "Warshall's algorithm for transitive closure — with example",
+        "BFS and DFS — differentiate and explain with example"
+      ],
+      "m": [
+        "Prim's algorithm for MST",
+        "Define MST and explain its properties",
+        "Graph representations — adjacency matrix, incidence matrix, adjacency list",
+        "Floyd-Warshall algorithm for all-pairs shortest path"
+      ],
+      "l": [
+        "Topological sort / breadth first topological ordering",
+        "Transitive closure definition",
+        "Round Robin algorithm for spanning tree"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Define minimum spanning tree. Write an algorithm to find MST using Kruskal's algorithm. Find the shortest path from point A to point F using Dijkstra's algorithm. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "1+3+4",
+        "years": ["2082 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is minimum spanning tree? Explain Warshall's algorithm with example. Define Dijkstra's algorithm with explanation.",
+        "expr": null,
+        "m": "2+4+4",
+        "years": ["2080 Chaitra R", "2079 Chaitra R"],
+        "freq": 2
+      },
+      {
+        "t": "Differentiate between depth first traversal and breadth first traversal. For the following graph, use Dijkstra's algorithm to find the shortest path from the source vertex M to all other vertices. Demonstrate the process step by step. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "4+6",
+        "years": ["2081 Chaitra R", "2080 Chaitra R"],
+        "freq": 2
+      },
+      {
+        "t": "Define minimum spanning tree. Create a minimum spanning tree for the following graph using Krushkal's algorithm. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "2+8",
+        "years": ["2079 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain the concept of minimum spanning tree (MST) and find MST for the following graph using Kruskal's algorithm. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define depth first and breadth first traversal. Construct the minimum spanning tree (MST) for the given graph using Krushkal's algorithm. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "4+6",
+        "years": ["2077 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "What are different representation methods of graph? Explain Kruskal's algorithm to find Minimum Spanning Tree with example.",
+        "expr": null,
+        "m": "4+6",
+        "years": ["2076 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain Warshall's algorithm with example. Determine the breadth first topological ordering for the following graph. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2076 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is minimum spanning tree? Explain Warshall's algorithm with example.",
+        "expr": null,
+        "m": "2+8",
+        "years": ["2075 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain Kruskal algorithm for finding minimum spanning tree in a graph. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "10",
+        "years": ["2073 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Write an algorithm for Warshall's algorithm and illustrate with an example.",
+        "expr": null,
+        "m": "6",
+        "years": ["2075 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain Depth first traversal in graph. Create minimum spanning tree for the following graph using Kruskal's algorithm. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "4+6",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Write an algorithm for warshall's algorithm with suitable example. Define Breadth first traversal and depth first traversal with an example. Define Kruskal's Algorithm with suitable example.",
+        "expr": null,
+        "m": "3+3+4",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "a) Discuss depth first traversal for graph with example. b) What do you mean by minimum spanning tree? Find out the minimum spanning tree for given graph using Kruskal's algorithm. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "5+5",
+        "years": ["2070 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "a) Explain depth first traversal and breadth first traversal in graph with suitable example. b) Discuss Dijkstra's shortest path algorithm with suitable example.",
+        "expr": null,
+        "m": "5+5",
+        "years": ["2069 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain Dijkstra's shortest path algorithm with suitable example. Use Round Robin's algorithm to find minimum weight spanning tree from following graph. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "6+4",
+        "years": ["2069 Poush B"],
+        "freq": 1
+      },
+      {
+        "t": "What is transitive closure? How is the breadth first algorithm implemented? Explain Prim's algorithm for finding minimum spanning tree along with an example.",
+        "expr": null,
+        "m": "2+3+5",
+        "years": ["2070 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Write Kruskal's algorithm for minimum spanning tree. Let G=(V,E) with V={a,b,c,d,e} and E={(a,c),(b,c),(b,d),(c,d),(d,e)} be a directed graph. Find the transitive closure of G using Warshall's algorithm, showing each iterations. Also draw initial and final graphs.",
+        "expr": null,
+        "m": "2+8",
+        "years": ["2068 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain Prim's algorithm for minimum spanning tree with suitable example. Let G=(V,E) with V={a,b,c,d} and E={(a,d),(b,a),(b,c),(c,a),(c,d),(d,c)} be a directed graph. Find the transitive closure of G using Warshall's algorithm, showing each iterations.",
+        "expr": null,
+        "m": "4+6",
+        "years": ["2068 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "a) Define graph with its different representation techniques. b) Discuss Dijkstra's shortest path algorithm. Find the shortest paths for given graph with source node 'F' using Dijkstra's algorithm. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "1+3+2+4",
+        "years": ["2071 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What are the differences between DFS and BFS?",
+        "expr": null,
+        "m": "5",
+        "years": ["2072 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Write two properties of spanning tree. Find MST of graph using Round Robin Algorithm. [DIAGRAM NEEDED]",
+        "expr": null,
+        "m": "2+8",
+        "years": ["2071 Magh B"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "dsa7",
+    "title": "Sorting Algorithms",
+    "sub": "Bubble sort · Insertion sort · Selection sort · Shell sort · Quick sort · Merge sort · Radix sort · Heap sort",
+    "concepts": {
+      "h": [
+        "Heap sort — construct heap tree and sort given array, show each step",
+        "Quick sort — algorithm and trace on given data",
+        "Merge sort — algorithm and trace on given data",
+        "Radix sort — trace on given numeric data"
+      ],
+      "m": [
+        "Shell sort — explain and sort given data",
+        "Selection sort — explain and sort given data",
+        "Prove bubble sort time complexity is O(n²)",
+        "In-place vs not in-place, stable vs unstable sorting types"
+      ],
+      "l": [
+        "Insertion sort algorithm",
+        "Heap as priority queue",
+        "Adaptive vs non-adaptive sort"
+      ]
+    },
+    "qs": [
+      {
+        "t": "What do you mean by in place and not in place sorting? Explain. Sort the given elements using quick sort algorithm, showing important steps: 20, 50, 40, 30, 10, 90, 80, 35.",
+        "expr": null,
+        "m": "3+5",
+        "years": ["2082 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Which sorting algorithm is the most efficient for small datasets and why? Show the operation of Heap sort on array A=(5, 13, 2, 25, 7, 17, 20, 8, 4).",
+        "expr": "A=(5, 13, 2, 25, 7, 17, 20, 8, 4)",
+        "m": "2+6",
+        "years": ["2081 Chaitra R", "2080 Chaitra R"],
+        "freq": 2
+      },
+      {
+        "t": "Define Sorting and its types. Sort the given elements using Shell Sort: Elements: 25, 31, 77, 21, 33, 9, 11, 7, 3",
+        "expr": null,
+        "m": "3+5",
+        "years": ["2079 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Write an algorithm for quick sort. Sort the following numbers using quick sort: 30, 25, 79, 19, 48, 28, 21, 44 and 120.",
+        "expr": null,
+        "m": "8",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain selection sort. Sort the numbers 92, 73, 22, 49, 46, 98, 21, 9, 70 and 63 using selection sort.",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2076 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Prove that time complexity of bubble sort is O(n²). Sort the numbers 40, 90, 20, 10, 30, 5, 60, 100, 80 using heap sort method.",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2076 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain Heap as priority queue. Use heap sort to sort the following numbers: 27, 23, 16, 82, 47, 18, 38, 15, 2, 76, 22 and 12.",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2080 Chaitra R", "2079 Chaitra R"],
+        "freq": 2
+      },
+      {
+        "t": "Write an algorithm for insertion sort. Sort the following number using radix sort: 141, 456, 342, 789, 90, 2, 870, 192, 938 and 243",
+        "expr": null,
+        "m": "4+6",
+        "years": ["2075 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain selection sort. Sort data sequence 40 90 20 -10 30 5 60 100 80 using selection sort method.",
+        "expr": null,
+        "m": "10",
+        "years": ["2074 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Provide best case, average case and worst case for following algorithms in Big-Oh: bubble sort, insertion sort, merge sort and selection sort. Construction heap sort for following given list with an algorithm: 37, 33, 26, 92, 57, 18, 48, 25, 12, 86, 42, 22.",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain Radix sort and sort the numbers 345, 654, 924, 123, 56, 72, 555, 808, 911 and 57.",
+        "expr": null,
+        "m": "8",
+        "years": ["2073 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Define a radix sort with its algorithm. Trace the steps to sort the following set of data using merge sort: 85, 76, 46, 92, 30, 41 and 12.",
+        "expr": null,
+        "m": "5+3",
+        "years": ["2072 Ashwin R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain radix sort. Sort the given data 32, 45, 60, 83, 75, 43, 70, and 69 using radix sort.",
+        "expr": null,
+        "m": "3+5",
+        "years": ["2070 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Differentiate between stable and unstable sorting with example. Construct a heap for the following data: 8, 10, 5, 12, 14, 18, 19. What is the time complexity for sorting the unsorted elements using heap-sort?",
+        "expr": null,
+        "m": "2+4+2",
+        "years": ["2070 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Write any sorting algorithm of your choice. Trace the sorting steps in straight selection sort for the data: 33, 90, 45, 8, 52, 76, 5, 22. Calculate efficiency of quick sort.",
+        "expr": null,
+        "m": "3+3+2",
+        "years": ["2068 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Write an algorithm for any one of the exchange sort. Trace the sorting steps in merge sort for the data: 47, 27, 56, 23, 3, 9, 94, 11. Calculate efficiency of straight selection sort.",
+        "expr": null,
+        "m": "3+3+2",
+        "years": ["2068 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Trace the sorting steps in merge sort and radix sort for sorting the data 142, 523, 228, 375, 462, 198, 249, 144, 123 in ascending order.",
+        "expr": null,
+        "m": "8",
+        "years": ["2071 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Create a heap tree showing each insertion steps for the following data. Use the same heap tree to sort the data showing each intermediate steps 14, 12, 25, 18, 21, 29, 11, 28, 23.",
+        "expr": null,
+        "m": "8",
+        "years": ["2072 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Discuss the algorithm merge sort. Show the steps to sort the data 5, 2, 4, 6, 1, 3, 2, 6 using merge sort.",
+        "expr": null,
+        "m": "3+5",
+        "years": ["2071 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Explain shell sort. Sort the numbers 92, 83, 22, 49, 36, 98, 12, 9, 70 and 51 using shell sort.",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2075 Baisakh B"],
+        "freq": 1
+      }
+    ]
+  },
+  {
+    "id": "dsa8",
+    "title": "Searching Algorithms",
+    "sub": "Sequential search · Binary search · Hashing · Hash functions · Collision resolution · Linear probing · Quadratic probing · Double hashing · Chaining",
+    "concepts": {
+      "h": [
+        "Insert keys into hash table using quadratic probing — show each step and final table",
+        "Insert keys into hash table using linear probing with h(k) = k mod m",
+        "Double hashing — draw hash table with given hash functions",
+        "Binary search algorithm and trace on given data"
+      ],
+      "m": [
+        "Define hashing and collision; explain collision resolution techniques",
+        "Chaining method for collision resolution",
+        "Compare sequential search vs binary search",
+        "Significance of Sentinel in sequential searching"
+      ],
+      "l": [
+        "Hash function types",
+        "Quadratic probing vs linear probing — advantages and disadvantages",
+        "Define hashing and its applications"
+      ]
+    },
+    "qs": [
+      {
+        "t": "Define hashing. Write an algorithm for binary search. Insert keys 12, 22, 34, 41, 53, 64, 79 into a hash table of size 10 using linear probing with hash function h(k) = k mod 10. Show each step and the final table.",
+        "expr": "h(k) = k mod 10",
+        "m": "1+3+4",
+        "years": ["2082 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is hashing and how does it improve the efficiency of search operations? Assuming suitable hash function, insert 12, 24, 35, 40, 55, 50, 18, 19, 3 into a hash table of size 10 using quadratic probing for collision resolution.",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2081 Chaitra R", "2080 Chaitra R"],
+        "freq": 2
+      },
+      {
+        "t": "What is collision? What are the techniques used for collision resolution in hashing? Insert the keys: 52, 27, 16, 74, 97, 21, 82, 41 and 31 using quadratic probing method. The hash function is h=(key) = key % 10 (Where 10 is the table size).",
+        "expr": "h(key) = key % 10",
+        "m": "1+2+5",
+        "years": ["2080 Chaitra R", "2079 Chaitra R"],
+        "freq": 2
+      },
+      {
+        "t": "Explain how collision occurs? Use quadratic probing to insert following keys: 72, 27, 35, 24, 53, 81, and 101 into the hash table, considering hash table size 10. And also list out its advantages and disadvantages.",
+        "expr": null,
+        "m": "2+7+1",
+        "years": ["2079 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is collision? What are the techniques used for collision resolution in hashing? Insert the keys: 62, 37, 36, 44, 67, 91, 82, and 31 using quadratic probing method. The hash function is: h(key) = key % 10 (where 10 is the table size).",
+        "expr": "h(key) = key % 10",
+        "m": "1+2+5",
+        "years": ["2078 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define collision. Insert the keys 30, 15, 69, 28, 49, 58, 79 and 91 using quadratic probing method. The hash function is: h(key) = key%10 where 10 is the table size.",
+        "expr": "h(key) = key%10",
+        "m": "2+6",
+        "years": ["2077 Chaitra R"],
+        "freq": 1
+      },
+      {
+        "t": "Define binary search with example. What is the cause of collision in hashing and explain any one method for the collision resolution.",
+        "expr": null,
+        "m": "4+2+4",
+        "years": ["2076 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Define Collision. Insert following keys: 30, 25, 79, 19, 48, 28, 21 and 44 in hash table using linear probing method where h(key) = key % 10.",
+        "expr": "h(key) = key % 10",
+        "m": "2+6",
+        "years": ["2076 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Compare sequential search with binary search. Discuss about linear probing and quadratic probing.",
+        "expr": null,
+        "m": "5+5",
+        "years": ["2075 Baisakh B"],
+        "freq": 1
+      },
+      {
+        "t": "Explain a binary search with example. Explain the chaining strategy for collision resolution.",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2069 Poush B"],
+        "freq": 1
+      },
+      {
+        "t": "Draw hash table obtained from double hashing with hash functions: h1(K) = K mod 11 and h2(K) = K mod 9 for the given keys: 76, 36, 47, 49, 21, 65 with table size 11. Use hp(k,i) = (h1(k) + i*h2(k)) mod m.",
+        "expr": "h1(K) = K mod 11, h2(K) = K mod 9, hp(k,i) = (h1(k) + i*h2(k)) mod m",
+        "m": "8",
+        "years": ["2075 Bhadra R", "2069 Bhadra R"],
+        "freq": 2
+      },
+      {
+        "t": "Explain a binary search with example. Consider a hash table of size 10. Using linear probing, insert the keys 62, 37, 36, 44, 67, 91, 82 and 107.",
+        "expr": null,
+        "m": "3+5",
+        "years": ["2073 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Write down the algorithm for binary search with suitable example.",
+        "expr": null,
+        "m": "8",
+        "years": ["2073 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "How a linear probing, quadratic probing and double hashing techniques are used to resolve collision? Explain with suitable example.",
+        "expr": null,
+        "m": "8",
+        "years": ["2072 Ashwin R"],
+        "freq": 1
+      },
+      {
+        "t": "Define an Omega and Theta notation with suitable example. Draw the hash table obtained from double hashing with hash functions: h1(k)=k mod 11 and h2(k) = k mod 9 to the keys given by: 76, 26, 37, 59, 21, 65 with table size m=11. Use hp(k,i) = (h1(k) + i*h2(k)) mod m.",
+        "expr": "h1(k)=k mod 11, h2(k) = k mod 9, hp(k,i) = (h1(k) + i*h2(k)) mod m",
+        "m": "8",
+        "years": ["2069 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "Use binary search to find 89 from the data: 8, 12, 20, 24, 30, 45, 50, 68, 72, 85, 89, 98. Define hashing and demonstrate different hash functions.",
+        "expr": null,
+        "m": "3+5",
+        "years": ["2068 Bhadra R"],
+        "freq": 1
+      },
+      {
+        "t": "What is sequential search and how sentinel is useful in this algorithm? Define hashing and discuss different collision resolution techniques in hashing.",
+        "expr": null,
+        "m": "3+5",
+        "years": ["2068 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "How does quadratic probing help to reduce bad clustering problem associated with linear probing? Insert the following data elements into hash table using hash function h(k) = k mod m, take m=13, assume collisions are handled by chaining. Keys for hashing are: 5, 28, 19, 25, 20, 43, 22, 27, and 30.",
+        "expr": "h(k) = k mod m, m=13",
+        "m": "2+6",
+        "years": ["2071 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "What is the importance of using Sentinel during sequential searching? Explain three different methods of collision resolution with reference to hashing.",
+        "expr": null,
+        "m": "2+6",
+        "years": ["2070 Magh B"],
+        "freq": 1
+      },
+      {
+        "t": "Write down the algorithm for binary search with suitable example. Show steps to search 54 from the given data 8, 15, 36, 40, 41, 54, 62 using binary search.",
+        "expr": null,
+        "m": "4+4",
+        "years": ["2069 Poush B"],
+        "freq": 1
+      },
+      {
+        "t": "Trace the sorting steps in radix sort for: 25, 57, 48, 37, 12, 92, 86, 33 showing status of all queues in each iterations. Show that efficiency of quick sort is O(n log n).",
+        "expr": "O(n log n)",
+        "m": "5+3",
+        "years": ["2069 Poush B"],
+        "freq": 1
+      }
+    ]
+  }
+]
